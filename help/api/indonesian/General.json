@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "Apa itu OVOSEC dan bagaimana cara mengamankan koneksi saya?",
+        "subtitle": "Ikhtisar utilitas aman OVOSEC dan transit terenkripsi.",
+        "content": "<p>OVOSEC adalah utilitas relai terenkripsi generasi berikutnya yang dirancang untuk mengoptimalkan latensi jaringan global dan melindungi integritas data. Memanfaatkan arsitektur inti sumber terbuka berperforma tinggi, OVOSEC menyalurkan aliran data Anda melalui node transit terenkripsi tingkat perusahaan, menutupi jejak transmisi Anda dan mempercepat alur kerja produktivitas lintas negara dengan lancar.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 12,
+        "title": "Bagaimana cara mengatur utilitas OVOSEC di perangkat saya?",
+        "subtitle": "Petunjuk langkah demi langkah untuk instalasi dan pengaturan.",
+        "content": "<p>Untuk menyiapkan utilitas OVOSEC di perangkat Anda, ikuti langkah-langkah berikut:<\/p><ol><li>Lengkapi pilihan paket Anda di situs web resmi kami (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li>Navigasi ke <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Unduh halaman<\/a> dan dapatkan paket aplikasi aman yang disesuaikan untuk sistem operasi Anda (Windows, macOS, Android, atau iOS).<\/li><li>Luncurkan aplikasi, salin URL Konfigurasi Akses unik Anda dari <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Dasbor Klien<\/a>, dan klik \"Impor Konfigurasi\" dalam antarmuka aplikasi untuk langsung menyinkronkan relai resmi Anda titik akhir.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 21,
+        "title": "Apa arsitektur inti dari OVOSEC?",
+        "subtitle": "Ikhtisar utilitas keamanan OVOSEC dan transit terenkripsi.",
+        "content": "<p>OVOSEC adalah utilitas relai terenkripsi generasi berikutnya yang dirancang untuk mengoptimalkan latensi jaringan global dan melindungi integritas data. Dengan menyalurkan aliran data Anda melalui node transit terenkripsi tingkat perusahaan, OVOSEC menyamarkan jejak transmisi Anda dan mempercepat alur kerja produktivitas lintas negara dengan lancar.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 22,
+        "title": "Sistem operasi mana yang kompatibel dengan OVOSEC?",
+        "subtitle": "Memeriksa kompatibilitas perangkat dan persyaratan sistem operasi.",
+        "content": "<p>OVOSEC sepenuhnya kompatibel dengan platform Windows, macOS, iOS, Android, dan Linux. Anda dapat memperoleh paket aplikasi aman yang disesuaikan untuk sistem operasi Anda di <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">laman unduhan<\/a> resmi kami.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 31,
+        "title": "Mengapa koneksi yang dipercepat terputus secara otomatis saat ponsel saya masuk ke mode tidur?",
+        "subtitle": "Mencegah sistem operasi seluler dari tidur OVOSEC.",
+        "content": "<p>Penghemat baterai sistem operasi seluler yang agresif sering kali menghentikan daemon latar belakang berkinerja tinggi. Untuk mencegah hal ini, terapkan penyesuaian berikut:<\/p><ul><li><strong>Android:<\/strong> Buka Setelan ponsel Anda -> Aplikasi -> OVOSEC -> Baterai -> Setel ke \"Tidak Dibatasi\" atau \"Tanpa Pengoptimalan\".<\/li><li><strong>iOS:<\/strong> Pastikan \"Penyegaran Aplikasi Latar Belakang\" diaktifkan untuk OVOSEC pada Setelan iOS -> OVOSEC.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 39,
+        "title": "Tidak ada langkah di atas yang menyelesaikan masalah saya. Bagaimana cara menghubungi dukungan resmi?",
+        "subtitle": "Mengirimkan tiket diagnostik ke tim teknis kami.",
+        "content": "<p>Kami berkomitmen terhadap konektivitas Anda yang lancar. Jika Anda mengalami konflik perutean yang belum terselesaikan, harap kirimkan tiket diagnostik ke antrean teknis kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Untuk membantu kami menyelesaikannya dalam waktu 24 jam, harap sertakan:<\/p><ul><li>Email akun Anda yang terdaftar.<\/li><li>Versi sistem operasi Anda saat ini (misalnya, Windows 11, iOS 17).<\/li><li>Deskripsi singkat atau tangkapan layar aplikasi status log\/kesalahan.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 40,
+        "title": "Mengapa daftar profil saya kosong, atau mengapa tertulis \"Tidak Ada Profil Ditemukan\" setelah mengimpor URL saya?",
+        "subtitle": "Memicu sinkronisasi awal dengan server penagihan.",
+        "content": "<p>Hal ini dapat terjadi jika aplikasi gagal melakukan jabat tangan awal dengan server penagihan kami karena jitter jaringan lokal. Untuk memaksa sinkronisasi, ikuti langkah-langkah berikut:<\/p><ol><li>Di aplikasi, buka tab Profil dan ketuk tiga titik (menu) di samping tautan OVOSEC yang Anda impor.<\/li><li>Klik \"Paksa Perbarui\" atau \"Muat Ulang Profil\".<\/li><li>Kembali ke layar utama dan klik tombol \"Hubungkan\" di tengah. Ini akan langsung mengambil dan mengisi semua jalur relai aman latensi rendah resmi.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 45,
+        "title": "Mengapa semua jalur relai aman saya tiba-tiba berhenti berfungsi setelah lama tidak aktif?",
+        "subtitle": "Menyelesaikan ketidakcocokan versi protokol setelah lama tidak aktif.",
+        "content": "<p>Untuk mempertahankan enkripsi keamanan tingkat militer, infrastruktur backend kami secara berkala meningkatkan protokol transmisi yang mendasarinya. Jika versi klien Anda sudah sangat usang, maka akan gagal melakukan jabat tangan dengan node yang ditingkatkan.<\/p><p><strong>Solusi:<\/strong> Silakan kunjungi <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">laman unduh<\/a> resmi kami untuk mengambil dan menginstal versi stabil terbaru dari utilitas OVOSEC untuk perangkat Anda. Setelah memperbarui perangkat lunak, sinkronkan ulang URL Konfigurasi Akses Anda untuk memulihkan konektivitas latensi rendah secara instan.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 49,
+        "title": "Mengapa saya tidak dapat membuka halaman masuk\/autentikasi Wi-Fi di hotel, bandara, atau universitas?",
+        "subtitle": "Melewati intersepsi portal tawanan yang tidak terenkripsi.",
+        "content": "<p>Jaringan publik menggunakan teknik intersepsi yang disebut \"Portal Captive\" untuk memaksa pengguna masuk ke layar login. Karena inti keamanan aktif OVOSEC memblokir pelacakan lokal yang tidak sah dan pengalihan jaringan yang tidak tepercaya, hal ini dapat mencegah halaman login yang tidak terenkripsi ini terbuka.<\/p><p><strong>Solusi:<\/strong> MATIKAN sementara koneksi OVOSEC atau nonaktifkan fitur peluncuran boot-up. Buka browser web Anda, selesaikan autentikasi jaringan hotel\/kampus terlebih dahulu, verifikasi bahwa Anda memiliki akses internet dasar, lalu aktifkan kembali OVOSEC untuk mengamankan sesi Anda.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    }
+]

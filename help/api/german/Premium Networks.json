@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "Was ist der Unterschied zwischen Standard- und Premium-Dedicated Relays?",
+        "subtitle": "Vergleich der Relay-Leistung, Latenz und Funktionen.",
+        "content": "<ul><li><strong>Standardknoten:<\/strong> Gemeinsam genutzte Hochgeschwindigkeits-Relays, die für routinemäßige automatisierte Backups, Remote-Datenbankabfragen und einfache grenzüberschreitende Zusammenarbeit geeignet sind.<\/li><li><strong>Dedizierte Premium-Relays:<\/strong> Wird über BGP-Premium-Transit-Backbones mit mehreren Eingängen bereitgestellt (optimiert für Regionen wie Hongkong, Singapur und Japan). Diese Knoten verfügen über dedizierte Bandbreitenzuweisungen, keinen Paketverlust bei Überlastung zu Spitzenzeiten und extrem niedrigen Jitter, maßgeschneidert für Unternehmensabläufe mit hohem Durchsatz und virtuelle Arbeitsbereiche mit geringer Latenz.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    },
+    {
+        "id": 18,
+        "title": "Welche Gerätebeschränkungen gelten für ein einzelnes Konto bei gleichzeitiger Nutzung?",
+        "subtitle": "Beschränkungen für gleichzeitige Geräteverbindungen.",
+        "content": "<p>Um den Missbrauch kommerzieller Leitungen zu verhindern und eine konsistente Bandbreitenverfügbarkeit für alle Premium-Kunden aufrechtzuerhalten, erlaubt eine standardmäßige individuelle Premium-Lizenz bis zu drei gleichzeitige aktive Geräteverbindungen gleichzeitig. Durch die öffentliche Freigabe von Konfigurationszeichenfolgen wird eine automatische Sicherheitsratenbegrenzung auf unserem Abrechnungsgateway ausgelöst.<\/p>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    },
+    {
+        "id": 27,
+        "title": "Welche Preisstufen gibt es für Premium-Mitgliedschaften?",
+        "subtitle": "Entdecken Sie das ideale sichere Premium-Abonnementpaket für Ihre Bedürfnisse.",
+        "content": "<p>OVOSEC Premium-Pläne sind nach monatlichen, halbjährlichen und jährlichen Laufzeiten strukturiert. Bei längeren Abonnementverpflichtungen gibt es ermäßigte Tarife. Sie können alle Preisdetails und aktiven saisonalen Sonderangebote auf unserem offiziellen Planraster auf der <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Homepage<\/a> einsehen.<\/p>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    },
+    {
+        "id": 28,
+        "title": "Wie aktualisiere ich meinen Kontostatus auf Premium?",
+        "subtitle": "Schalten Sie alle Hochgeschwindigkeitsknoten frei und genießen Sie unbegrenzte Prioritätsbandbreite.",
+        "content": "<p>Um ein Upgrade durchzuführen, greifen Sie über unsere <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Anmeldeseite<\/a> auf Ihr Konto zu, navigieren Sie zum Abrechnungsbereich, wählen Sie Ihre bevorzugte Mitgliedschaftsstufe aus und schließen Sie die Zahlung mit einer Kreditkarte oder einem lokalen Banking-Gateway ab.<\/p>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    },
+    {
+        "id": 34,
+        "title": "Warum zeigen meine Secure Relay Endpunkte während des Verbindungstests „Zeitüberschreitung“ oder „-1ms“ an?",
+        "subtitle": "Ping-Timeout-Indikatoren verstehen.",
+        "content": "<p>Der Status „Timeout“ weist häufig darauf hin, dass Ihr lokaler Netzwerkanbieter oder die Firewall Ihres Unternehmens ICMP\/Ping-Anfragen (die Testpakete) blockiert. Dies bedeutet jedoch nicht, dass der Datenpfad unterbrochen ist.<\/p><p>Bitte versuchen Sie trotzdem, eine Verbindung zum Knoten herzustellen. Wenn die Daten nach dem Klicken auf „Verbinden“ normal fließen, können Sie die Zeitüberschreitungsanzeige ignorieren.<\/p>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    },
+    {
+        "id": 35,
+        "title": "Wie kann ich die Verbindung für Online-Spiele mit geringer Latenz und Sprachchat optimieren?",
+        "subtitle": "Optimierung der Einstellungen für Multiplayer-Gaming und VoIP-Apps.",
+        "content": "<p>Für Multiplayer-Spiele oder Echtzeit-VoIP-Apps ist die Übertragung von UDP-Paketen von entscheidender Bedeutung. Um Ihr Erlebnis zu optimieren, befolgen Sie bitte diese Schritte:<\/p><ul><li>Stellen Sie sicher, dass Sie mit unseren Premium Dedicated Relays verbunden sind (gekennzeichnet mit BGP- oder Optimized-Tags).<\/li><li>Navigieren Sie in den App-Einstellungen zu Protokolleinstellungen\/Kerneinstellungen und stellen Sie sicher, dass „UDP-Weiterleitung“ oder „UDP aktivieren“ aktiviert ist. Dadurch werden Paketverluste und Multiplayer-Jitter drastisch reduziert.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Premium-Netzwerke"
+    }
+]

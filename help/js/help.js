@@ -1,0 +1,1 @@
+﻿const baseUrl = "https://ovosec.com/api"

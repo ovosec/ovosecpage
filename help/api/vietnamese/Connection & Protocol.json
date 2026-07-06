@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "\"Chế độ TUN\" và \"Proxy hệ thống\" là gì, và tôi nên sử dụng chế độ nào?",
+        "subtitle": "Hiểu sự khác biệt giữa các chế độ định tuyến proxy.",
+        "content": "<ul><li><strong>Proxy hệ thống (Mặc định):<\/strong> Định tuyến lưu lượng truy cập trình duyệt web tiêu chuẩn thông qua các chuyển tiếp được mã hóa có độ trễ thấp của chúng tôi, tối ưu cho năng suất văn phòng nói chung và tăng tốc dịch vụ đám mây.<\/li><li><strong>Chế độ TUN (Được khuyến nghị cho Quy trình làm việc nâng cao):<\/strong> Tạo thẻ giao diện mạng ảo ở cấp hệ điều hành, thu thập và bảo mật tất cả các gói mạng trên tất cả các ứng dụng nền. Bật Chế độ TUN nếu phần mềm máy tính để bàn hoặc chương trình nội bộ doanh nghiệp nhất định không tận dụng được cài đặt proxy trình duyệt mặc định.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 16,
+        "title": "Khắc phục sự cố: Tại sao các Điểm cuối rơle an toàn của tôi bị hết thời gian chờ?",
+        "subtitle": "Giải quyết các vấn đề về kết nối và độ trễ.",
+        "content": "<p>Nếu giao diện hiển thị lỗi kết nối hoặc độ trễ quá mức, vui lòng thực hiện quy trình xác minh sau:<\/p><ul><li><strong>Đồng bộ hóa hồ sơ:<\/strong> Nhấp vào biểu tượng làm mới bên cạnh tab hồ sơ của bạn để tìm nạp bảng định tuyến và ánh xạ máy chủ mới nhất.<\/li><li><strong>Chuyển đổi giao thức cổng:<\/strong> Đi tới Cài đặt ứng dụng -> Cấu hình giao thức và thử chuyển đổi giữa các chế độ truyền tải doanh nghiệp thay thế (ví dụ: chuyển từ lớp TLS tiêu chuẩn sang lớp Reality\/Shadowsocks) để bỏ qua các lớp công ty cục bộ Khối kiểm tra gói sâu (DPI) của ISP.<\/li><li><strong>DNS Flush:<\/strong> Xóa bộ nhớ đệm DNS của hệ điều hành cục bộ của bạn để loại bỏ xung đột định tuyến.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 25,
+        "title": "Làm cách nào để khắc phục sự cố bắt tay kết nối mạng bị lỗi?",
+        "subtitle": "Giải quyết tình trạng ngắt kết nối mạng đột ngột và độ trễ tăng đột biến.",
+        "content": "<p>Nếu bạn gặp sự cố kết nối, hãy thử chuyển đổi giao thức trong cài đặt hoặc chuyển sang nút máy chủ bảo mật khác. Tạm thời vô hiệu hóa tường lửa cục bộ của bên thứ ba đang hoạt động cũng có thể giải quyết xung đột cấu hình. Nếu có thắc mắc về kết nối liên tục, hãy liên hệ với chúng tôi tại <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 26,
+        "title": "Làm cách nào để chọn nút máy chủ có độ trễ thấp nhất?",
+        "subtitle": "Tối ưu hóa tốc độ phản hồi của máy chủ và hiệu suất băng thông.",
+        "content": "<p>Để đạt được độ trễ thấp nhất, hãy chọn nút máy chủ gần nhất về mặt địa lý với vị trí thực tế của bạn. Ứng dụng cung cấp các chỉ báo độ trễ theo thời gian thực và cờ dung lượng băng thông để giúp bạn chọn nút tối ưu.<\/p>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 32,
+        "title": "Tại sao các ứng dụng cục bộ của tôi bị chậm hoặc không tải được khi OVOSEC đang hoạt động?",
+        "subtitle": "Định cấu hình chế độ tuyến đường để bỏ qua giao thông cục bộ.",
+        "content": "<p>Theo mặc định, tiện ích có thể định tuyến tất cả lưu lượng truy cập qua mạng an toàn. Để tối ưu hóa điều này, vui lòng thay đổi Chế độ định tuyến của bạn từ \"Toàn cầu\" thành \"Bỏ qua địa phương\/LAN\" hoặc \"Chế độ quy tắc\" trong menu ứng dụng.<\/p><p>Điều này đảm bảo các ứng dụng cục bộ của bạn kết nối trực tiếp thông qua ISP địa phương của bạn ở tốc độ tối đa, trong khi chỉ các quy trình làm việc năng suất xuyên biên giới mới sử dụng rơle tăng tốc của chúng tôi.<\/p>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 33,
+        "title": "Tại sao tiện ích OVOSEC hiển thị lỗi \"Khởi tạo lõi thất bại\" trên iOS\/macOS?",
+        "subtitle": "Giải quyết xung đột cơ sở dữ liệu trên nền tảng Apple.",
+        "content": "<p>Điều này thường xảy ra nếu có xung đột trong cơ sở dữ liệu định tuyến cục bộ. Để khắc phục điều này:<\/p><ol><li>Hãy chuyển đến Cài đặt ứng dụng -> Nâng cao -> Đặt lại cơ sở dữ liệu.<\/li><li>Sao chép lại URL cấu hình truy cập của bạn từ <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-trang trí: underline;\">Trang tổng quan OVOSEC<\/a> và nhập lại URL đó.<\/li><li>Đảm bảo \"Strict Route\" được TẮT nếu bạn đang chạy các tường lửa cục bộ khác.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 37,
+        "title": "Tôi có thể loại trừ các ứng dụng cụ thể hoặc chỉ cho phép một số trình duyệt web nhất định sử dụng rơle an toàn OVOSEC không?",
+        "subtitle": "Phân chia và định tuyến lưu lượng cho mỗi ứng dụng.",
+        "content": "<p>Có, công cụ cốt lõi hỗ trợ phân chia lưu lượng truy cập nâng cao:<\/p><ul><li><strong>Trên máy tính để bàn (Windows\/macOS):<\/strong> Chuyển chế độ của bạn từ \"Chế độ TUN\" sang \"Proxy hệ thống\". Ở chế độ này, chỉ những ứng dụng tôn trọng cài đặt mạng hệ thống (như Chrome, Edge hoặc Firefox) mới được tăng tốc.<\/li><li><strong>Trên Android:<\/strong> Đi tới Cài đặt ứng dụng -> Proxy mỗi ứng dụng (hoặc Bộ lọc ứng dụng). Hãy bật tính năng này và bạn có thể kiểm tra thủ công các ứng dụng chính xác mà bạn muốn định tuyến qua OVOSEC, để phần còn lại trên mạng cục bộ tiêu chuẩn của bạn.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 38,
+        "title": "Làm cách nào để buộc các công cụ dòng lệnh hoặc ứng dụng terminal sử dụng OVOSEC trên máy tính để bàn?",
+        "subtitle": "Định cấu hình các biến môi trường cục bộ cho các công cụ dành cho nhà phát triển.",
+        "content": "<p>Proxy hệ thống và Chế độ TUN có thể không tự động ghi lại lưu lượng truy cập môi trường nhà phát triển hoặc thiết bị đầu cuối thô trên Windows\/macOS. Để giải quyết vấn đề này:<\/p><ol><li>Trong tiện ích OVOSEC, hãy tìm Cổng vào bản địa hóa hiện tại của bạn (thường là HTTP 2334 hoặc cổng hỗn hợp trong phần Cài đặt cấu hình).<\/li><li>Mở thiết bị đầu cuối của bạn và xuất các biến môi trường mạng theo cách thủ công:<\/li><\/ol><pre><code>export http_proxy=http:\/\/127.0.0.1:2334\nimport https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Điều này buộc các tập lệnh phát triển và công cụ bảng điều khiển phải định tuyến qua các kênh bảo mật của chúng tôi.<\/p>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 41,
+        "title": "Mạng của tôi đang hoạt động tốt, nhưng tại sao tất cả các điểm cuối đột ngột hết thời gian chờ với lỗi bắt tay kết nối?",
+        "subtitle": "Sửa lỗi trôi đồng hồ của thiết bị để đáp ứng các giao thức bảo mật.",
+        "content": "<p>Các lớp mã hóa cấp doanh nghiệp của chúng tôi sử dụng mã thông báo mật mã an toàn có giới hạn thời gian. Nếu thời gian hệ thống của thiết bị của bạn khác với thời gian tiêu chuẩn toàn cầu hơn 60 giây thì lõi bảo mật sẽ từ chối bắt tay.<\/p><p><strong>Khắc phục:<\/strong> Đi tới Cài đặt hệ thống của thiết bị -> Ngày và giờ và đảm bảo rằng \"Đặt thời gian tự động\" (thời gian do mạng cung cấp) được BẬT. Sau khi sửa đồng hồ thiết bị của bạn, hãy khởi động lại tiện ích OVOSEC để khôi phục kết nối tức thì.<\/p>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    },
+    {
+        "id": 48,
+        "title": "Tại sao tôi không thể truy cập bất kỳ trang web nào ngay cả sau khi đã đóng hoàn toàn tiện ích OVOSEC?",
+        "subtitle": "Khôi phục các tham số DNS của hệ điều hành bị khóa.",
+        "content": "<p>Điều này hiếm khi xảy ra nhưng nguyên nhân là do hệ thống bị chấm dứt đột ngột (ví dụ: PC gặp sự cố đột ngột, mất điện hoặc hệ điều hành buộc phải tắt tác vụ nền) trong khi Chế độ TUN đang hoạt động. Trong những trường hợp này, cài đặt DNS của hệ điều hành của bạn có thể vẫn bị khóa ở chế độ định tuyến an toàn.<\/p><p><strong>Khắc phục ngay lập tức:<\/strong><\/p><ol><li>Chỉ cần khởi chạy lại tiện ích OVOSEC và nhấp vào nút \"Kết nối\" ở giữa.<\/li><li>Đợi 5 giây rồi nhấp vào \"Ngắt kết nối\" bình thường. Điều này kích hoạt công cụ cốt lõi xóa sạch và khôi phục ngăn xếp mạng hệ điều hành mặc định của bạn cũng như các tham số DNS trở lại tiêu chuẩn ISP của bạn.<\/li><li>Ngoài ra, hãy khởi động lại bộ điều hợp mạng của thiết bị hoặc xóa DNS hệ thống của bạn (<code>ipconfig \/flushdns<\/code> trên Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Kết nối & Giao thức"
+    }
+]

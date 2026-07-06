@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "Apa perbedaan antara Relai Khusus Standar dan Premium?",
+        "subtitle": "Membandingkan kinerja relai, latensi, dan fitur.",
+        "content": "<ul><li><strong>Node Standar:<\/strong> Relai berkecepatan tinggi bersama yang cocok untuk pencadangan otomatis rutin, kueri basis data jarak jauh, dan kolaborasi lintas batas yang ringan.<\/li><li><strong>Relai Khusus Premium:<\/strong> Dikerahkan melalui tulang punggung transit premium BGP multi-ingress (dioptimalkan untuk wilayah seperti Hong Kong, Singapura, dan Jepang). Node ini memiliki alokasi bandwidth khusus, kehilangan paket nol pada kemacetan jam sibuk, dan jitter sangat rendah, yang dibuat khusus untuk operasi perusahaan dengan throughput tinggi dan ruang kerja virtual berlatensi rendah.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    },
+    {
+        "id": 18,
+        "title": "Berapa batasan perangkat bersamaan untuk satu akun?",
+        "subtitle": "Batasan koneksi perangkat secara simultan.",
+        "content": "<p>Untuk mencegah penyalahgunaan jalur komersial dan menjaga ketersediaan bandwidth yang konsisten untuk semua konsumen premium, lisensi premium individu standar mengizinkan hingga 3 koneksi perangkat aktif secara bersamaan. Membagikan string konfigurasi secara publik akan memicu pembatasan tingkat keamanan otomatis pada gateway penagihan kami.<\/p>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    },
+    {
+        "id": 27,
+        "title": "Apa saja tingkatan harga untuk paket keanggotaan premium?",
+        "subtitle": "Temukan paket berlangganan premium aman yang ideal untuk kebutuhan Anda.",
+        "content": "<p>Paket Premium OVOSEC disusun berdasarkan jangka waktu bulanan, semesteran, dan tahunan. Komitmen berlangganan yang lebih lama menampilkan tarif diskon. Anda dapat melihat semua detail harga dan spesial musiman yang aktif di <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Beranda<\/a> petak rencana kami.<\/p>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    },
+    {
+        "id": 28,
+        "title": "Bagaimana cara meningkatkan status akun saya menjadi premium?",
+        "subtitle": "Membuka kunci semua node berkecepatan tinggi dan menikmati bandwidth prioritas tanpa batas.",
+        "content": "<p>Untuk meningkatkan versi, akses akun Anda melalui <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Masuk<\/a> kami, navigasikan ke bagian penagihan, pilih tingkat keanggotaan pilihan Anda, dan selesaikan pembayaran menggunakan kartu kredit atau gateway perbankan lokal.<\/p>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    },
+    {
+        "id": 34,
+        "title": "Mengapa Titik Akhir Relai Aman saya menunjukkan \"Habis Waktu\" atau \"-1ms\" selama uji koneksi?",
+        "subtitle": "Memahami indikator batas waktu ping.",
+        "content": "<p>Status \"Waktu habis\" sering kali menunjukkan bahwa penyedia jaringan lokal atau firewall perusahaan Anda memblokir permintaan ICMP\/Ping (paket pengujian), namun itu tidak berarti jalur data terputus.<\/p><p>Silakan coba sambungkan ke node apa pun. Jika data mengalir normal setelah mengeklik \"Hubungkan\", Anda dapat mengabaikan indikator batas waktu dengan aman.<\/p>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    },
+    {
+        "id": 35,
+        "title": "Bagaimana cara mengoptimalkan koneksi untuk game online dengan latensi rendah dan obrolan suara?",
+        "subtitle": "Mengoptimalkan pengaturan untuk game multipemain dan aplikasi VoIP.",
+        "content": "<p>Untuk game multipemain atau aplikasi VoIP real-time, transmisi paket UDP sangat penting. Untuk mengoptimalkan pengalaman Anda, ikuti langkah-langkah berikut:<\/p><ul><li>Pastikan Anda terhubung ke Relay Khusus Premium kami (ditandai dengan tag BGP atau Dioptimalkan).<\/li><li>Dalam pengaturan aplikasi, navigasikan ke Pengaturan Protokol \/ Pengaturan Inti dan pastikan \"Penerusan UDP\" atau \"Aktifkan UDP\" diaktifkan. Hal ini secara signifikan mengurangi kehilangan paket dan jitter multi-pemain.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Jaringan Premium"
+    }
+]

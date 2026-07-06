@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>OVOSEC | Network Accelerator</title>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="OVOSEC | Network Accelerator & Secure Relay Utility">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="OVO Cybertech Sdn. Bhd.">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+		rel="stylesheet">
+
+	<!-- PLUGINS CSS STYLE -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span>☰</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto align-items-lg-center">
+					<li class="nav-item">
+						<a class="nav-link " href="index.html">HOME</a>
+					</li>
+					<li class="nav-item @@accelerator active">
+						<a class="nav-link" href="accelerator.html">NETWORK</a>
+					</li>
+					<li class="nav-item dropdown @@pages">
+						<a class="nav-link" href="dropdown.html">DOWNLOAD
+						</a>
+					</li>
+					<li class="nav-item dropdown @@Programs">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">REWARDS ▾
+						</a>
+						<!-- Dropdown list -->
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="friend.html">Refer a Friend</a></li>
+							<li><a class="dropdown-item" href="partner.html">Become a Partner</a></li>
+							<li><a class="dropdown-item" href="influence.html">Influencers</a></li>
+						</ul>
+					</li>
+					<li class="nav-item @@help">
+						<a class="nav-link" href="help/help.html" id="nav_helpWebSize">HELP</a>
+					</li>
+					<li class="nav-item @@Contact">
+						<a class="nav-link" href="contact.html">CONTACT</a>
+					</li>
+					<li class="nav-item apply-button">
+						<a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal"
+							data-target="#allModalCenter" href="#"><i class="ti-world"></i> English</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="#" id="nav_loginWebSize"><i
+								class="ti-user"></i> LOGIN / REGISTER</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Modal -->
+	<div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Choose language</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<ul class="language-ul">
+						<li data-value="english" style="cursor: pointer;">English</li>
+						<li data-value="malay" style="cursor: pointer;">Melayu</li>
+						<li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+						<li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+						<li data-value="korean" style="cursor: pointer;">한국어</li>
+						<li data-value="japanese" style="cursor: pointer;">日本語</li>
+						<li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+						<li data-value="arabic" style="cursor: pointer;">العربية</li>
+						<li data-value="spanish" style="cursor: pointer;">Español</li>
+						<li data-value="french" style="cursor: pointer;">Français</li>
+						<li data-value="german" style="cursor: pointer;">Deutsch</li>
+					</ul>
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="section page-title ">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 m-auto">
+					<!-- Page Title -->
+					<h1>What is Network Accelerator & Encrypted Relay?</h1>
+					<!-- Page Description -->
+					<p>What does an Encrypted Relay mean? What does it do, and how does it work? What are the benefits
+						of network acceleration? Here are the answers to all of those questions and more.</p>
+					<br>
+					<a href="dropdown.html" class="btn btn-primary btn-lg" id="acc_helpWebSize">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery">
+
+	</section>
+	<section class="  relay-featured  pt-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="image">
+						<div class="img-fluid"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="simple-list-example" class="container relay-list">
+			<div class="row">
+				<nav class="privacy-nav col-lg-12">
+					<ul>
+						<li><a class="scrollTo " href="#simple-list-item-1">What is Network Accelerator</a></li>
+						<li><a class="scrollTo " href="#simple-list-item-2">How does Encrypted Relay work?</a></li>
+						<li><a class="scrollTo " href="#simple-list-item-3">What are Relay Utilities used for?</a></li>
+						<li><a class="scrollTo " href="#simple-list-item-4">Advantages of Network Optimization</a></li>
+						<li><a class="scrollTo " href="#simple-list-item-5">Relay Service Provider's Checklist</a></li>
+						<li><a class="scrollTo " href="#simple-list-item-6">Accelerator FAQ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div>
+		</div>
+	</section>
+	<section class="section relay p-0">
+		<div class="container" data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
+			data-bs-smooth-scroll="true" tabindex="0">
+
+			<!-- Block 1: Clean Left-Right Layout -->
+			<div class="row align-items-center mb-5 pb-5 pt-5" id="simple-list-item-1" data-aos="fade-up">
+				<div class="col-lg-6 pr-lg-5 mb-4 mb-lg-0">
+					<h2 class="display-5 font-weight-bolder text-dark mb-4">What is Network <br><span
+							class="text-gradient-blue">Accelerator?</span></h2>
+					<p class="text-muted lead mb-4" style="line-height: 1.8;">
+						An "encrypted relay utility" designed to protect your internet connection and online privacy.
+					</p>
+					<p class="text-muted" style="line-height: 1.8; font-size: 1.05rem;">
+						It creates an encrypted tunnel for your data, hiding your IP address and safeguarding your real
+						identity from being tracked or identified. Browse the internet on public Wi-Fi hotspots safely.
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<img class="img-fluid w-100" src="images/accelerator/network.png" alt="Network Accelerator"
+						style="border-radius: 0; box-shadow: none; background: transparent;">
+				</div>
+			</div>
+
+			<!-- Block 2: Clean Top-Bottom Layout -->
+			<div class="row mb-5 pb-5 pt-4" id="simple-list-item-2" data-aos="fade-up">
+				<div class="col-12 text-center">
+					<h2 class="font-weight-bolder text-dark mb-4 display-5">How does Encrypted <span
+							class="text-gradient-blue">Relay work?</span></h2>
+					<p class="text-muted lead mx-auto mb-5" style="max-width: 800px; line-height: 1.8;">
+						It creates a secure, encrypted connection between your device and a remote server. Your data is
+						transmitted privately without passing through your ISP. By masking your real IP address, your
+						online footprint becomes completely invisible, keeping your activities safe and confidential.
+					</p>
+				</div>
+				<div class="col-12 mt-2 mt-md-4 text-center">
+					<img class="img-fluid w-100" src="images/accelerator/network_Gloss.png" alt="How it works"
+						style="border-radius: 0; box-shadow: none; background: transparent;">
+				</div>
+			</div>
+
+			<!-- Block 3: Bento Box Grid -->
+			<div class="row mb-5 pb-5" id="simple-list-item-3">
+				<div class="col-12 text-center mb-5 pb-3" data-aos="fade-up">
+					<span class="badge-premium mb-3">Use Cases</span>
+					<h2 class="font-weight-bolder text-dark mb-3 display-6">Limitless Possibilities</h2>
+					<p class="text-muted mx-auto" style="max-width: 600px;">Combined with IP masking, a Relay empowers
+						your everyday digital life.</p>
+				</div>
+
+				<div class="col-12">
+					<div class="bento-grid">
+						<!-- Wide Card -->
+						<div class="bento-item bento-wide" data-aos="fade-up" data-aos-delay="100">
+							<div class="icon-box-soft mb-4"><i class="ti-rss-alt"></i></div>
+							<h4 class="font-weight-bold text-dark">Stay safe using public Wi-Fi</h4>
+							<p class="text-muted">Cybercriminals can snoop on your private information, especially on
+								public Wi-Fi. Whenever you travel, work remotely, or connect to an unknown network, use
+								a Network Accelerator to protect yourself.</p>
+						</div>
+						<!-- Tall Card -->
+						<div class="bento-item bento-tall bg-gradient-blue text-white" data-aos="fade-up"
+							data-aos-delay="200">
+							<div class="icon-box-glass mb-4"><i class="ti-video-clapper text-white"></i></div>
+							<h4 class="font-weight-bold text-white">Stream without Limits</h4>
+							<p class="text-white-50">Stop content-based restrictions easily. Connect to your Relay and
+								stream your favorite content securely without ISP speed limits.</p>
+							<div class="mt-auto pt-4"><img src="images/accelerator/performance.png"
+									class="img-fluid bento-img-float" alt="Stream"></div>
+						</div>
+						<!-- Standard Card -->
+						<div class="bento-item" data-aos="fade-up" data-aos-delay="300">
+							<div class="icon-box-soft mb-4"><i class="ti-lock"></i></div>
+							<h4 class="font-weight-bold text-dark">Share files securely</h4>
+							<p class="text-muted">Encrypt your internet connection for secure file sharing.</p>
+						</div>
+						<!-- Standard Card -->
+						<div class="bento-item" data-aos="fade-up" data-aos-delay="400">
+							<div class="icon-box-soft mb-4"><i class="ti-desktop"></i></div>
+							<h4 class="font-weight-bold text-dark">Browse Freely</h4>
+							<p class="text-muted">Keep your sensitive data private from ISPs and trackers.</p>
+						</div>
+						<!-- Standard Card -->
+						<div class="bento-item" data-aos="fade-up" data-aos-delay="500">
+							<div class="icon-box-soft mb-4"><i class="ti-game"></i></div>
+							<h4 class="font-weight-bold text-dark">Game Safely</h4>
+							<p class="text-muted">Prevent DDoS attacks by masking your IP address.</p>
+						</div>
+						<!-- Wide Card -->
+						<div class="bento-item bento-wide" data-aos="fade-up" data-aos-delay="600">
+							<div class="icon-box-soft mb-4"><i class="ti-world"></i></div>
+							<h4 class="font-weight-bold text-dark">Maintain Access Traveling</h4>
+							<p class="text-muted">Enjoy your favorite services and content without interruption by
+								changing your virtual location securely.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Block 4: Advantages (Asymmetric Split List) -->
+			<div class="row mb-5 py-5 px-4 px-md-5" id="simple-list-item-4" data-aos="fade-up"
+				style="background: #f8fafc; border-radius: 0; padding-top: 80px !important; padding-bottom: 80px !important;">
+				<!-- Left Column: Heading -->
+				<div class="col-lg-4 mb-5 mb-lg-0">
+					<div class="position-sticky" style="top: 100px;">
+						<span class="badge-premium mb-3">Benefits</span>
+						<h2 class="font-weight-bolder text-dark mb-4 display-5"
+							style="letter-spacing: -1px; line-height: 1.2;">The OVOSEC<br>Advantage</h2>
+						<p class="text-muted lead" style="font-size: 1.1rem; line-height: 1.7;">
+							Compared to Tor, proxies, and standard encrypted messaging apps, we provide uncompromised
+							performance.
+						</p>
+					</div>
+				</div>
+
+				<!-- Right Column: Clean List Items -->
+				<div class="col-lg-8">
+					<!-- Item 1 -->
+					<div class="row align-items-start mb-5 pb-4"
+						style="border-bottom: 1px solid rgba(15, 23, 42, 0.08);">
+						<div class="col-md-3 mb-3 mb-md-0">
+							<img src="images/accelerator/security-service.png" alt="Encryption" class="img-fluid"
+								style="max-height: 70px; object-fit: contain; border-radius: 0; box-shadow: none; background: transparent;">
+						</div>
+						<div class="col-md-9">
+							<h4 class="font-weight-bold text-dark mb-3">Total Encryption</h4>
+							<p class="text-muted" style="line-height: 1.8; font-size: 1.05rem;">
+								Every website, app, or message is protected from bystanders. We safeguard all data
+								packets transmitted from your device, ensuring zero leakage of personal credentials or
+								browsing history.
+							</p>
+						</div>
+					</div>
+
+					<!-- Item 2 -->
+					<div class="row align-items-start mb-5 pb-4"
+						style="border-bottom: 1px solid rgba(15, 23, 42, 0.08);">
+						<div class="col-md-3 mb-3 mb-md-0">
+							<img src="images/accelerator/performance.png" alt="Speed" class="img-fluid"
+								style="max-height: 70px; object-fit: contain; border-radius: 0; box-shadow: none; background: transparent;">
+						</div>
+						<div class="col-md-9">
+							<h4 class="font-weight-bold text-dark mb-3">Blazing Speed</h4>
+							<p class="text-muted" style="line-height: 1.8; font-size: 1.05rem;">
+								Unlike Tor's slow multi-node hops, we use secure direct tunnels for zero lag. Enjoy
+								high-speed streaming, gaming, and downloading without the latency introduced by
+								traditional encrypted setups.
+							</p>
+						</div>
+					</div>
+
+					<!-- Item 3 -->
+					<div class="row align-items-start">
+						<div class="col-md-3 mb-3 mb-md-0">
+							<img src="images/accelerator/service-cloud.png" alt="Privacy" class="img-fluid"
+								style="max-height: 70px; object-fit: contain; border-radius: 0; box-shadow: none; background: transparent;">
+						</div>
+						<div class="col-md-9">
+							<h4 class="font-weight-bold text-dark mb-3">Ultimate Privacy</h4>
+							<p class="text-muted" style="line-height: 1.8; font-size: 1.05rem;">
+								Change location while maintaining military-grade encryption, unlike standard proxies.
+								Masking your real IP means snoopers, ISPs, and malicious trackers cannot build a profile
+								on you.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Block 5: FAQ -->
+			<div class="row mb-5 pb-5 pt-3" id="simple-list-item-5" data-aos="fade-up">
+				<div class="col-lg-12 mx-auto">
+					<div class="text-center mb-5 pb-2">
+						<span class="badge-premium mb-3">Checklist</span>
+						<h2 class="font-weight-bolder text-dark mb-3 display-6">Why Choose Us?</h2>
+						<p class="text-muted mx-auto" style="max-width: 700px;">Any Accelerator you consider should meet
+							the following uncompromising criteria.</p>
+					</div>
+
+					<div id="gstAccordion" data-children=".item" class="index-faq-item">
+						<!-- Accordion Item 01 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion1">No Logging
+									Policy</a>
+							</div>
+							<div id="gstAccordion1" class="collapse show accordion-block">
+								<p>All Accelerator companies promise to protect your privacy, but their privacy policies
+									tell a different story. Any reputable Accelerator should have a no-logs policy. This
+									means that they do not monitor or keep any records of your online activities when
+									you use their Relay service.<br><br>And we maintain a strict no-traffic logging
+									policy, verified by independent audits.</p>
+							</div>
+						</div>
+						<!-- Accordion Item 02 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion2"
+									class="collapsed">Relay Kill Switch</a>
+							</div>
+							<div id="gstAccordion2" class="collapse accordion-block">
+								<p>This might not happen very often, but if your Relay connection goes down, you don't
+									want others to suddenly see your IP address and Internet traffic.<br><br>The Relay
+									kill switch we offer prevents this from happening. When your Relay connection drops,
+									a kill switch disables your entire online connection so that none of your data falls
+									into the wrong hands.</p>
+							</div>
+						</div>
+						<!-- Accordion Item 03 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion3"
+									class="collapsed">Extensive Server Network</a>
+							</div>
+							<div id="gstAccordion3" class="collapse accordion-block">
+								<p>We provide access to a high-speed global network of more than 3000 servers located in
+									more than 100 locations. So, no matter where you are, a Relay server is just a tap
+									or click away.</p>
+							</div>
+						</div>
+						<!-- Accordion Item 04 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion4"
+									class="collapsed">Multiple Transmission Protocols</a>
+							</div>
+							<div id="gstAccordion4" class="collapse accordion-block">
+								<p>Transmission protocols are constantly evolving, and each protocol has its own
+									advantages. There are a variety of protocols to choose from, allowing users to
+									optimize their configuration based on given needs and use cases.<br><br>That's why
+									we offer a variety of protocols, including IKEv2, OpenRelay, and IPSec.</p>
+							</div>
+						</div>
+						<!-- Accordion Item 05 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion5"
+									class="collapsed">Simultaneous Device Connections</a>
+							</div>
+							<div id="gstAccordion5" class="collapse accordion-block">
+								<p>Gone are the days when people connected to the internet only through desktop
+									computers. Many homes now have countless internet-connected devices, from cell
+									phones to tablets, laptops, game consoles, and even home appliances.<br><br>These
+									devices are all vulnerable to privacy threats, so it's critical that your provider
+									allows multiple simultaneous connections on your account.</p>
+							</div>
+						</div>
+						<!-- Accordion Item 06 -->
+						<div class="item">
+							<div class="item-link">
+								<a data-toggle="collapse" data-parent="#gstAccordion" href="#gstAccordion6"
+									class="collapsed">Mobile Client Support</a>
+							</div>
+							<div id="gstAccordion6" class="collapse accordion-block">
+								<p>Any provider worth their salt will offer free software access and downloads with your
+									subscription. Given how often users rely on mobile devices to access the internet,
+									this must also include mobile support.<br><br>OVOSEC provides user-friendly software
+									for Windows, Mac, Android, and iOS. So whether you're at home or on the road, OVOSEC
+									connection is available on your device.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section relay-bg-100 py-7">
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Left Column: Content -->
+				<div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+					<span class="badge-premium mb-3"
+						style="background: rgba(239, 68, 68, 0.1); color: #ef4444;">Warning</span>
+					<h2 class="display-5 font-weight-bolder text-dark mb-4"
+						style="letter-spacing: -1px; line-height: 1.2;">Should I use a free Relay?</h2>
+					<p class="lead text-muted mb-0" style="line-height: 1.8; font-size: 1.1rem;">
+						Free Relay services have many drawbacks, including weak privacy protections and
+						questionable data. Additionally, almost all free Relay services fall short in providing
+						high-speed server access and basic functionality. A good provider won't cost a lot, but
+						it won't be free.
+					</p>
+				</div>
+				<!-- Right Column: Promo Video -->
+				<div class="col-lg-6" data-aos="fade-left">
+					<div class="video video-promo-container position-relative overflow-hidden" style="cursor: pointer;">
+						<img class="img-fluid w-100" src="images/accelerator/network_640.png" alt="video-thumbnail"
+							style="border-radius: 0; box-shadow: none; display: block;">
+						<!-- Play Button Overlay -->
+						<div class="play-overlay">
+							<div class="play-btn-circle">
+								<i class="ti-control-play"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end of .container-->
+	</section>
+	<section class="section relay p-0">
+		<div class="row relay-faq-center" id="simple-list-item-6">
+			<div class="col-lg-12 align-self-center">
+				<div class="content text-center ">
+					<!-- Headline -->
+					<h2>Accelerator Frequently Asked Questions</h2>
+					<p>Need help with something? Here are our most frequently asked questions.</p>
+					<!-- Story -->
+				</div>
+				<section class="faq relay-faq pt-0">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 m-auto">
+								<div class="block">
+									<!-- Getting Started -->
+									<div class="faq-item">
+										<!-- Get Started Accordion -->
+										<div id="gstAccordion" data-children=".item" class="index-faq-item">
+											<!-- Accordion Item 01 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion1">
+														What are the primary uses of a Network Accelerator?
+													</a>
+												</div>
+												<div id="gstAccordion1" class="collapse show accordion-block">
+													<p>
+														A Network Accelerator is a cybersecurity tool that allows you to
+														protect your digital identity and data. It also comes with many
+														other benefits like fast relay speeds for seamless browsing,
+														sidestepping connection slowdowns, accessing your favorite
+														content safely while traveling, and preventing cyber attacks
+														like DDoS and Man-in-the-Middle attacks. </p>
+												</div>
+											</div>
+											<!-- Accordion Item 02 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion2">
+														Are you completely anonymous with a Network Accelerator?
+													</a>
+												</div>
+												<div id="gstAccordion2" class="collapse accordion-block">
+													<p>
+														You are not completely anonymous, but you can boost your online
+														anonymity with OVOSEC. You can encrypt your online traffic and
+														mask your IP address to regain your digital privacy. By hiding
+														your unique IP address, you can make sure your ISP and other
+														third parties won't be able to track your activities back to
+														you.
+													</p>
+												</div>
+											</div>
+											<!-- Accordion Item 03 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion3">
+
+														What is a No Logs policy?
+													</a>
+												</div>
+												<div id="gstAccordion3" class="collapse accordion-block">
+													<p>
+														A No Logs policy means your Relay doesn't collect or store your
+														data. You might think this is a given for a privacy-focused
+														service, but unfortunately, it's not. Some services monetize by
+														keeping users' logs and selling their data. If you want to enjoy
+														a truly private internet experience, you need a provider that
+														has a strict No Logs policy, like OVOSEC. </p>
+												</div>
+											</div>
+											<!-- Accordion Item 04 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion4">
+														Do Accelerators slow down a person's internet connection? </a>
+												</div>
+												<div id="gstAccordion4" class="collapse accordion-block">
+													<p>
+														A top-tier Accelerator won't slow down your internet connection.
+														It can even improve your speeds when your ISP is throttling your
+														connection during streaming or online gaming. For example,
+														OVOSEC has ultra-fast servers and uses the most efficient
+														transmission protocols. This means that you can enjoy the online
+														world at full speed, with no more stuttering or freezing. </p>
+												</div>
+											</div>
+											<!-- Accordion Item 05 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion5">
+														Should I run an Accelerator 24/7? </a>
+												</div>
+												<div id="gstAccordion5" class="collapse accordion-block">
+													<p>
+														You can run your Accelerator 24/7 as long as you have a service
+														that has no bandwidth caps. OVOSEC doesn't limit your bandwidth.
+														Use OVOSEC to mask your online activities and circumvent your
+														ISP content-based bandwidth throttling. Stream, game, or browse
+														the web privately as much as you'd like. </p>
+												</div>
+											</div>
+											<!-- Accordion Item 06 -->
+											<div class="item">
+												<div class="item-link">
+													<a data-toggle="collapse" data-parent="#gstAccordion"
+														href="#gstAccordion6">
+														What support do we provide our customers? </a>
+												</div>
+												<div id="gstAccordion6" class="collapse accordion-block">
+													<p>
+														OVOSEC offers 24/7 technical support and customer service via
+														live chat. You can also submit a support ticket and a
+														representative will contact you via email. Additionally, you can
+														check out our comprehensive support portal to troubleshoot
+														problems yourself. </p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<section class="call-to-action-app section" id="index_download_container">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>Ready to get started?</h2>
+					<p>Available on Windows, Mac, Android, iOS, and more!</p>
+					<ul class="list-inline">
+						<li class="list-inline-item">
+							<a href="#" class="btn btn-primary btn-lg" id="index_ios">
+								<i class="ti-apple"></i>
+								iPhone
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn btn-primary btn-lg" id="index_android">
+								<i class="ti-android"></i>
+								Android
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn btn-primary btn-lg" id="index_window">
+								<i class="ti-microsoft-alt"></i>
+								Windows
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn btn-primary btn-lg" id="index_mac">
+								<i class="ti-apple"></i>
+								Mac
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+						<div class="block">
+							<a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+							<!-- Social Site Icons -->
+							<ul class="social-icon list-inline">
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-facebook"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-twitter"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-instagram"></i></a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<!-- heading -->
+							<h6>Support & Help</h6>
+							<!-- links -->
+							<ul>
+								<li><a href="#" id="footer_helpWebSize">FAQs</a></li>
+								<li><a href="support.html">Contact Support</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<!-- heading -->
+							<h6>Download Utility</h6>
+							<!-- links -->
+							<ul>
+								<li><a href="dropdown.html" id="footer_ios">iPhone Utility (iOS)</a></li>
+								<li><a href="dropdown.html" id="footer_android">Android Utility</a></li>
+								<li><a href="dropdown.html" id="footer_window">Windows Utility</a></li>
+								<li><a href="dropdown.html" id="footer_mac">Mac Utility</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<!-- heading -->
+							<h6>Partners</h6>
+							<!-- links -->
+							<ul>
+								<li><a href="friend.html">Refer a Friend</a></li>
+								<li><a href="partner.html">Become a Partner</a></li>
+								<li><a href="influence.html">Influencers</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<!-- heading -->
+							<h6>Company</h6>
+							<!-- links -->
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="career.html">Careers</a></li>
+								<li><a href="privacy.html">Privacy Policy</a></li>
+								<li><a href="terms.html">Terms and Conditions</a></li>
+								<li><a href="refund.html">Refund Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center bg-dark py-4">
+			<p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<!-- To Top -->
+	<div class="scroll-top-to">
+		<i class="ti-angle-up"></i>
+	</div>
+
+	<!-- JAVASCRIPTS -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+
+	<script src="js/translate.js"></script>
+	<script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

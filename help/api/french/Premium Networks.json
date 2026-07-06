@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "Quelle est la différence entre les relais dédiés standard et premium ?",
+        "subtitle": "Comparaison des performances, de la latence et des fonctionnalités des relais.",
+        "content": "<ul><li><strong>Nœuds standard :<\/strong> relais haut débit partagés adaptés à la sauvegarde automatisée de routine, aux requêtes de bases de données à distance et à la collaboration transfrontalière légère.<\/li><li><strong>Relais dédiés premium :<\/strong> déployés sur des réseaux fédérateurs de transit premium BGP multi-entrées (optimisés pour des régions comme Hong Kong, Singapour et le Japon). Ces nœuds offrent des allocations de bande passante dédiées, aucune perte de paquets en cas de congestion aux heures de pointe et une gigue ultra faible, conçus sur mesure pour les opérations d'entreprise à haut débit et les espaces de travail virtuels à faible latence.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    },
+    {
+        "id": 18,
+        "title": "Quelles sont les limites d'appareils simultanés pour un seul compte ?",
+        "subtitle": "Limites des connexions simultanées d’appareils.",
+        "content": "<p>Pour éviter les abus de lignes commerciales et maintenir une disponibilité constante de la bande passante pour tous les consommateurs premium, une licence premium individuelle standard autorise jusqu'à trois connexions simultanées d'appareils actifs simultanément. Le partage public des chaînes de configuration déclenchera une limitation automatique du taux de sécurité sur notre passerelle de facturation.<\/p>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    },
+    {
+        "id": 27,
+        "title": "Quels sont les tarifs des forfaits d'abonnement premium ?",
+        "subtitle": "Découvrez la formule d'abonnement premium sécurisée idéale pour vos besoins.",
+        "content": "<p>Les forfaits OVOSEC Premium sont structurés selon des modalités mensuelles, semestrielles et annuelles. Les engagements d'abonnement plus longs comportent des tarifs réduits. Vous pouvez consulter tous les détails des prix et les promotions saisonnières actives sur notre grille de plan officielle de la <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Page d'accueil<\/a>.<\/p>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    },
+    {
+        "id": 28,
+        "title": "Comment mettre à niveau le statut de mon compte vers le statut premium ?",
+        "subtitle": "Déverrouillez tous les nœuds haut débit et profitez d'une bande passante prioritaire illimitée.",
+        "content": "<p>Pour effectuer une mise à niveau, accédez à votre compte via notre <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Page de connexion<\/a>, accédez à la section de facturation, sélectionnez votre niveau d'adhésion préféré et effectuez le paiement en utilisant une carte de crédit ou une passerelle bancaire locale.<\/p>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    },
+    {
+        "id": 34,
+        "title": "Pourquoi mes points de terminaison de relais sécurisé affichent-ils \"Expiration\" ou \"-1ms\" lors du test de connexion ?",
+        "subtitle": "Comprendre les indicateurs de délai d'expiration du ping.",
+        "content": "<p>Un statut « Timeout » indique souvent que votre fournisseur de réseau local ou votre pare-feu d'entreprise bloque les requêtes ICMP\/Ping (les paquets de test), mais cela ne signifie pas que le chemin des données est interrompu.<\/p><p>Veuillez essayer de vous connecter au nœud malgré tout. Si les données circulent normalement après avoir cliqué sur \"Connecter\", vous pouvez ignorer l'indicateur de délai d'attente en toute sécurité.<\/p>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    },
+    {
+        "id": 35,
+        "title": "Comment puis-je optimiser la connexion pour les jeux en ligne à faible latence et le chat vocal ?",
+        "subtitle": "Optimisation des paramètres pour les jeux multijoueurs et les applications VoIP.",
+        "content": "<p>Pour les jeux multijoueurs ou les applications VoIP en temps réel, la transmission de paquets UDP est vitale. Pour optimiser votre expérience, veuillez suivre ces étapes :<\/p><ul><li>Assurez-vous d'être connecté à nos relais dédiés Premium (marqués par des balises BGP ou optimisées).<\/li><li>Dans les paramètres de l'application, accédez à Paramètres de protocole\/Paramètres de base et assurez-vous que « Transfert UDP » ou « Activer UDP » est activé. Cela réduit considérablement la perte de paquets et la gigue multijoueur.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Réseaux Premium"
+    }
+]

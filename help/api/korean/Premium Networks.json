@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "표준 전용 릴레이와 프리미엄 전용 릴레이의 차이점은 무엇인가요?",
+        "subtitle": "릴레이 성능, 대기 시간 및 기능을 비교합니다.",
+        "content": "<ul><li><strong>표준 노드:<\/strong> 일상적인 자동 백업, 원격 데이터베이스 쿼리 및 가벼운 국경 간 협업에 적합한 공유 고속 릴레이.<\/li><li><strong>프리미엄 전용 릴레이:<\/strong> 다중 수신 BGP 프리미엄 전송 백본을 통해 배포됩니다(홍콩, 싱가포르, 일본과 같은 지역에 최적화됨). 이러한 노드는 전용 대역폭 할당, 피크 시간 혼잡 시 패킷 손실 제로, 초저 지터를 특징으로 하며 처리량이 많은 기업 운영 및 지연 시간이 짧은 가상 작업 공간에 맞게 맞춤 제작되었습니다.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    },
+    {
+        "id": 18,
+        "title": "단일 계정의 동시 기기 제한은 어떻게 되나요?",
+        "subtitle": "동시 장치 연결에 대한 제한.",
+        "content": "<p>상업 회선 남용을 방지하고 모든 프리미엄 소비자를 위한 일관된 대역폭 가용성을 유지하기 위해 표준 개별 프리미엄 라이센스는 최대 3개의 동시 활성 장치 연결을 동시에 허용합니다. 구성 문자열을 공개적으로 공유하면 청구 게이트웨이에서 자동화된 보안 속도 제한이 실행됩니다.<\/p>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    },
+    {
+        "id": 27,
+        "title": "프리미엄 멤버십 플랜의 가격 요금제는 어떻게 되나요?",
+        "subtitle": "Discover the ideal premium secure subscription package for your needs.",
+        "content": "<p>OVOSEC Premium plans are structured on monthly, semi-annual, and annual terms. Longer subscription commitments feature discounted rates. You can view all pricing details and active seasonal specials on our official <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Home Page<\/a> plan grid.<\/p>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    },
+    {
+        "id": 28,
+        "title": "제 계정 상태를 프리미엄으로 업그레이드하려면 어떻게 해야 하나요?",
+        "subtitle": "Unlocking all high-speed nodes and enjoying unlimited priority bandwidth.",
+        "content": "<p>업그레이드하려면 <a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-creation: underline;\">로그인 페이지<\/a>를 통해 계정에 액세스하고 결제 섹션으로 이동하여 원하는 멤버십 등급을 선택한 다음 신용카드나 현지 뱅킹 게이트웨이를 사용하여 결제를 완료하세요.<\/p>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    },
+    {
+        "id": 34,
+        "title": "연결 테스트 중에 보안 릴레이 엔드포인트에 \"시간 초과\" 또는 \"-1ms\"가 표시되는 이유는 무엇인가요?",
+        "subtitle": "핑 시간 초과 표시기를 이해합니다.",
+        "content": "<p>'시간 초과' 상태는 로컬 네트워크 제공업체나 기업 방화벽이 ICMP\/Ping 요청(테스트 패킷)을 차단하고 있음을 의미하는 경우가 많지만 이는 데이터 경로가 손상되었음을 의미하지는 않습니다.<\/p><p>관계없이 노드에 연결해 보세요. '연결'을 클릭한 후 데이터가 정상적으로 흐르면 시간 초과 표시를 무시해도 됩니다.<\/p>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    },
+    {
+        "id": 35,
+        "title": "지연 시간이 낮은 온라인 게임 및 음성 채팅을 위해 연결을 어떻게 최적화할 수 있나요?",
+        "subtitle": "멀티플레이어 게임 및 VoIP 앱에 대한 설정 최적화.",
+        "content": "<p>멀티플레이어 게임이나 실시간 VoIP 앱의 경우 UDP 패킷 전송이 필수적입니다. 경험을 최적화하려면 다음 단계를 따르십시오.<\/p><ul><li>프리미엄 전용 릴레이(BGP 또는 최적화 태그로 표시됨)에 연결되어 있는지 확인하세요.<\/li><li>앱 설정에서 프로토콜 설정\/핵심 설정으로 이동하여 \"UDP 전달\" 또는 \"UDP 활성화\"가 켜져 있는지 확인하세요. 이를 통해 패킷 손실과 멀티플레이어 지터가 크게 줄어듭니다.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "프리미엄 네트워크"
+    }
+]

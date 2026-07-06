@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "¿Qué es OVOSEC y cómo protege mi conexión?",
+        "subtitle": "Una descripción general de la utilidad segura OVOSEC y el tránsito cifrado.",
+        "content": "<p>OVOSEC es una utilidad de retransmisión cifrada de próxima generación diseñada para optimizar la latencia de la red global y proteger la integridad de los datos. Al utilizar una arquitectura central de código abierto y alto rendimiento, OVOSEC canaliza sus flujos de datos a través de nodos de tránsito cifrados de nivel empresarial, enmascarando sus rastros de transmisión y acelerando los flujos de trabajo de productividad transfronterizos sin problemas.<\/p>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 12,
+        "title": "¿Cómo configuro la utilidad OVOSEC en mi dispositivo?",
+        "subtitle": "Instrucciones paso a paso para la instalación y configuración.",
+        "content": "<p>Para configurar la utilidad OVOSEC en su dispositivo, siga estos pasos:<\/p><ol><li>Completa tu selección de plan en nuestro sitio web oficial (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li>Navega hasta <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Descargue la página<\/a> y adquiera el paquete de aplicación segura adaptado a su sistema operativo (Windows, macOS, Android o iOS).<\/li><li>Inicie la aplicación, copie su URL de configuración de acceso única desde su <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Panel de cliente<\/a> y haga clic en \"Importar configuración\" dentro de la interfaz de la aplicación para sincronizar instantáneamente su retransmisión autorizada. puntos finales.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 21,
+        "title": "¿Cuál es la arquitectura principal de OVOSEC?",
+        "subtitle": "Una descripción general de la utilidad de seguridad OVOSEC y el tránsito cifrado.",
+        "content": "<p>OVOSEC es una utilidad de retransmisión cifrada de próxima generación diseñada para optimizar la latencia de la red global y proteger la integridad de los datos. Al canalizar sus flujos de datos a través de nodos de tránsito cifrados de nivel empresarial, OVOSEC enmascara sus rastros de transmisión y acelera los flujos de trabajo de productividad transfronterizos sin problemas.<\/p>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 22,
+        "title": "¿Qué operating systems son compatibles con OVOSEC?",
+        "subtitle": "Comprobación de la compatibilidad del dispositivo y los requisitos del sistema operativo.",
+        "content": "<p>OVOSEC es totalmente compatible con las plataformas Windows, macOS, iOS, Android y Linux. Puede adquirir el paquete de aplicación segura adaptado a su sistema operativo en nuestra <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">página de descargas<\/a>.<\/p>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 31,
+        "title": "¿Por qué la conexión acelerada se desconecta automáticamente cuando mi teléfono entra en suspensión?",
+        "subtitle": "Evitar que los sistemas operativos móviles duerman OVOSEC.",
+        "content": "<p>Los ahorradores de batería agresivos de los sistemas operativos móviles a menudo eliminan demonios en segundo plano de alto rendimiento. Para evitar esto, aplique los siguientes ajustes:<\/p><ul><li><strong>Android:<\/strong> Vaya a Configuración de su teléfono -> Aplicaciones -> OVOSEC -> Batería -> Establezca en \"Sin restricciones\" o \"Sin optimización\".<\/li><li><strong>iOS:<\/strong> Asegúrese de que la \"Actualización de la aplicación en segundo plano\" esté habilitada para OVOSEC en Configuración de iOS -> OVOSEC.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 39,
+        "title": "Ninguno de los pasos anteriores resolvió mi problema. ¿Cómo me comunico con el soporte técnico oficial?",
+        "subtitle": "Envío de tickets de diagnóstico a nuestro equipo técnico.",
+        "content": "<p>Estamos comprometidos con su conectividad perfecta. Si encuentra un conflicto de enrutamiento no resuelto, envíe un ticket de diagnóstico a nuestra cola técnica en <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Para ayudarnos a resolverlo dentro de las 24 horas, incluya:<\/p><ul><li>El correo electrónico de su cuenta registrada.<\/li><li>La versión actual de su sistema operativo (por ejemplo, Windows 11, iOS 17).<\/li><li>Un resumen descripción o captura de pantalla del registro de la aplicación\/estado de error.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 40,
+        "title": "¿Por qué mi lista de perfiles está vacía o por qué dice \"No se encontró perfil\" después de importar mi URL?",
+        "subtitle": "Activar la sincronización inicial con el servidor de facturación.",
+        "content": "<p>Esto puede ocurrir si la aplicación no logra realizar su protocolo de enlace inicial con nuestros servidores de facturación debido a la fluctuación de la red local. Para forzar una sincronización, siga estos pasos:<\/p><ol><li>En la aplicación, vaya a la pestaña Perfiles y toque los tres puntos (menú) al lado de su enlace OVOSEC importado.<\/li><li>Haga clic en \"Forzar actualización\" o \"Recargar perfil\".<\/li><li>Vuelva a la pantalla principal y haga clic en el botón central \"Conectar\". Esto buscará y completará instantáneamente todas las rutas de retransmisión seguras de baja latencia autorizadas.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 45,
+        "title": "¿Por qué todas mis rutas de relé seguro dejaron de funcionar repentinamente tras un período prolongado de inactividad?",
+        "subtitle": "Resolver discrepancias en la versión del protocolo después de una larga inactividad.",
+        "content": "<p>Para mantener un cifrado de seguridad de nivel militar, nuestra infraestructura backend actualiza periódicamente sus protocolos de transmisión subyacentes. Si la versión de su cliente está muy desactualizada, no podrá establecer contacto con los nodos actualizados.<\/p><p><strong>Solución:<\/strong> visite nuestra <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">página de descargas<\/a> para obtener e instalar la última versión estable de la utilidad OVOSEC para su dispositivo. Después de actualizar el software, vuelva a sincronizar su URL de configuración de acceso para restaurar la conectividad instantánea de baja latencia.<\/p>",
+        "languageId": 1,
+        "languageName": "General"
+    },
+    {
+        "id": 49,
+        "title": "¿Por qué no puedo abrir la página de inicio de sesión\/autenticación de Wi-Fi en hoteles, aeropuertos o universidades?",
+        "subtitle": "Evitar la interceptación de portales cautivos no cifrados.",
+        "content": "<p>Las redes públicas utilizan una técnica de interceptación llamada \"portales cautivos\" para obligar a los usuarios a acceder a una pantalla de inicio de sesión. Debido a que el núcleo de seguridad activo de OVOSEC bloquea el seguimiento local no autorizado y las redirecciones de red que no son de confianza, puede impedir que se abra esta página de inicio de sesión no cifrada.<\/p><p><strong>Solución:<\/strong> Apague temporalmente la conexión de OVOSEC o deshabilite la función de inicio de inicio. Abra su navegador web, primero complete la autenticación de la red del hotel\/campus, verifique que tenga acceso básico a Internet y luego vuelva a activar OVOSEC para proteger su sesión.<\/p>",
+        "languageId": 1,
+        "languageName": "General"
+    }
+]

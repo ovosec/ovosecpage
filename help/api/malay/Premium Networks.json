@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "Apakah perbezaan antara Geganti Terdedah Standard dan Premium?",
+        "subtitle": "Membandingkan prestasi geganti, kependaman dan ciri.",
+        "content": "<ul><li><strong>Nod Standard:<\/strong> Geganti berkelajuan tinggi yang dikongsi sesuai untuk sandaran automatik rutin, pertanyaan pangkalan data jauh dan kerjasama rentas sempadan yang ringan.<\/li><li><strong>Geganti Dedicated Premium:<\/strong> Digunakan melalui tulang belakang transit premium BGP berbilang kemasukan (dioptimumkan untuk wilayah seperti Hong Kong, Singapura dan Jepun). Nod ini menampilkan peruntukan lebar jalur khusus, kehilangan paket sifar di bawah kesesakan waktu puncak dan jitter ultra-rendah, dibuat khusus untuk operasi perusahaan berkemampuan tinggi dan ruang kerja maya kependaman rendah.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    },
+    {
+        "id": 18,
+        "title": "Apakah had peranti serentak untuk satu akaun?",
+        "subtitle": "Had pada sambungan peranti serentak.",
+        "content": "<p>Untuk mengelakkan penyalahgunaan talian komersial dan mengekalkan ketersediaan lebar jalur yang konsisten untuk semua pengguna premium, lesen premium individu standard membenarkan sehingga 3 sambungan peranti aktif serentak secara serentak. Berkongsi rentetan konfigurasi secara terbuka akan mencetuskan pengehadan kadar keselamatan automatik pada gerbang pengebilan kami.<\/p>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    },
+    {
+        "id": 27,
+        "title": "Apakah tahap harga untuk pelan keahlian premium?",
+        "subtitle": "Temui pakej langganan selamat premium yang ideal untuk keperluan anda.",
+        "content": "<p>Pelan OVOSEC Premium distruktur mengikut terma bulanan, separuh tahunan dan tahunan. Komitmen langganan yang lebih panjang menampilkan kadar diskaun. Anda boleh melihat semua butiran harga dan istimewa bermusim yang aktif pada grid pelan <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Utama<\/a> kami.<\/p>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    },
+    {
+        "id": 28,
+        "title": "Bagaimanakah cara saya meningkatkan status akaun saya kepada premium?",
+        "subtitle": "Membuka kunci semua nod berkelajuan tinggi dan menikmati lebar jalur keutamaan tanpa had.",
+        "content": "<p>Untuk menaik taraf, akses akaun anda melalui <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Log Masuk<\/a> kami, navigasi ke bahagian pengebilan, pilih peringkat keahlian pilihan anda dan lengkapkan pembayaran menggunakan kad kredit atau gerbang perbankan tempatan.<\/p>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    },
+    {
+        "id": 34,
+        "title": "Mengapakah Titik Akhir Geganti Selamat saya menunjukkan \"Masa Tamat\" atau \"-1ms\" semasa ujian sambungan?",
+        "subtitle": "Memahami penunjuk tamat masa ping.",
+        "content": "<p>Status \"Tamat masa\" selalunya menunjukkan bahawa pembekal rangkaian tempatan anda atau tembok api korporat menyekat permintaan ICMP\/Ping (paket ujian), tetapi ini tidak bermakna laluan data rosak.<\/p><p>Sila cuba sambungkan ke nod tanpa mengira. Jika data mengalir seperti biasa selepas mengklik \"Sambung\", anda boleh mengabaikan penunjuk tamat masa dengan selamat.<\/p>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    },
+    {
+        "id": 35,
+        "title": "Bagaimanakah saya boleh mengoptimumkan sambungan untuk permainan dalam talian kependaman rendah dan sembang suara?",
+        "subtitle": "Mengoptimumkan tetapan untuk permainan berbilang pemain dan apl VoIP.",
+        "content": "<p>Untuk permainan berbilang pemain atau apl VoIP masa nyata, penghantaran paket UDP adalah penting. Untuk mengoptimumkan pengalaman anda, sila ikut langkah berikut:<\/p><ul><li>Pastikan anda disambungkan ke Geganti Khusus Premium kami (ditandakan dengan teg BGP atau Dioptimumkan).<\/li><li>Dalam tetapan apl, navigasi ke Tetapan Protokol \/ Tetapan Teras dan pastikan \"Pemajuan UDP\" atau \"Dayakan UDP\" dihidupkan. Ini secara mendadak mengurangkan kehilangan paket dan kegelisahan berbilang pemain.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Rangkaian Premium"
+    }
+]

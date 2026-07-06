@@ -1,0 +1,904 @@
+{
+  "english": [
+    {
+      "id": 1,
+      "title": "General",
+      "subtitle": "Detailed setup guides, troubleshooting protocols, and client documentation.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "What is OVOSEC and how does it secure my connection?" },
+        { "id": 12, "title": "How do I set up the OVOSEC utility on my device?" },
+        { "id": 21, "title": "What is the core architecture of OVOSEC?" },
+        { "id": 22, "title": "Which operating systems are compatible with OVOSEC?" },
+        { "id": 31, "title": "Why does the accelerated connection automatically disconnect when my phone goes to sleep?" },
+        { "id": 39, "title": "None of the above steps resolved my issue. How do I contact official engineering support?" },
+        { "id": 40, "title": "Why is my profile list empty, or why does it say \"No Profile Found\" after importing my URL?" },
+        { "id": 45, "title": "Why did all my secure relay paths suddenly stop working after a long period of inactivity?" },
+        { "id": 49, "title": "Why can't I open the Wi-Fi login/authentication page at hotels, airports, or universities?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Account & Subscriptions",
+      "subtitle": "Billing cycles, account recovery, payment gateways, and subscription management.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "How do I manage or cancel my active recurring subscription?" },
+        { "id": 14, "title": "What is your refund policy regarding premium packages?" },
+        { "id": 23, "title": "How do I register and log in to my account?" },
+        { "id": 24, "title": "How do I perform a secure password reset?" },
+        { "id": 36, "title": "How do I check my remaining data quota and subscription expiration date?" },
+        { "id": 42, "title": "I changed or upgraded my device. How do I restore my active premium subscription?" },
+        { "id": 43, "title": "I completed my payment via Curlec/Stripe, but my client still shows \"Free/Standard\" status. What should I do?" },
+        { "id": 46, "title": "When does my data quota reset, and what if I run out of data before the billing cycle ends?" },
+        { "id": 50, "title": "How will the OVOSEC subscription charge appear on my credit card or bank statement?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Connection & Protocol",
+      "subtitle": "DNS resolution, TUN Mode troubleshooting, and latency optimization.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "What are \"TUN Mode\" and \"System Proxy\", and which should I use?" },
+        { "id": 16, "title": "Troubleshooting: Why are my Secure Relay Endpoints timeout out?" },
+        { "id": 25, "title": "How do I troubleshoot failed network connection handshakes?" },
+        { "id": 26, "title": "How do I select the lowest-latency server node?" },
+        { "id": 32, "title": "Why are my local apps slow or failing to load while OVOSEC is active?" },
+        { "id": 33, "title": "Why does the OVOSEC utility show a \"Core Initialization Failed\" error on iOS/macOS?" },
+        { "id": 37, "title": "Can I exclude specific apps or only allow certain web browsers to use the OVOSEC secure relay?" },
+        { "id": 38, "title": "How do I force command-line tools or terminal applications to use OVOSEC on desktop?" },
+        { "id": 41, "title": "I have a working network, but why do all endpoints suddenly time out with handshake errors?" },
+        { "id": 48, "title": "Why am I unable to access any websites even after completely closing the OVOSEC utility?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Premium Networks",
+      "subtitle": "Dedicated secure relays, multi-device usage, and latency metrics.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "What is the difference between Standard and Premium Dedicated Relays?" },
+        { "id": 18, "title": "What are the concurrent device limitations for a single account?" },
+        { "id": 27, "title": "What are the pricing tiers for premium membership plans?" },
+        { "id": 28, "title": "How do I upgrade my account status to premium?" },
+        { "id": 34, "title": "Why do my Secure Relay Endpoints show \"Timeout\" or \"-1ms\" during the connection test?" },
+        { "id": 35, "title": "How can I optimize the connection for low-latency online gaming and voice chat?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Privacy & Security",
+      "subtitle": "Zero-logs compliance, military-grade encryption, and public Wi-Fi safety.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "Does OVOSEC implement a Zero-Logs Policy?" },
+        { "id": 20, "title": "What level of encryption does the OVOSEC infrastructure enforce?" },
+        { "id": 29, "title": "What is OVOSEC zero-knowledge log policy?" },
+        { "id": 30, "title": "How does OVOSEC secure public Wi-Fi transmissions?" },
+        { "id": 44, "title": "Does OVOSEC protect my credentials and personal data when connecting via unsecured public Wi-Fi?" },
+        { "id": 47, "title": "Why does my local antivirus or Windows Defender flag OVOSEC when enabling TUN Mode?" }
+      ]
+    }
+  ],
+  "malay": [
+    {
+      "id": 1,
+      "title": "Umum",
+      "subtitle": "Panduan persediaan terperinci, protokol penyelesaian masalah, dan dokumentasi pelanggan.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "Apakah OVOSEC dan bagaimana ia melindungi sambungan saya?" },
+        { "id": 12, "title": "Bagaimanakah cara saya menyediakan utiliti OVOSEC pada peranti saya?" },
+        { "id": 21, "title": "Apakah seni bina teras OVOSEC?" },
+        { "id": 22, "title": "Sistem operasi manakah yang serasi dengan OVOSEC?" },
+        { "id": 31, "title": "Mengapakah sambungan yang dipercepatkan terputus secara automatik apabila telefon saya masuk ke mod tidur?" },
+        { "id": 39, "title": "Tiada satu pun langkah di atas menyelesaikan isu saya. Bagaimanakah cara saya menghubungi sokongan kejuruteraan rasmi?" },
+        { "id": 40, "title": "Mengapakah senarai profil saya kosong, atau mengapakah ia menyatakan \"Tiada Profil Ditemui\" selepas mengimport URL saya?" },
+        { "id": 45, "title": "Mengapakah semua laluan geganti selamat saya tiba-tiba berhenti berfungsi selepas tempoh tidak aktif yang lama?" },
+        { "id": 49, "title": "Mengapakah saya tidak boleh membuka halaman log masuk/pengesahan Wi-Fi di hotel, lapangan terbang atau universiti?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Akaun & Langganan",
+      "subtitle": "Kitaran bil, pemulihan akaun, gerbang pembayaran, dan pengurusan langganan.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "Bagaimanakah cara saya mengurus atau membatalkan langganan berulang aktif saya?" },
+        { "id": 14, "title": "Apakah polisi bayaran balik anda mengenai pakej premium?" },
+        { "id": 23, "title": "Bagaimanakah cara saya mendaftar dan log masuk ke akaun saya?" },
+        { "id": 24, "title": "Bagaimanakah cara saya melakukan tetapan semula kata laluan yang selamat?" },
+        { "id": 36, "title": "Bagaimanakah cara saya menyemak baki kuota data dan tarikh tamat tempoh langganan saya?" },
+        { "id": 42, "title": "Saya menukar atau menaik taraf peranti saya. Bagaimanakah cara saya memulihkan langganan premium aktif saya?" },
+        { "id": 43, "title": "Saya telah menyelesaikan pembayaran saya melalui Curlec/Stripe, tetapi pelanggan saya masih menunjukkan status \"Percuma/Standard\". Apa yang patut saya buat?" },
+        { "id": 46, "title": "Bilakah kuota data saya ditetapkan semula, dan bagaimana jika saya kehabisan data sebelum kitaran bil tamat?" },
+        { "id": 50, "title": "Bagaimanakah caj langganan OVOSEC akan dipaparkan pada kad kredit atau penyata bank saya?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sambungan & Protokol",
+      "subtitle": "Resolusi DNS, penyelesaian masalah Mod TUN, dan pengoptimuman kependaman.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "Apakah \"Mod TUN\" dan \"Proksi Sistem\", dan yang manakah patut saya gunakan?" },
+        { "id": 16, "title": "Penyelesaian masalah: Mengapakah Titik Akhir Geganti Selamat saya mengalami masa tamat?" },
+        { "id": 25, "title": "Bagaimanakah cara saya menyelesaikan masalah jabat tangan sambungan rangkaian yang gagal?" },
+        { "id": 26, "title": "Bagaimanakah cara saya memilih nod pelayan kependaman terendah?" },
+        { "id": 32, "title": "Mengapakah apl tempatan saya lambat atau gagal dimuatkan semasa OVOSEC aktif?" },
+        { "id": 33, "title": "Mengapakah utiliti OVOSEC menunjukkan ralat \"Permulaan Teras Gagal\" pada iOS/macOS?" },
+        { "id": 37, "title": "Bolehkah saya mengecualikan apl tertentu atau hanya membenarkan pelayar web tertentu menggunakan geganti selamat OVOSEC?" },
+        { "id": 38, "title": "Bagaimanakah cara saya memaksa alatan baris arahan atau aplikasi terminal menggunakan OVOSEC pada desktop?" },
+        { "id": 41, "title": "Saya mempunyai rangkaian yang berfungsi, tetapi mengapakah semua titik akhir tiba-tiba tamat masa dengan ralat jabat tangan?" },
+        { "id": 48, "title": "Mengapakah saya tidak dapat mengakses mana-mana tapak web walaupun selepas menutup sepenuhnya utiliti OVOSEC?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Rangkaian Premium",
+      "subtitle": "Ganti selamat khusus, penggunaan berbilang peranti, dan metrik kependaman.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "Apakah perbezaan antara Geganti Terdedah Standard dan Premium?" },
+        { "id": 18, "title": "Apakah had peranti serentak untuk satu akaun?" },
+        { "id": 27, "title": "Apakah tahap harga untuk pelan keahlian premium?" },
+        { "id": 28, "title": "Bagaimanakah cara saya meningkatkan status akaun saya kepada premium?" },
+        { "id": 34, "title": "Mengapakah Titik Akhir Geganti Selamat saya menunjukkan \"Masa Tamat\" atau \"-1ms\" semasa ujian sambungan?" },
+        { "id": 35, "title": "Bagaimanakah saya boleh mengoptimumkan sambungan untuk permainan dalam talian kependaman rendah dan sembang suara?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Privasi & Keselamatan",
+      "subtitle": "Pematuhan sifar log, penyulitan gred tentera, dan keselamatan Wi-Fi awam.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "Adakah OVOSEC melaksanakan Polisi Sifar Log?" },
+        { "id": 20, "title": "Apakah tahap penyulitan yang dikuatkuasakan oleh infrastruktur OVOSEC?" },
+        { "id": 29, "title": "Apakah polisi log pengetahuan sifar OVOSEC?" },
+        { "id": 30, "title": "Bagaimanakah OVOSEC selamatkan penghantaran Wi-Fi awam?" },
+        { "id": 44, "title": "Adakah OVOSEC melindungi kelayakan dan data peranti saya apabila menyambung melalui Wi-Fi awam yang tidak selamat?" },
+        { "id": 47, "title": "Mengapakah antivirus tempatan saya atau Windows Defender menandakan OVOSEC apabila mendayakan Mod TUN?" }
+      ]
+    }
+  ],
+  "indonesian": [
+    {
+      "id": 1,
+      "title": "Umum",
+      "subtitle": "Panduan penyiapan terperinci, protokol pemecahan masalah, dan dokumentasi klien.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "Apa itu OVOSEC dan bagaimana cara mengamankan koneksi saya?" },
+        { "id": 12, "title": "Bagaimana cara mengatur utilitas OVOSEC di perangkat saya?" },
+        { "id": 21, "title": "Apa arsitektur inti dari OVOSEC?" },
+        { "id": 22, "title": "Sistem operasi mana yang kompatibel dengan OVOSEC?" },
+        { "id": 31, "title": "Mengapa koneksi yang dipercepat terputus secara otomatis saat ponsel saya masuk ke mode tidur?" },
+        { "id": 39, "title": "Tidak ada langkah di atas yang menyelesaikan masalah saya. Bagaimana cara menghubungi dukungan resmi?" },
+        { "id": 40, "title": "Mengapa daftar profil saya kosong, atau mengapa tertulis \"Tidak Ada Profil Ditemukan\" setelah mengimpor URL saya?" },
+        { "id": 45, "title": "Mengapa semua jalur relai aman saya tiba-tiba berhenti berfungsi setelah lama tidak aktif?" },
+        { "id": 49, "title": "Mengapa saya tidak dapat membuka halaman masuk/autentikasi Wi-Fi di hotel, bandara, atau universitas?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Akun & Langganan",
+      "subtitle": "Siklus penagihan, pemulihan akun, gateway pembayaran, dan manajemen langganan.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "Bagaimana cara mengelola atau membatalkan langganan berulang saya yang aktif?" },
+        { "id": 14, "title": "Apa kebijakan pengembalian dana Anda terkait paket premium?" },
+        { "id": 23, "title": "Bagaimana cara mendaftar dan masuk ke akun saya?" },
+        { "id": 24, "title": "Bagaimana cara melakukan reset kata sandi yang aman?" },
+        { "id": 36, "title": "Bagaimana cara memeriksa sisa kuota data saya dan tanggal kedaluwarsa langganan?" },
+        { "id": 42, "title": "Saya mengganti atau meningkatkan perangkat saya. Bagaimana cara memulihkan langganan premium aktif saya?" },
+        { "id": 43, "title": "Saya menyelesaikan pembayaran saya melalui Curlec/Stripe, tetapi klien saya masih menunjukkan status \"Gratis/Standar\". Apa yang harus saya lakukan?" },
+        { "id": 46, "title": "Kapan kuota data saya diatur ulang, dan bagaimana jika saya kehabisan data sebelum siklus penagihan berakhir?" },
+        { "id": 50, "title": "Bagaimana tagihan langganan OVOSEC akan muncul di kartu kredit atau laporan mutasi bank saya?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Koneksi & Protokol",
+      "subtitle": "Resolusi DNS, pemecahan masalah Mode TUN, dan pengoptimalan latensi.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "Apa itu \"Mode TUN\" dan \"Proksi Sistem\", dan mana yang harus saya gunakan?" },
+        { "id": 16, "title": "Pemecahan Masalah: Mengapa Titik Akhir Relai Aman saya mengalami waktu habis?" },
+        { "id": 25, "title": "Bagaimana cara mengatasi kegagalan jabat tangan koneksi jaringan?" },
+        { "id": 26, "title": "Bagaimana cara memilih simpul server dengan latensi terendah?" },
+        { "id": 32, "title": "Mengapa aplikasi lokal saya lambat atau gagal dimuat saat OVOSEC aktif?" },
+        { "id": 33, "title": "Mengapa utilitas OVOSEC menunjukkan kesalahan \"Inisialisasi Inti Gagal\" di iOS/macOS?" },
+        { "id": 37, "title": "Bisakah saya mengecualikan aplikasi tertentu atau hanya mengizinkan browser web tertentu untuk menggunakan relai aman OVOSEC?" },
+        { "id": 38, "title": "Bagaimana cara memaksa alat baris perintah atau aplikasi terminal menggunakan OVOSEC di desktop?" },
+        { "id": 41, "title": "Jaringan saya berfungsi, tetapi mengapa semua titik akhir tiba-tiba habis waktu dengan kesalahan jabat tangan?" },
+        { "id": 48, "title": "Mengapa saya tidak dapat mengakses situs web apa pun bahkan setelah menutup utilitas OVOSEC sepenuhnya?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Jaringan Premium",
+      "subtitle": "Relai aman khusus, penggunaan beberapa perangkat, dan metrik latensi.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "Apa perbedaan antara Relai Khusus Standar dan Premium?" },
+        { "id": 18, "title": "Berapa batasan perangkat bersamaan untuk satu akun?" },
+        { "id": 27, "title": "Apa saja tingkatan harga untuk paket keanggotaan premium?" },
+        { "id": 28, "title": "Bagaimana cara meningkatkan status akun saya menjadi premium?" },
+        { "id": 34, "title": "Mengapa Titik Akhir Relai Aman saya menunjukkan \"Habis Waktu\" atau \"-1ms\" selama uji koneksi?" },
+        { "id": 35, "title": "Bagaimana cara mengoptimalkan koneksi untuk game online dengan latensi rendah dan obrolan suara?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Privasi & Keamanan",
+      "subtitle": "Kepatuhan tanpa log, enkripsi tingkat militer, dan keamanan Wi-Fi publik.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "Apakah OVOSEC menerapkan Kebijakan Tanpa Log?" },
+        { "id": 20, "title": "Tingkat enkripsi apa yang diberlakukan oleh infrastruktur OVOSEC?" },
+        { "id": 29, "title": "Apa kebijakan log tanpa pengetahuan OVOSEC?" },
+        { "id": 30, "title": "Bagaimana OVOSEC mengamankan transmisi Wi-Fi publik?" },
+        { "id": 44, "title": "Apakah OVOSEC melindungi kredensial dan data pribadi saya saat terhubung melalui Wi-Fi publik yang tidak aman?" },
+        { "id": 47, "title": "Mengapa antivirus lokal saya atau Windows Defender menandai OVOSEC saat mengaktifkan Mode TUN?" }
+      ]
+    }
+  ],
+  "chinese_traditional": [
+    {
+      "id": 1,
+      "title": "通用",
+      "subtitle": "詳細的設定指南、疑難排解協定和用戶端文件。",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "什麼是 OVOSEC，它如何保護我的連線安全？" },
+        { "id": 12, "title": "如何在我的裝置上設定 OVOSEC 工具？" },
+        { "id": 21, "title": "OVOSEC 的核心架構是什麼？" },
+        { "id": 22, "title": "哪些作業系統與 OVOSEC 相容？" },
+        { "id": 31, "title": "為什麼當我的手機進入睡眠狀態時，加速連線會自動中斷？" },
+        { "id": 39, "title": "以上步驟都無法解決我的問題。我該如何聯絡官方技術支援？" },
+        { "id": 40, "title": "為什麼匯入我的 URL 後，設定檔清單是空的，或者顯示「找不到設定檔」？" },
+        { "id": 45, "title": "為什麼在長時間不活動後，我所有的安全中繼路徑突然停止運作？" },
+        { "id": 49, "title": "為什麼我無法在飯店、機場或大學打開 Wi-Fi 登入/驗證頁面？" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "帳戶與訂閱",
+      "subtitle": "計費週期、帳戶恢復、金流閘道和訂閱管理。",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "如何管理或取消我目前有效的定期訂閱？" },
+        { "id": 14, "title": "關於高級方案，你們的退款政策是什麼？" },
+        { "id": 23, "title": "如何註冊並登入我的帳戶？" },
+        { "id": 24, "title": "如何進行安全的密碼重設？" },
+        { "id": 36, "title": "如何查詢我剩餘的數據額度以及訂閱過期日期？" },
+        { "id": 42, "title": "我更換或升級了我的裝置。如何恢復我目前有效的高級訂閱？" },
+        { "id": 43, "title": "我已透過 Curlec/Stripe 完成付款，但我的用戶端仍顯示「免費/標準」狀態。我該怎麼辦？" },
+        { "id": 46, "title": "我的數據額度何時重設？如果我在計費週期結束前用完數據該怎麼辦？" },
+        { "id": 50, "title": "OVOSEC 訂閱費用將如何顯示在我的信用卡或銀行對帳單上？" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "連接與協定",
+      "subtitle": "DNS 解析、TUN 模式疑難排解和延遲優化。",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "什麼是「TUN 模式」和「系統代理」，我應該使用哪一個？" },
+        { "id": 16, "title": "疑難排解：為什麼我的安全中繼端點逾時？" },
+        { "id": 25, "title": "如何排解網路連線握手失敗的問題？" },
+        { "id": 26, "title": "如何選擇延遲最低的伺服器節點？" },
+        { "id": 32, "title": "為什麼在 OVOSEC 啟用時，我的本機應用程式會變慢或無法載入？" },
+        { "id": 33, "title": "為什麼 OVOSEC 工具在 iOS/macOS 上顯示「核心初始化失敗」錯誤？" },
+        { "id": 37, "title": "我可以排除特定應用程式或僅允許某些網頁瀏覽器使用 OVOSEC 安全中繼嗎？" },
+        { "id": 38, "title": "如何強制桌面端上的命令列工具或終端機應用程式使用 OVOSEC？" },
+        { "id": 41, "title": "我的網路工作正常，但為什麼所有端點突然逾時並出現握手錯誤？" },
+        { "id": 48, "title": "為什麼即使在完全關閉 OVOSEC 工具後，我仍無法存取任何網站？" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "高級網路",
+      "subtitle": "專用安全中繼、多裝置使用和延遲指標。",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "標準專用中繼和高級專用中繼有什麼區別？" },
+        { "id": 18, "title": "單一帳戶的同時連線裝置限制是多少？" },
+        { "id": 27, "title": "高級會員方案的價格等級是多少？" },
+        { "id": 28, "title": "如何將我的帳戶狀態升級為高級會員？" },
+        { "id": 34, "title": "為什麼在連線測試期間，我的安全中繼端點顯示「逾時」或「-1ms」？" },
+        { "id": 35, "title": "如何針對低延遲的線上遊戲和語音通話優化連線？" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "隱私與安全",
+      "subtitle": "零日誌合規性、軍用級加密和公共 Wi-Fi 安全。",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "OVOSEC 是否執行無日誌政策？" },
+        { "id": 20, "title": "OVOSEC 基礎架構強制執行什麼級別的加密？" },
+        { "id": 29, "title": "什麼是 OVOSEC 零知識日誌政策？" },
+        { "id": 30, "title": "OVOSEC 如何保護公共 Wi-Fi 傳輸的安全？" },
+        { "id": 44, "title": "當透過未受保護的公共 Wi-Fi 連線時，OVOSEC 是否會保護我的憑證和個人資料？" },
+        { "id": 47, "title": "為什麼在啟用 TUN 模式時，我的本機防毒軟體或 Windows Defender 會將 OVOSEC 標記為警告？" }
+      ]
+    }
+  ],
+  "korean": [
+    {
+      "id": 1,
+      "title": "일반",
+      "subtitle": "상세한 설정 가이드, 문제 해결 프로토콜 및 클라이언트 문서.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "OVOSEC은 무엇이며 어떻게 제 연결을 보호하나요?" },
+        { "id": 12, "title": "제 기기에서 OVOSEC 유틸리티를 설정하려면 어떻게 해야 하나요?" },
+        { "id": 21, "title": "OVOSEC의 핵심 아키텍처는 무엇인가요?" },
+        { "id": 22, "title": "OVOSEC과 호환되는 운영 체제는 무엇인가요?" },
+        { "id": 31, "title": "휴대폰이 절전 모드로 들어갈 때 가속 연결이 자동으로 끊어지는 이유는 무엇인가요?" },
+        { "id": 39, "title": "위의 단계로 문제가 해결되지 않았습니다. 공식 엔지니어링 지원팀에 어떻게 연락하나요?" },
+        { "id": 40, "title": "URL을 가져온 후 프로필 목록이 비어 있거나 \"프로필을 찾을 수 없음\"이라고 표시되는 이유는 무엇인가요?" },
+        { "id": 45, "title": "오랫동안 활동이 없은 후 왜 모든 보안 릴레이 경로가 갑자기 작동을 멈추었나요?" },
+        { "id": 49, "title": "호텔, 공항 또는 대학에서 Wi-Fi 로그인/인증 페이지를 열 수 없는 이유는 무엇인가요?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "계정 및 구독",
+      "subtitle": "결제 주기, 계정 복구, 결제 게이트웨이 및 구독 관리.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "활성 중인 정기 구독을 관리하거나 취소하려면 어떻게 해야 하나요?" },
+        { "id": 14, "title": "프리미엄 패키지에 대한 환불 정책은 어떻게 되나요?" },
+        { "id": 23, "title": "계정을 등록하고 로그인하려면 어떻게 해야 하나요?" },
+        { "id": 24, "title": "안전한 비밀번호 재설정을 수행하려면 어떻게 해야 하나요?" },
+        { "id": 36, "title": "남은 데이터 사용량과 구독 만료일은 어떻게 확인하나요?" },
+        { "id": 42, "title": "기기를 변경하거나 업그레이드했습니다. 활성 중인 프리미엄 구독을 어떻게 복원하나요?" },
+        { "id": 43, "title": "Curlec/Stripe를 통해 결제를 완료했지만 여전히 \"Free/Standard\" 상태로 표시됩니다. 어떻게 해야 하나요?" },
+        { "id": 46, "title": "데이터 할당량은 언제 초기화되며, 결제 주기가 끝나기 전에 데이터를 다 쓰면 어떻게 되나요?" },
+        { "id": 50, "title": "OVOSEC 구독 요금은 신용카드 또는 은행 명세서에 어떻게 표시되나요?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "연결 및 프로토콜",
+      "subtitle": "DNS 확인, TUN 모드 문제 해결 및 지연 시간 최적화.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "\"TUN 모드\"와 \"시스템 프록시\"는 무엇이며 어느 것을 사용해야 하나요?" },
+        { "id": 16, "title": "문제 해결: 보안 릴레이 엔드포인트가 시간 초과되는 이유는 무엇인가요?" },
+        { "id": 25, "title": "네트워크 연결 핸드셰이크 실패 문제를 해결하려면 어떻게 해야 하나요?" },
+        { "id": 26, "title": "가장 지연 시간이 낮은 서버 노드를 어떻게 선택하나요?" },
+        { "id": 32, "title": "OVOSEC이 활성화되어 있는 동안 로컬 앱이 느려지거나 로드되지 않는 이유는 무엇인가요?" },
+        { "id": 33, "title": "iOS/macOS에서 OVOSEC 유틸리티가 \"코어 초기화 실패\" 오류를 표시하는 이유는 무엇인가요?" },
+        { "id": 37, "title": "특정 앱을 제외하거나 특정 웹 브라우저만 OVOSEC 보안 릴레이를 사용하도록 허용할 수 있나요?" },
+        { "id": 38, "title": "데스크톱에서 명령줄 도구 또는 터미널 애플리케이션이 OVOSEC을 사용하도록 강제하려면 어떻게 해야 하나요?" },
+        { "id": 41, "title": "네트워크가 작동 중인데 왜 모든 엔드포인트가 갑자기 핸드셰이크 오류와 함께 시간 초과되나요?" },
+        { "id": 48, "title": "OVOSEC 유틸리티를 완전히 종료한 후에도 웹사이트에 접속할 수 없는 이유는 무엇인가요?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "프리미엄 네트워크",
+      "subtitle": "전용 보안 릴레이, 다중 기기 사용 및 지연 시간 메트릭.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "표준 전용 릴레이와 프리미엄 전용 릴레이의 차이점은 무엇인가요?" },
+        { "id": 18, "title": "단일 계정의 동시 기기 제한은 어떻게 되나요?" },
+        { "id": 27, "title": "프리미엄 멤버십 플랜의 가격 요금제는 어떻게 되나요?" },
+        { "id": 28, "title": "제 계정 상태를 프리미엄으로 업그레이드하려면 어떻게 해야 하나요?" },
+        { "id": 34, "title": "연결 테스트 중에 보안 릴레이 엔드포인트에 \"시간 초과\" 또는 \"-1ms\"가 표시되는 이유는 무엇인가요?" },
+        { "id": 35, "title": "지연 시간이 낮은 온라인 게임 및 음성 채팅을 위해 연결을 어떻게 최적화할 수 있나요?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "개인정보 및 보안",
+      "subtitle": "제로 로그 준수, 군사 등급 암호화 및 공용 Wi-Fi 안전.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "OVOSEC은 제로 로그 정책을 시행하나요?" },
+        { "id": 20, "title": "OVOSEC 인프라는 어떤 수준의 암호화를 제공하나요?" },
+        { "id": 29, "title": "OVOSEC의 영지식 로그 정책이란 무엇인가요?" },
+        { "id": 30, "title": "OVOSEC은 공용 Wi-Fi 전송을 어떻게 보호하나요?" },
+        { "id": 44, "title": "안전하지 않은 공용 Wi-Fi를 통해 연결할 때 OVOSEC이 제 자격 증명과 개인 데이터를 보호하나요?" },
+        { "id": 47, "title": "TUN 모드를 활성화할 때 로컬 백신 프로그램이나 Windows Defender가 OVOSEC을 탐지하는 이유는 무엇인가요?" }
+      ]
+    }
+  ],
+  "japanese": [
+    {
+      "id": 1,
+      "title": "一般",
+      "subtitle": "詳細なセットアップガイド、トラブルシューティングプロトコル、およびクライアントドキュメント。",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "OVOSECとは何ですか？またどのように接続を保護しますか？" },
+        { "id": 12, "title": "デバイスでOVOSECユーティリティをセットアップするにはどうすればよいですか？" },
+        { "id": 21, "title": "OVOSECのコアアーキテクチャは何ですか？" },
+        { "id": 22, "title": "OVOSECと互換性のあるオペレーティングシステムはどれですか？" },
+        { "id": 31, "title": "携帯電話がスリープ状態になると、加速接続が自動的に切断されるのはなぜですか？" },
+        { "id": 39, "title": "上記のステップで問題が解決しない場合、公式のエンジニアリングサポートに連絡するにはどうすればよいですか？" },
+        { "id": 40, "title": "URLをインポートした後、プロファイルリストが空になる、または「プロファイルが見つかりません」と表示されるのはなぜですか？" },
+        { "id": 45, "title": "長期間アクティビティがないと、なぜすべてのセキュアリレーパスが突然動作しなくなったのですか？" },
+        { "id": 49, "title": "ホテル、空港、大学でWi-Fiログイン/認証ページを開くことができないのはなぜですか？" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "アカウントとサブスクリプション",
+      "subtitle": "請求サイクル、アカウントの回復、支払いゲートウェイ、およびサブスクリプション管理。",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "有効な自動更新サブスクリプションを管理またはキャンセルするにはどうすればよいですか？" },
+        { "id": 14, "title": "プレミアムパッケージに関する返金ポリシーは何ですか？" },
+        { "id": 23, "title": "アカウントの登録とログインはどうすればよいですか？" },
+        { "id": 24, "title": "安全なパスワードのリセットを実行するにはどうすればよいですか？" },
+        { "id": 36, "title": "データ残量とサブスクリプションの有効期限を確認するにはどうすればよいですか？" },
+        { "id": 42, "title": "デバイスを変更またはアップグレードしました。有効なプレミアムサブスクリプションを復元するにはどうすればよいですか？" },
+        { "id": 43, "title": "Curlec/Stripeで支払いを完了しましたが、クライアントがまだ「無料/スタンダード」ステータスを表示しています。どうすればよいですか？" },
+        { "id": 46, "title": "データ制限はいつリセットされますか？また請求サイクルが終了する前にデータがなくなった場合はどうなりますか？" },
+        { "id": 50, "title": "OVOSECのサブスクリプション料金は、クレジットカードまたは銀行明細書にどのように表示されますか？" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "接続とプロトコル",
+      "subtitle": "DNS解決、TUNモードのトラブルシューティング、および遅延の最適化。",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "「TUNモード」と「システムプロキシ」とは何ですか？またどちらを使用すべきですか？" },
+        { "id": 16, "title": "トラブルシューティング：セキュアリレーエンドポイントがタイムアウトするのはなぜですか？" },
+        { "id": 25, "title": "ネットワーク接続のハンドシェイク失敗を解決するにはどうすればよいですか？" },
+        { "id": 26, "title": "最も遅延の低いサーバーノードを選択するにはどうすればよいですか？" },
+        { "id": 32, "title": "OVOSECが有効な間、ローカルアプリが遅くなったりロードに失敗したりするのはなぜですか？" },
+        { "id": 33, "title": "iOS/macOSでOVOSECユーティリティが「コアの初期化に失敗しました」というエラーを表示するのはなぜですか？" },
+        { "id": 37, "title": "特定のアプリを除外する、または特定のウェブブラウザのみにOVOSECセキュアリレーの使用を許可することはできますか？" },
+        { "id": 38, "title": "デスクトップでコマンドラインツールやターミナルアプリケーションにOVOSECの使用を強制するにはどうすればよいですか？" },
+        { "id": 41, "title": "ネットワークは機能していますが、なぜすべてのエンドポイントが突然ハンドシェイクエラーでタイムアウトするのですか？" },
+        { "id": 48, "title": "OVOSECユーティリティを完全に閉じた後でもウェブサイトにアクセスできないのはなぜですか？" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "プレミアムネットワーク",
+      "subtitle": "専用のセキュアリレー、複数デバイスの使用、および遅延メトリクス。",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "スタンダードとプレミアムの専用リレーの違いは何ですか？" },
+        { "id": 18, "title": "1つのアカウントでの同時接続デバイス数の制限はいくつですか？" },
+        { "id": 27, "title": "プレミアムメンバーシッププランの料金プランはどうなっていますか？" },
+        { "id": 28, "title": "アカウントのステータスをプレミアムにアップグレードするにはどうすればよいですか？" },
+        { "id": 34, "title": "接続テスト中にセキュアリレーエンドポイントに「タイムアウト」または「-1ms」が表示されるのはなぜですか？" },
+        { "id": 35, "title": "低遅延のオンラインゲームや音声チャットのために接続を最適化するにはどうすればよいですか？" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "プライバシーとセキュリティ",
+      "subtitle": "ゼロログコンプライアンス、軍用レベルの暗号化、および公共Wi-Fiの安全性。",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "OVOSECはゼロログポリシーを実施していますか？" },
+        { "id": 20, "title": "OVOSECのインフラはどのレベルの暗号化を強制していますか？" },
+        { "id": 29, "title": "OVOSECのゼロナレッジログポリシーとは何ですか？" },
+        { "id": 30, "title": "OVOSECは公共Wi-Fi接続のセキュリティをどのように保護しますか？" },
+        { "id": 44, "title": "安全でない公共Wi-Fi経由で接続するとき、OVOSECは私の認証情報や個人データを保護しますか？" },
+        { "id": 47, "title": "TUNモードを有効にするとき、ローカルのウイルス対策ソフトやWindows DefenderがOVOSECを検出するのはなぜですか？" }
+      ]
+    }
+  ],
+  "vietnamese": [
+    {
+      "id": 1,
+      "title": "Chung",
+      "subtitle": "Hướng dẫn thiết lập chi tiết, giao thức khắc phục sự cố và tài liệu ứng dụng.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "OVOSEC là gì và nó bảo mật kết nối của tôi như thế nào?" },
+        { "id": 12, "title": "Làm cách nào để thiết lập tiện ích OVOSEC trên thiết bị của tôi?" },
+        { "id": 21, "title": "Kiến trúc cốt lõi của OVOSEC là gì?" },
+        { "id": 22, "title": "Hệ điều hành nào tương thích với OVOSEC?" },
+        { "id": 31, "title": "Tại sao kết nối tăng tốc tự động ngắt kết nối khi điện thoại của tôi ở chế độ ngủ?" },
+        { "id": 39, "title": "Không có bước nào ở trên giải quyết được vấn đề của tôi. Làm cách nào để liên hệ với bộ phận hỗ trợ kỹ thuật chính thức?" },
+        { "id": 40, "title": "Tại sao danh sách cấu hình của tôi trống hoặc tại sao nó báo \"Không tìm thấy cấu hình\" sau khi nhập URL của tôi?" },
+        { "id": 45, "title": "Tại sao tất cả các đường truyền rơle an toàn của tôi đột ngột ngừng hoạt động sau một thời gian dài không hoạt động?" },
+        { "id": 49, "title": "Tại sao tôi không thể mở trang đăng nhập/xác thực Wi-Fi tại khách sạn, sân bay hoặc trường đại học?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Tài khoản & Đăng ký",
+      "subtitle": "Chu kỳ thanh toán, khôi phục tài khoản, cổng thanh toán và quản lý gói đăng ký.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "Làm cách nào để quản lý hoặc hủy đăng ký gia hạn tự động đang hoạt động của tôi?" },
+        { "id": 14, "title": "Chính sách hoàn tiền của bạn đối với các gói cao cấp là gì?" },
+        { "id": 23, "title": "Làm cách nào để đăng ký và đăng nhập vào tài khoản của tôi?" },
+        { "id": 24, "title": "Làm cách nào để thực hiện đặt lại mật khẩu an toàn?" },
+        { "id": 36, "title": "Làm cách nào để kiểm tra dung lượng dữ liệu còn lại và ngày hết hạn gói đăng ký của tôi?" },
+        { "id": 42, "title": "Tôi đã thay đổi hoặc nâng cấp thiết bị của mình. Làm cách nào để khôi phục gói đăng ký cao cấp đang hoạt động?" },
+        { "id": 43, "title": "Tôi đã hoàn tất thanh toán qua Curlec/Stripe, nhưng ứng dụng của tôi vẫn hiển thị trạng thái \"Miễn phí/Tiêu chuẩn\". Tôi nên làm gì?" },
+        { "id": 46, "title": "Khi nào hạn mức dữ liệu của tôi được thiết lập lại và điều gì xảy ra nếu tôi hết dữ liệu trước khi chu kỳ thanh toán kết thúc?" },
+        { "id": 50, "title": "Khoản phí đăng ký OVOSEC sẽ hiển thị như thế nào trên thẻ tín dụng hoặc sao kê ngân hàng của tôi?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Kết nối & Giao thức",
+      "subtitle": "Phân giải DNS, khắc phục sự cố Chế độ TUN và tối ưu hóa độ trễ.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "\"Chế độ TUN\" và \"Proxy hệ thống\" là gì, và tôi nên sử dụng chế độ nào?" },
+        { "id": 16, "title": "Khắc phục sự cố: Tại sao các Điểm cuối rơle an toàn của tôi bị hết thời gian chờ?" },
+        { "id": 25, "title": "Làm cách nào để khắc phục sự cố bắt tay kết nối mạng bị lỗi?" },
+        { "id": 26, "title": "Làm cách nào để chọn nút máy chủ có độ trễ thấp nhất?" },
+        { "id": 32, "title": "Tại sao các ứng dụng cục bộ của tôi bị chậm hoặc không tải được khi OVOSEC đang hoạt động?" },
+        { "id": 33, "title": "Tại sao tiện ích OVOSEC hiển thị lỗi \"Khởi tạo lõi thất bại\" trên iOS/macOS?" },
+        { "id": 37, "title": "Tôi có thể loại trừ các ứng dụng cụ thể hoặc chỉ cho phép một số trình duyệt web nhất định sử dụng rơle an toàn OVOSEC không?" },
+        { "id": 38, "title": "Làm cách nào để buộc các công cụ dòng lệnh hoặc ứng dụng terminal sử dụng OVOSEC trên máy tính để bàn?" },
+        { "id": 41, "title": "Mạng của tôi đang hoạt động tốt, nhưng tại sao tất cả các điểm cuối đột ngột hết thời gian chờ với lỗi bắt tay kết nối?" },
+        { "id": 48, "title": "Tại sao tôi không thể truy cập bất kỳ trang web nào ngay cả sau khi đã đóng hoàn toàn tiện ích OVOSEC?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mạng cao cấp",
+      "subtitle": "Rơle bảo mật chuyên dụng, sử dụng nhiều thiết bị và chỉ số độ trễ.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "Sự khác biệt giữa Rơle chuyên dụng Tiêu chuẩn và Cao cấp là gì?" },
+        { "id": 18, "title": "Giới hạn thiết bị đồng thời cho một tài khoản là bao nhiêu?" },
+        { "id": 27, "title": "Các mức giá cho gói thành viên cao cấp là gì?" },
+        { "id": 28, "title": "Làm cách nào để nâng cấp trạng thái tài khoản của tôi lên cao cấp?" },
+        { "id": 34, "title": "Tại sao các Điểm cuối rơle an toàn của tôi hiển thị \"Hết giờ\" hoặc \"-1ms\" trong quá trình kiểm tra kết nối?" },
+        { "id": 35, "title": "Làm cách nào tôi có thể tối ưu hóa kết nối để chơi game trực tuyến và trò chuyện thoại có độ trễ thấp?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Quyền riêng tư & Bảo mật",
+      "subtitle": "Tuân thủ không lưu nhật ký, mã hóa cấp quân sự và an toàn Wi-Fi công cộng.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "OVOSEC có áp dụng Chính sách không lưu nhật ký không?" },
+        { "id": 20, "title": "Cơ sở hạ tầng OVOSEC thực thi mức độ mã hóa nào?" },
+        { "id": 29, "title": "Chính sách nhật ký không kiến thức của OVOSEC là gì?" },
+        { "id": 30, "title": "OVOSEC bảo mật việc truyền tải Wi-Fi công cộng như thế nào?" },
+        { "id": 44, "title": "OVOSEC có bảo vệ thông tin xác thực và dữ liệu cá nhân của tôi khi kết nối qua Wi-Fi công cộng không an toàn không?" },
+        { "id": 47, "title": "Tại sao phần mềm chống vi-rút cục bộ hoặc Windows Defender lại gắn cờ OVOSEC khi bật Chế độ TUN?" }
+      ]
+    }
+  ],
+  "arabic": [
+    {
+      "id": 1,
+      "title": "عام",
+      "subtitle": "أدلة إعداد مفصلة، وبروتوكولات استكشاف الأخطاء وإصلاحها، ووثائق العميل.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "ما هو OVOSEC وكيف يحمي اتصالي؟" },
+        { "id": 12, "title": "كيف يمكنني إعداد برنامج OVOSEC على جهازي؟" },
+        { "id": 21, "title": "ما هي البنية الأساسية لـ OVOSEC؟" },
+        { "id": 22, "title": "ما هي أنظمة التشغيل المتوافقة مع OVOSEC؟" },
+        { "id": 31, "title": "لماذا ينقطع الاتصال المسرع تلقائيًا عندما يدخل هاتفي في وضع السكون؟" },
+        { "id": 39, "title": "لم تحل أي من الخطوات المذكورة أعلاه مشكلتي. كيف يمكنني الاتصال بالدعم الفني الرسمي؟" },
+        { "id": 40, "title": "لماذا تظهر قائمة ملف التعريف فارغة، أو لماذا تظهر رسالة \"لم يتم العثور على ملف تعريف\" بعد استيراد رابط URL الخاص بي؟" },
+        { "id": 45, "title": "لماذا توقفت جميع مسارات الترحيل الآمنة فجأة عن العمل بعد فترة طويلة من الخمول؟" },
+        { "id": 49, "title": "لماذا لا يمكنني فتح صفحة تسجيل الدخول/التحقق من صحة شبكة Wi-Fi في الفنادق أو المطارات أو الجامعات؟" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "الحساب والاشتراكات",
+      "subtitle": "دورات الفوترة، واسترداد الحساب، وبوابات الدفع، وإدارة الاشتراكات.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "كيف يمكنني إدارة أو إلغاء اشتراكي المتكرر النشط؟" },
+        { "id": 14, "title": "ما هي سياسة استرداد الأموال الخاصة بكم بشأن الباقات المميزة؟" },
+        { "id": 23, "title": "كيف يمكنني التسجيل وتسجيل الدخول إلى حسابي؟" },
+        { "id": 24, "title": "كيف يمكنني إجراء إعادة تعيين آمنة لكلمة المرور؟" },
+        { "id": 36, "title": "كيف يمكنني التحقق من حصة البيانات المتبقية وتاريخ انتهاء صلاحية اشتراكي؟" },
+        { "id": 42, "title": "لقد قمت بتغيير جهازي أو ترقيته. كيف يمكنني استعادة اشتراكي المميز النشط؟" },
+        { "id": 43, "title": "لقد أكملت الدفع عبر Curlec/Stripe، ولكن العميل لا يزال يظهر حالة \"مجاني/قياسي\". ماذا يجب أن أفعل؟" },
+        { "id": 46, "title": "متى يتم إعادة تعيين حصة البيانات الخاصة بي، وماذا يحدث إذا نفذت البيانات قبل نهاية دورة الفوترة؟" },
+        { "id": 50, "title": "كيف ستظهر رسوم اشتراك OVOSEC على بطاقتي الائتمانية أو كشف حسابي المصرفي؟" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "الاتصال والبروتوكول",
+      "subtitle": "دقة DNS، واستكشاف أخطاء وضع TUN وإصلاحها، وتحسين زمن الوصول.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "ما هو \"وضع TUN\" و\"وكيل النظام\"، وأيهما يجب أن أستخدم؟" },
+        { "id": 16, "title": "استكشاف الأخطاء وإصلاحها: لماذا تنتهي مهلة نقاط نهاية الترحيل الآمنة؟" },
+        { "id": 25, "title": "كيف يمكنني استكشاف أخطاء فشل مصافحة اتصال الشبكة وإصلاحها؟" },
+        { "id": 26, "title": "كيف يمكنني اختيار عقدة الخادم ذات زمن الوصول الأقل؟" },
+        { "id": 32, "title": "لماذا تكون تطبيقاتي المحلية بطيئة أو تفشل في التحميل أثناء نشاط OVOSEC؟" },
+        { "id": 33, "title": "لماذا يعرض برنامج OVOSEC خطأ \"فشل تهيئة النواة\" على نظامي iOS/macOS؟" },
+        { "id": 37, "title": "هل يمكنني استبعاد تطبيقات معينة أو السماح لمتصفحات ويب معينة فقط باستخدام ترحيل OVOSEC الآمن؟" },
+        { "id": 38, "title": "كيف يمكنني إجبار أدوات سطر الأوامر أو تطبيقات الطرفية على استخدام OVOSEC على سطح المكتب؟" },
+        { "id": 41, "title": "لدي شبكة تعمل، ولكن لماذا تنتهي مهلة جميع نقاط النهاية فجأة مع أخطاء المصافحة؟" },
+        { "id": 48, "title": "لماذا لا يمكنني الوصول إلى أي مواقع ويب حتى بعد إغلاق برنامج OVOSEC بالكامل؟" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "الشبكات المميزة",
+      "subtitle": "مرحلات آمنة مخصصة، واستخدام أجهزة متعددة، ومقاييس زمن الوصول.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "ما الفرق بين المرحلات المخصصة القياسية والمميزة؟" },
+        { "id": 18, "title": "ما هي قيود الأجهزة المتزامنة لحساب واحد؟" },
+        { "id": 27, "title": "ما هي مستويات الأسعار لخطط العضوية المميزة؟" },
+        { "id": 28, "title": "كيف يمكنني ترقية حالة حسابي إلى مميز؟" },
+        { "id": 34, "title": "لماذا تعرض نقاط نهاية الترحيل الآمنة \"انتهت المهلة\" أو \"-1ms\" أثناء اختبار الاتصال؟" },
+        { "id": 35, "title": "كيف يمكنني تحسين الاتصال للألعاب عبر الإنترنت ذات زمن الوصول المنخفض والمحادثات الصوتية؟" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "الخصوصية والأمان",
+      "subtitle": "الامتثال لعدم وجود سجلات، والتشفير العسكري، وسلامة شبكات Wi-Fi العامة.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "هل تطبق OVOSEC سياسة عدم وجود سجلات؟" },
+        { "id": 20, "title": "ما هو مستوى التشفير الذي تفرضه البنية التحتية لـ OVOSEC؟" },
+        { "id": 29, "title": "ما هي سياسة سجلات المعرفة الصفرية لـ OVOSEC؟" },
+        { "id": 30, "title": "كيف تحمي OVOSEC اتصالات Wi-Fi العامة؟" },
+        { "id": 44, "title": "هل تحمي OVOSEC بيانات الاعتماد والبيانات الشخصية الخاصة بي عند الاتصال عبر شبكة Wi-Fi عامة غير آمنة؟" },
+        { "id": 47, "title": "لماذا يقوم برنامج مكافحة الفيروسات المحلي أو برنامج Windows Defender بتنبيه OVOSEC عند تمكين وضع TUN؟" }
+      ]
+    }
+  ],
+  "spanish": [
+    {
+      "id": 1,
+      "title": "General",
+      "subtitle": "Guías detalladas de configuración, protocolos de resolución de problemas y documentación del cliente.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "¿Qué es OVOSEC y cómo protege mi conexión?" },
+        { "id": 12, "title": "¿Cómo configuro la utilidad OVOSEC en mi dispositivo?" },
+        { "id": 21, "title": "¿Cuál es la arquitectura principal de OVOSEC?" },
+        { "id": 22, "title": "¿Qué operating systems son compatibles con OVOSEC?" },
+        { "id": 31, "title": "¿Por qué la conexión acelerada se desconecta automáticamente cuando mi teléfono entra en suspensión?" },
+        { "id": 39, "title": "Ninguno de los pasos anteriores resolvió mi problema. ¿Cómo me comunico con el soporte técnico oficial?" },
+        { "id": 40, "title": "¿Por qué mi lista de perfiles está vacía o por qué dice \"No se encontró perfil\" después de importar mi URL?" },
+        { "id": 45, "title": "¿Por qué todas mis rutas de relé seguro dejaron de funcionar repentinamente tras un período prolongado de inactividad?" },
+        { "id": 49, "title": "¿Por qué no puedo abrir la página de inicio de sesión/autenticación de Wi-Fi en hoteles, aeropuertos o universidades?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cuenta y Suscripciones",
+      "subtitle": "Ciclos de facturación, recuperación de cuenta, pasarelas de pago y gestión de suscripciones.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "¿Cómo gestiono o cancelo mi suscripción recurrente activa?" },
+        { "id": 14, "title": "¿Cuál es su política de reembolso con respecto a los paquetes premium?" },
+        { "id": 23, "title": "¿Cómo me registro e inicio sesión en mi cuenta?" },
+        { "id": 24, "title": "¿Cómo realizo un restablecimiento seguro de la contraseña?" },
+        { "id": 36, "title": "¿Cómo verifico mi cuota de datos restante y la fecha de vencimiento de la suscripción?" },
+        { "id": 42, "title": "Cambié o mejoré mi dispositivo. ¿Cómo restauro mi suscripción premium activa?" },
+        { "id": 43, "title": "Completé mi pago a través de Curlec/Stripe, pero mi cliente sigue mostrando el estado \"Gratis/Estándar\". ¿Qué debo hacer?" },
+        { "id": 46, "title": "¿Cuándo se restablece mi cuota de datos y qué pasa si me quedo sin datos antes de que termine el ciclo de facturación?" },
+        { "id": 50, "title": "¿Cómo aparecerá el cargo de la suscripción de OVOSEC en mi tarjeta de crédito o extracto bancario?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Conexión y Protocolo",
+      "subtitle": "Resolución de DNS, resolución de problemas del modo TUN y optimización de latencia.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "¿Qué son el \"Modo TUN\" y el \"Proxy del sistema\", y cuál debería usar?" },
+        { "id": 16, "title": "Resolución de problemas: ¿Por qué mis puntos finales de relé seguro agotan el tiempo de espera?" },
+        { "id": 25, "title": "¿Cómo soluciono los fallos en el saludo de la conexión de red?" },
+        { "id": 26, "title": "¿Cómo selecciono el nodo de servidor con la latencia más baja?" },
+        { "id": 32, "title": "¿Por qué mis aplicaciones locales van lentas o no se cargan mientras OVOSEC está activo?" },
+        { "id": 33, "title": "¿Por qué la utilidad OVOSEC muestra un error de \"Error de inicialización del núcleo\" en iOS/macOS?" },
+        { "id": 37, "title": "¿Puedo excluir aplicaciones específicas o solo permitir que ciertos navegadores web utilicen el relé seguro de OVOSEC?" },
+        { "id": 38, "title": "¿Cómo obligo a las herramientas de línea de comandos o aplicaciones de terminal a usar OVOSEC en el escritorio?" },
+        { "id": 41, "title": "Tengo una red que funciona, pero ¿por qué todos los puntos finales de repente agotan el tiempo de espera con errores de saludo?" },
+        { "id": 48, "title": "¿Por qué no puedo acceder a ningún sitio web incluso después de cerrar completamente la utilidad OVOSEC?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Redes Premium",
+      "subtitle": "Relés seguros dedicados, uso de múltiples dispositivos y métricas de latencia.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "¿Cuál es la diferencia entre los relés dedicados estándar y los premium?" },
+        { "id": 18, "title": "¿Cuáles son los límites de dispositivos simultáneos para una sola cuenta?" },
+        { "id": 27, "title": "¿Cuáles son los niveles de precios de los planes de membresía premium?" },
+        { "id": 28, "title": "¿Cómo actualizo el estado de mi cuenta a premium?" },
+        { "id": 34, "title": "¿Por qué mis puntos finales de relé seguro muestran \"Tiempo de espera agotado\" o \"-1ms\" durante la prueba de conexión?" },
+        { "id": 35, "title": "¿Cómo puedo optimizar la conexión para juegos en línea de baja latencia y chat de voz?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Privacidad y Seguridad",
+      "subtitle": "Cumplimiento de cero registros, cifrado de grado militar y seguridad en redes Wi-Fi públicas.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "¿OVOSEC implementa una política de cero registros?" },
+        { "id": 20, "title": "¿Qué nivel de cifrado aplica la infraestructura de OVOSEC?" },
+        { "id": 29, "title": "¿Qué es la política de registros de conocimiento cero de OVOSEC?" },
+        { "id": 30, "title": "¿Cómo protege OVOSEC las transmisiones Wi-Fi públicas?" },
+        { "id": 44, "title": "¿Protege OVOSEC mis credenciales y datos personales al conectarme a través de una red Wi-Fi pública no segura?" },
+        { "id": 47, "title": "¿Por qué mi antivirus local o Windows Defender marcan OVOSEC al activar el modo TUN?" }
+      ]
+    }
+  ],
+  "french": [
+    {
+      "id": 1,
+      "title": "Général",
+      "subtitle": "Guides de configuration détaillés, protocoles de dépannage et documentation client.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "Qu'est-ce que OVOSEC et comment sécurise-t-il ma connexion ?" },
+        { "id": 12, "title": "Comment configurer l'utilitaire OVOSEC sur mon appareil ?" },
+        { "id": 21, "title": "Quelle est l'architecture principale de OVOSEC ?" },
+        { "id": 22, "title": "Quels systèmes d'exploitation sont compatibles avec OVOSEC ?" },
+        { "id": 31, "title": "Pourquoi la connexion accélérée se déconnecte-t-elle automatiquement lorsque mon téléphone se met en veille ?" },
+        { "id": 39, "title": "Aucune des étapes ci-dessus n'a résolu mon problème. Comment contacter le support technique officiel ?" },
+        { "id": 40, "title": "Pourquoi ma liste de profils est-elle vide ou pourquoi indique-t-elle \"Aucun profil trouvé\" après avoir importé mon URL ?" },
+        { "id": 45, "title": "Pourquoi toutes mes routes de relais sécurisées ont-elles soudainement cessé de fonctionner après une longue période d'inactivité ?" },
+        { "id": 49, "title": "Pourquoi ne puis-je pas ouvrir la page de connexion/authentification Wi-Fi dans les hôtels, les aéroports ou les universités ?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Compte & Abonnements",
+      "subtitle": "Cycles de facturation, récupération de compte, passerelles de paiement et gestion des abonnements.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "Comment gérer ou résilier mon abonnement récurrent actif ?" },
+        { "id": 14, "title": "Quelle est votre politique de remboursement concernant les forfaits premium ?" },
+        { "id": 23, "title": "Comment s'inscrire et se connecter à mon compte ?" },
+        { "id": 24, "title": "Comment réinitialiser mon mot de passe en toute sécurité ?" },
+        { "id": 36, "title": "Comment vérifier mon quota de données restant et la date d'expiration de mon abonnement ?" },
+        { "id": 42, "title": "J'ai changé ou mis à niveau mon appareil. Comment restaurer mon abonnement premium actif ?" },
+        { "id": 43, "title": "J'ai effectué mon paiement via Curlec/Stripe, mais mon client affiche toujours le statut \"Gratuit/Standard\". Que dois-je faire ?" },
+        { "id": 46, "title": "Quand mon quota de données est-il réinitialisé et que se passe-t-il si je manque de données avant la fin du cycle de facturation ?" },
+        { "id": 50, "title": "Comment les frais d'abonnement OVOSEC apparaîtront-ils sur ma carte de crédit ou mon relevé bancaire ?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Connexion & Protocole",
+      "subtitle": "Résolution DNS, dépannage du mode TUN et optimisation de la latence.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "Qu'est-ce que le \"Mode TUN\" et le \"Proxy Système\", et lequel dois-je utiliser ?" },
+        { "id": 16, "title": "Dépannage : Pourquoi mes points de terminaison de relais sécurisé expirent-ils ?" },
+        { "id": 25, "title": "Comment résoudre les échecs de handshake de connexion réseau ?" },
+        { "id": 26, "title": "Comment sélectionner le nœud de serveur avec la latence la plus faible ?" },
+        { "id": 32, "title": "Pourquoi mes applications locales sont-elles lentes ou ne se chargent-elles pas lorsque OVOSEC est actif ?" },
+        { "id": 33, "title": "Pourquoi l'utilitaire OVOSEC affiche-t-il une erreur \"Échec de l'initialisation du noyau\" sur iOS/macOS ?" },
+        { "id": 37, "title": "Puis-je exclure des applications spécifiques ou autoriser uniquement certains navigateurs Web à utiliser le relais sécurisé OVOSEC ?" },
+        { "id": 38, "title": "Comment forcer les outils en ligne de commande ou les applications de terminal à utiliser OVOSEC sur ordinateur ?" },
+        { "id": 41, "title": "J'ai un réseau qui fonctionne, mais pourquoi tous les points de terminaison expirent-ils soudainement avec des erreurs de handshake ?" },
+        { "id": 48, "title": "Pourquoi ne puis-je accéder à aucun site Web même après avoir complètement fermé l'utilitaire OVOSEC ?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Réseaux Premium",
+      "subtitle": "Relais sécurisés dédiés, utilisation multi-appareils et métriques de latence.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "Quelle est la différence entre les relais dédiés standard et premium ?" },
+        { "id": 18, "title": "Quelles sont les limites d'appareils simultanés pour un seul compte ?" },
+        { "id": 27, "title": "Quels sont les tarifs des forfaits d'abonnement premium ?" },
+        { "id": 28, "title": "Comment mettre à niveau le statut de mon compte vers le statut premium ?" },
+        { "id": 34, "title": "Pourquoi mes points de terminaison de relais sécurisé affichent-ils \"Expiration\" ou \"-1ms\" lors du test de connexion ?" },
+        { "id": 35, "title": "Comment puis-je optimiser la connexion pour les jeux en ligne à faible latence et le chat vocal ?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Confidentialité & Sécurité",
+      "subtitle": "Conformité zéro journal, chiffrement de niveau militaire et sécurité Wi-Fi public.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "Est-ce que OVOSEC applique une politique de zéro journal ?" },
+        { "id": 20, "title": "Quel niveau de cryptage l'infrastructure OVOSEC applique-t-elle ?" },
+        { "id": 29, "title": "Quelle est la politique de journalisation sans connaissance d'OVOSEC ?" },
+        { "id": 30, "title": "Comment OVOSEC sécurise-t-il les transmissions Wi-Fi public ?" },
+        { "id": 44, "title": "Est-ce que OVOSEC protège mes identifiants et données personnelles lors d'une connexion via un Wi-Fi public non sécurisé ?" },
+        { "id": 47, "title": "Pourquoi mon antivirus local ou Windows Defender signale-t-il OVOSEC lors de l'activation du mode TUN ?" }
+      ]
+    }
+  ],
+  "german": [
+    {
+      "id": 1,
+      "title": "Allgemein",
+      "subtitle": "Detaillierte Einrichtungsanleitungen, Fehlerbehebungsprotokolle und Client-Dokumentation.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 11, "title": "Was ist OVOSEC und wie sichert es meine Verbindung?" },
+        { "id": 12, "title": "Wie richte ich das OVOSEC-Dienstprogramm auf meinem Gerät ein?" },
+        { "id": 21, "title": "Was ist die Kernarchitektur von OVOSEC?" },
+        { "id": 22, "title": "Welche Betriebssysteme sind mit OVOSEC kompatibel?" },
+        { "id": 31, "title": "Warum trennt sich die beschleunigte Verbindung automatisch, wenn mein Telefon in den Ruhemodus wechselt?" },
+        { "id": 39, "title": "Keiner der oben genannten Schritte hat mein Problem gelöst. Wie kontaktiere ich den offiziellen technischen Support?" },
+        { "id": 40, "title": "Warum ist meine Profil-Liste leer oder warum heißt es „Kein Profil gefunden“ nach dem Import meiner URL?" },
+        { "id": 45, "title": "Warum haben alle meine sicheren Relay-Pfade nach einer langen Zeit der Inaktivität plötzlich aufgehört zu funktionieren?" },
+        { "id": 49, "title": "Warum kann ich die WLAN-Anmelde-/Authentifizierungsseite in Hotels, Flughäfen oder Universitäten nicht öffnen?" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Konto & Abonnements",
+      "subtitle": "Abrechnungszyklen, Kontowiederherstellung, Zahlungsgateways und Abonnementverwaltung.",
+      "contentCount": 9,
+      "articles": [
+        { "id": 13, "title": "Wie verwalte oder kündige ich mein aktives wiederkehrendes Abonnement?" },
+        { "id": 14, "title": "Wie lautet Ihre Rückerstattungsrichtlinie für Premium-Pakete?" },
+        { "id": 23, "title": "Wie registriere ich mich und melde mich bei meinem Konto an?" },
+        { "id": 24, "title": "Wie führe ich ein sicheres Zurücksetzen des Passworts durch?" },
+        { "id": 36, "title": "Wie überprüfe ich mein verbleibendes Datenvolumen und das Ablaufdatum des Abonnements?" },
+        { "id": 42, "title": "Ich habe mein Gerät gewechselt oder aktualisiert. Wie stelle ich mein aktives Premium-Abonnement wieder her?" },
+        { "id": 43, "title": "Ich habe meine Zahlung über Curlec/Stripe abgeschlossen, aber mein Client zeigt immer noch den Status „Kostenlos/Standard“ an. Was soll ich tun?" },
+        { "id": 46, "title": "Wann wird mein Datenvolumen zurückgesetzt und was passiert, wenn mir vor Ende des Abrechnungszeitraums das Datenvolumen ausgeht?" },
+        { "id": 50, "title": "Wie wird die OVOSEC-Abonnementgebühr auf meiner Kreditkarte oder meinem Bankauszug angezeigt?" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Verbindung & Protokoll",
+      "subtitle": "DNS-Auflösung, Fehlerbehebung im TUN-Modus und Latenzoptimierung.",
+      "contentCount": 10,
+      "articles": [
+        { "id": 15, "title": "Was sind der „TUN-Modus“ und der „System-Proxy“, und welchen sollte ich verwenden?" },
+        { "id": 16, "title": "Fehlerbehebung: Warum laufen meine Secure Relay Endpunkte ab?" },
+        { "id": 25, "title": "Wie bezeuge ich Fehler beim Handshake der Netzwerkverbindung?" },
+        { "id": 26, "title": "Wie wähle ich den Serverknoten mit der geringsten Latenz aus?" },
+        { "id": 32, "title": "Warum sind meine lokalen Apps langsam oder laden nicht, während OVOSEC aktiv ist?" },
+        { "id": 33, "title": "Warum zeigt das OVOSEC-Tool unter iOS/macOS den Fehler „Kerninitialisierung fehlgeschlagen“ an?" },
+        { "id": 37, "title": "Kann ich bestimmte Apps ausschließen oder nur bestimmten Webbrowsern die Verwendung des OVOSEC-Relais erlauben?" },
+        { "id": 38, "title": "Wie zwinge ich Befehlszeilentools oder Terminalanwendungen, OVOSEC auf dem Desktop zu verwenden?" },
+        { "id": 41, "title": "Ich habe ein funktionierendes Netzwerk, aber warum laufen alle Endpunkte plötzlich mit Handshake-Fehlern ab?" },
+        { "id": 48, "title": "Warum kann ich auf keine Websites zugreifen, selbst nachdem ich das OVOSEC-Dienstprogramm vollständig geschlossen habe?" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Premium-Netzwerke",
+      "subtitle": "Dedizierte sichere Relays, Nutzung mehrerer Geräte und Latenzmetriken.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 17, "title": "Was ist der Unterschied zwischen Standard- und Premium-Dedicated Relays?" },
+        { "id": 18, "title": "Welche Gerätebeschränkungen gelten für ein einzelnes Konto bei gleichzeitiger Nutzung?" },
+        { "id": 27, "title": "Welche Preisstufen gibt es für Premium-Mitgliedschaften?" },
+        { "id": 28, "title": "Wie aktualisiere ich meinen Kontostatus auf Premium?" },
+        { "id": 34, "title": "Warum zeigen meine Secure Relay Endpunkte während des Verbindungstests „Zeitüberschreitung“ oder „-1ms“ an?" },
+        { "id": 35, "title": "Wie kann ich die Verbindung für Online-Spiele mit geringer Latenz und Sprachchat optimieren?" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Datenschutz & Sicherheit",
+      "subtitle": "Zero-Logs-Compliance, Verschlüsselung auf Militärniveau und öffentliche Wi-Fi-Sicherheit.",
+      "contentCount": 6,
+      "articles": [
+        { "id": 19, "title": "Wendet OVOSEC eine Zero-Logs-Richtlinie an?" },
+        { "id": 20, "title": "Welche Verschlüsselungsstufe erzwingt die OVOSEC-Infrastruktur?" },
+        { "id": 29, "title": "Was ist die Zero-Knowledge-Protokollrichtlinie von OVOSEC?" },
+        { "id": 30, "title": "Wie sichert OVOSEC Übertragungen in öffentlichen WLANs?" },
+        { "id": 44, "title": "Schützt OVOSEC meine Anmeldedaten und persönlichen Daten bei einer Verbindung über ungesichertes öffentliches WLAN?" },
+        { "id": 47, "title": "Warum meldet mein lokaler Virenscanner oder Windows Defender OVOSEC, wenn ich den TUN-Modus aktiviere?" }
+      ]
+    }
+  ]
+}

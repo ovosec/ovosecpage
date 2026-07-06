@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "Sự khác biệt giữa Rơle chuyên dụng Tiêu chuẩn và Cao cấp là gì?",
+        "subtitle": "So sánh hiệu suất chuyển tiếp, độ trễ và tính năng.",
+        "content": "<ul><li><strong>Nút tiêu chuẩn:<\/strong> Rơle tốc độ cao dùng chung thích hợp cho sao lưu tự động thường xuyên, truy vấn cơ sở dữ liệu từ xa và cộng tác xuyên biên giới nhẹ nhàng.<\/li><li><strong>Rơle chuyên dụng cao cấp:<\/strong> Được triển khai trên đường trục truyền tải cao cấp BGP đa cổng (được tối ưu hóa cho các khu vực như Hồng Kông, Singapore và Nhật Bản). Các nút này có tính năng phân bổ băng thông chuyên dụng, không bị mất gói khi tắc nghẽn vào giờ cao điểm và độ biến động cực thấp, được thiết kế riêng cho các hoạt động của doanh nghiệp có thông lượng cao và không gian làm việc ảo có độ trễ thấp.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    },
+    {
+        "id": 18,
+        "title": "Giới hạn thiết bị đồng thời cho một tài khoản là bao nhiêu?",
+        "subtitle": "Giới hạn kết nối thiết bị đồng thời.",
+        "content": "<p>Để ngăn chặn việc lạm dụng đường truyền thương mại và duy trì tính khả dụng băng thông ổn định cho tất cả người tiêu dùng cao cấp, giấy phép cao cấp cá nhân tiêu chuẩn cho phép đồng thời tối đa 3 kết nối thiết bị hoạt động. Việc chia sẻ công khai các chuỗi cấu hình sẽ kích hoạt tính năng tự động giới hạn tốc độ bảo mật trên cổng thanh toán của chúng tôi.<\/p>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    },
+    {
+        "id": 27,
+        "title": "Các mức giá cho gói thành viên cao cấp là gì?",
+        "subtitle": "Khám phá gói đăng ký bảo mật cao cấp lý tưởng cho nhu cầu của bạn.",
+        "content": "<p>Gói OVOSEC Premium được cấu trúc theo kỳ hạn hàng tháng, nửa năm và hàng năm. Cam kết đăng ký dài hạn có mức chiết khấu. Bạn có thể xem tất cả thông tin chi tiết về giá và các ưu đãi đặc biệt đang hoạt động theo mùa trên lưới kế hoạch <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang chủ<\/a> chính thức của chúng tôi.<\/p>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    },
+    {
+        "id": 28,
+        "title": "Làm cách nào để nâng cấp trạng thái tài khoản của tôi lên cao cấp?",
+        "subtitle": "Mở khóa tất cả các nút tốc độ cao và tận hưởng băng thông ưu tiên không giới hạn.",
+        "content": "<p>Để nâng cấp, hãy truy cập vào tài khoản của bạn thông qua <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang đăng nhập<\/a> của chúng tôi, điều hướng đến phần thanh toán, chọn cấp thành viên ưa thích của bạn và hoàn tất thanh toán bằng thẻ tín dụng hoặc cổng ngân hàng địa phương.<\/p>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    },
+    {
+        "id": 34,
+        "title": "Tại sao các Điểm cuối rơle an toàn của tôi hiển thị \"Hết giờ\" hoặc \"-1ms\" trong quá trình kiểm tra kết nối?",
+        "subtitle": "Hiểu các chỉ số thời gian chờ ping.",
+        "content": "<p>Trạng thái \"Hết thời gian chờ\" thường cho biết rằng nhà cung cấp mạng cục bộ hoặc tường lửa công ty của bạn đang chặn các yêu cầu ICMP\/Ping (gói kiểm tra), nhưng điều đó không có nghĩa là đường dẫn dữ liệu bị hỏng.<\/p><p>Hãy thử kết nối với nút bất kể điều đó. Nếu dữ liệu diễn ra bình thường sau khi nhấp vào \"Kết nối\", bạn có thể yên tâm bỏ qua chỉ báo hết thời gian chờ.<\/p>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    },
+    {
+        "id": 35,
+        "title": "Làm cách nào tôi có thể tối ưu hóa kết nối để chơi game trực tuyến và trò chuyện thoại có độ trễ thấp?",
+        "subtitle": "Tối ưu hóa cài đặt cho trò chơi nhiều người chơi và ứng dụng VoIP.",
+        "content": "<p>Đối với trò chơi nhiều người chơi hoặc ứng dụng VoIP thời gian thực, việc truyền gói UDP là rất quan trọng. Để tối ưu hóa trải nghiệm của bạn, vui lòng làm theo các bước sau:<\/p><ul><li>Đảm bảo bạn đã kết nối với Rơle chuyên dụng cao cấp của chúng tôi (được đánh dấu bằng thẻ BGP hoặc Tối ưu hóa).<\/li><li>Trong cài đặt ứng dụng, hãy điều hướng đến Cài đặt giao thức \/ Cài đặt cốt lõi và đảm bảo BẬT \"Chuyển tiếp UDP\" hoặc \"Bật UDP\". Điều này làm giảm đáng kể tình trạng mất gói và hiện tượng giật hình khi nhiều người chơi.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Mạng cao cấp"
+    }
+]

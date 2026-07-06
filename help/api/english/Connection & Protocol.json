@@ -1,0 +1,82 @@
+﻿[
+    {
+        "id":  15,
+        "title":  "What are \"TUN Mode\" and \"System Proxy\", and which should I use?",
+        "subtitle":  "Understanding the differences between proxy routing modes.",
+        "content":  "\u003cul\u003e\u003cli\u003e\u003cstrong\u003eSystem Proxy (Default):\u003c/strong\u003e Route standard web-browser traffic through our low-latency encrypted relays, optimal for general office productivity and cloud-service acceleration.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eTUN Mode (Recommended for Advanced Workflows):\u003c/strong\u003e Creates a virtual network interface card at the operating system level, capturing and securing all network packets across all background applications. Enable TUN Mode if certain desktop software or internal enterprise programs fail to leverage the default browser proxy settings.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  16,
+        "title":  "Troubleshooting: Why are my Secure Relay Endpoints timeout out?",
+        "subtitle":  "Resolving connectivity and latency issues.",
+        "content":  "\u003cp\u003eIf the interface displays connection failure or excessive latency, please execute the following verification routine:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eSynchronize Profile:\u003c/strong\u003e Click the refresh icon next to your profile tab to fetch the latest server mapping and routing tables.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eSwitch Gateway Protocols:\u003c/strong\u003e Go to App Settings -\u003e Protocol Configuration, and try toggling between alternative enterprise transmission modes (e.g., switching from standard TLS to Reality/Shadowsocks layers) to bypass local corporate ISP deep-packet inspection (DPI) blocks.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eDNS Flush:\u003c/strong\u003e Clear your local operating system DNS cache to eliminate routing conflicts.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  25,
+        "title":  "How do I troubleshoot failed network connection handshakes?",
+        "subtitle":  "Resolving sudden network disconnections and latency spikes.",
+        "content":  "\u003cp\u003eIf you encounter connection issues, try switching protocols in settings, or switch to a different secure server node. Temporarily disabling active local third-party firewalls can also resolve configuration conflicts. For persistent connection queries, contact us at \u003ca href=\"mailto:support@ovosec.com\"\u003esupport@ovosec.com\u003c/a\u003e.\u003c/p\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  26,
+        "title":  "How do I select the lowest-latency server node?",
+        "subtitle":  "Optimizing server response speed and bandwidth performance.",
+        "content":  "\u003cp\u003eTo achieve the lowest latency, select a server node that is geographically closest to your actual physical location. The application provides real-time latency indicators and bandwidth capacity flags to help you pick the optimal node.\u003c/p\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  32,
+        "title":  "Why are my local apps slow or failing to load while OVOSEC is active?",
+        "subtitle":  "Configuring route modes to bypass local traffic.",
+        "content":  "\u003cp\u003eBy default, the utility may route all traffic through the secure network. To optimize this, please change your Route Mode from \"Global\" to \"Bypass Local/LAN\" or \"Rule Mode\" in the app menu.\u003c/p\u003e\u003cp\u003eThis ensures your local apps connect directly through your local ISP at maximum speed, while only cross-border productivity workflows use our accelerated relays.\u003c/p\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  33,
+        "title":  "Why does the OVOSEC utility show a \"Core Initialization Failed\" error on iOS/macOS?",
+        "subtitle":  "Resolving database conflicts on Apple platforms.",
+        "content":  "\u003cp\u003eThis usually happens if there is a conflict in the local routing database. To fix this:\u003c/p\u003e\u003col\u003e\u003cli\u003eGo to App Settings -\u003e Advanced -\u003e Reset Database.\u003c/li\u003e\u003cli\u003eRe-copy your Access Configuration URL from the \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eOVOSEC Dashboard\u003c/a\u003e and re-import it.\u003c/li\u003e\u003cli\u003eEnsure \"Strict Route\" is toggled OFF if you are running other local firewalls.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  37,
+        "title":  "Can I exclude specific apps or only allow certain web browsers to use the OVOSEC secure relay?",
+        "subtitle":  "Splitting and routing traffic per application.",
+        "content":  "\u003cp\u003eYes, the core engine supports advanced traffic splitting:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eOn Desktop (Windows/macOS):\u003c/strong\u003e Switch your mode from \"TUN Mode\" to \"System Proxy\". In this mode, only applications that respect system network settings (like Chrome, Edge, or Firefox) will be accelerated.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eOn Android:\u003c/strong\u003e Go to App Settings -\u003e Per-App Proxy (or Application Filter). Enable it, and you can manually check the exact applications you wish to route through OVOSEC, leaving the rest on your standard local network.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  38,
+        "title":  "How do I force command-line tools or terminal applications to use OVOSEC on desktop?",
+        "subtitle":  "Configuring local environment variables for developer tools.",
+        "content":  "\u003cp\u003eSystem Proxy and TUN Mode might not automatically capture raw terminal or developer environment traffic on Windows/macOS. To resolve this:\u003c/p\u003e\u003col\u003e\u003cli\u003eIn the OVOSEC utility, locate your current localized Inbound Port (typically HTTP 2334 or mixed port under Config settings).\u003c/li\u003e\u003cli\u003eOpen your terminal and manually export the network environment variables:\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\u003ccode\u003eexport http_proxy=http://127.0.0.1:2334\nexport https_proxy=http://127.0.0.1:2334\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eThis forces development scripts and console tools to route through our secure channels.\u003c/p\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  41,
+        "title":  "I have a working network, but why do all endpoints suddenly time out with handshake errors?",
+        "subtitle":  "Correcting device clock drift to satisfy security protocols.",
+        "content":  "\u003cp\u003eOur enterprise-grade encryption layers utilize secure time-restricted cryptographic tokens. If your device\u0027s system time differs from the standard global time by more than 60 seconds, the security core will reject the handshake.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eFix:\u003c/strong\u003e Go to your device\u0027s System Settings -\u003e Date \u0026 Time, and ensure that \"Set Time Automatically\" (Network-provided time) is toggled ON. After correcting your device clock, restart the OVOSEC utility to restore instant connectivity.\u003c/p\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    },
+    {
+        "id":  48,
+        "title":  "Why am I unable to access any websites even after completely closing the OVOSEC utility?",
+        "subtitle":  "Restoring locked operating system DNS parameters.",
+        "content":  "\u003cp\u003eThis rarely happens but is caused by an abrupt system termination (e.g., a sudden PC crash, power outage, or the OS forcefully killing the background task) while TUN Mode was active. In these instances, your operating system\u0027s DNS settings may remain locked in secure-routing mode.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eImmediate Fix:\u003c/strong\u003e\u003c/p\u003e\u003col\u003e\u003cli\u003eSimply re-launch the OVOSEC utility and click the central \"Connect\" button.\u003c/li\u003e\u003cli\u003eWait 5 seconds, then click \"Disconnect\" normally. This triggers the core engine to cleanly wipe and restore your default operating system network stack and DNS parameters back to your ISP standard.\u003c/li\u003e\u003cli\u003eAlternatively, restart your device\u0027s network adapter or flush your system DNS (\u003ccode\u003eipconfig /flushdns\u003c/code\u003e on Windows).\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  3,
+        "languageName":  "Connection \u0026 Protocol"
+    }
+]

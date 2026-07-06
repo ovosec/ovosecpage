@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "Was ist OVOSEC und wie sichert es meine Verbindung?",
+        "subtitle": "Ein Überblick über das sichere Dienstprogramm und die verschlüsselte Übertragung von OVOSEC.",
+        "content": "<p>OVOSEC ist ein verschlüsseltes Relay-Dienstprogramm der nächsten Generation, das zur Optimierung der globalen Netzwerklatenz und zum Schutz der Datenintegrität entwickelt wurde. Unter Verwendung einer Open-Source-Hochleistungskernarchitektur kanalisiert OVOSEC Ihre Datenströme über verschlüsselte Transitknoten der Enterprise-Klasse, maskiert Ihre Übertragungsspuren und beschleunigt nahtlos grenzüberschreitende Produktivitätsworkflows.<\/p>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 12,
+        "title": "Wie richte ich das OVOSEC-Dienstprogramm auf meinem Gerät ein?",
+        "subtitle": "Schritt-für-Schritt-Anleitung zur Installation und Einrichtung.",
+        "content": "<p>Um das OVOSEC-Dienstprogramm auf Ihrem Gerät einzurichten, befolgen Sie diese Schritte:<\/p><ol><li>Vervollständigen Sie Ihre Planauswahl auf unserer offiziellen Website (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li>Navigieren Sie zum <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Download Seite<\/a> und erwerben Sie das sichere Anwendungspaket, das auf Ihr Betriebssystem (Windows, macOS, Android oder iOS) zugeschnitten ist.<\/li><li>Starten Sie die Anwendung, kopieren Sie Ihre eindeutige Zugriffskonfigurations-URL aus Ihrem <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Client-Dashboard<\/a> und klicken Sie in der App-Oberfläche auf „Konfiguration importieren“, um Ihre autorisierten Relay-Endpunkte sofort zu synchronisieren.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 21,
+        "title": "Was ist die Kernarchitektur von OVOSEC?",
+        "subtitle": "Ein Überblick über das Sicherheitsdienstprogramm OVOSEC und die verschlüsselte Übertragung.",
+        "content": "<p>OVOSEC ist ein verschlüsseltes Relay-Dienstprogramm der nächsten Generation, das zur Optimierung der globalen Netzwerklatenz und zum Schutz der Datenintegrität entwickelt wurde. Indem OVOSEC Ihre Datenströme über verschlüsselte Transitknoten der Unternehmensklasse leitet, maskiert es Ihre Übertragungsspuren und beschleunigt nahtlos grenzüberschreitende Produktivitätsabläufe.<\/p>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 22,
+        "title": "Welche Betriebssysteme sind mit OVOSEC kompatibel?",
+        "subtitle": "Überprüfen der Gerätekompatibilität und der Betriebssystemanforderungen.",
+        "content": "<p>OVOSEC ist vollständig kompatibel mit den Plattformen Windows, macOS, iOS, Android und Linux. Sie können das sichere, auf Ihr Betriebssystem zugeschnittene Anwendungspaket auf unserer offiziellen <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Download-Seite<\/a> erwerben.<\/p>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 31,
+        "title": "Warum trennt sich die beschleunigte Verbindung automatisch, wenn mein Telefon in den Ruhemodus wechselt?",
+        "subtitle": "Verhindern, dass mobile Betriebssysteme OVOSEC in den Ruhezustand versetzen.",
+        "content": "<p>Aggressive Batteriesparprogramme für mobile Betriebssysteme beenden häufig leistungsstarke Hintergrund-Daemons. Um dies zu verhindern, nehmen Sie bitte die folgenden Anpassungen vor:<\/p><ul><li><strong>Android:<\/strong> Gehen Sie zu den Einstellungen Ihres Telefons -> Apps -> OVOSEC -> Akku -> Stellen Sie „Uneingeschränkt“ oder „Keine Optimierung“ ein.<\/li><li><strong>iOS:<\/strong> Stellen Sie sicher, dass „Hintergrund-App-Aktualisierung“ für OVOSEC unter iOS-Einstellungen -> OVOSEC aktiviert ist.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 39,
+        "title": "Keiner der oben genannten Schritte hat mein Problem gelöst. Wie kontaktiere ich den offiziellen technischen Support?",
+        "subtitle": "Senden von Diagnosetickets an unser technisches Team.",
+        "content": "<p>Wir setzen uns für Ihre nahtlose Konnektivität ein. Wenn Sie auf einen ungelösten Routing-Konflikt stoßen, senden Sie bitte ein Diagnoseticket an unsere technische Warteschlange unter <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Um uns zu helfen, das Problem innerhalb von 24 Stunden zu lösen, geben Sie bitte Folgendes an:<\/p><ul><li>Ihre registrierte Konto-E-Mail-Adresse.<\/li><li>Ihre aktuelle Betriebssystemversion (z. B. Windows 11, iOS 17).<\/li><li>Eine kurze Beschreibung oder einen Screenshot davon das Anwendungsprotokoll\/Fehlerstatus.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 40,
+        "title": "Warum ist meine Profil-Liste leer oder warum heißt es „Kein Profil gefunden“ nach dem Import meiner URL?",
+        "subtitle": "Auslösen der ersten Synchronisierung mit dem Abrechnungsserver.",
+        "content": "<p>Dies kann auftreten, wenn die Anwendung aufgrund von Jitter im lokalen Netzwerk ihren ersten Handshake mit unseren Abrechnungsservern nicht durchführen kann. Um eine Synchronisierung zu erzwingen, befolgen Sie bitte diese Schritte:<\/p><ol><li>Gehen Sie in der App zur Registerkarte „Profile“ und tippen Sie auf die drei Punkte (Menü) neben Ihrem importierten OVOSEC-Link.<\/li><li>Klicken Sie auf „Aktualisierung erzwingen“ oder „Profil neu laden“.<\/li><li>Gehen Sie zurück zum Hauptbildschirm und klicken Sie auf die zentrale Schaltfläche „Verbinden“. Dadurch werden sofort alle autorisierten sicheren Relay-Pfade mit geringer Latenz abgerufen und gefüllt.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 45,
+        "title": "Warum haben alle meine sicheren Relay-Pfade nach einer langen Zeit der Inaktivität plötzlich aufgehört zu funktionieren?",
+        "subtitle": "Behebung von Protokollversionskonflikten nach langer Inaktivität.",
+        "content": "<p>Um eine Sicherheitsverschlüsselung auf militärischem Niveau aufrechtzuerhalten, aktualisiert unsere Backend-Infrastruktur regelmäßig die zugrunde liegenden Übertragungsprotokolle. Wenn Ihre Client-Version stark veraltet ist, schlägt der Handshake mit den aktualisierten Knoten fehl.<\/p><p><strong>Lösung:<\/strong> Bitte besuchen Sie unsere offizielle <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Download-Seite<\/a>, um die neueste stabile Version des OVOSEC-Dienstprogramms für Ihr Gerät herunterzuladen und zu installieren. Synchronisieren Sie nach dem Aktualisieren der Software Ihre Zugriffskonfigurations-URL erneut, um die sofortige Konnektivität mit geringer Latenz wiederherzustellen.<\/p>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    },
+    {
+        "id": 49,
+        "title": "Warum kann ich die WLAN-Anmelde-\/Authentifizierungsseite in Hotels, Flughäfen oder Universitäten nicht öffnen?",
+        "subtitle": "Umgehen des unverschlüsselten Captive-Portal-Abfangens.",
+        "content": "<p>Öffentliche Netzwerke nutzen eine Abhörtechnik namens „Captive Portals“, um Benutzer zu einem Anmeldebildschirm zu zwingen. Da der aktive Sicherheitskern von OVOSEC unbefugtes lokales Tracking und nicht vertrauenswürdige Netzwerkumleitungen blockiert, kann es sein, dass diese unverschlüsselte Anmeldeseite nicht geöffnet wird.<\/p><p><strong>Lösung:<\/strong> Schalten Sie die OVOSEC-Verbindung vorübergehend aus oder deaktivieren Sie die Startfunktion. Öffnen Sie Ihren Webbrowser, führen Sie zunächst die Hotel-\/Campus-Netzwerkauthentifizierung durch, stellen Sie sicher, dass Sie über einen einfachen Internetzugang verfügen, und schalten Sie dann OVOSEC wieder ein, um Ihre Sitzung zu sichern.<\/p>",
+        "languageId": 1,
+        "languageName": "Allgemein"
+    }
+]

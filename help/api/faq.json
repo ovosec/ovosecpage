@@ -1,0 +1,398 @@
+{
+  "english": [
+    {
+      "category": "Purchase Questions",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "How to download", "url": "faq-single.html" },
+        { "title": "Use one subscription on multiple devices", "url": "faq-single.html" },
+        { "title": "How to recover my remaining time when ID changes", "url": "faq-single.html" },
+        { "title": "The difference between Standard and Platinum subscription", "url": "faq-single.html" },
+        { "title": "What Android APIs and functionality can instant apps use?", "url": "faq-single.html" },
+        { "title": "Can users choose to install the app permanently?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Account",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "What devices are supported for Android Instant Apps?", "url": "#" },
+        { "title": "What countries are Android Instant Apps supported in?", "url": "#" },
+        { "title": "Do developers need to build two different Android apps now?", "url": "#" },
+        { "title": "What Android APIs and functionality can instant apps use?", "url": "#" },
+        { "title": "Can users choose to install the app permanently?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Pricing & License",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Where can I see the licenses that I bought?", "url": "#" },
+        { "title": "Am I unable to continue using if my license expires?", "url": "#" },
+        { "title": "How many websites can I tie to one license?", "url": "#" },
+        { "title": "Do you have volume purchase programs?", "url": "#" },
+        { "title": "Are there any educational pricing or discounts?", "url": "#" }
+      ]
+    }
+  ],
+  "malay": [
+    {
+      "category": "Soalan Pembelian",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Cara memuat turun", "url": "faq-single.html" },
+        { "title": "Gunakan satu langganan pada berbilang peranti", "url": "faq-single.html" },
+        { "title": "Cara memulihkan baki masa saya apabila ID berubah", "url": "faq-single.html" },
+        { "title": "Perbezaan antara langganan Standard dan Platinum", "url": "faq-single.html" },
+        { "title": "Apakah API dan fungsi Android yang boleh digunakan oleh apl segera?", "url": "faq-single.html" },
+        { "title": "Bolehkah pengguna memilih untuk memasang apl secara kekal?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Akaun",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Apakah peranti yang disokong untuk Apl Segera Android?", "url": "#" },
+        { "title": "Di negara manakah Apl Segera Android disokong?", "url": "#" },
+        { "title": "Adakah pembangun perlu membina dua apl Android yang berbeza sekarang?", "url": "#" },
+        { "title": "Apakah API dan fungsi Android yang boleh digunakan oleh apl segera?", "url": "#" },
+        { "title": "Bolehkah pengguna memilih untuk memasang apl secara kekal?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Harga & Lesen",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Di manakah saya boleh melihat lesen yang saya beli?", "url": "#" },
+        { "title": "Adakah saya tidak dapat terus menggunakan jika lesen saya tamat tempoh?", "url": "#" },
+        { "title": "Berapa banyak tapak web yang boleh saya ikat pada satu lesen?", "url": "#" },
+        { "title": "Adakah anda mempunyai program pembelian volum?", "url": "#" },
+        { "title": "Adakah terdapat sebarang harga atau diskaun pendidikan?", "url": "#" }
+      ]
+    }
+  ],
+  "indonesian": [
+    {
+      "category": "Pertanyaan Pembelian",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Cara mengunduh", "url": "faq-single.html" },
+        { "title": "Gunakan satu langganan di beberapa perangkat", "url": "faq-single.html" },
+        { "title": "Cara memulihkan sisa waktu saya ketika ID berubah", "url": "faq-single.html" },
+        { "title": "Perbedaan antara langganan Standar dan Platinum", "url": "faq-single.html" },
+        { "title": "API dan fungsionalitas Android apa yang dapat digunakan aplikasi instan?", "url": "faq-single.html" },
+        { "title": "Bisakah pengguna memilih untuk menginstal aplikasi secara permanen?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Akun",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Perangkat apa saja yang didukung untuk Aplikasi Instan Android?", "url": "#" },
+        { "title": "Di negara mana saja Aplikasi Instan Android didukung?", "url": "#" },
+        { "title": "Apakah pengembang perlu membuat dua aplikasi Android yang berbeda sekarang?", "url": "#" },
+        { "title": "API dan fungsionalitas Android apa yang dapat digunakan aplikasi instan?", "url": "#" },
+        { "title": "Bisakah pengguna memilih untuk menginstal aplikasi secara permanen?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Harga & Lisensi",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Di mana saya bisa melihat lisensi yang saya beli?", "url": "#" },
+        { "title": "Apakah saya tidak dapat terus menggunakan jika lisensi saya kedaluwarsa?", "url": "#" },
+        { "title": "Berapa banyak situs web yang dapat saya kaitkan dengan satu lisensi?", "url": "#" },
+        { "title": "Apakah Anda memiliki program pembelian massal?", "url": "#" },
+        { "title": "Apakah ada harga atau diskon khusus pendidikan?", "url": "#" }
+      ]
+    }
+  ],
+  "chinese_traditional": [
+    {
+      "category": "購買問題",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "如何下載", "url": "faq-single.html" },
+        { "title": "在多個設備上使用一個訂閱", "url": "faq-single.html" },
+        { "title": "ID 更改時如何恢復我的剩餘時間", "url": "faq-single.html" },
+        { "title": "标准和白金訂閱之間的區別", "url": "faq-single.html" },
+        { "title": "即時應用程序可以使用哪些 Android API 和功能？", "url": "faq-single.html" },
+        { "title": "用戶可以選擇永久安裝該應用程序嗎？", "url": "#" }
+      ]
+    },
+    {
+      "category": "帳戶",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Android 即時應用程序支持哪些設備？", "url": "#" },
+        { "title": "Android 即時應用程序在哪些國家/地區受支持？", "url": "#" },
+        { "title": "開發人員現在需要構建兩個不同的 Android 應用程序吗？", "url": "#" },
+        { "title": "即時應用程序可以使用哪些 Android API 和功能？", "url": "#" },
+        { "title": "用戶可以選擇永久安裝該應用程序嗎？", "url": "#" }
+      ]
+    },
+    {
+      "category": "定價與授權",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "我在哪裡可以查看我購買的授權？", "url": "#" },
+        { "title": "如果授權過期，我是否無法繼續使用？", "url": "#" },
+        { "title": "一個授權可以綁定多少個網站？", "url": "#" },
+        { "title": "您有批量購買計劃嗎？", "url": "#" },
+        { "title": "是否有任何教育定價或折扣？", "url": "#" }
+      ]
+    }
+  ],
+  "korean": [
+    {
+      "category": "구매 질문",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "다운로드 방법", "url": "faq-single.html" },
+        { "title": "여러 기기에서 하나의 구독 사용", "url": "faq-single.html" },
+        { "title": "ID가 변경될 때 남은 시간을 복구하는 방법", "url": "faq-single.html" },
+        { "title": "스탠다드 구독과 플래티넘 구독의 차이점", "url": "faq-single.html" },
+        { "title": "인스턴트 앱은 어떤 Android API와 기능을 사용할 수 있나요?", "url": "faq-single.html" },
+        { "title": "사용자가 앱을 영구적으로 설치하도록 선택할 수 있나요?", "url": "#" }
+      ]
+    },
+    {
+      "category": "계정",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Android 인스턴트 앱은 어떤 기기에서 지원되나요?", "url": "#" },
+        { "title": "Android 인스턴트 앱은 어느 국가에서 지원되나요?", "url": "#" },
+        { "title": "개발자는 이제 두 개의 서로 다른 Android 앱을 빌드해야 하나요?", "url": "#" },
+        { "title": "인스턴트 앱은 어떤 Android API와 기능을 사용할 수 있나요?", "url": "#" },
+        { "title": "사용자가 앱을 영구적으로 설치하도록 선택할 수 있나요?", "url": "#" }
+      ]
+    },
+    {
+      "category": "가격 및 라이선스",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "내가 구매한 라이선스는 어디서 볼 수 있나요?", "url": "#" },
+        { "title": "라이선스가 만료되면 계속 사용할 수 없나요?", "url": "#" },
+        { "title": "하나의 라이선스에 몇 개의 웹사이트를 연결할 수 있나요?", "url": "#" },
+        { "title": "대량 구매 프로그램이 있나요?", "url": "#" },
+        { "title": "교육용 가격이나 할인이 있나요?", "url": "#" }
+      ]
+    }
+  ],
+  "japanese": [
+    {
+      "category": "購入に関する質問",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "ダウンロード方法", "url": "faq-single.html" },
+        { "title": "1つのサブスクリプションを複数のデバイスで使用する", "url": "faq-single.html" },
+        { "title": "IDが変更されたときに残り時間を回復する方法", "url": "faq-single.html" },
+        { "title": "スタンダードサブスクリプションとプラチナサブスクリプションの違い", "url": "faq-single.html" },
+        { "title": "インスタントアプリはどのAndroid APIと機能を使用できますか？", "url": "faq-single.html" },
+        { "title": "ユーザーはアプリを永恒的にインストールすることを選択できますか？", "url": "#" }
+      ]
+    },
+    {
+      "category": "アカウント",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Androidインスタントアプリはどのデバイスでサポートされていますか？", "url": "#" },
+        { "title": "Androidインスタントアプリはどの国でサポートされていますか？", "url": "#" },
+        { "title": "開発者は今、2つの異なるAndroidアプリを構築する必要がありますか？", "url": "#" },
+        { "title": "インスタントアプリはどのAndroid APIと機能を使用できますか？", "url": "#" },
+        { "title": "ユーザーはアプリを永恒的にインストールすることを選択できますか？", "url": "#" }
+      ]
+    },
+    {
+      "category": "価格とライセンス",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "購入したライセンスはどこで確認できますか？", "url": "#" },
+        { "title": "ライセンスの期限が切れると使用を継続できませんか？", "url": "#" },
+        { "title": "1つのライセンスに何個のウェブサイトを紐付けられますか？", "url": "#" },
+        { "title": "ボリュームディスカウント（一括購入）プログラムはありますか？", "url": "#" },
+        { "title": "教育機関向けの価格や割引はありますか？", "url": "#" }
+      ]
+    }
+  ],
+  "vietnamese": [
+    {
+      "category": "Câu hỏi mua hàng",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Cách tải xuống", "url": "faq-single.html" },
+        { "title": "Sử dụng một gói đăng ký trên nhiều thiết bị", "url": "faq-single.html" },
+        { "title": "Cách khôi phục thời gian còn lại khi thay đổi ID", "url": "faq-single.html" },
+        { "title": "Sự khác biệt giữa gói đăng ký Tiêu chuẩn và Bạch kim", "url": "faq-single.html" },
+        { "title": "Ứng dụng tức thì có thể sử dụng các API và chức năng nào của Android?", "url": "faq-single.html" },
+        { "title": "Người dùng có thể chọn cài đặt ứng dụng vĩnh viễn không?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Tài khoản",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Những thiết bị nào được hỗ trợ cho Ứng dụng tức thì Android?", "url": "#" },
+        { "title": "Ứng dụng tức thì Android được hỗ trợ ở những quốc gia nào?", "url": "#" },
+        { "title": "Nhà phát triển có cần xây dựng hai ứng dụng Android khác nhau bây giờ không?", "url": "#" },
+        { "title": "Ứng dụng tức thì có thể sử dụng các API và chức năng nào của Android?", "url": "#" },
+        { "title": "Người dùng có thể chọn cài đặt ứng dụng vĩnh viễn không?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Giá cả & Giấy phép",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Tôi có thể xem các giấy phép đã mua ở đâu?", "url": "#" },
+        { "title": "Tôi có không thể tiếp tục sử dụng nếu giấy phép hết hạn không?", "url": "#" },
+        { "title": "Tôi có thể liên kết bao nhiêu trang web với một giấy phép?", "url": "#" },
+        { "title": "Bạn có chương trình mua hàng số lượng lớn không?", "url": "#" },
+        { "title": "Có mức giá giáo dục hoặc giảm giá nào không?", "url": "#" }
+      ]
+    }
+  ],
+  "arabic": [
+    {
+      "category": "أسئلة الشراء",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "كيفية التنزيل", "url": "faq-single.html" },
+        { "title": "استخدام اشتراك واحد على أجهزة متعددة", "url": "faq-single.html" },
+        { "title": "كيفية استرداد الوقت المتبقي عند تغيير المعرف", "url": "faq-single.html" },
+        { "title": "الفرق بين الاشتراك القياسي والبلاتيني", "url": "faq-single.html" },
+        { "title": "ما هي واجهات برمجة تطبيقات Android والوظائف التي يمكن للتطبيقات الفورية استخدامها؟", "url": "faq-single.html" },
+        { "title": "هل يمكن للمستخدمين اختيار تثبيت التطبيق بشكل دائم؟", "url": "#" }
+      ]
+    },
+    {
+      "category": "الحساب",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "ما هي الأجهزة المدعومة لتطبيقات Android الفورية?", "url": "#" },
+        { "title": "ما هي الدول التي تدعم تطبيقات Android الفورية؟", "url": "#" },
+        { "title": "هل يحتاج المطورون إلى بناء تطبيقين مختلفين لنظام Android الآن؟", "url": "#" },
+        { "title": "ما هي واجهات برمجة تطبيقات Android والوظائف التي يمكن للتطبيقات الفورية استخدامها؟", "url": "#" },
+        { "title": "هل يمكن للمستخدمين اختيار تثبيت التطبيق بشكل دائم؟", "url": "#" }
+      ]
+    },
+    {
+      "category": "التسعير والترخيص",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "أين يمكنني رؤية التراخيص التي اشتريتها؟", "url": "#" },
+        { "title": "هل لا يمكنني الاستمرار في الاستخدام إذا انتهت صلاحية ترخيصي؟", "url": "#" },
+        { "title": "كم عدد المواقع الإلكترونية التي يمكنني ربطها بترخيص واحد؟", "url": "#" },
+        { "title": "هل لديكم برامج شراء كميات كبيرة؟", "url": "#" },
+        { "title": "هل هناك أي أسعار أو خصومات تعليمية؟", "url": "#" }
+      ]
+    }
+  ],
+  "spanish": [
+    {
+      "category": "Preguntas de compra",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Cómo descargar", "url": "faq-single.html" },
+        { "title": "Usar una suscripción en múltiples dispositivos", "url": "faq-single.html" },
+        { "title": "Cómo recuperar mi tiempo restante cuando cambia el ID", "url": "faq-single.html" },
+        { "title": "La diferencia entre la suscripción Estándar y la Platino", "url": "faq-single.html" },
+        { "title": "¿Qué API y funciones de Android pueden usar las aplicaciones instantáneas?", "url": "faq-single.html" },
+        { "title": "¿Pueden los usuarios elegir instalar la aplicación de forma permanente?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Cuenta",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "¿Qué dispositivos son compatibles con las aplicaciones instantáneas de Android?", "url": "#" },
+        { "title": "¿En qué países son compatibles las aplicaciones instantáneas de Android?", "url": "#" },
+        { "title": "¿Necesitan los desarrolladores crear dos aplicaciones de Android diferentes ahora?", "url": "#" },
+        { "title": "¿Qué API y funciones de Android pueden usar las aplicaciones instantáneas?", "url": "#" },
+        { "title": "¿Pueden los usuarios elegir instalar la aplicación de forma permanente?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Precios y Licencias",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "¿Dónde puedo ver las licencias que compré?", "url": "#" },
+        { "title": "¿No puedo seguir usando si caduca mi licencia?", "url": "#" },
+        { "title": "¿Cuántos sitios web puedo vincular a una sola licencia?", "url": "#" },
+        { "title": "¿Tienen programas de compra por volumen?", "url": "#" },
+        { "title": "¿Hay precios o descuentos para el sector educativo?", "url": "#" }
+      ]
+    }
+  ],
+  "french": [
+    {
+      "category": "Questions d'achat",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Comment télécharger", "url": "faq-single.html" },
+        { "title": "Utiliser un abonnement sur plusieurs appareils", "url": "faq-single.html" },
+        { "title": "Comment récupérer mon temps restant lorsque l'ID change", "url": "faq-single.html" },
+        { "title": "La différence entre l'abonnement Standard et Platinum", "url": "faq-single.html" },
+        { "title": "Quelles API et fonctionnalités Android les applications instantanées peuvent-elles utiliser ?", "url": "faq-single.html" },
+        { "title": "Les utilisateurs peuvent-ils choisir d'installer l'application de manière permanente ?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Compte",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Quels appareils sont pris en charge pour les applications instantanées Android ?", "url": "#" },
+        { "title": "Dans quels pays les applications instantanées Android sont-elles prises en charge ?", "url": "#" },
+        { "title": "Les développeurs doivent-ils maintenant créer deux applications Android différentes ?", "url": "#" },
+        { "title": "Quelles API et fonctionnalités Android les applications instantanées peuvent-elles utiliser ?", "url": "#" },
+        { "title": "Les utilisateurs peuvent-ils choisir d'installer l'application de manière permanente ?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Tarification et licence",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Où puis-je voir les licences que j'ai achetées ?", "url": "#" },
+        { "title": "Suis-je incapable de continuer à utiliser si ma licence expire ?", "url": "#" },
+        { "title": "Combien de sites Web puis-je lier à une seule licence ?", "url": "#" },
+        { "title": "Avez-vous des programmes d'achat en volume ?", "url": "#" },
+        { "title": "Existe-t-il des tarifs ou des réductions pour l'éducation ?", "url": "#" }
+      ]
+    }
+  ],
+  "german": [
+    {
+      "category": "Kaufbezogene Fragen",
+      "accordionId": "gstAccordion",
+      "items": [
+        { "title": "Wie man herunterlädt", "url": "faq-single.html" },
+        { "title": "Ein Abonnement auf mehreren Geräten nutzen", "url": "faq-single.html" },
+        { "title": "So stellen Sie Ihre verbleibende Zeit bei einer ID-Änderung wieder her", "url": "faq-single.html" },
+        { "title": "Der Unterschied zwischen Standard- und Platin-Abonnement", "url": "faq-single.html" },
+        { "title": "Welche Android-APIs und -Funktionen können Instant Apps nutzen?", "url": "faq-single.html" },
+        { "title": "Können Benutzer die App dauerhaft installieren?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Konto",
+      "accordionId": "accountAccordion",
+      "items": [
+        { "title": "Welche Geräte werden für Android Instant Apps unterstützt?", "url": "#" },
+        { "title": "In welchen Ländern werden Android Instant Apps unterstützt?", "url": "#" },
+        { "title": "Müssen Entwickler jetzt zwei verschiedene Android-Apps erstellen?", "url": "#" },
+        { "title": "Welche Android-APIs und -Funktionen können Instant Apps nutzen?", "url": "#" },
+        { "title": "Können Benutzer die App dauerhaft installieren?", "url": "#" }
+      ]
+    },
+    {
+      "category": "Preise & Lizenzierung",
+      "accordionId": "plAccordion",
+      "items": [
+        { "title": "Wo kann ich die von mir erworbenen Lizenzen einsehen?", "url": "#" },
+        { "title": "Kann ich die Nutzung nicht fortsetzen, wenn meine Lizenz abläuft?", "url": "#" },
+        { "title": "Wie viele Websites kann ich an eine Lizenz binden?", "url": "#" },
+        { "title": "Bieten Sie Mengenrabattprogramme an?", "url": "#" },
+        { "title": "Gibt es Bildungstarife oder -rabatte?", "url": "#" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 19,
+        "title": "Est-ce que OVOSEC applique une politique de zéro journal ?",
+        "subtitle": "Notre norme stricte de confidentialité et notre conformité locale.",
+        "content": "<p>Oui, absolument. OVOSEC est constituée en personne morale à Kuala Lumpur, en Malaisie, et adhère strictement aux directives locales du PDPA ainsi qu'aux cadres mondiaux de conformité sans connaissance. Notre noyau backend open source fonctionne strictement dans la mémoire RAM volatile. Nous ne collectons, ne surveillons, ne suivons ni n'archivons vos destinations réseau, l'historique des requêtes, le contenu des charges utiles ou les journaux d'allocation IP source du monde réel. Votre présence numérique est totalement anonyme.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    },
+    {
+        "id": 20,
+        "title": "Quel niveau de cryptage l'infrastructure OVOSEC applique-t-elle ?",
+        "subtitle": "Protocoles cryptographiques avancés et normes de sécurité.",
+        "content": "<p>Chaque paquet transmis via notre réseau de relais sécurisé est encapsulé à l'aide de primitives cryptographiques standard AES-256-GCM ou ChaCha20-Poly1305, superposées à des poignées de main TLS modernes. Cette architecture cryptographique garantit un secret absolu de bout en bout, annulant toute falsification potentielle par un intermédiaire ou écoute clandestine de paquets, même lors de l'accès aux ressources de l'entreprise via des points d'accès Wi-Fi publics non sécurisés.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    },
+    {
+        "id": 29,
+        "title": "Quelle est la politique de journalisation sans connaissance d'OVOSEC ?",
+        "subtitle": "Comprendre notre engagement en faveur de la sécurité et du zéro suivi des utilisateurs.",
+        "content": "<p>Nous adhérons à une politique stricte de zéro journal. Nous ne surveillons, ne capturons, ne stockons ni ne vendons aucune information concernant votre historique de navigation, la destination du trafic, le contenu de la charge utile des données ou les requêtes DNS. Pour connaître les conditions juridiques complètes, veuillez lire notre <a href=\"..\/privacy.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Politique de confidentialité<\/a> complète.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    },
+    {
+        "id": 30,
+        "title": "Comment OVOSEC sécurise-t-il les transmissions Wi-Fi public ?",
+        "subtitle": "Suites de chiffrement et de protocoles de niveau militaire sur les passerelles publiques.",
+        "content": "<p>Tout le trafic réseau acheminé via les nœuds sécurisés OVOSEC est crypté via les primitives AES-256-GCM et ChaCha20-Poly1305 de pointe. Cela garantit que vos flux de paquets de données restent protégés contre les écoutes clandestines ou les attaques Man-in-the-Middle (MitM), même sur des points d'accès Wi-Fi publics non fiables.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    },
+    {
+        "id": 44,
+        "title": "Est-ce que OVOSEC protège mes identifiants et données personnelles lors d'une connexion via un Wi-Fi public non sécurisé ?",
+        "subtitle": "Prévenir le vol de données et les attaques MitM sur les hotspots publics.",
+        "content": "<p>Oui, complètement. Lorsque OVOSEC est actif (en particulier avec le mode TUN activé), l'architecture de base sous-jacente encapsule tout le trafic sortant local dans un tunnel cryptographique strictement crypté (en utilisant les primitives AEAD).<\/p><p>Même si le point d'accès Wi-Fi public est compromis ou exécute un renifleur de paquets « Man-in-the-Middle », les attaquants ne peuvent voir que des métadonnées brouillées et incassables. Vos mots de passe en clair, vos transactions financières et vos charges utiles de communication restent totalement à l'épreuve des balles.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    },
+    {
+        "id": 47,
+        "title": "Pourquoi mon antivirus local ou Windows Defender signale-t-il OVOSEC lors de l'activation du mode TUN ?",
+        "subtitle": "Gestion des faux positifs antivirus pour les modifications du réseau système.",
+        "content": "<p>Il s'agit d'un faux positif standard. Étant donné que le mode TUN crée un adaptateur réseau virtuel avancé de niveau entreprise au niveau du système d'exploitation pour chiffrer toutes les données d'arrière-plan sortantes, des pare-feu de sécurité locaux stricts peuvent signaler cette modification du réseau profond comme suspecte.<\/p><p>OVOSEC est entièrement open source, fortement audité et exempt de logiciels malveillants. Vous pouvez ajouter en toute sécurité le répertoire d'applications OVOSEC à votre liste d'exclusion\/de confiance antivirus pour garantir une optimisation ininterrompue du réseau.<\/p>",
+        "languageId": 5,
+        "languageName": "Confidentialité & Sécurité"
+    }
+]

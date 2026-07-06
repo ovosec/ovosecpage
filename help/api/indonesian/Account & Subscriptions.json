@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "Bagaimana cara mengelola atau membatalkan langganan berulang saya yang aktif?",
+        "subtitle": "Mengelola siklus penagihan otomatis dan pembatalan Anda.",
+        "content": "<p>OVOSEC mengutamakan pilihan konsumen dan transparansi. Untuk mengelola atau membatalkan siklus penagihan otomatis Anda (diproses dengan aman melalui Curlec \/ Stripe Payments Malaysia):<\/p><ol><li>Masuk ke akun pribadi Anda di portal web kami.<\/li><li>Navigasi ke Penagihan & Langganan di bawah pengaturan Profil Anda.<\/li><li>Klik tombol \"Batalkan Perpanjangan Otomatis\". Akses premium Anda akan tetap berfungsi penuh hingga akhir periode penagihan berbayar Anda saat ini, dan tidak ada biaya lebih lanjut yang akan dikenakan.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 14,
+        "title": "Apa kebijakan pengembalian dana Anda terkait paket premium?",
+        "subtitle": "Ketentuan pengembalian dana dan jaminan uang kembali 7 hari.",
+        "content": "<p>Karena sifat layanan transportasi digital, kami memberikan jaminan uang kembali 7 hari yang ketat namun adil. Anda memenuhi syarat untuk mendapatkan pengembalian dana penuh jika:<\/p><ul><li>Permintaan pengembalian dana Anda dikirimkan dalam waktu 7 hari kalender sejak stempel waktu pembelian awal Anda.<\/li><li>Konsumsi data kumulatif Anda di semua jalur relai tidak melebihi 2,0 GB.<\/li><\/ul><p>Untuk memulai permintaan, harap hubungi tim dukungan kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> menggunakan email akun Anda yang terdaftar.<\/p>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 23,
+        "title": "Bagaimana cara mendaftar dan masuk ke akun saya?",
+        "subtitle": "Panduan langkah demi langkah untuk pembuatan dan autentikasi akun.",
+        "content": "<p>Untuk mendaftarkan akun, navigasikan ke situs web resmi kami dan pilih opsi <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">LOGIN \/ DAFTAR<\/a>. Berikan alamat email yang valid dan konfigurasikan sandi yang kuat untuk menghasilkan identitas pengguna Anda.<\/p>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 24,
+        "title": "Bagaimana cara melakukan reset kata sandi yang aman?",
+        "subtitle": "Memulihkan hak akses akun dan kredensial kata sandi.",
+        "content": "<p>Jika Anda lupa sandi, navigasikan ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Masuk<\/a> dan pilih 'Lupa Kata Sandi'. Masukkan alamat email Anda yang terdaftar, dan kami akan mengirimkan tautan verifikasi pengaturan ulang kata sandi untuk memulihkan akses akun Anda.<\/p>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 36,
+        "title": "Bagaimana cara memeriksa sisa kuota data saya dan tanggal kedaluwarsa langganan?",
+        "subtitle": "Memantau penggunaan akun Anda dan siklus penagihan aktif.",
+        "content": "<p>OVOSEC mengutamakan transparansi. Anda dapat memeriksa status langganan Anda dengan dua cara:<\/p><ul><li><strong>Melalui Portal Web:<\/strong> Masuk ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">dasbor pribadi<\/a> Anda di <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> untuk melihat siklus penagihan aktif dan data waktu nyata kuota.<\/li><li><strong>Melalui Aplikasi Klien:<\/strong> Pada antarmuka utama utilitas OVOSEC Anda, lihat bagian bawah atau tab profil. Mesin Hiddify secara otomatis menampilkan konsumsi data kumulatif dan sisa hari yang tersisa (misalnya, \"Kedaluwarsa dalam X hari\"). Klik Ikon Refresh untuk menyinkronkan penggunaan terbaru dari server penagihan.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 42,
+        "title": "Saya mengganti atau meningkatkan perangkat saya. Bagaimana cara memulihkan langganan premium aktif saya?",
+        "subtitle": "Memulihkan langganan premium aktif Anda di perangkat baru.",
+        "content": "<p>Langganan Anda tertaut ke profil akun Anda, bukan ID perangkat keras perangkat tertentu. Untuk mengaktifkan OVOSEC di perangkat baru Anda:<\/p><ol><li>Masuk ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Dasbor pribadi<\/a> Anda di <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>.<\/li><li>Salin Konfigurasi Akses unik Anda URL.<\/li><li>Instal utilitas OVOSEC pada perangkat baru Anda, klik \"Impor Konfigurasi\", dan tempelkan URL. Sisa hari premium dan kuota data Anda akan langsung tersinkronisasi.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 43,
+        "title": "Saya menyelesaikan pembayaran saya melalui Curlec\/Stripe, tetapi klien saya masih menunjukkan status \"Gratis\/Standar\". Apa yang harus saya lakukan?",
+        "subtitle": "Mengatasi keterlambatan transaksi banking gateway.",
+        "content": "<p>Gerbang perbankan terkadang mengalami penundaan sinkronisasi sementara (biasanya antara 1 hingga 5 menit). Jika status Anda belum diperbarui:<\/p><ol><li>Buka tab Profil di aplikasi klien Anda.<\/li><li>Ketuk ikon menu di samping profil OVOSEC Anda dan klik \"Perbarui Profil\" untuk memaksa sinkronisasi manual dengan server penagihan kami.<\/li><li>Jika masih tidak muncul setelah 10 menit, kirimkan tanda terima transaksi Anda melalui email ke <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>, dan tim penagihan kami akan mengkredit akun Anda secara manual.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 46,
+        "title": "Kapan kuota data saya diatur ulang, dan bagaimana jika saya kehabisan data sebelum siklus penagihan berakhir?",
+        "subtitle": "Memahami jadwal reset bandwidth dan top-up.",
+        "content": "<p>Kuota data premium berkecepatan tinggi Anda disetel ulang secara otomatis pada tanggal peringatan penagihan bulanan Anda (dapat dilihat di <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Dasbor Web<\/a>). Data tidak dapat ditransfer ke bulan berikutnya.<\/p><p>Jika Anda menghabiskan bandwidth berkecepatan tinggi sebelum waktunya karena download yang banyak, kecepatan koneksi Anda akan terbatas. Anda dapat langsung menyetel ulang kuota dengan membeli isi ulang data atau meningkatkan tingkat paket melalui portal web aman kami.<\/p>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    },
+    {
+        "id": 50,
+        "title": "Bagaimana tagihan langganan OVOSEC akan muncul di kartu kredit atau laporan mutasi bank saya?",
+        "subtitle": "Memahami representasi deskriptor penagihan pada laporan keuangan.",
+        "content": "<p>Untuk melindungi privasi finansial Anda dan menyimpan catatan yang jelas, semua transaksi diproses dengan aman menggunakan identitas perusahaan berlisensi kami.<\/p><p>Pada kartu kredit, kartu debit, atau laporan bank Anda, deskripsi dinamis untuk pembelian ini akan diberi label dengan jelas sebagai <strong>OVOSEC*KUALA LUMPUR<\/strong> atau <strong>OVO CYBERTECH SDN BHD<\/strong>.<\/p><p>Jika Anda melihat adanya perbedaan penagihan, harap hubungi antrean dukungan kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> sebelum memulai penyelidikan bank.<\/p>",
+        "languageId": 2,
+        "languageName": "Akun & Langganan"
+    }
+]

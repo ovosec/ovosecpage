@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "Was sind der „TUN-Modus“ und der „System-Proxy“, und welchen sollte ich verwenden?",
+        "subtitle": "Verstehen der Unterschiede zwischen den Proxy-Routing-Modi.",
+        "content": "<ul><li><strong>System-Proxy (Standard):<\/strong> Leiten Sie den Standard-Webbrowser-Verkehr über unsere verschlüsselten Relays mit geringer Latenz weiter, optimal für die allgemeine Produktivität im Büro und die Beschleunigung von Cloud-Diensten.<\/li><li><strong>TUN-Modus (empfohlen für erweiterte Arbeitsabläufe):<\/strong> Erstellt eine virtuelle Netzwerkschnittstellenkarte auf Betriebssystemebene, die alle Netzwerkpakete über alle Hintergrundanwendungen hinweg erfasst und sichert. Aktivieren Sie den TUN-Modus, wenn bestimmte Desktop-Software oder interne Unternehmensprogramme die standardmäßigen Browser-Proxy-Einstellungen nicht nutzen können.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 16,
+        "title": "Fehlerbehebung: Warum laufen meine Secure Relay Endpunkte ab?",
+        "subtitle": "Beheben von Konnektivitäts- und Latenzproblemen.",
+        "content": "<p>Wenn die Schnittstelle einen Verbindungsfehler oder eine übermäßige Latenz anzeigt, führen Sie bitte die folgende Überprüfungsroutine aus:<\/p><ul><li><strong>Profil synchronisieren:<\/strong> Klicken Sie auf das Aktualisierungssymbol neben Ihrer Profilregisterkarte, um die neuesten Serverzuordnungs- und Routingtabellen abzurufen.<\/li><li><strong>Gateway-Protokolle wechseln:<\/strong> Gehen Sie zu App-Einstellungen -> Protokollkonfiguration und versuchen Sie, zwischen alternativen Unternehmensübertragungsmodi (z. B. Wechsel von Standard-TLS zu Reality\/Shadowsocks-Ebenen) umzuschalten Umgehen Sie die Deep-Packet-Inspection-(DPI)-Blöcke des lokalen Unternehmens-ISP.<\/li><li><strong>DNS Flush:<\/strong> Löschen Sie den DNS-Cache Ihres lokalen Betriebssystems, um Routing-Konflikte zu beseitigen.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 25,
+        "title": "Wie bezeuge ich Fehler beim Handshake der Netzwerkverbindung?",
+        "subtitle": "Behebung plötzlicher Netzwerkunterbrechungen und Latenzspitzen.",
+        "content": "<p>Wenn Sie auf Verbindungsprobleme stoßen, versuchen Sie, die Protokolle in den Einstellungen zu wechseln, oder wechseln Sie zu einem anderen sicheren Serverknoten. Auch die vorübergehende Deaktivierung aktiver lokaler Firewalls von Drittanbietern kann Konfigurationskonflikte lösen. Bei dauerhaften Verbindungsanfragen kontaktieren Sie uns unter <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 26,
+        "title": "Wie wähle ich den Serverknoten mit der geringsten Latenz aus?",
+        "subtitle": "Optimierung der Serverantwortgeschwindigkeit und Bandbreitenleistung.",
+        "content": "<p>Um die niedrigste Latenz zu erreichen, wählen Sie einen Serverknoten aus, der Ihrem tatsächlichen physischen Standort geografisch am nächsten liegt. Die Anwendung bietet Echtzeit-Latenzindikatoren und Bandbreitenkapazitätsflags, um Ihnen bei der Auswahl des optimalen Knotens zu helfen.<\/p>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 32,
+        "title": "Warum sind meine lokalen Apps langsam oder laden nicht, während OVOSEC aktiv ist?",
+        "subtitle": "Konfigurieren von Routenmodi zur Umgehung des lokalen Verkehrs.",
+        "content": "<p>Standardmäßig leitet das Dienstprogramm möglicherweise den gesamten Datenverkehr über das sichere Netzwerk weiter. Um dies zu optimieren, ändern Sie bitte im App-Menü Ihren Routenmodus von „Global“ auf „Lokal\/LAN umgehen“ oder „Regelmodus“.<\/p><p>Dadurch wird sichergestellt, dass Ihre lokalen Apps mit maximaler Geschwindigkeit direkt über Ihren lokalen ISP verbunden werden, während nur grenzüberschreitende Produktivitätsworkflows unsere beschleunigten Relays verwenden.<\/p>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 33,
+        "title": "Warum zeigt das OVOSEC-Tool unter iOS\/macOS den Fehler „Kerninitialisierung fehlgeschlagen“ an?",
+        "subtitle": "Beheben von Datenbankkonflikten auf Apple-Plattformen.",
+        "content": "<p>Dies passiert normalerweise, wenn ein Konflikt in der lokalen Routing-Datenbank besteht. Um dies zu beheben:<\/p><ol><li>Gehen Sie zu App-Einstellungen -> Erweitert -> Datenbank zurücksetzen.<\/li><li>Kopieren Sie Ihre Zugriffskonfigurations-URL erneut aus dem <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">OVOSEC-Dashboard<\/a> und importieren Sie es erneut.<\/li><li>Stellen Sie sicher, dass „Strikte Route“ ausgeschaltet ist, wenn Sie andere lokale Apps ausführen Firewalls.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 37,
+        "title": "Kann ich bestimmte Apps ausschließen oder nur bestimmten Webbrowsern die Verwendung des OVOSEC-Relais erlauben?",
+        "subtitle": "Aufteilen und Weiterleiten des Datenverkehrs pro Anwendung.",
+        "content": "<p>Ja, die Kern-Engine unterstützt die erweiterte Verkehrsaufteilung:<\/p><ul><li><strong>Auf dem Desktop (Windows\/macOS):<\/strong> Wechseln Sie Ihren Modus von „TUN-Modus“ zu „System-Proxy“. In diesem Modus werden nur Anwendungen beschleunigt, die die Netzwerkeinstellungen des Systems berücksichtigen (wie Chrome, Edge oder Firefox).<\/li><li><strong>Auf Android:<\/strong> Gehen Sie zu App-Einstellungen -> Pro-App-Proxy (oder Anwendungsfilter). Wenn Sie es aktivieren, können Sie die genauen Anwendungen, die Sie über OVOSEC weiterleiten möchten, manuell überprüfen und den Rest in Ihrem lokalen Standardnetzwerk belassen.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 38,
+        "title": "Wie zwinge ich Befehlszeilentools oder Terminalanwendungen, OVOSEC auf dem Desktop zu verwenden?",
+        "subtitle": "Konfigurieren lokaler Umgebungsvariablen für Entwicklertools.",
+        "content": "<p>Der System-Proxy und der TUN-Modus erfassen unter Windows\/macOS möglicherweise nicht automatisch den Rohdatenverkehr des Terminals oder der Entwicklerumgebung. Um dieses Problem zu beheben:<\/p><ol><li>Suchen Sie im OVOSEC-Dienstprogramm Ihren aktuellen lokalisierten Eingangsport (normalerweise HTTP 2334 oder gemischter Port unter den Konfigurationseinstellungen).<\/li><li>Öffnen Sie Ihr Terminal und exportieren Sie die Netzwerkumgebungsvariablen manuell:<\/li><\/ol><pre><code>export http_proxy=http:\/\/127.0.0.1:2334\nexport https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Dies zwingt Entwicklungsskripte und Konsolentools dazu, über unsere sicheren Kanäle weitergeleitet zu werden.<\/p>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 41,
+        "title": "Ich habe ein funktionierendes Netzwerk, aber warum laufen alle Endpunkte plötzlich mit Handshake-Fehlern ab?",
+        "subtitle": "Korrektur der Geräteuhrabweichung zur Einhaltung von Sicherheitsprotokollen.",
+        "content": "<p>Unsere Verschlüsselungsebenen für Unternehmen nutzen sichere, zeitlich begrenzte kryptografische Token. Wenn die Systemzeit Ihres Geräts um mehr als 60 Sekunden von der globalen Standardzeit abweicht, lehnt der Sicherheitskern den Handshake ab.<\/p><p><strong>Lösung:<\/strong> Gehen Sie zu den Systemeinstellungen Ihres Geräts -> Datum und Uhrzeit und stellen Sie sicher, dass „Zeit automatisch einstellen“ (vom Netzwerk bereitgestellte Zeit) aktiviert ist. Nachdem Sie die Uhr Ihres Geräts korrigiert haben, starten Sie das Dienstprogramm OVOSEC neu, um die sofortige Verbindung wiederherzustellen.<\/p>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    },
+    {
+        "id": 48,
+        "title": "Warum kann ich auf keine Websites zugreifen, selbst nachdem ich das OVOSEC-Dienstprogramm vollständig geschlossen habe?",
+        "subtitle": "Wiederherstellen gesperrter DNS-Parameter des Betriebssystems.",
+        "content": "<p>Dies kommt selten vor, wird aber durch einen plötzlichen Systemabbruch (z. B. ein plötzlicher PC-Absturz, ein Stromausfall oder das gewaltsame Beenden der Hintergrundaufgabe durch das Betriebssystem) verursacht, während der TUN-Modus aktiv war. In diesen Fällen bleiben die DNS-Einstellungen Ihres Betriebssystems möglicherweise im sicheren Routing-Modus gesperrt.<\/p><p><strong>Sofortige Lösung:<\/strong><\/p><ol><li>Starten Sie einfach das OVOSEC-Dienstprogramm neu und klicken Sie auf die zentrale Schaltfläche „Verbinden“.<\/li><li>Warten Sie 5 Sekunden und klicken Sie dann wie gewohnt auf „Trennen“. Dadurch wird die Kern-Engine dazu veranlasst, Ihren standardmäßigen Netzwerkstapel und Ihre DNS-Parameter des Betriebssystems sauber zu löschen und auf den Standard Ihres ISP zurückzusetzen.<\/li><li>Alternativ können Sie den Netzwerkadapter Ihres Geräts neu starten oder Ihr System-DNS leeren (<code>ipconfig \/flushdns<\/code> unter Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Verbindung & Protokoll"
+    }
+]

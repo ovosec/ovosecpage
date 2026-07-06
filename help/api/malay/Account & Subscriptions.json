@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "Bagaimanakah cara saya mengurus atau membatalkan langganan berulang aktif saya?",
+        "subtitle": "Menguruskan kitaran pengebilan automatik anda dan pembatalan.",
+        "content": "<p>OVOSEC mengutamakan pilihan dan ketelusan pengguna. Untuk mengurus atau membatalkan kitaran pengebilan automatik anda (diproses dengan selamat melalui Curlec \/ Stripe Payments Malaysia):<\/p><ol><li>Log masuk ke akaun peribadi anda di portal web kami.<\/li><li>Navigasi ke Pengebilan & Langganan di bawah tetapan Profil anda.<\/li><li>Klik butang \"Batalkan Auto-Pembaharuan\". Akses premium anda akan kekal berfungsi sepenuhnya sehingga tamat tempoh pengebilan berbayar semasa anda dan tiada caj lanjut akan dikenakan.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 14,
+        "title": "Apakah polisi bayaran balik anda mengenai pakej premium?",
+        "subtitle": "Syarat bayaran balik dan jaminan wang dikembalikan selama 7 hari.",
+        "content": "<p>Disebabkan sifat perkhidmatan transit digital, kami menyediakan jaminan wang dikembalikan 7 hari yang ketat namun adil. Anda layak menerima bayaran balik penuh jika:<\/p><ul><li>Permintaan bayaran balik anda diserahkan dalam tempoh 7 hari kalendar dari cap waktu pembelian awal anda.<\/li><li>Penggunaan data terkumpul anda merentas semua laluan geganti tidak melebihi 2.0 GB.<\/li><\/ul><p>Untuk memulakan permintaan, sila hubungi pasukan sokongan kami di <a href=\"mailto:support@oec>a href=\"mailto:support@oec. e-mel akaun berdaftar.<\/p>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 23,
+        "title": "Bagaimanakah cara saya mendaftar dan log masuk ke akaun saya?",
+        "subtitle": "Panduan langkah demi langkah untuk membuat akaun dan pengesahan.",
+        "content": "<p>Untuk mendaftar akaun, navigasi ke tapak web rasmi kami dan pilih pilihan <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">LOGIN \/ DAFTAR<\/a>. Berikan alamat e-mel yang sah dan konfigurasikan kata laluan yang kukuh untuk menjana identiti pengguna anda.<\/p>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 24,
+        "title": "Bagaimanakah cara saya melakukan tetapan semula kata laluan yang selamat?",
+        "subtitle": "Memulihkan hak akses akaun dan kelayakan kata laluan.",
+        "content": "<p>Jika anda terlupa kata laluan anda, navigasi ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Halaman Log Masuk<\/a> dan pilih 'Terlupa Kata Laluan'. Masukkan alamat e-mel berdaftar anda dan kami akan menghantar pautan pengesahan tetapan semula kata laluan untuk memulihkan akses akaun anda.<\/p>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 36,
+        "title": "Bagaimanakah cara saya menyemak baki kuota data dan tarikh tamat tempoh langganan saya?",
+        "subtitle": "Memantau penggunaan akaun anda dan kitaran pengebilan aktif.",
+        "content": "<p>OVOSEC mengutamakan ketelusan. Anda boleh menyemak status langganan anda dalam dua cara:<\/p><ul><li><strong>Melalui Portal Web:<\/strong> Log masuk ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">papan pemuka peribadi<\/a> anda pada <a href=\"https:\/\/ovosec.com\"> anda yang aktif melihat dan melihat bil anda. kuota data masa nyata.<\/li><li><strong>Melalui Apl Pelanggan:<\/strong> Pada antara muka utama utiliti OVOSEC anda, lihat bahagian bawah atau tab profil. Enjin Hiddify secara automatik memaparkan penggunaan data terkumpul anda dan baki hari yang tinggal (mis., \"Tamat tempoh dalam X hari\"). Klik Ikon Muat Semula untuk menyegerakkan penggunaan terkini daripada pelayan pengebilan.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 42,
+        "title": "Saya menukar atau menaik taraf peranti saya. Bagaimanakah cara saya memulihkan langganan premium aktif saya?",
+        "subtitle": "Memulihkan langganan premium aktif anda pada peranti baharu.",
+        "content": "<p>Langganan anda dipautkan ke profil akaun anda, bukan ID perkakasan peranti tertentu. Untuk mengaktifkan OVOSEC pada peranti baharu anda:<\/p><ol><li>Log masuk ke <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Papan Pemuka peribadi<\/a> anda pada <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com Konfigurasi unik anda<\/a>Copy.com><li Access. URL.<\/li><li>Pasang utiliti OVOSEC pada peranti baharu anda, klik \"Konfigurasi Import\", dan tampal URL. Baki hari premium dan kuota data anda akan disegerakkan serta-merta.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 43,
+        "title": "Saya telah menyelesaikan pembayaran saya melalui Curlec\/Stripe, tetapi pelanggan saya masih menunjukkan status \"Percuma\/Standard\". Apa yang patut saya buat?",
+        "subtitle": "Menyelesaikan kelewatan transaksi gerbang masuk perbankan.",
+        "content": "<p>Gerbang perbankan kadangkala mengalami kelewatan penyegerakan sementara (biasanya antara 1 hingga 5 minit). Jika status anda tidak dikemas kini:<\/p><ol><li>Pergi ke tab Profil dalam aplikasi pelanggan anda.<\/li><li>Ketik ikon menu di sebelah profil OVOSEC anda dan klik \"Kemas Kini Profil\" untuk memaksa penyegerakan manual dengan pelayan pengebilan kami.<\/li><li>Jika ia masih tidak dipaparkan selepas 10 minit, sila hantar e-mel ke <penerima transaksi anda href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> dan pasukan pengebilan kami akan mengkreditkan akaun anda secara manual.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 46,
+        "title": "Bilakah kuota data saya ditetapkan semula, dan bagaimana jika saya kehabisan data sebelum kitaran bil tamat?",
+        "subtitle": "Memahami jadual tetapan semula lebar jalur dan tambah nilai.",
+        "content": "<p>Kuota data berkelajuan tinggi premium anda ditetapkan semula secara automatik pada tarikh ulang tahun pengebilan bulanan anda yang tepat (boleh dilihat di bawah <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Papan Pemuka Web<\/a> anda). Data tidak beralih ke bulan berikutnya.<\/p><p>Jika anda kehabisan lebar jalur berkelajuan tinggi anda lebih awal disebabkan muat turun yang berat, sambungan anda akan dihadkan kadar. Anda boleh menetapkan semula kuota anda dengan serta-merta dengan membeli tambah nilai data atau menaik taraf peringkat pelan anda melalui portal web selamat kami.<\/p>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    },
+    {
+        "id": 50,
+        "title": "Bagaimanakah caj langganan OVOSEC akan dipaparkan pada kad kredit atau penyata bank saya?",
+        "subtitle": "Memahami perwakilan deskriptor pengebilan pada penyata kewangan.",
+        "content": "<p>Untuk melindungi privasi kewangan anda dan mengekalkan rekod yang jelas, semua urus niaga diproses dengan selamat di bawah identiti korporat kami yang berlesen.<\/p><p>Pada kad kredit, kad debit atau penyata bank anda, deskriptor dinamik untuk pembelian ini akan dilabelkan dengan jelas sebagai <strong>OVOSEC*KUALA LUMPUR<\/strong> atau <strong>OVO CYBERTECH SDN BHD<\/strong>jika anda ingin membuat sebarang pertanyaan, sila hubungi kami jika anda memerlukan sebarang maklum balas.<\/p><p> <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> sebelum memulakan pertanyaan bank.<\/p>",
+        "languageId": 2,
+        "languageName": "Akaun & Langganan"
+    }
+]

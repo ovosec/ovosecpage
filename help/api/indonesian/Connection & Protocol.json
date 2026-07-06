@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "Apa itu \"Mode TUN\" dan \"Proksi Sistem\", dan mana yang harus saya gunakan?",
+        "subtitle": "Memahami perbedaan antara mode perutean proxy.",
+        "content": "<ul><li><strong>Proksi Sistem (Default):<\/strong> Merutekan lalu lintas browser web standar melalui relai terenkripsi latensi rendah kami, optimal untuk produktivitas kantor umum dan akselerasi layanan cloud.<\/li><li><strong>Mode TUN (Direkomendasikan untuk Alur Kerja Tingkat Lanjut):<\/strong> Membuat kartu antarmuka jaringan virtual di tingkat sistem operasi, menangkap dan mengamankan semua paket jaringan di semua aplikasi latar belakang. Aktifkan Mode TUN jika perangkat lunak desktop atau program internal perusahaan tertentu gagal memanfaatkan setelan proxy browser default.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 16,
+        "title": "Pemecahan Masalah: Mengapa Titik Akhir Relai Aman saya mengalami waktu habis?",
+        "subtitle": "Menyelesaikan masalah konektivitas dan latensi.",
+        "content": "<p>Jika antarmuka menampilkan kegagalan koneksi atau latensi berlebihan, silakan jalankan rutin verifikasi berikut:<\/p><ul><li><strong>Sinkronkan Profil:<\/strong> Klik ikon segarkan di samping tab profil Anda untuk mengambil pemetaan server dan tabel perutean terbaru.<\/li><li><strong>Ganti Protokol Gateway:<\/strong> Buka Pengaturan Aplikasi -> Konfigurasi Protokol, dan coba beralih di antara mode transmisi perusahaan alternatif (misalnya, beralih dari lapisan TLS standar ke Realitas\/Shadowsocks) ke melewati blok inspeksi paket dalam (DPI) ISP perusahaan lokal.<\/li><li><strong>DNS Flush:<\/strong> Hapus cache DNS sistem operasi lokal Anda untuk menghilangkan konflik perutean.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 25,
+        "title": "Bagaimana cara mengatasi kegagalan jabat tangan koneksi jaringan?",
+        "subtitle": "Mengatasi pemutusan jaringan secara tiba-tiba dan lonjakan latensi.",
+        "content": "<p>Jika Anda mengalami masalah koneksi, coba alihkan protokol di pengaturan, atau alihkan ke node server aman lain. Menonaktifkan sementara firewall pihak ketiga lokal yang aktif juga dapat menyelesaikan konflik konfigurasi. Untuk pertanyaan koneksi yang terus-menerus, hubungi kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 26,
+        "title": "Bagaimana cara memilih simpul server dengan latensi terendah?",
+        "subtitle": "Mengoptimalkan kecepatan respon server dan kinerja bandwidth.",
+        "content": "<p>Untuk mencapai latensi terendah, pilih node server yang secara geografis paling dekat dengan lokasi fisik Anda yang sebenarnya. Aplikasi ini menyediakan indikator latensi real-time dan tanda kapasitas bandwidth untuk membantu Anda memilih node yang optimal.<\/p>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 32,
+        "title": "Mengapa aplikasi lokal saya lambat atau gagal dimuat saat OVOSEC aktif?",
+        "subtitle": "Mengonfigurasi mode rute untuk melewati lalu lintas lokal.",
+        "content": "<p>Secara default, utilitas dapat merutekan semua lalu lintas melalui jaringan aman. Untuk mengoptimalkannya, harap ubah Mode Rute Anda dari \"Global\" menjadi \"Bypass Lokal\/LAN\" atau \"Mode Aturan\" di menu aplikasi.<\/p><p>Ini memastikan aplikasi lokal Anda terhubung langsung melalui ISP lokal Anda dengan kecepatan maksimum, sementara hanya alur kerja produktivitas lintas batas yang menggunakan relai kami yang dipercepat.<\/p>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 33,
+        "title": "Mengapa utilitas OVOSEC menunjukkan kesalahan \"Inisialisasi Inti Gagal\" di iOS\/macOS?",
+        "subtitle": "Menyelesaikan konflik database pada platform Apple.",
+        "content": "<p>Hal ini biasanya terjadi jika ada konflik dalam database perutean lokal. Untuk memperbaikinya:<\/p><ol><li>Buka Setelan Aplikasi -> Lanjutan -> Reset Basis Data.<\/li><li>Salin ulang URL Konfigurasi Akses Anda dari <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Dasbor OVOSEC<\/a> dan impor ulang.<\/li><li>Pastikan \"Rute Ketat\" dimatikan jika Anda menjalankan lokal lainnya firewall.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 37,
+        "title": "Bisakah saya mengecualikan aplikasi tertentu atau hanya mengizinkan browser web tertentu untuk menggunakan relai aman OVOSEC?",
+        "subtitle": "Memisahkan dan merutekan lalu lintas per aplikasi.",
+        "content": "<p>Ya, mesin inti mendukung pemisahan lalu lintas tingkat lanjut:<\/p><ul><li><strong>Di Desktop (Windows\/macOS):<\/strong> Alihkan mode Anda dari \"Mode TUN\" ke \"Proksi Sistem\". Dalam mode ini, hanya aplikasi yang mengikuti setelan jaringan sistem (seperti Chrome, Edge, atau Firefox) yang akan dipercepat.<\/li><li><strong>Di Android:<\/strong> Buka Setelan Aplikasi -> Proksi Per Aplikasi (atau Filter Aplikasi). Aktifkan, dan Anda dapat secara manual memeriksa aplikasi mana yang ingin Anda rutekan melalui OVOSEC, dan membiarkan sisanya berada di jaringan lokal standar Anda.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 38,
+        "title": "Bagaimana cara memaksa alat baris perintah atau aplikasi terminal menggunakan OVOSEC di desktop?",
+        "subtitle": "Mengonfigurasi variabel lingkungan lokal untuk alat pengembang.",
+        "content": "<p>Proksi Sistem dan Mode TUN mungkin tidak secara otomatis menangkap lalu lintas terminal mentah atau lingkungan pengembang di Windows\/macOS. Untuk mengatasi masalah ini:<\/p><ol><li>Dalam utilitas OVOSEC, temukan Port Masuk yang dilokalkan saat ini (biasanya HTTP 2334 atau port campuran dalam setelan Konfigurasi).<\/li><li>Buka terminal Anda dan ekspor variabel lingkungan jaringan secara manual:<\/li><\/ol><pre><code>ekspor http_proxy=http:\/\/127.0.0.1:2334\nekspor https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Ini memaksa skrip pengembangan dan alat konsol untuk merutekan melalui saluran aman kami.<\/p>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 41,
+        "title": "Jaringan saya berfungsi, tetapi mengapa semua titik akhir tiba-tiba habis waktu dengan kesalahan jabat tangan?",
+        "subtitle": "Memperbaiki penyimpangan jam perangkat untuk memenuhi protokol keamanan.",
+        "content": "<p>Lapisan enkripsi tingkat perusahaan kami menggunakan token kriptografi aman dengan batas waktu. Jika waktu sistem perangkat Anda berbeda dari waktu global standar lebih dari 60 detik, inti keamanan akan menolak jabat tangan.<\/p><p><strong>Perbaikan:<\/strong> Buka Setelan Sistem perangkat Anda -> Tanggal & Waktu, dan pastikan \"Setel Waktu Secara Otomatis\" (Waktu yang disediakan jaringan) dalam keadaan AKTIF. Setelah mengoreksi jam perangkat Anda, mulai ulang utilitas OVOSEC untuk memulihkan konektivitas instan.<\/p>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    },
+    {
+        "id": 48,
+        "title": "Mengapa saya tidak dapat mengakses situs web apa pun bahkan setelah menutup utilitas OVOSEC sepenuhnya?",
+        "subtitle": "Memulihkan parameter DNS sistem operasi yang terkunci.",
+        "content": "<p>Hal ini jarang terjadi tetapi disebabkan oleh penghentian sistem secara tiba-tiba (misalnya, PC tiba-tiba crash, pemadaman listrik, atau OS secara paksa mematikan tugas latar belakang) saat Mode TUN aktif. Dalam kasus ini, setelan DNS sistem operasi Anda mungkin tetap terkunci dalam mode perutean aman.<\/p><p><strong>Perbaikan Segera:<\/strong><\/p><ol><li>Cukup luncurkan kembali utilitas OVOSEC dan klik tombol \"Hubungkan\" di tengah.<\/li><li>Tunggu 5 detik, lalu klik \"Putuskan\" seperti biasa. Hal ini memicu mesin inti untuk menghapus bersih dan memulihkan tumpukan jaringan sistem operasi default dan parameter DNS Anda kembali ke standar ISP Anda.<\/li><li>Atau, restart adaptor jaringan perangkat Anda atau bersihkan DNS sistem Anda (<code>ipconfig \/flushdns<\/code> di Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Koneksi & Protokol"
+    }
+]

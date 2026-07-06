@@ -1,0 +1,50 @@
+[
+    {
+        "id": 19,
+        "title": "Adakah OVOSEC melaksanakan Polisi Sifar Log?",
+        "subtitle": "Standard privasi kami yang ketat dan pematuhan tempatan.",
+        "content": "<p>Ya, sama sekali. OVOSEC diperbadankan sebagai entiti undang-undang di Kuala Lumpur, Malaysia, dan mematuhi garis panduan PDPA tempatan dengan ketat di samping rangka kerja pematuhan sifar pengetahuan global. Teras belakang sumber terbuka kami beroperasi dengan ketat dalam memori RAM yang tidak menentu. Kami tidak mengumpul, memantau, menjejak atau mengarkibkan destinasi rangkaian anda, sejarah pertanyaan, kandungan muatan atau log peruntukan IP sumber dunia sebenar. Kehadiran digital anda adalah awanama sepenuhnya.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    },
+    {
+        "id": 20,
+        "title": "Apakah tahap penyulitan yang dikuatkuasakan oleh infrastruktur OVOSEC?",
+        "subtitle": "Protokol kriptografi lanjutan dan piawaian keselamatan.",
+        "content": "<p>Setiap paket yang dihantar melalui rangkaian geganti selamat kami dikapsulkan menggunakan primitif kriptografi AES-256-GCM atau ChaCha20-Poly1305 standard industri, berlapis dengan jabat tangan TLS moden. Seni bina kriptografi ini menjamin kerahsiaan hujung ke hujung mutlak, membatalkan sebarang potensi gangguan orang tengah atau mencuri dengar paket walaupun semasa mengakses sumber korporat melalui pusat akses Wi-Fi awam yang tidak selamat.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    },
+    {
+        "id": 29,
+        "title": "Apakah polisi log pengetahuan sifar OVOSEC?",
+        "subtitle": "Memahami komitmen kami terhadap keselamatan dan sifar penjejakan pengguna.",
+        "content": "<p>Kami mematuhi Dasar Log Sifar yang ketat. Kami tidak memantau, menangkap, menyimpan atau menjual sebarang maklumat mengenai sejarah penyemakan imbas anda, destinasi trafik, kandungan muatan data atau permintaan DNS. Untuk syarat undang-undang yang komprehensif, sila baca <a href=\"..\/privacy.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Dasar Privasi<\/a> kami.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    },
+    {
+        "id": 30,
+        "title": "Bagaimanakah OVOSEC selamatkan penghantaran Wi-Fi awam?",
+        "subtitle": "Penyulitan gred tentera dan suite protokol pada pintu masuk awam.",
+        "content": "<p>Semua trafik rangkaian yang dihalakan melalui nod selamat OVOSEC disulitkan melalui primitif AES-256-GCM dan ChaCha20-Poly1305 yang terkini. Ini menjamin bahawa aliran paket data anda kekal dilindungi daripada mencuri dengar atau serangan Man-in-the-Middle (MitM) walaupun pada tempat liputan Wi-Fi awam yang tidak dipercayai.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    },
+    {
+        "id": 44,
+        "title": "Adakah OVOSEC melindungi kelayakan dan data peranti saya apabila menyambung melalui Wi-Fi awam yang tidak selamat?",
+        "subtitle": "Mencegah kecurian data dan serangan MitM pada kawasan panas awam.",
+        "content": "<p>Ya, sepenuhnya. Apabila OVOSEC aktif (terutama dengan Mod TUN didayakan), seni bina teras asas merangkum semua trafik keluar tempatan ke dalam terowong kriptografi yang disulitkan dengan ketat (menggunakan primitif AEAD).<\/p><p>Walaupun jika tempat liputan Wi-Fi awam terjejas atau menjalankan penyerang \"Man-in-the-Middle\" penyerang penyerang sahaja, penyerang metadata yang tidak boleh dipecahkan sahaja. Kata laluan teks biasa, transaksi kewangan dan muatan komunikasi anda kekal kalis peluru sepenuhnya.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    },
+    {
+        "id": 47,
+        "title": "Mengapakah antivirus tempatan saya atau Windows Defender menandakan OVOSEC apabila mendayakan Mod TUN?",
+        "subtitle": "Mengendalikan positif palsu antivirus untuk perubahan rangkaian sistem.",
+        "content": "<p>Ini ialah positif palsu standard. Disebabkan Mod TUN mencipta penyesuai rangkaian maya gred perusahaan lanjutan pada peringkat sistem pengendalian untuk menyulitkan semua data latar belakang keluar, tembok api keselamatan tempatan yang ketat mungkin membenderakan pengubahsuaian rangkaian dalam ini sebagai mencurigakan.<\/p><p>OVOSEC adalah sumber terbuka sepenuhnya, diaudit dengan banyak dan bebas perisian hasad. Anda boleh menambah direktori aplikasi OVOSEC dengan selamat ke Senarai Pengecualian \/ Amanah antivirus anda untuk memastikan pengoptimuman rangkaian tidak terganggu.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keselamatan"
+    }
+]

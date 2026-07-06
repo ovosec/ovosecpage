@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "Comment gérer ou résilier mon abonnement récurrent actif ?",
+        "subtitle": "Gérer vos cycles de facturation automatisés et d'annulation.",
+        "content": "<p>OVOSEC donne la priorité au choix du consommateur et à la transparence. Pour gérer ou annuler vos cycles de facturation automatisés (traités en toute sécurité via Curlec \/ Stripe Payments Malaysia) :<\/p><ol><li>Connectez-vous à votre compte personnel sur notre portail Web.<\/li><li> Accédez à Facturation et abonnements dans les paramètres de votre profil.<\/li><li> Cliquez sur le bouton \"Annuler le renouvellement automatique\". Votre accès premium restera entièrement fonctionnel jusqu'à la fin de votre période de facturation payante en cours, et aucun frais supplémentaire ne sera appliqué.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 14,
+        "title": "Quelle est votre politique de remboursement concernant les forfaits premium ?",
+        "subtitle": "Conditions de remboursement et garantie de remboursement de 7 jours.",
+        "content": "<p>En raison de la nature des services de transport numérique, nous offrons une garantie de remboursement de 7 jours, stricte mais équitable. Vous êtes éligible à un remboursement complet si :<\/p><ul><li>Votre demande de remboursement est soumise dans les 7 jours calendaires suivant l'horodatage de votre achat initial.<\/li><li>Votre consommation cumulée de données sur tous les chemins de relais ne dépasse pas 2,0 Go.<\/li><\/ul><p>Pour lancer une demande, veuillez contacter notre équipe d'assistance à <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> en utilisant l'adresse e-mail de votre compte enregistré.<\/p>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 23,
+        "title": "Comment s'inscrire et se connecter à mon compte ?",
+        "subtitle": "Conseils étape par étape pour la création de compte et l'authentification.",
+        "content": "<p>Pour créer un compte, accédez à notre site Web officiel et sélectionnez l'option <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">CONNEXION \/ INSCRIPTION<\/a>. Fournissez une adresse e-mail valide et configurez un mot de passe fort pour générer votre identité d'utilisateur.<\/p>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 24,
+        "title": "Comment réinitialiser mon mot de passe en toute sécurité ?",
+        "subtitle": "Récupération des droits d'accès au compte et des identifiants de mot de passe.",
+        "content": "<p>Si vous oubliez votre mot de passe, accédez à la <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Page de connexion<\/a> et sélectionnez \"Mot de passe oublié\". Saisissez votre adresse e-mail enregistrée et nous vous enverrons un lien de vérification de réinitialisation de mot de passe pour restaurer l'accès à votre compte.<\/p>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 36,
+        "title": "Comment vérifier mon quota de données restant et la date d'expiration de mon abonnement ?",
+        "subtitle": "Surveillance de l'utilisation de votre compte et du cycle de facturation actif.",
+        "content": "<p>OVOSEC donne la priorité à la transparence. Vous pouvez vérifier l'état de votre abonnement de deux manières :<\/p><ul><li><strong>Via le portail Web :<\/strong> Connectez-vous à votre <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">tableau de bord personnel<\/a> sur <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> pour afficher votre cycle de facturation actif et quota de données en temps réel.<\/li><li><strong>Via l'application client :<\/strong> Sur l'interface principale de votre utilitaire OVOSEC, regardez la section inférieure ou l'onglet de profil. Le moteur Hiddify affiche automatiquement votre consommation cumulée de données et les jours restants (par exemple, « Expire dans X jours »). Cliquez sur l'icône Actualiser pour synchroniser la dernière utilisation à partir du serveur de facturation.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 42,
+        "title": "J'ai changé ou mis à niveau mon appareil. Comment restaurer mon abonnement premium actif ?",
+        "subtitle": "Restauration de votre abonnement premium actif sur un nouvel appareil.",
+        "content": "<p>Votre abonnement est lié à votre profil de compte, et non à un identifiant matériel d'appareil spécifique. Pour activer OVOSEC sur votre nouvel appareil :<\/p><ol><li>Connectez-vous à votre <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">tableau de bord personnel<\/a> sur <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>.<\/li><li>Copiez votre configuration d'accès unique. URL.<\/li><li>Installez l'utilitaire OVOSEC sur votre nouvel appareil, cliquez sur \"Importer la configuration\" et collez l'URL. Vos jours premium restants et votre quota de données seront instantanément synchronisés.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 43,
+        "title": "J'ai effectué mon paiement via Curlec\/Stripe, mais mon client affiche toujours le statut \"Gratuit\/Standard\". Que dois-je faire ?",
+        "subtitle": "Résoudre les retards de transaction des passerelles bancaires.",
+        "content": "<p>Les passerelles bancaires subissent parfois des retards de synchronisation temporaires (généralement entre 1 et 5 minutes). Si votre statut n'a pas été mis à jour :<\/p><ol><li>Accédez à l'onglet Profils de votre application client.<\/li><li>Appuyez sur l'icône de menu à côté de votre profil OVOSEC et cliquez sur \"Mettre à jour le profil\" pour forcer une synchronisation manuelle avec notre serveur de facturation.<\/li><li>Si cela ne s'affiche toujours pas après 10 minutes, veuillez envoyer votre reçu de transaction par e-mail à <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>, et notre équipe de facturation créditera votre compte manuellement.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 46,
+        "title": "Quand mon quota de données est-il réinitialisé et que se passe-t-il si je manque de données avant la fin du cycle de facturation ?",
+        "subtitle": "Comprendre les calendriers de réinitialisation et les recharges de bande passante.",
+        "content": "<p>Votre quota de données haut débit premium est réinitialisé automatiquement à la date anniversaire de votre facturation mensuelle précise (visible sous votre <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Tableau de bord Web<\/a>). Les données ne sont pas reportées au mois suivant.<\/p><p>Si vous épuisez prématurément votre bande passante haut débit en raison de téléchargements volumineux, votre connexion sera limitée en débit. Vous pouvez réinitialiser instantanément votre quota en achetant une recharge de données ou en mettant à niveau votre forfait via notre portail Web sécurisé.<\/p>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    },
+    {
+        "id": 50,
+        "title": "Comment les frais d'abonnement OVOSEC apparaîtront-ils sur ma carte de crédit ou mon relevé bancaire ?",
+        "subtitle": "Comprendre les représentations des descripteurs de facturation sur les états financiers.",
+        "content": "<p>Pour protéger votre confidentialité financière et conserver des enregistrements clairs, toutes les transactions sont traitées en toute sécurité sous notre identité d'entreprise sous licence.<\/p><p>Sur votre carte de crédit, carte de débit ou relevé bancaire, le descripteur dynamique de cet achat sera clairement étiqueté comme <strong>OVOSEC*KUALA LUMPUR<\/strong> ou <strong>OVO CYBERTECH SDN BHD<\/strong>.<\/p><p>Si vous remarquez des écarts de facturation, veuillez contacter notre file d'attente d'assistance à <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> avant de lancer une demande bancaire.<\/p>",
+        "languageId": 2,
+        "languageName": "Compte & Abonnements"
+    }
+]

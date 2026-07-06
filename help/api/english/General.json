@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id":  11,
+        "title":  "What is OVOSEC and how does it secure my connection?",
+        "subtitle":  "An overview of OVOSEC secure utility and encrypted transit.",
+        "content":  "\u003cp\u003eOVOSEC is a next-generation encrypted relay utility designed to optimize global network latency and protect data integrity. Utilizing an open-source high-performance core architecture, OVOSEC channels your data streams through enterprise-grade encrypted transit nodes, masking your transmission traces and accelerating cross-border productivity workflows seamlessly.\u003c/p\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  12,
+        "title":  "How do I set up the OVOSEC utility on my device?",
+        "subtitle":  "Step-by-step instructions for installation and setup.",
+        "content":  "\u003cp\u003eTo set up the OVOSEC utility on your device, follow these steps:\u003c/p\u003e\u003col\u003e\u003cli\u003eComplete your plan selection on our official website (\u003ca href=\"https://ovosec.com\" target=\"_blank\"\u003eovosec.com\u003c/a\u003e).\u003c/li\u003e\u003cli\u003eNavigate to the \u003ca href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eDownload page\u003c/a\u003e and acquire the secure application package tailored for your operating system (Windows, macOS, Android, or iOS).\u003c/li\u003e\u003cli\u003eLaunch the application, copy your unique Access Configuration URL from your \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eClient Dashboard\u003c/a\u003e, and click \"Import Configuration\" within the app interface to instantly synchronize your authorized relay endpoints.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  21,
+        "title":  "What is the core architecture of OVOSEC?",
+        "subtitle":  "An overview of OVOSEC security utility and encrypted transit.",
+        "content":  "\u003cp\u003eOVOSEC is a next-generation encrypted relay utility designed to optimize global network latency and protect data integrity. By channeling your data streams through enterprise-grade encrypted transit nodes, OVOSEC masks your transmission traces and accelerating cross-border productivity workflows seamlessly.\u003c/p\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  22,
+        "title":  "Which operating systems are compatible with OVOSEC?",
+        "subtitle":  "Checking device compatibility and operating system requirements.",
+        "content":  "\u003cp\u003eOVOSEC is fully compatible with Windows, macOS, iOS, Android, and Linux platforms. You can acquire the secure application package tailored for your operating system on our official \u003ca href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eDownload page\u003c/a\u003e.\u003c/p\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  31,
+        "title":  "Why does the accelerated connection automatically disconnect when my phone goes to sleep?",
+        "subtitle":  "Preventing mobile operating systems from sleeping OVOSEC.",
+        "content":  "\u003cp\u003eAggressive mobile operating system battery savers often terminate high-performance background daemons. To prevent this, please apply the following adjustments:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eAndroid:\u003c/strong\u003e Go to your phone\u0027s Settings -\u003e Apps -\u003e OVOSEC -\u003e Battery -\u003e Set to \"Unrestricted\" or \"No Optimization\".\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eiOS:\u003c/strong\u003e Ensure that \"Background App Refresh\" is enabled for OVOSEC under iOS Settings -\u003e OVOSEC.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  39,
+        "title":  "None of the above steps resolved my issue. How do I contact official engineering support?",
+        "subtitle":  "Submitting diagnostic tickets to our technical team.",
+        "content":  "\u003cp\u003eWe are committed to your seamless connectivity. If you encounter an unresolved routing conflict, please submit a diagnostic ticket to our technical queue at \u003ca href=\"mailto:support@ovosec.com\"\u003esupport@ovosec.com\u003c/a\u003e.\u003c/p\u003e\u003cp\u003eTo help us resolve it within 24 hours, please include:\u003c/p\u003e\u003cul\u003e\u003cli\u003eYour registered account email.\u003c/li\u003e\u003cli\u003eYour current operating system version (e.g., Windows 11, iOS 17).\u003c/li\u003e\u003cli\u003eA brief description or screenshot of the application log/error status.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  40,
+        "title":  "Why is my profile list empty, or why does it say \"No Profile Found\" after importing my URL?",
+        "subtitle":  "Triggering initial synchronization with the billing server.",
+        "content":  "\u003cp\u003eThis can occur if the application fails to perform its initial handshake with our billing servers due to local network jitter. To force a sync, please follow these steps:\u003c/p\u003e\u003col\u003e\u003cli\u003eIn the app, go to the Profiles tab and tap the three dots (menu) next to your imported OVOSEC link.\u003c/li\u003e\u003cli\u003eClick \"Force Update\" or \"Reload Profile\".\u003c/li\u003e\u003cli\u003eGo back to the main screen and click the central \"Connect\" button. This will instantly fetch and populate all authorized low-latency secure relay paths.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  45,
+        "title":  "Why did all my secure relay paths suddenly stop working after a long period of inactivity?",
+        "subtitle":  "Resolving protocol version mismatches after long inactivity.",
+        "content":  "\u003cp\u003eTo maintain military-grade security encryption, our backend infrastructure periodically upgrades its underlying transmission protocols. If your client version is heavily outdated, it will fail to handshake with the upgraded nodes.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eSolution:\u003c/strong\u003e Please visit our official \u003ca href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eDownload page\u003c/a\u003e to fetch and install the latest stable version of the OVOSEC utility for your device. After updating the software, re-sync your Access Configuration URL to restore instantaneous low-latency connectivity.\u003c/p\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    },
+    {
+        "id":  49,
+        "title":  "Why can\u0027t I open the Wi-Fi login/authentication page at hotels, airports, or universities?",
+        "subtitle":  "Bypassing unencrypted captive portal interception.",
+        "content":  "\u003cp\u003ePublic networks utilize an interception technique called \"Captive Portals\" to force users onto a login screen. Because OVOSEC\u0027s active security core blocks unauthorized local tracking and untrusted network redirections, it may prevent this unencrypted login page from opening.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eSolution:\u003c/strong\u003e Temporarily turn OFF the OVOSEC connection or disable the boot-up launch feature. Open your web browser, complete the hotel/campus network authentication first, verify that you have basic internet access, and then toggle OVOSEC back ON to secure your session.\u003c/p\u003e",
+        "languageId":  1,
+        "languageName":  "General"
+    }
+]

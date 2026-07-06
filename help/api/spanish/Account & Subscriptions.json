@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "¿Cómo gestiono o cancelo mi suscripción recurrente activa?",
+        "subtitle": "Administrar sus ciclos de facturación y cancelación automatizados.",
+        "content": "<p>OVOSEC prioriza la elección y la transparencia del consumidor. Para administrar o cancelar sus ciclos de facturación automatizados (procesados ​​de forma segura a través de Curlec \/ Stripe Payments Malaysia):<\/p><ol><li>Inicie sesión en su cuenta personal en nuestro portal web.<\/li><li>Vaya a Facturación y suscripciones en la configuración de su perfil.<\/li><li>Haga clic en el botón \"Cancelar renovación automática\". Su acceso premium seguirá siendo completamente funcional hasta el final de su período de facturación pagado actual y no se aplicarán más cargos.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 14,
+        "title": "¿Cuál es su política de reembolso con respecto a los paquetes premium?",
+        "subtitle": "Condiciones de reembolso y garantía de devolución de dinero de 7 días.",
+        "content": "<p>Debido a la naturaleza de los servicios de tránsito digital, ofrecemos una garantía de devolución de dinero estricta pero justa de 7 días. Usted es elegible para un reembolso completo si:<\/p><ul><li>Su solicitud de reembolso se envía dentro de los 7 días calendario posteriores a la marca de tiempo de su compra inicial.<\/li><li>Su consumo de datos acumulado en todas las rutas de retransmisión no excede los 2,0 GB.<\/li><\/ul><p>Para iniciar una solicitud, comuníquese con nuestro equipo de soporte en <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> utilizando el correo electrónico de su cuenta registrada.<\/p>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 23,
+        "title": "¿Cómo me registro e inicio sesión en mi cuenta?",
+        "subtitle": "Guía paso a paso para la creación y autenticación de cuentas.",
+        "content": "<p>Para registrar una cuenta, navegue hasta nuestro sitio web oficial y seleccione la opción <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">INICIAR SESIÓN\/REGISTRAR<\/a>. Proporcione una dirección de correo electrónico válida y configure una contraseña segura para generar su identidad de usuario.<\/p>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 24,
+        "title": "¿Cómo realizo un restablecimiento seguro de la contraseña?",
+        "subtitle": "Recuperar derechos de acceso a la cuenta y credenciales de contraseña.",
+        "content": "<p>Si olvida su contraseña, vaya a la <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Página de inicio de sesión<\/a> y seleccione 'Olvidé mi contraseña'. Ingrese su dirección de correo electrónico registrada y le enviaremos un enlace de verificación de restablecimiento de contraseña para restaurar el acceso a su cuenta.<\/p>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 36,
+        "title": "¿Cómo verifico mi cuota de datos restante y la fecha de vencimiento de la suscripción?",
+        "subtitle": "Monitorear el uso de su cuenta y el ciclo de facturación activo.",
+        "content": "<p>OVOSEC prioriza la transparencia. Puede verificar el estado de su suscripción de dos maneras:<\/p><ul><li><strong>A través del portal web:<\/strong> inicie sesión en su <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">panel de control personal<\/a> en <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> para ver su ciclo de facturación activo y datos en tiempo real. cuota.<\/li><li><strong>A través de la aplicación cliente:<\/strong> En la interfaz principal de su utilidad OVOSEC, mire la sección inferior o la pestaña de perfil. El motor Hiddify muestra automáticamente su consumo de datos acumulado y los días restantes (por ejemplo, \"Expira en X días\"). Haga clic en el ícono Actualizar para sincronizar el uso más reciente del servidor de facturación.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 42,
+        "title": "Cambié o mejoré mi dispositivo. ¿Cómo restauro mi suscripción premium activa?",
+        "subtitle": "Restaurar su suscripción premium activa en un nuevo dispositivo.",
+        "content": "<p>Su suscripción está vinculada al perfil de su cuenta, no a un ID de hardware de dispositivo específico. Para activar OVOSEC en su nuevo dispositivo:<\/p><ol><li>Inicie sesión en su <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Panel personal<\/a> en <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>.<\/li><li>Copia tu configuración de acceso única URL.<\/li><li>Instale la utilidad OVOSEC en su nuevo dispositivo, haga clic en \"Importar configuración\" y pegue la URL. Los días premium restantes y la cuota de datos se sincronizarán instantáneamente.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 43,
+        "title": "Completé mi pago a través de Curlec\/Stripe, pero mi cliente sigue mostrando el estado \"Gratis\/Estándar\". ¿Qué debo hacer?",
+        "subtitle": "Resolver retrasos en las transacciones del portal bancario.",
+        "content": "<p>Las pasarelas bancarias ocasionalmente experimentan retrasos temporales en la sincronización (normalmente entre 1 y 5 minutos). Si su estado no se ha actualizado:<\/p><ol><li>Vaya a la pestaña Perfiles en su aplicación cliente.<\/li><li>Toque el ícono de menú al lado de su perfil OVOSEC y haga clic en \"Actualizar perfil\" para forzar una sincronización manual con nuestro servidor de facturación.<\/li><li>Si aún no se refleja después de 10 minutos, envíe por correo electrónico su recibo de transacción a <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> y nuestro equipo de facturación acreditará su cuenta manualmente.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 46,
+        "title": "¿Cuándo se restablece mi cuota de datos y qué pasa si me quedo sin datos antes de que termine el ciclo de facturación?",
+        "subtitle": "Comprender los cronogramas de reinicio y recargas de ancho de banda.",
+        "content": "<p>Tu cuota de datos premium de alta velocidad se restablece automáticamente en la fecha exacta de aniversario de facturación mensual (que se puede ver en tu <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Panel web<\/a>). Los datos no se transfieren al mes siguiente.<\/p><p>Si agotas tu ancho de banda de alta velocidad prematuramente debido a descargas intensas, tu conexión tendrá una velocidad limitada. Puedes restablecer instantáneamente tu cuota comprando una recarga de datos o actualizando el nivel de tu plan a través de nuestro portal web seguro.<\/p>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    },
+    {
+        "id": 50,
+        "title": "¿Cómo aparecerá el cargo de la suscripción de OVOSEC en mi tarjeta de crédito o extracto bancario?",
+        "subtitle": "Comprender las representaciones de los descriptores de facturación en los estados financieros.",
+        "content": "<p>Para proteger su privacidad financiera y mantener registros claros, todas las transacciones se procesan de forma segura bajo nuestra identidad corporativa autorizada.<\/p><p>En su tarjeta de crédito, tarjeta de débito o extracto bancario, el descriptor dinámico de esta compra estará claramente etiquetado como <strong>OVOSEC*KUALA LUMPUR<\/strong> u <strong>OVO CYBERTECH SDN BHD<\/strong>.<\/p><p>Si nota alguna discrepancia en la facturación, comuníquese con nuestra cola de soporte en <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> antes de iniciar una consulta bancaria.<\/p>",
+        "languageId": 2,
+        "languageName": "Cuenta y Suscripciones"
+    }
+]

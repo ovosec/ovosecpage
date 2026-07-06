@@ -1,0 +1,35 @@
+﻿[
+    {
+        "id":  5,
+        "status":  "0",
+        "languageId":  5,
+        "time":  "2026-06-29T15:30:00.000+00:00",
+        "title":  "Privacy \u0026 Security",
+        "contentNameList":  [
+                                {
+                                    "id":  19,
+                                    "title":  "Does OVOSEC implement a Zero-Logs Policy?"
+                                },
+                                {
+                                    "id":  20,
+                                    "title":  "What level of encryption does the OVOSEC infrastructure enforce?"
+                                },
+                                {
+                                    "id":  29,
+                                    "title":  "What is OVOSEC zero-knowledge log policy?"
+                                },
+                                {
+                                    "id":  30,
+                                    "title":  "How does OVOSEC secure public Wi-Fi transmissions?"
+                                },
+                                {
+                                    "id":  44,
+                                    "title":  "Does OVOSEC protect my credentials and personal data when connecting via unsecured public Wi-Fi?"
+                                },
+                                {
+                                    "id":  47,
+                                    "title":  "Why does my local antivirus or Windows Defender flag OVOSEC when enabling TUN Mode?"
+                                }
+                            ]
+    }
+]

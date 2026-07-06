@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>OVOSEC Help Center</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png" />
+    <meta property="og:title" content="OVOSEC Help Center">
+    <meta name="twitter:title" content="OVOSEC Help Center">
+    <meta property="og:description" content="OVOSEC Help Center">
+    <meta name="twitter:description" content="OVOSEC Help Center">
+    <meta name="description" content="OVOSEC Help Center">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- PLUGINS CSS STYLE -->
+    <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../plugins/slick/slick.css">
+    <link rel="stylesheet" href="../plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="../plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../plugins/aos/aos.css">
+
+    <!-- CUSTOM CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../plugins/sweetalert2/sweetalert2.min.css">
+
+    <style>
+        .emoji-item {
+            filter: grayscale(100%);
+            transition: all 0.3s ease;
+        }
+
+        .emoji-item:hover,
+        .emoji-selected {
+            filter: grayscale(0%);
+            transform: scale(1.2);
+        }
+
+        blockquote {
+            background-color: #f8f9fa;
+            border-left: 5px solid #549ef3;
+            font-size: 100%;
+            line-height: 1.6;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        article p {
+            line-height: 1.8;
+            color: #555;
+            font-size: 16px;
+        }
+
+        article h2 {
+            font-weight: 700;
+            color: #222;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            box-shadow: 0 4px 20px rgba(84, 158, 243, 0.25) !important;
+            border-color: #549ef3 !important;
+        }
+    </style>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand px-2 px-sm-0 py-3 bg-white border-bottom shadow-sm main-nav">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../images/logo.png" alt="logo" style="height: 35px;">
+            <div class="navbar-nav d-flex align-items-center">
+                <div class="nav-item">
+                    <a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal" data-target="#allModalCenter" href="#">
+                        <i class="ti-world"></i> English
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="../index.html">
+                        Go to OVOSEC <i class="ti-arrow-right small ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Search Section -->
+    <section class="section gradient-banner pb-5">
+        <div class="container text-center pt-5 pb-4">
+            <h1 class="font-weight-bold text-white mb-3" data-aos="fade-down" data-aos-duration="1000">OVOSEC Help
+                Center</h1>
+            <p class="text-white mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Advice and
+                answers from the OVOSEC Team</p>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="col-md-8 col-lg-8">
+                    <div class="search-box position-relative">
+                        <input type="text" class="form-control form-control-lg rounded-pill px-4"
+                            placeholder="Search for your question..." id="searchInput"
+                            style="height: 55px; font-size: 16px; border: none; box-shadow: 0 8px 30px rgba(0,0,0,0.15);">
+                        <button onclick="search()" class="btn btn-primary rounded-pill position-absolute"
+                            style="top: 5px; right: 5px; height: 45px; padding: 0 25px; font-weight: 600;">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section class="bg-light py-4 border-bottom">
+        <div class="container" data-aos="fade-right" data-aos-duration="1000">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent p-0 mb-0">
+                    <li class="breadcrumb-item"><a href="./help.html" class="text-primary font-weight-600">All Help</a></li>
+                    <li class="breadcrumb-item"><a href="./help.html" id="navLink1"
+                            class="text-primary font-weight-600">Category Name</a></li>
+                    <li class="breadcrumb-item active text-muted" aria-current="page" id="navLink2">Article Name</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Article Content -->
+    <section class="section py-5 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 m-auto" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card border-0 shadow-sm p-4 p-md-5" style="border-radius: 16px; background: #fff;">
+                        <article id="contentDetail" class="mb-5">
+                            <div class="text-center py-5">
+                                <div class="spinner-border text-primary" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Emoji Feed -->
+                        <div class="emoji text-center pt-4" style="border-top: 1px solid #f0f0f0;">
+                            <p class="text-dark font-weight-bold mb-3">Would you find this answer helpful?</p>
+                            <div class="emoji-list d-flex justify-content-center align-items-center">
+                                <div class="emoji-item mx-3 h4 mb-0" onclick="selectEmoji(this)"
+                                    style="cursor: pointer;">😞</div>
+                                <div class="emoji-item mx-3 h4 mb-0" onclick="selectEmoji(this)"
+                                    style="cursor: pointer;">😑</div>
+                                <div class="emoji-item mx-3 h4 mb-0" onclick="selectEmoji(this)"
+                                    style="cursor: pointer;">😄</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Banner -->
+    <section class="py-5" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-top: 1px solid rgba(255,255,255,0.05);">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8 py-3">
+                    <h3 class="font-weight-bold text-white mb-2" style="font-family: 'Outfit', sans-serif;">Still Need Help?</h3>
+                    <p class="mb-4" style="color: #94a3b8; font-size: 15px;">Can't find the answer you're looking for? Our dedicated technical engineering team is available 24/7.</p>
+                    <a href="mailto:support@ovosec.com" class="btn btn-primary rounded-pill px-4 py-2 font-weight-bold" style="background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%); border: none; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.4); transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)'; this.style.box-shadow='0 6px 20px rgba(79, 70, 229, 0.6)';" onmouseout="this.style.transform='translateY(0)'; this.style.box-shadow='0 4px 15px rgba(79, 70, 229, 0.4)';">
+                        Submit a Ticket
+                    </a>
+                    <div class="mt-3" style="color: #64748b; font-size: 13px;">
+                        <i class="ti-time mr-1"></i> Response within 24 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text-center bg-dark py-4">
+            <div class="container">
+                <div class="mb-2">
+                    <a href="../privacy.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Privacy Policy</a>
+                    <span class="text-secondary">|</span>
+                    <a href="../terms.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Terms of Service</a>
+                    <span class="text-secondary">|</span>
+                    <a href="../refund.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Refund Policy</a>
+                </div>
+                <p class="text-sm text-gray-500">© 2026 OVOSEC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- To Top -->
+    <div class="scroll-top-to">
+        <i class="ti-angle-up"></i>
+    </div>
+
+    <!-- JAVASCRIPTS -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <script src="../plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="../plugins/slick/slick.min.js"></script>
+    <script src="../plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../plugins/syotimer/jquery.syotimer.min.js"></script>
+    <script src="../plugins/aos/aos.js"></script>
+    <script src="js/help.js"></script>
+
+    <script>
+        // Init AOS
+        AOS.init();
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id') || '1';
+
+        function getCategoryNameByArticleId(artId) {
+            const artNum = parseInt(artId);
+            if ([11, 12, 21, 22, 31, 39, 40, 45, 49].includes(artNum)) return "General";
+            if ([13, 14, 23, 24, 36, 42, 43, 46, 50].includes(artNum)) return "Account & Subscriptions";
+            if ([15, 16, 25, 26, 32, 33, 37, 38, 41, 48].includes(artNum)) return "Connection & Protocol";
+            if ([17, 18, 27, 28, 34, 35].includes(artNum)) return "Premium Networks";
+            if ([19, 20, 29, 30, 44, 47].includes(artNum)) return "Privacy & Security";
+            return "General";
+        }
+
+        function loadArticleDetail() {
+            let lang = localStorage.getItem("language") || "english";
+            const categoryName = getCategoryNameByArticleId(id);
+            let filename = 'api/' + lang + '/' + categoryName + '.json';
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', filename, true);
+            xhr.onload = function () {
+                if (this.status === 200) {
+                    try {
+                        const articles = JSON.parse(this.responseText);
+                        const article = articles.find(art => art.id === parseInt(id));
+                        if (article) {
+                            renderArticle(article);
+                            return;
+                        }
+                    } catch (e) {
+                        console.error("Error parsing category translation file:", e);
+                    }
+                }
+                loadDefaultEnglishArticleFallback();
+            };
+            xhr.onerror = function() {
+                loadDefaultEnglishArticleFallback();
+            };
+            xhr.send();
+        }
+
+        function loadDefaultEnglishArticleFallback() {
+            const categoryName = getCategoryNameByArticleId(id);
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'api/english/' + categoryName + '.json', true);
+            xhr.onload = function () {
+                if (this.status === 200) {
+                    try {
+                        const articles = JSON.parse(this.responseText);
+                        const article = articles.find(art => art.id === parseInt(id));
+                        if (article) {
+                            renderArticle(article);
+                        }
+                    } catch (e) {
+                        console.error("Error parsing default English category file:", e);
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        function renderArticle(data) {
+            let innerHTML = `<div>
+                                <h2 class="mb-3">${data.title}</h2>
+                                <p class="text-muted mb-4 font-italic" style="font-size: 15px;">${data.subtitle}</p>
+                            </div>
+                            <div class="pt-3" style="border-top: 1px solid #f0f0f0;">
+                                ${data.content}
+                            </div>`;
+            document.getElementById("contentDetail").innerHTML = innerHTML;
+
+            document.getElementById("navLink1").href = "./help.html?category=" + data.languageId;
+            document.getElementById("navLink1").innerHTML = data.languageName;
+            document.getElementById("navLink2").href = "./helpDetail.html" + window.location.search;
+            document.getElementById("navLink2").innerHTML = data.title;
+        }
+
+        loadArticleDetail();
+
+        function selectEmoji(emojiItem) {
+            const emojiItems = document.querySelectorAll('.emoji-item');
+            switch (emojiItem.textContent) {
+                case '😞':
+                    const direction1 = emojiItem.style.transform == '' || emojiItem.style.transform.includes('0.1') ? '-200' : '0.1';
+                    const direction2 = emojiItem.style.transform == '' || emojiItem.style.transform.includes('0.1') ? '200' : '0.1';
+                    emojiItems.forEach((item) => {
+                        if (item.textContent == '😄') {
+                            item.style.transform = `translateX(${direction1}%)`
+                            item.classList.add('emoji-selected');
+                        } else {
+                            item.classList.remove('emoji-selected')
+                        }
+                    });
+                    emojiItem.style.transform = `translateX(${direction2}%)`
+                    break;
+                default:
+                    emojiItems.forEach(item => item.classList.remove('emoji-selected'));
+                    emojiItem.classList.add('emoji-selected');
+                    break;
+            }
+        }
+
+        document.getElementById("searchInput").addEventListener('keyup', function (event) {
+            if (event.key === 'Enter' && document.getElementById('searchInput').value.trim().length > 0) {
+                search()
+            }
+        });
+        function search() {
+            if (document.getElementById('searchInput').value.trim().length > 0)
+                window.location.href = "./helpSearch.html?text=" + encodeURIComponent(document.getElementById('searchInput').value);
+        }
+
+        // Unified back to top logic
+        if (document.querySelector('.scroll-top-to')) {
+            document.querySelector('.scroll-top-to').addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Multi-language selection setup
+        document.addEventListener("DOMContentLoaded", function () {
+            if (localStorage.getItem("language")) {
+                var storedLang = localStorage.getItem("language");
+                
+                var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
+                if (activeLi) {
+                    var langText = activeLi.textContent.trim();
+                    var multiLangBtn = document.querySelector('.multi-language');
+                    if (multiLangBtn) {
+                        multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+                    }
+                }
+            }
+            var liElements = document.querySelectorAll('.language-ul li');
+            for (var i = 0; i < liElements.length; i++) {
+                liElements[i].addEventListener('click', function () {
+                    var dataValue = this.getAttribute('data-value');
+                    var langText = this.textContent.trim();
+                    
+                    var multiLangBtn = document.querySelector('.multi-language');
+                    if (multiLangBtn) {
+                        multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+                    }
+
+                    localStorage.setItem('language', dataValue);
+                    
+                    // Load article in the selected language
+                    loadArticleDetail();
+
+                    // Close the bootstrap modal
+                    $('#allModalCenter').modal('hide');
+                });
+            }
+        });
+    </script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Choose language</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="language-ul">
+                        <li data-value="english" style="cursor: pointer;">English</li>
+                        <li data-value="malay" style="cursor: pointer;">Melayu</li>
+                        <li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+                        <li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+                        <li data-value="korean" style="cursor: pointer;">한국어</li>
+                        <li data-value="japanese" style="cursor: pointer;">日本語</li>
+                        <li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+                        <li data-value="arabic" style="cursor: pointer;">العربية</li>
+                        <li data-value="spanish" style="cursor: pointer;">Español</li>
+                        <li data-value="french" style="cursor: pointer;">Français</li>
+                        <li data-value="german" style="cursor: pointer;">Deutsch</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

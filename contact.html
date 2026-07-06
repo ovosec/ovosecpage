@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>OVOSEC - Contact Us</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="OVOSEC Contact Information. Reach out to OVO Cybertech Sdn. Bhd. registered in Kuala Lumpur.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="OVO Cybertech Sdn. Bhd.">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #map_canvas {
+            height: 100%;
+            min-height: 400px;
+            width: 100%;
+            border-radius: 0 !important;
+            /* Strictly no round corners */
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+    <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span>☰</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item @@accelerator">
+                        <a class="nav-link" href="accelerator.html">NETWORK</a>
+                    </li>
+                    <li class="nav-item dropdown @@pages">
+                        <a class="nav-link" href="dropdown.html">DOWNLOAD
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown @@Programs">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">REWARDS ▾
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="friend.html">Refer a Friend</a></li>
+                            <li><a class="dropdown-item" href="partner.html">Become a Partner</a></li>
+                            <li><a class="dropdown-item" href="influence.html">Influencers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item @@help">
+                        <a class="nav-link" href="help/help.html" id="nav_helpWebSize">HELP</a>
+                    </li>
+                    <li class="nav-item @@Contact active">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item apply-button">
+                        <a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal"
+                            data-target="#allModalCenter" href="#"><i class="ti-world"></i> English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="#" id="nav_loginWebSize"><i
+                                class="ti-user"></i> LOGIN / REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Choose language</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    																																			<ul class="language-ul">
+						<li data-value="english" style="cursor: pointer;">English</li>
+						<li data-value="malay" style="cursor: pointer;">Melayu</li>
+						<li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+						<li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+						<li data-value="korean" style="cursor: pointer;">한국어</li>
+						<li data-value="japanese" style="cursor: pointer;">日本語</li>
+						<li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+						<li data-value="arabic" style="cursor: pointer;">العربية</li>
+						<li data-value="spanish" style="cursor: pointer;">Español</li>
+						<li data-value="french" style="cursor: pointer;">Français</li>
+						<li data-value="german" style="cursor: pointer;">Deutsch</li>
+					</ul>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section page-title py-7 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <span class="badge-premium mb-3">Get In Touch</span>
+                    <h1 class="display-4 font-weight-bolder text-dark mb-4" style="letter-spacing: -1px;">Contact Us
+                    </h1>
+                    <p class="lead text-muted mx-auto" style="max-width: 800px; line-height: 1.8; font-size: 1.15rem;">
+                        Hello, thank you for visiting! For any customer support or compliance queries, please find our
+                        official registered office information below.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <!-- Left Column: Cards -->
+                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                    <!-- Card 1: Email -->
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-card-icon">
+                            <i class="ti-email"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <h4>Email Address</h4>
+                            <p style="font-weight: 600; color: #4f46e5 !important; font-size: 1.1rem;">
+                                support@ovosec.com</p>
+                        </div>
+                    </div>
+                    <!-- Card 2: Office -->
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-card-icon">
+                            <i class="ti-map-alt"></i>
+                        </div>
+                        <div class="contact-card-info">
+                            <h4>OVO Cybertech Sdn. Bhd.</h4>
+                            <p style="margin-bottom: 8px; font-size: 0.9rem; font-weight: 600; color: #475569;">
+                                Registration No (MyCoID): 202501033275</p>
+                            <p style="font-size: 0.9rem; color: #64748b;">Suite 33-01, 33rd Floor, Menara Keck Seng,
+                                Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column: Map -->
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+                    <div class="google-map w-100 h-100" style="min-height: 400px;">
+                        <div id="map_canvas"
+                            style="height: 100%; min-height: 400px; border-radius: 0; border: 1px solid rgba(15, 23, 42, 0.08);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form section bg-light py-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+                    <span class="badge-premium mb-3">Message</span>
+                    <h2 class="font-weight-bolder text-dark display-6" style="letter-spacing: -1px;">Drop us a mail</h2>
+                </div>
+                <div class="col-lg-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    <form id="contact_form" action="https://formsubmit.co/ajax/support@ovosec.com" method="POST"
+                        onsubmit="contactSubmit(event); return false;"
+                        style="background: #ffffff; padding: 50px; border: 1px solid rgba(15, 23, 42, 0.05); box-shadow: 0 20px 45px rgba(15, 23, 42, 0.02); border-radius: 0;">
+
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Contact Form Submission from OVOSEC">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input class="form-control main" type="text" name="name" placeholder="Name" required
+                                    id="contact_name">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input class="form-control main" type="email" name="email"
+                                    placeholder="Your Email Address" required id="contact_email">
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <input class="form-control main" type="text" name="subject" placeholder="Subject"
+                                    required id="contact_subject">
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <textarea class="form-control main" name="message" rows="8" placeholder="Your Message"
+                                    required id="contact_message"></textarea>
+                            </div>
+                            <div class="col-12 text-right mt-3">
+                                <button type="submit" class="btn btn-primary btn-lg px-5" id="submitButton"
+                                    style="padding: 14px 45px; font-weight: 600; border-radius: 0;">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+                        <div class="block">
+                            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+                            <!-- Social Site Icons -->
+                            <ul class="social-icon list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="ti-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="ti-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="ti-instagram"></i></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Support & Help</h6>
+                            <ul>
+                                <li><a href="#" id="footer_helpWebSize">FAQs</a></li>
+                                <li><a href="support.html">Contact Support</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Download Utility</h6>
+                            <ul>
+                                <li><a href="dropdown.html" id="footer_ios">iPhone Utility (iOS)</a></li>
+                                <li><a href="dropdown.html" id="footer_android">Android Utility</a></li>
+                                <li><a href="dropdown.html" id="footer_window">Windows Utility</a></li>
+                                <li><a href="dropdown.html" id="footer_mac">Mac Utility</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Partners</h6>
+                            <ul>
+                                <li><a href="friend.html">Refer a Friend</a></li>
+                                <li><a href="partner.html">Become a Partner</a></li>
+                                <li><a href="influence.html">Influencers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+                        <div class="block-2">
+                            <h6>Company</h6>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="career.html">Careers</a></li>
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="terms.html">Terms and Conditions</a></li>
+                                <li><a href="refund.html">Refund Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center bg-dark py-4">
+            <p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="scroll-top-to">
+        <i class="ti-angle-up"></i>
+    </div>
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+    <script src="plugins/aos/aos.js"></script>
+    <script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const lat = 3.148123725049108;
+            const lng = 101.71507816994296;
+
+            const map = L.map('map_canvas').setView([lat, lng], 16);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            L.marker([lat, lng]).addTo(map)
+                .bindPopup('<b>OVO Cybertech Sdn. Bhd.</b><br>Menara Keck Seng.')
+                .openPopup();
+        });
+    </script>
+
+    <script src="js/translate.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 19,
+        "title": "OVOSEC có áp dụng Chính sách không lưu nhật ký không?",
+        "subtitle": "Tiêu chuẩn nghiêm ngặt về quyền riêng tư của chúng tôi và sự tuân thủ của địa phương.",
+        "content": "<p>Vâng, chắc chắn rồi. OVOSEC được thành lập như một pháp nhân tại Kuala Lumpur, Malaysia và tuân thủ nghiêm ngặt các nguyên tắc PDPA địa phương cùng với các khuôn khổ tuân thủ không có kiến ​​thức toàn cầu. Lõi phụ trợ nguồn mở của chúng tôi hoạt động nghiêm ngặt trong bộ nhớ RAM dễ thay đổi. Chúng tôi không thu thập, giám sát, theo dõi hoặc lưu trữ đích mạng, lịch sử truy vấn, nội dung tải trọng hoặc nhật ký phân bổ IP nguồn trong thế giới thực của bạn. Sự hiện diện kỹ thuật số của bạn hoàn toàn ẩn danh.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    },
+    {
+        "id": 20,
+        "title": "Cơ sở hạ tầng OVOSEC thực thi mức độ mã hóa nào?",
+        "subtitle": "Các giao thức mã hóa tiên tiến và các tiêu chuẩn bảo mật.",
+        "content": "<p>Mỗi gói được truyền qua mạng chuyển tiếp an toàn của chúng tôi đều được đóng gói bằng cách sử dụng nguyên tắc mã hóa AES-256-GCM hoặc ChaCha20-Poly1305 theo tiêu chuẩn ngành, được xếp lớp bằng các quy trình bắt tay TLS hiện đại. Kiến trúc mật mã này đảm bảo tính bí mật tuyệt đối từ đầu đến cuối, vô hiệu hóa mọi hành vi giả mạo hoặc nghe trộm gói tin tiềm ẩn của người trung gian ngay cả khi truy cập vào tài nguyên của công ty thông qua các điểm truy cập Wi-Fi công cộng không bảo mật.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    },
+    {
+        "id": 29,
+        "title": "Chính sách nhật ký không kiến thức của OVOSEC là gì?",
+        "subtitle": "Hiểu rõ cam kết của chúng tôi về bảo mật và không theo dõi người dùng.",
+        "content": "<p>Chúng tôi tuân thủ Chính sách không ghi nhật ký nghiêm ngặt. Chúng tôi không giám sát, thu thập, lưu trữ hoặc bán bất kỳ thông tin nào liên quan đến lịch sử duyệt web, đích lưu lượng truy cập, nội dung tải trọng dữ liệu hoặc yêu cầu DNS của bạn. Để biết các điều khoản pháp lý toàn diện, vui lòng đọc <a href=\"..\/privacy.html\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Chính sách quyền riêng tư<\/a> đầy đủ của chúng tôi.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    },
+    {
+        "id": 30,
+        "title": "OVOSEC bảo mật việc truyền tải Wi-Fi công cộng như thế nào?",
+        "subtitle": "Bộ giao thức và mã hóa cấp quân sự trên các cổng công cộng.",
+        "content": "<p>Tất cả lưu lượng truy cập mạng được định tuyến qua các nút bảo mật OVOSEC đều được mã hóa thông qua các nguyên hàm AES-256-GCM và ChaCha20-Poly1305 tiên tiến nhất. Điều này đảm bảo rằng luồng gói dữ liệu của bạn vẫn được bảo vệ khỏi bị nghe lén hoặc các cuộc tấn công Kẻ trung gian (MitM) ngay cả trên các điểm phát sóng Wi-Fi công cộng không đáng tin cậy.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    },
+    {
+        "id": 44,
+        "title": "OVOSEC có bảo vệ thông tin xác thực và dữ liệu cá nhân của tôi khi kết nối qua Wi-Fi công cộng không an toàn không?",
+        "subtitle": "Ngăn chặn hành vi trộm cắp dữ liệu và tấn công MitM vào các điểm nóng công cộng.",
+        "content": "<p>Có, hoàn toàn. Khi OVOSEC hoạt động (đặc biệt khi bật Chế độ TUN), kiến ​​trúc lõi cơ bản sẽ đóng gói tất cả lưu lượng truy cập cục bộ ra ngoài vào một đường hầm mật mã được mã hóa nghiêm ngặt (sử dụng các nguyên mẫu AEAD).<\/p><p>Ngay cả khi điểm phát sóng Wi-Fi công cộng bị xâm phạm hoặc chạy trình thu thập gói tin \"Man-in-the-Middle\", kẻ tấn công chỉ có thể thấy siêu dữ liệu bị xáo trộn, không thể phá vỡ. Mật khẩu văn bản gốc, giao dịch tài chính và tải trọng liên lạc của bạn vẫn hoàn toàn chống đạn.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    },
+    {
+        "id": 47,
+        "title": "Tại sao phần mềm chống vi-rút cục bộ hoặc Windows Defender lại gắn cờ OVOSEC khi bật Chế độ TUN?",
+        "subtitle": "Xử lý các kết quả dương tính giả chống vi-rút đối với các thay đổi của mạng hệ thống.",
+        "content": "<p>Đây là kết quả dương tính giả tiêu chuẩn. Vì TUN Mode tạo bộ điều hợp mạng ảo cấp doanh nghiệp nâng cao ở cấp hệ điều hành để mã hóa tất cả dữ liệu nền gửi đi nên tường lửa bảo mật cục bộ nghiêm ngặt có thể gắn cờ sửa đổi mạng sâu này là đáng ngờ.<\/p><p>OVOSEC hoàn toàn là nguồn mở, được kiểm tra kỹ lưỡng và không có phần mềm độc hại. Bạn có thể thêm thư mục ứng dụng OVOSEC vào Danh sách loại trừ\/tin cậy chống vi-rút của mình một cách an toàn để đảm bảo tối ưu hóa mạng không bị gián đoạn.<\/p>",
+        "languageId": 5,
+        "languageName": "Quyền riêng tư & Bảo mật"
+    }
+]

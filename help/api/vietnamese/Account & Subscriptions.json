@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "Làm cách nào để quản lý hoặc hủy đăng ký gia hạn tự động đang hoạt động của tôi?",
+        "subtitle": "Quản lý chu kỳ thanh toán tự động và hủy bỏ của bạn.",
+        "content": "<p>OVOSEC ưu tiên sự lựa chọn của người tiêu dùng và tính minh bạch. Để quản lý hoặc hủy chu kỳ thanh toán tự động của bạn (được xử lý an toàn qua Curlec \/ Stripe Payments Malaysia):<\/p><ol><li>Đăng nhập vào tài khoản cá nhân của bạn trên cổng web của chúng tôi.<\/li><li>Điều hướng đến Thanh toán & Đăng ký trong cài đặt Hồ sơ của bạn.<\/li><li>Nhấp vào nút \"Hủy tự động gia hạn\". Quyền truy cập cao cấp của bạn sẽ vẫn có đầy đủ chức năng cho đến khi kết thúc thời hạn thanh toán đã thanh toán hiện tại và bạn sẽ không phải trả thêm phí.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 14,
+        "title": "Chính sách hoàn tiền của bạn đối với các gói cao cấp là gì?",
+        "subtitle": "Điều kiện hoàn tiền và đảm bảo hoàn tiền trong 7 ngày.",
+        "content": "<p>Do tính chất của dịch vụ vận chuyển kỹ thuật số, chúng tôi cung cấp cam kết hoàn tiền trong 7 ngày một cách nghiêm ngặt nhưng công bằng. Bạn đủ điều kiện được hoàn lại toàn bộ tiền nếu:<\/p><ul><li>Yêu cầu hoàn lại tiền của bạn được gửi trong vòng 7 ngày theo lịch kể từ dấu thời gian mua hàng đầu tiên của bạn.<\/li><li>Mức tiêu thụ dữ liệu tích lũy của bạn trên tất cả các đường dẫn chuyển tiếp không vượt quá 2,0 GB.<\/li><\/ul><p>Để bắt đầu yêu cầu, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi theo địa chỉ <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> bằng email tài khoản đã đăng ký của bạn.<\/p>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 23,
+        "title": "Làm cách nào để đăng ký và đăng nhập vào tài khoản của tôi?",
+        "subtitle": "Hướng dẫn từng bước để tạo và xác thực tài khoản.",
+        "content": "<p>Để đăng ký tài khoản, hãy điều hướng đến trang web chính thức của chúng tôi và chọn tùy chọn <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">ĐĂNG NHẬP \/ ĐĂNG KÝ<\/a>. Cung cấp địa chỉ email hợp lệ và định cấu hình mật khẩu mạnh để tạo danh tính người dùng của bạn.<\/p>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 24,
+        "title": "Làm cách nào để thực hiện đặt lại mật khẩu an toàn?",
+        "subtitle": "Khôi phục quyền truy cập tài khoản và thông tin xác thực mật khẩu.",
+        "content": "<p>Nếu bạn quên mật khẩu, hãy điều hướng đến <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang đăng nhập<\/a> và chọn 'Quên mật khẩu'. Nhập địa chỉ email đã đăng ký của bạn và chúng tôi sẽ gửi liên kết xác minh đặt lại mật khẩu để khôi phục quyền truy cập tài khoản của bạn.<\/p>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 36,
+        "title": "Làm cách nào để kiểm tra dung lượng dữ liệu còn lại và ngày hết hạn gói đăng ký của tôi?",
+        "subtitle": "Giám sát việc sử dụng tài khoản của bạn và chu kỳ thanh toán đang hoạt động.",
+        "content": "<p>OVOSEC ưu tiên tính minh bạch. Bạn có thể kiểm tra trạng thái đăng ký của mình theo hai cách:<\/p><ul><li><strong>Qua Cổng thông tin web:<\/strong> Đăng nhập vào <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">trang tổng quan cá nhân<\/a> trên <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> để xem chu kỳ thanh toán đang hoạt động và dữ liệu thời gian thực của bạn hạn ngạch.<\/li><li><strong>Qua ứng dụng khách:<\/strong> Trên giao diện chính của tiện ích OVOSEC của bạn, hãy xem phần dưới cùng hoặc tab hồ sơ. Công cụ Hiddify tự động hiển thị mức tiêu thụ dữ liệu tích lũy của bạn và số ngày còn lại (ví dụ: \"Hết hạn sau X ngày\"). Nhấp vào Biểu tượng làm mới để đồng bộ hóa mức sử dụng mới nhất từ ​​máy chủ thanh toán.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 42,
+        "title": "Tôi đã thay đổi hoặc nâng cấp thiết bị của mình. Làm cách nào để khôi phục gói đăng ký cao cấp đang hoạt động?",
+        "subtitle": "Khôi phục đăng ký trả phí đang hoạt động của bạn trên thiết bị mới.",
+        "content": "<p>Đăng ký của bạn được liên kết với hồ sơ tài khoản của bạn chứ không phải ID phần cứng thiết bị cụ thể. Để kích hoạt OVOSEC trên thiết bị mới của bạn:<\/p><ol><li>Đăng nhập vào <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-trang trí: underline;\">Trang tổng quan cá nhân<\/a> trên <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>.<\/li><li>Sao chép URL cấu hình truy cập duy nhất của bạn.<\/li><li>Cài đặt tiện ích OVOSEC trên thiết bị mới của bạn, nhấp vào \"Nhập cấu hình\" và dán URL. Số ngày trả phí còn lại và hạn mức dữ liệu của bạn sẽ được đồng bộ hóa ngay lập tức.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 43,
+        "title": "Tôi đã hoàn tất thanh toán qua Curlec\/Stripe, nhưng ứng dụng của tôi vẫn hiển thị trạng thái \"Miễn phí\/Tiêu chuẩn\". Tôi nên làm gì?",
+        "subtitle": "Giải quyết sự chậm trễ giao dịch tại cổng ngân hàng.",
+        "content": "<p>Các cổng ngân hàng đôi khi gặp phải tình trạng chậm đồng bộ hóa tạm thời (thường từ 1 đến 5 phút). Nếu trạng thái của bạn chưa được cập nhật:<\/p><ol><li>Chuyển đến tab Hồ sơ trong ứng dụng khách của bạn.<\/li><li>Nhấn vào biểu tượng menu bên cạnh hồ sơ OVOSEC của bạn và nhấp vào \"Cập nhật hồ sơ\" để buộc đồng bộ hóa thủ công với máy chủ thanh toán của chúng tôi.<\/li><li>Nếu nó vẫn không phản ánh sau 10 phút, vui lòng gửi email biên nhận giao dịch của bạn đến <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> và nhóm thanh toán của chúng tôi sẽ ghi có tài khoản của bạn theo cách thủ công.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 46,
+        "title": "Khi nào hạn mức dữ liệu của tôi được thiết lập lại và điều gì xảy ra nếu tôi hết dữ liệu trước khi chu kỳ thanh toán kết thúc?",
+        "subtitle": "Hiểu lịch đặt lại băng thông và nạp tiền.",
+        "content": "<p>Hạn mức dữ liệu tốc độ cao cao cấp của bạn sẽ tự động đặt lại vào ngày kỷ niệm thanh toán chính xác hàng tháng của bạn (có thể xem trong <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang tổng quan web<\/a> của bạn). Dữ liệu không được chuyển sang tháng tiếp theo.<\/p><p>Nếu bạn sớm cạn kiệt băng thông tốc độ cao do tải xuống quá nhiều, kết nối của bạn sẽ bị giới hạn tốc độ. Bạn có thể đặt lại hạn mức của mình ngay lập tức bằng cách mua gói bổ sung dữ liệu hoặc nâng cấp cấp gói của mình thông qua cổng web an toàn của chúng tôi.<\/p>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    },
+    {
+        "id": 50,
+        "title": "Khoản phí đăng ký OVOSEC sẽ hiển thị như thế nào trên thẻ tín dụng hoặc sao kê ngân hàng của tôi?",
+        "subtitle": "Hiểu cách trình bày mô tả thanh toán trên báo cáo tài chính.",
+        "content": "<p>Để bảo vệ quyền riêng tư tài chính của bạn và duy trì hồ sơ rõ ràng, tất cả các giao dịch đều được xử lý an toàn theo danh tính công ty được cấp phép của chúng tôi.<\/p><p>Trên thẻ tín dụng, thẻ ghi nợ hoặc bảng sao kê ngân hàng của bạn, phần mô tả động cho giao dịch mua này sẽ được gắn nhãn rõ ràng là <strong>OVOSEC*KUALA LUMPUR<\/strong> hoặc <strong>OVO CYBERTECH SDN BHD<\/strong>.<\/p><p>Nếu bạn nhận thấy bất kỳ khác biệt nào về thanh toán, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi theo số <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> trước khi bắt đầu yêu cầu ngân hàng.<\/p>",
+        "languageId": 2,
+        "languageName": "Tài khoản & Đăng ký"
+    }
+]

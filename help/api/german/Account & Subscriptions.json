@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "Wie verwalte oder kündige ich mein aktives wiederkehrendes Abonnement?",
+        "subtitle": "Verwalten Sie Ihre automatisierten Abrechnungszyklen und Stornierungen.",
+        "content": "<p>OVOSEC legt großen Wert auf Wahlfreiheit und Transparenz für den Verbraucher. So verwalten oder kündigen Sie Ihre automatischen Abrechnungszyklen (sicher verarbeitet über Curlec \/ Stripe Payments Malaysia):<\/p><ol><li>Melden Sie sich in Ihrem persönlichen Konto auf unserem Webportal an.<\/li><li>Navigieren Sie in Ihren Profileinstellungen zu „Abrechnung & Abonnements“.<\/li><li>Klicken Sie auf die Schaltfläche „Automatische Verlängerung abbrechen“. Ihr Premium-Zugang bleibt bis zum Ende Ihres aktuellen bezahlten Abrechnungszeitraums voll funktionsfähig und es fallen keine weiteren Gebühren an.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 14,
+        "title": "Wie lautet Ihre Rückerstattungsrichtlinie für Premium-Pakete?",
+        "subtitle": "Rückerstattungsbedingungen und die 7-tägige Geld-zurück-Garantie.",
+        "content": "<p>Aufgrund der Natur digitaler Transportdienste bieten wir eine strenge, aber faire 7-Tage-Geld-zurück-Garantie. Sie haben Anspruch auf eine vollständige Rückerstattung, wenn:<\/p><ul><li>Ihr Rückerstattungsantrag innerhalb von 7 Kalendertagen nach dem Zeitstempel Ihres ersten Kaufs eingereicht wird.<\/li><li>Ihr kumulierter Datenverbrauch über alle Relay-Pfade hinweg überschreitet nicht 2,0 GB.<\/li><\/ul><p>Um eine Anfrage zu stellen, wenden Sie sich bitte an unser Support-Team unter <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> und verwenden Sie dabei die E-Mail-Adresse Ihres registrierten Kontos.<\/p>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 23,
+        "title": "Wie registriere ich mich und melde mich bei meinem Konto an?",
+        "subtitle": "Schritt-für-Schritt-Anleitung zur Kontoerstellung und Authentifizierung.",
+        "content": "<p>Um ein Konto zu registrieren, navigieren Sie zu unserer offiziellen Website und wählen Sie die Option <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">ANMELDEN \/ REGISTRIEREN<\/a>. Geben Sie eine gültige E-Mail-Adresse an und konfigurieren Sie ein sicheres Passwort, um Ihre Benutzeridentität zu generieren.<\/p>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 24,
+        "title": "Wie führe ich ein sicheres Zurücksetzen des Passworts durch?",
+        "subtitle": "Wiederherstellen von Kontozugriffsrechten und Passwort-Anmeldeinformationen.",
+        "content": "<p>Wenn Sie Ihr Passwort vergessen haben, navigieren Sie zur <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Anmeldeseite<\/a> und wählen Sie „Passwort vergessen“. Geben Sie Ihre registrierte E-Mail-Adresse ein und wir senden Ihnen einen Bestätigungslink zum Zurücksetzen des Passworts, um den Zugriff auf Ihr Konto wiederherzustellen.<\/p>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 36,
+        "title": "Wie überprüfe ich mein verbleibendes Datenvolumen und das Ablaufdatum des Abonnements?",
+        "subtitle": "Überwachen Sie Ihre Kontonutzung und den aktiven Abrechnungszeitraum.",
+        "content": "<p>OVOSEC legt Wert auf Transparenz. Sie können Ihren Abonnementstatus auf zwei Arten überprüfen:<\/p><ul><li><strong>Über das Webportal:<\/strong> Melden Sie sich bei Ihrem <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">persönlichen Dashboard<\/a> auf <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> an, um Ihren aktiven Abrechnungszeitraum und Echtzeitdaten anzuzeigen Kontingent.<\/li><li><strong>Über die Client-App:<\/strong> Sehen Sie sich auf der Hauptoberfläche Ihres OVOSEC-Dienstprogramms den unteren Abschnitt oder die Profilregisterkarte an. Die Hiddify-Engine zeigt automatisch Ihren kumulierten Datenverbrauch und die verbleibenden Tage an (z. B. „Läuft in X Tagen ab“). Klicken Sie auf das Aktualisierungssymbol, um die neueste Nutzung vom Abrechnungsserver zu synchronisieren.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 42,
+        "title": "Ich habe mein Gerät gewechselt oder aktualisiert. Wie stelle ich mein aktives Premium-Abonnement wieder her?",
+        "subtitle": "Wiederherstellen Ihres aktiven Premium-Abonnements auf einem neuen Gerät.",
+        "content": "<p>Ihr Abonnement ist mit Ihrem Kontoprofil verknüpft, nicht mit einer bestimmten Geräte-Hardware-ID. So aktivieren Sie OVOSEC auf Ihrem neuen Gerät:<\/p><ol><li>Melden Sie sich bei Ihrem <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">persönlichen Dashboard<\/a> auf <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a> an.<\/li><li>Kopieren Sie Ihre eindeutige Zugriffskonfigurations-URL.<\/li><li>Installieren Sie die OVOSEC-Dienstprogramm auf Ihrem neuen Gerät, klicken Sie auf „Konfiguration importieren“ und fügen Sie die URL ein. Ihre verbleibenden Premium-Tage und Ihr Datenkontingent werden sofort synchronisiert.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 43,
+        "title": "Ich habe meine Zahlung über Curlec\/Stripe abgeschlossen, aber mein Client zeigt immer noch den Status „Kostenlos\/Standard“ an. Was soll ich tun?",
+        "subtitle": "Beheben von Verzögerungen bei Bank-Gateway-Transaktionen.",
+        "content": "<p>Bei Banking-Gateways kommt es gelegentlich zu vorübergehenden Synchronisierungsverzögerungen (normalerweise zwischen 1 und 5 Minuten). Wenn Ihr Status nicht aktualisiert wurde:<\/p><ol><li>Gehen Sie in Ihrer Client-Anwendung zur Registerkarte „Profile“.<\/li><li>Tippen Sie auf das Menüsymbol neben Ihrem OVOSEC-Profil und klicken Sie auf „Profil aktualisieren“, um eine manuelle Synchronisierung mit unserem Abrechnungsserver zu erzwingen.<\/li><li>Wenn es nach 10 Minuten immer noch nicht angezeigt wird, senden Sie bitte Ihre Transaktionsquittung per E-Mail an <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a> und Unser Abrechnungsteam schreibt Ihrem Konto den Betrag manuell gut.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 46,
+        "title": "Wann wird mein Datenvolumen zurückgesetzt und was passiert, wenn mir vor Ende des Abrechnungszeitraums das Datenvolumen ausgeht?",
+        "subtitle": "Verstehen von Zeitplänen und Aufladungen zum Zurücksetzen der Bandbreite.",
+        "content": "<p>Ihr Premium-Hochgeschwindigkeits-Datenkontingent wird automatisch an Ihrem genauen monatlichen Abrechnungstag zurückgesetzt (sichtbar unter Ihrem <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Web-Dashboard<\/a>). Die Daten werden nicht auf den nächsten Monat übertragen.<\/p><p>Wenn Sie Ihre Hochgeschwindigkeitsbandbreite aufgrund starker Downloads vorzeitig erschöpfen, wird Ihre Verbindung geschwindigkeitsbegrenzt. Sie können Ihr Kontingent sofort zurücksetzen, indem Sie über unser sicheres Webportal eine Datenaufladung erwerben oder Ihre Tarifstufe upgraden.<\/p>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    },
+    {
+        "id": 50,
+        "title": "Wie wird die OVOSEC-Abonnementgebühr auf meiner Kreditkarte oder meinem Bankauszug angezeigt?",
+        "subtitle": "Verstehen der Darstellung von Abrechnungsdeskriptoren in Finanzberichten.",
+        "content": "<p>Um Ihre finanzielle Privatsphäre zu schützen und klare Aufzeichnungen zu führen, werden alle Transaktionen sicher unter unserer lizenzierten Unternehmensidentität verarbeitet.<\/p><p>Auf Ihrer Kreditkarte, Debitkarte oder Ihrem Kontoauszug wird der dynamische Deskriptor für diesen Kauf deutlich als <strong>OVOSEC*KUALA LUMPUR<\/strong> oder <strong>OVO CYBERTECH SDN BHD<\/strong> gekennzeichnet sein.<\/p><p>Wenn Sie Unstimmigkeiten bei der Abrechnung bemerken, wenden Sie sich bitte an unsere Support-Warteschlange unter <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>, bevor Sie eine Bankanfrage einleiten.<\/p>",
+        "languageId": 2,
+        "languageName": "Konto & Abonnements"
+    }
+]

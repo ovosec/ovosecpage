@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>OVOSEC Help Center</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png" />
+    <meta property="og:title" content="OVOSEC Help Center">
+    <meta name="twitter:title" content="OVOSEC Help Center">
+    <meta property="og:description" content="OVOSEC Help Center">
+    <meta name="twitter:description" content="OVOSEC Help Center">
+    <meta name="description" content="OVOSEC Help Center">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- PLUGINS CSS STYLE -->
+    <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../plugins/slick/slick.css">
+    <link rel="stylesheet" href="../plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="../plugins/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../plugins/aos/aos.css">
+
+    <!-- CUSTOM CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../plugins/sweetalert2/sweetalert2.min.css">
+
+    <style>
+        /* Override index-faq-item left icon to support our custom ti-angle-down layout */
+        .index-faq-item .item .item-link a.custom-accordion-trigger::before {
+            display: none !important;
+            content: none !important;
+        }
+        .accordion-arrow {
+            display: inline-block;
+            transition: transform 0.3s, color 0.3s;
+        }
+        /* When the trigger is not collapsed, rotate the arrow */
+        .index-faq-item .item .item-link a:not(.collapsed) .accordion-arrow {
+            transform: rotate(180deg);
+            color: #4f46e5 !important;
+        }
+        .hover-lift-item {
+            transition: all 0.25s ease !important;
+        }
+        .hover-lift-item:hover {
+            color: #4f46e5 !important;
+            padding-left: 20px !important;
+            border-left: 3px solid #4f46e5 !important;
+            background-color: rgba(79, 70, 229, 0.04) !important;
+        }
+        .search-box button {
+            transition: background-color 0.2s;
+        }
+        .search-box input:focus {
+            outline: none;
+            box-shadow: 0 4px 20px rgba(79, 70, 229, 0.25) !important;
+            border-color: #4f46e5 !important;
+        }
+    </style>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand px-2 px-sm-0 py-3 bg-white border-bottom shadow-sm main-nav">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../images/logo.png" alt="logo" style="height: 35px;">
+            <div class="navbar-nav d-flex align-items-center">
+                <div class="nav-item">
+                    <a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal" data-target="#allModalCenter" href="#">
+                        <i class="ti-world"></i> English
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="../index.html">
+                        Go to OVOSEC <i class="ti-arrow-right small ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Search Section -->
+    <section class="section gradient-banner pb-5">
+        <div class="container text-center pt-5 pb-4">
+            <h1 class="font-weight-bold text-white mb-3" data-aos="fade-down" data-aos-duration="1000">OVOSEC Help Center</h1>
+            <p class="text-white mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Advice and answers from the OVOSEC Team</p>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="col-md-8 col-lg-8">
+                    <div class="search-box position-relative">
+                        <input type="text" class="form-control form-control-lg rounded-pill px-4" placeholder="Search for your question..." id="searchInput" style="height: 55px; font-size: 16px; border: none; box-shadow: 0 8px 30px rgba(0,0,0,0.15);">
+                        <button onclick="search()" class="btn btn-primary rounded-pill position-absolute" style="top: 5px; right: 5px; height: 45px; padding: 0 25px; font-weight: 600;">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq index-faq pt-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 m-auto">
+                    <div class="block">
+                        <div class="faq-item">
+                            <div id="helpAccordionContainer" data-children=".item" class="index-faq-item">
+                                <div class="col-12 text-center py-5">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text-center bg-dark py-4">
+            <div class="container">
+                <div class="mb-2">
+                    <a href="../privacy.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Privacy Policy</a>
+                    <span class="text-secondary">|</span>
+                    <a href="../terms.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Terms of Service</a>
+                    <span class="text-secondary">|</span>
+                    <a href="../refund.html" class="text-secondary mx-2" style="font-size: 14px; text-decoration: none; transition: opacity 0.2s; opacity: 0.75;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.75;">Refund Policy</a>
+                </div>
+                <p class="text-sm text-gray-500">© 2026 OVOSEC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- To Top -->
+    <div class="scroll-top-to">
+        <i class="ti-angle-up"></i>
+    </div>
+
+    <!-- JAVASCRIPTS -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <script src="../plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="../plugins/slick/slick.min.js"></script>
+    <script src="../plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../plugins/syotimer/jquery.syotimer.min.js"></script>
+    <script src="../plugins/aos/aos.js"></script>
+    <script src="js/help.js"></script>
+
+    <script>
+        // Init AOS
+        AOS.init();
+
+        let responseData = []
+
+        async function initAccordion() {
+            try {
+                const response = await fetch('api/help_faq.json');
+                const allHelpFaq = await response.json();
+                
+                let lang = localStorage.getItem("language") || "english";
+                if (!allHelpFaq[lang]) {
+                    lang = "english";
+                }
+                
+                responseData = allHelpFaq[lang];
+                
+                let innerHTML = '';
+                responseData.forEach((element) => {
+                    let iconClass = 'ti-book';
+                    if (element.id === 1) iconClass = 'ti-info-alt';
+                    else if (element.id === 2) iconClass = 'ti-user';
+                    else if (element.id === 3) iconClass = 'ti-settings';
+                    else if (element.id === 4) iconClass = 'ti-world';
+                    else if (element.id === 5) iconClass = 'ti-shield';
+
+                    const articles = element.articles || [];
+                    
+                    const articlesHtml = articles.map(art => `
+                        <a href="./helpDetail.html?id=${art.id}" class="list-group-item list-group-item-action border-0 px-3 py-2 d-flex justify-content-between align-items-center text-secondary hover-lift-item" style="font-size: 0.95rem; background: transparent; border-left: 3px solid transparent !important;" onclick="setRouterName(${art.id})">
+                            <span>${art.title}</span>
+                            <i class="ti-angle-right small text-muted"></i>
+                        </a>
+                    `).join('');
+
+                    innerHTML += `
+                    <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="item-link">
+                            <a data-toggle="collapse" data-parent="#helpAccordionContainer" href="#collapseCategory-${element.id}" class="collapsed custom-accordion-trigger d-flex align-items-center justify-content-between">
+                                <span class="d-flex align-items-center">
+                                    <i class="${iconClass}" style="margin-right: 12px; font-size: 20px; color: #4f46e5;"></i>
+                                    <span>${element.title}</span>
+                                </span>
+                                <span class="d-flex align-items-center">
+                                    <span class="badge badge-pill badge-light text-muted mr-3" style="font-size: 12px; font-weight: normal; background-color: #f1f5f9; padding: 4px 10px; border-radius: 99px;">${element.contentCount} articles</span>
+                                    <i class="ti-angle-down accordion-arrow" style="font-size: 16px; color: #adb5bd;"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div id="collapseCategory-${element.id}" class="collapse accordion-block">
+                            <div class="p-4 pt-0">
+                                <p class="text-secondary mb-4 font-italic" style="font-size: 0.95rem; padding-left: 28px; line-height: 1.65; margin-bottom: 15px !important; margin-top: 15px !important; color: #475569;">${element.subtitle ? element.subtitle : ""}</p>
+                                <div class="list-group list-group-flush mt-2">
+                                    ${articlesHtml}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    `;
+                });
+                
+                document.getElementById("helpAccordionContainer").innerHTML = innerHTML;
+
+                // Auto-expand category from URL query parameter (for back-navigation from detail page)
+                const urlParams = new URLSearchParams(window.location.search);
+                const categoryId = urlParams.get('category');
+                if (categoryId) {
+                    const targetCollapse = document.getElementById(`collapseCategory-${categoryId}`);
+                    if (targetCollapse) {
+                        $(targetCollapse).collapse('show');
+                        // Smooth scroll to the target item
+                        setTimeout(() => {
+                            targetCollapse.closest('.item').scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }, 300);
+                    }
+                }
+            } catch (err) {
+                console.error("Failed to load help accordion portal:", err);
+            }
+        }
+
+        initAccordion();
+
+        function setRouterName(id) {
+            // Find category containing the article to save as languageItem
+            for (let cat of responseData) {
+                let art = cat.articles.find(a => a.id === id);
+                if (art) {
+                    localStorage.setItem("languageItem", JSON.stringify({
+                        id: cat.id,
+                        title: cat.title,
+                        subtitle: cat.subtitle,
+                        contentCount: cat.contentCount
+                    }));
+                    break;
+                }
+            }
+        }
+
+        document.getElementById("searchInput").addEventListener('keyup', function (event) {
+            if (event.key === 'Enter' && document.getElementById('searchInput').value.trim().length > 0) {
+                search()
+            }
+        });
+        function search() {
+            if (document.getElementById('searchInput').value.trim().length > 0)
+                window.location.href = "./helpSearch.html?text=" + encodeURIComponent(document.getElementById('searchInput').value);
+        }
+
+        // Unified back to top logic
+        if (document.querySelector('.scroll-top-to')) {
+            document.querySelector('.scroll-top-to').addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Multi-language selection setup
+        document.addEventListener("DOMContentLoaded", function () {
+            if (localStorage.getItem("language")) {
+                var storedLang = localStorage.getItem("language");
+                
+                var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
+                if (activeLi) {
+                    var langText = activeLi.textContent.trim();
+                    var multiLangBtn = document.querySelector('.multi-language');
+                    if (multiLangBtn) {
+                        multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+                    }
+                }
+            }
+            var liElements = document.querySelectorAll('.language-ul li');
+            for (var i = 0; i < liElements.length; i++) {
+                liElements[i].addEventListener('click', function () {
+                    var dataValue = this.getAttribute('data-value');
+                    var langText = this.textContent.trim();
+                    
+                    var multiLangBtn = document.querySelector('.multi-language');
+                    if (multiLangBtn) {
+                        multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+                    }
+
+                    localStorage.setItem('language', dataValue);
+                    
+                    // Reload the accordion with chosen language
+                    initAccordion();
+
+                    // Close the bootstrap modal
+                    $('#allModalCenter').modal('hide');
+                });
+            }
+        });
+    </script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Choose language</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="language-ul">
+                        <li data-value="english" style="cursor: pointer;">English</li>
+                        <li data-value="malay" style="cursor: pointer;">Melayu</li>
+                        <li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+                        <li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+                        <li data-value="korean" style="cursor: pointer;">한국어</li>
+                        <li data-value="japanese" style="cursor: pointer;">日本語</li>
+                        <li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+                        <li data-value="arabic" style="cursor: pointer;">العربية</li>
+                        <li data-value="spanish" style="cursor: pointer;">Español</li>
+                        <li data-value="french" style="cursor: pointer;">Français</li>
+                        <li data-value="german" style="cursor: pointer;">Deutsch</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

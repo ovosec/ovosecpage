@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "OVOSEC là gì và nó bảo mật kết nối của tôi như thế nào?",
+        "subtitle": "Tổng quan về tiện ích bảo mật OVOSEC và quá trình truyền được mã hóa.",
+        "content": "<p>OVOSEC là tiện ích chuyển tiếp mã hóa thế hệ tiếp theo được thiết kế để tối ưu hóa độ trễ mạng toàn cầu và bảo vệ tính toàn vẹn của dữ liệu. Bằng cách sử dụng kiến ​​trúc lõi hiệu suất cao nguồn mở, OVOSEC truyền luồng dữ liệu của bạn thông qua các nút chuyển tuyến được mã hóa cấp doanh nghiệp, che giấu dấu vết truyền tải của bạn và tăng tốc quy trình làm việc năng suất xuyên biên giới một cách liền mạch.<\/p>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 12,
+        "title": "Làm cách nào để thiết lập tiện ích OVOSEC trên thiết bị của tôi?",
+        "subtitle": "Hướng dẫn từng bước để cài đặt và thiết lập.",
+        "content": "<p>Để thiết lập tiện ích OVOSEC trên thiết bị của bạn, hãy làm theo các bước sau:<\/p><ol><li>Hoàn tất lựa chọn gói của bạn trên trang web chính thức của chúng tôi (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li>Điều hướng đến <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang tải xuống<\/a> và tải ứng dụng bảo mật gói được thiết kế riêng cho hệ điều hành của bạn (Windows, macOS, Android hoặc iOS).<\/li><li>Khởi chạy ứng dụng, sao chép URL Cấu hình truy cập duy nhất của bạn từ <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang tổng quan khách hàng<\/a> và nhấp vào \"Nhập cấu hình\" trong giao diện ứng dụng để đồng bộ hóa ngay lập tức các điểm cuối chuyển tiếp được ủy quyền của bạn.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 21,
+        "title": "Kiến trúc cốt lõi của OVOSEC là gì?",
+        "subtitle": "Tổng quan về tiện ích bảo mật OVOSEC và truyền tải được mã hóa.",
+        "content": "<p>OVOSEC là tiện ích chuyển tiếp mã hóa thế hệ tiếp theo được thiết kế để tối ưu hóa độ trễ mạng toàn cầu và bảo vệ tính toàn vẹn của dữ liệu. Bằng cách truyền luồng dữ liệu của bạn thông qua các nút chuyển tuyến được mã hóa cấp doanh nghiệp, OVOSEC che giấu dấu vết truyền tải của bạn và tăng tốc quy trình làm việc năng suất xuyên biên giới một cách liền mạch.<\/p>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 22,
+        "title": "Hệ điều hành nào tương thích với OVOSEC?",
+        "subtitle": "Kiểm tra khả năng tương thích của thiết bị và yêu cầu hệ điều hành.",
+        "content": "<p>OVOSEC hoàn toàn tương thích với các nền tảng Windows, macOS, iOS, Android và Linux. Bạn có thể tải gói ứng dụng an toàn được thiết kế riêng cho hệ điều hành của mình trên <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang tải xuống<\/a> chính thức của chúng tôi.<\/p>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 31,
+        "title": "Tại sao kết nối tăng tốc tự động ngắt kết nối khi điện thoại của tôi ở chế độ ngủ?",
+        "subtitle": "Ngăn chặn hệ điều hành di động ngủ OVOSEC.",
+        "content": "<p>Các trình tiết kiệm pin linh hoạt của hệ điều hành di động thường chấm dứt các trình nền nền hiệu suất cao. Để ngăn chặn điều này, vui lòng áp dụng các điều chỉnh sau:<\/p><ul><li><strong>Android:<\/strong> Đi tới Cài đặt của điện thoại -> Ứng dụng -> OVOSEC -> Pin -> Đặt thành \"Không hạn chế\" hoặc \"Không tối ưu hóa\".<\/li><li><strong>iOS:<\/strong> Đảm bảo rằng \"Làm mới ứng dụng nền\" được bật cho OVOSEC trong Cài đặt iOS -> OVOSEC.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 39,
+        "title": "Không có bước nào ở trên giải quyết được vấn đề của tôi. Làm cách nào để liên hệ với bộ phận hỗ trợ kỹ thuật chính thức?",
+        "subtitle": "Gửi phiếu chẩn đoán cho nhóm kỹ thuật của chúng tôi.",
+        "content": "<p>Chúng tôi cam kết mang lại khả năng kết nối liền mạch cho bạn. Nếu bạn gặp phải xung đột định tuyến chưa được giải quyết, vui lòng gửi phiếu chẩn đoán đến hàng đợi kỹ thuật của chúng tôi tại <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Để giúp chúng tôi giải quyết trong vòng 24 giờ, vui lòng bao gồm:<\/p><ul><li>Email tài khoản đã đăng ký của bạn.<\/li><li>Phiên bản hệ điều hành hiện tại của bạn (ví dụ: Windows 11, iOS 17).<\/li><li>Mô tả ngắn gọn hoặc ảnh chụp màn hình của ứng dụng trạng thái nhật ký\/lỗi.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 40,
+        "title": "Tại sao danh sách cấu hình của tôi trống hoặc tại sao nó báo \"Không tìm thấy cấu hình\" sau khi nhập URL của tôi?",
+        "subtitle": "Kích hoạt đồng bộ hóa ban đầu với máy chủ thanh toán.",
+        "content": "<p>Điều này có thể xảy ra nếu ứng dụng không thực hiện được quá trình bắt tay ban đầu với máy chủ thanh toán của chúng tôi do hiện tượng giật mạng cục bộ. Để buộc đồng bộ hóa, vui lòng làm theo các bước sau:<\/p><ol><li>Trong ứng dụng, hãy chuyển đến tab Hồ sơ và nhấn vào ba dấu chấm (menu) bên cạnh liên kết OVOSEC đã nhập của bạn.<\/li><li>Nhấp vào \"Buộc cập nhật\" hoặc \"Tải lại hồ sơ\".<\/li><li>Quay lại màn hình chính và nhấp vào nút \"Kết nối\" ở giữa. Thao tác này sẽ ngay lập tức tìm nạp và điền vào tất cả các đường dẫn chuyển tiếp an toàn có độ trễ thấp được ủy quyền.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 45,
+        "title": "Tại sao tất cả các đường truyền rơle an toàn của tôi đột ngột ngừng hoạt động sau một thời gian dài không hoạt động?",
+        "subtitle": "Giải quyết phiên bản giao thức không khớp sau một thời gian dài không hoạt động.",
+        "content": "<p>Để duy trì mã hóa bảo mật cấp quân sự, cơ sở hạ tầng phụ trợ của chúng tôi nâng cấp định kỳ các giao thức truyền dẫn cơ bản. Nếu phiên bản máy khách của bạn quá lỗi thời, nó sẽ không thể bắt tay với các nút đã nâng cấp.<\/p><p><strong>Giải pháp:<\/strong> Vui lòng truy cập <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-design: underline;\">Trang tải xuống<\/a> chính thức của chúng tôi để tìm nạp và cài đặt phiên bản ổn định mới nhất của tiện ích OVOSEC cho thiết bị của bạn. Sau khi cập nhật phần mềm, hãy đồng bộ lại URL Cấu hình truy cập của bạn để khôi phục kết nối tức thời có độ trễ thấp.<\/p>",
+        "languageId": 1,
+        "languageName": "Chung"
+    },
+    {
+        "id": 49,
+        "title": "Tại sao tôi không thể mở trang đăng nhập\/xác thực Wi-Fi tại khách sạn, sân bay hoặc trường đại học?",
+        "subtitle": "Bỏ qua việc chặn cổng bị khóa không được mã hóa.",
+        "content": "<p>Mạng công cộng sử dụng kỹ thuật chặn được gọi là \"Cổng bị khóa\" để buộc người dùng vào màn hình đăng nhập. Vì lõi bảo mật đang hoạt động của OVOSEC chặn hoạt động theo dõi cục bộ trái phép và chuyển hướng mạng không đáng tin cậy nên nó có thể ngăn trang đăng nhập không được mã hóa này mở.<\/p><p><strong>Giải pháp:<\/strong> Tạm thời TẮT kết nối OVOSEC hoặc tắt tính năng khởi động khởi động. Mở trình duyệt web của bạn, trước tiên hãy hoàn tất xác thực mạng khách sạn\/khuôn viên, xác minh rằng bạn có quyền truy cập Internet cơ bản, sau đó BẬT lại OVOSEC để bảo mật phiên của bạn.<\/p>",
+        "languageId": 1,
+        "languageName": "Chung"
+    }
+]

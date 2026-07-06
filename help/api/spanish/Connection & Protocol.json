@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "¿Qué son el \"Modo TUN\" y el \"Proxy del sistema\", y cuál debería usar?",
+        "subtitle": "Comprender las diferencias entre los modos de enrutamiento proxy.",
+        "content": "<ul><li><strong>Proxy del sistema (predeterminado):<\/strong> enrute el tráfico estándar del navegador web a través de nuestros relés cifrados de baja latencia, óptimos para la productividad general de la oficina y la aceleración del servicio en la nube.<\/li><li><strong>Modo TUN (recomendado para flujos de trabajo avanzados):<\/strong> Crea una tarjeta de interfaz de red virtual a nivel del sistema operativo, capturando y protegiendo todos los paquetes de red en todas las aplicaciones en segundo plano. Habilite el modo TUN si cierto software de escritorio o programas empresariales internos no aprovechan la configuración predeterminada del proxy del navegador.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 16,
+        "title": "Resolución de problemas: ¿Por qué mis puntos finales de relé seguro agotan el tiempo de espera?",
+        "subtitle": "Resolver problemas de conectividad y latencia.",
+        "content": "<p>Si la interfaz muestra un error de conexión o una latencia excesiva, ejecute la siguiente rutina de verificación:<\/p><ul><li><strong>Sincronizar perfil:<\/strong> haga clic en el icono de actualización junto a la pestaña de su perfil para obtener las tablas de enrutamiento y asignación de servidor más recientes.<\/li><li><strong>Cambiar protocolos de puerta de enlace:<\/strong> Vaya a Configuración de la aplicación -> Configuración de protocolo e intente alternar entre modos de transmisión empresarial alternativos (por ejemplo, cambiar de TLS estándar a capas Reality\/Shadowsocks). para evitar los bloqueos de inspección profunda de paquetes (DPI) del ISP corporativo local.<\/li><li><strong>Vaciado de DNS:<\/strong> borre la caché de DNS de su sistema operativo local para eliminar conflictos de enrutamiento.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 25,
+        "title": "¿Cómo soluciono los fallos en el saludo de la conexión de red?",
+        "subtitle": "Resolver desconexiones repentinas de red y picos de latencia.",
+        "content": "<p>Si tiene problemas de conexión, intente cambiar los protocolos en la configuración o cambie a un nodo de servidor seguro diferente. Deshabilitar temporalmente los firewalls locales activos de terceros también puede resolver conflictos de configuración. Para consultas de conexión persistentes, contáctenos en <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 26,
+        "title": "¿Cómo selecciono el nodo de servidor con la latencia más baja?",
+        "subtitle": "Optimización de la velocidad de respuesta del servidor y el rendimiento del ancho de banda.",
+        "content": "<p>Para lograr la latencia más baja, seleccione un nodo de servidor que esté geográficamente más cerca de su ubicación física real. La aplicación proporciona indicadores de latencia en tiempo real e indicadores de capacidad de ancho de banda para ayudarle a elegir el nodo óptimo.<\/p>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 32,
+        "title": "¿Por qué mis aplicaciones locales van lentas o no se cargan mientras OVOSEC está activo?",
+        "subtitle": "Configuración de modos de ruta para evitar el tráfico local.",
+        "content": "<p>De forma predeterminada, la utilidad puede enrutar todo el tráfico a través de la red segura. Para optimizar esto, cambie su Modo de ruta de \"Global\" a \"Omitir local\/LAN\" o \"Modo de regla\" en el menú de la aplicación.<\/p><p>Esto garantiza que sus aplicaciones locales se conecten directamente a través de su ISP local a la máxima velocidad, mientras que solo los flujos de trabajo de productividad transfronterizos utilizan nuestros relés acelerados.<\/p>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 33,
+        "title": "¿Por qué la utilidad OVOSEC muestra un error de \"Error de inicialización del núcleo\" en iOS\/macOS?",
+        "subtitle": "Resolución de conflictos de bases de datos en plataformas Apple.",
+        "content": "<p>Esto suele ocurrir si hay un conflicto en la base de datos de enrutamiento local. Para solucionar este problema:<\/p><ol><li>Vaya a Configuración de la aplicación -> Avanzado -> Restablecer base de datos.<\/li><li>Vuelva a copiar la URL de configuración de acceso del <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Panel de control OVOSEC<\/a> y vuelva a importarla.<\/li><li>Asegúrese de que \"Ruta estricta\" esté desactivada si está ejecutando otro local. cortafuegos.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 37,
+        "title": "¿Puedo excluir aplicaciones específicas o solo permitir que ciertos navegadores web utilicen el relé seguro de OVOSEC?",
+        "subtitle": "Dividir y enrutar el tráfico por aplicación.",
+        "content": "<p>Sí, el motor central admite la división avanzada del tráfico:<\/p><ul><li><strong>En el escritorio (Windows\/macOS):<\/strong> cambie el modo de \"Modo TUN\" a \"Proxy del sistema\". En este modo, solo se acelerarán las aplicaciones que respeten la configuración de red del sistema (como Chrome, Edge o Firefox).<\/li><li><strong>En Android:<\/strong> Vaya a Configuración de la aplicación -> Proxy por aplicación (o Filtro de aplicación). Habilítelo y podrá verificar manualmente las aplicaciones exactas que desea enrutar a través de OVOSEC, dejando el resto en su red local estándar.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 38,
+        "title": "¿Cómo obligo a las herramientas de línea de comandos o aplicaciones de terminal a usar OVOSEC en el escritorio?",
+        "subtitle": "Configuración de variables de entorno local para herramientas de desarrollador.",
+        "content": "<p>Es posible que System Proxy y TUN Mode no capturen automáticamente el tráfico sin procesar del terminal o del entorno de desarrollador en Windows\/macOS. Para resolver esto:<\/p><ol><li>En la utilidad OVOSEC, ubique su puerto de entrada localizado actual (normalmente HTTP 2334 o puerto mixto en la configuración de configuración).<\/li><li>Abra su terminal y exporte manualmente las variables de entorno de red:<\/li><\/ol><pre><code>exportar http_proxy=http:\/\/127.0.0.1:2334\nexport https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Esto obliga a los scripts de desarrollo y a las herramientas de la consola a enrutarse a través de nuestros canales seguros.<\/p>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 41,
+        "title": "Tengo una red que funciona, pero ¿por qué todos los puntos finales de repente agotan el tiempo de espera con errores de saludo?",
+        "subtitle": "Corrección de la desviación del reloj del dispositivo para satisfacer los protocolos de seguridad.",
+        "content": "<p>Nuestras capas de cifrado de nivel empresarial utilizan tokens criptográficos seguros con restricción de tiempo. Si la hora del sistema de su dispositivo difiere de la hora global estándar en más de 60 segundos, el núcleo de seguridad rechazará el protocolo de enlace.<\/p><p><strong>Solución:<\/strong> Vaya a Configuración del sistema de su dispositivo -> Fecha y hora y asegúrese de que \"Establecer hora automáticamente\" (hora proporcionada por la red) esté activado. Después de corregir el reloj de su dispositivo, reinicie la utilidad OVOSEC para restaurar la conectividad instantánea.<\/p>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    },
+    {
+        "id": 48,
+        "title": "¿Por qué no puedo acceder a ningún sitio web incluso después de cerrar completamente la utilidad OVOSEC?",
+        "subtitle": "Restaurar los parámetros DNS del sistema operativo bloqueado.",
+        "content": "<p>Esto rara vez sucede, pero es causado por una terminación abrupta del sistema (por ejemplo, una falla repentina de la PC, un corte de energía o el sistema operativo cancela por la fuerza la tarea en segundo plano) mientras el modo TUN estaba activo. En estos casos, la configuración DNS de su sistema operativo puede permanecer bloqueada en el modo de enrutamiento seguro.<\/p><p><strong>Solución inmediata:<\/strong><\/p><ol><li>Simplemente reinicie la utilidad OVOSEC y haga clic en el botón central \"Conectar\".<\/li><li>Espere 5 segundos y luego haga clic en \"Desconectar\" normalmente. Esto hace que el motor central borre y restaure limpiamente la pila de red predeterminada del sistema operativo y los parámetros DNS al estándar de su ISP.<\/li><li>Como alternativa, reinicie el adaptador de red de su dispositivo o vacíe el DNS de su sistema (<code>ipconfig \/flushdns<\/code> en Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Conexión y Protocolo"
+    }
+]

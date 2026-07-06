@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "Qu'est-ce que OVOSEC et comment sécurise-t-il ma connexion ?",
+        "subtitle": "Un aperçu de l’utilitaire sécurisé OVOSEC et du transit crypté.",
+        "content": "<p>OVOSEC est un utilitaire de relais crypté de nouvelle génération conçu pour optimiser la latence du réseau mondial et protéger l'intégrité des données. Utilisant une architecture de base open source hautes performances, OVOSEC canalise vos flux de données via des nœuds de transit cryptés de niveau entreprise, masquant vos traces de transmission et accélérant les flux de productivité transfrontaliers de manière transparente.<\/p>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 12,
+        "title": "Comment configurer l'utilitaire OVOSEC sur mon appareil ?",
+        "subtitle": "Instructions étape par étape pour l'installation et la configuration.",
+        "content": "<p>Pour configurer l'utilitaire OVOSEC sur votre appareil, suivez ces étapes :<\/p><ol><li> Complétez votre sélection de forfait sur notre site Web officiel (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li> Accédez à <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration : underline;\">Téléchargez la page<\/a> et obtenez le package d'application sécurisé adapté à votre système d'exploitation (Windows, macOS, Android ou iOS).<\/li><li>Lancez l'application, copiez votre URL de configuration d'accès unique à partir de votre <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Tableau de bord client<\/a> et cliquez sur \"Importer la configuration\" dans l'interface de l'application pour synchroniser instantanément votre relais autorisé. points de terminaison.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 21,
+        "title": "Quelle est l'architecture principale de OVOSEC ?",
+        "subtitle": "Un aperçu de l'utilitaire de sécurité OVOSEC et du transit crypté.",
+        "content": "<p>OVOSEC est un utilitaire de relais crypté de nouvelle génération conçu pour optimiser la latence du réseau mondial et protéger l'intégrité des données. En canalisant vos flux de données via des nœuds de transit cryptés de niveau entreprise, OVOSEC masque vos traces de transmission et accélère les flux de productivité transfrontaliers de manière transparente.<\/p>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 22,
+        "title": "Quels systèmes d'exploitation sont compatibles avec OVOSEC ?",
+        "subtitle": "Vérification de la compatibilité des appareils et de la configuration requise du système d'exploitation.",
+        "content": "<p>OVOSEC est entièrement compatible avec les plateformes Windows, macOS, iOS, Android et Linux. Vous pouvez acquérir le package d'application sécurisé adapté à votre système d'exploitation sur notre <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Page de téléchargement<\/a>.<\/p>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 31,
+        "title": "Pourquoi la connexion accélérée se déconnecte-t-elle automatiquement lorsque mon téléphone se met en veille ?",
+        "subtitle": "Empêcher les systèmes d'exploitation mobiles de mettre en veille OVOSEC.",
+        "content": "<p>Les économiseurs de batterie agressifs du système d'exploitation mobile mettent souvent fin aux démons d'arrière-plan hautes performances. Pour éviter cela, veuillez appliquer les ajustements suivants :<\/p><ul><li><strong>Android :<\/strong> Accédez aux paramètres de votre téléphone -> Applications -> OVOSEC -> Batterie -> Réglez sur \"Sans restriction\" ou \"Aucune optimisation\".<\/li><li><strong>iOS :<\/strong> Assurez-vous que \"Actualisation de l'application en arrière-plan\" est activé pour OVOSEC sous Paramètres iOS -> OVOSEC.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 39,
+        "title": "Aucune des étapes ci-dessus n'a résolu mon problème. Comment contacter le support technique officiel ?",
+        "subtitle": "Soumettre les tickets de diagnostic à notre équipe technique.",
+        "content": "<p>Nous nous engageons à assurer votre connectivité transparente. Si vous rencontrez un conflit de routage non résolu, veuillez soumettre un ticket de diagnostic à notre file d'attente technique à <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Pour nous aider à le résoudre dans les 24 heures, veuillez inclure :<\/p><ul><li>L'adresse e-mail de votre compte enregistré.<\/li><li>La version actuelle de votre système d'exploitation (par exemple, Windows 11, iOS 17).<\/li><li>Une brève description ou une capture d'écran du journal de l'application\/de l'état des erreurs.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 40,
+        "title": "Pourquoi ma liste de profils est-elle vide ou pourquoi indique-t-elle \"Aucun profil trouvé\" après avoir importé mon URL ?",
+        "subtitle": "Déclenchement de la synchronisation initiale avec le serveur de facturation.",
+        "content": "<p>Cela peut se produire si l'application ne parvient pas à effectuer sa première liaison avec nos serveurs de facturation en raison de la gigue du réseau local. Pour forcer une synchronisation, veuillez suivre ces étapes :<\/p><ol><li>Dans l'application, accédez à l'onglet Profils et appuyez sur les trois points (menu) à côté de votre lien OVOSEC importé.<\/li><li>Cliquez sur \"Forcer la mise à jour\" ou \"Recharger le profil\".<\/li><li>Retournez à l'écran principal et cliquez sur le bouton central \"Connecter\". Cela récupérera et remplira instantanément tous les chemins de relais sécurisés autorisés à faible latence.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 45,
+        "title": "Pourquoi toutes mes routes de relais sécurisées ont-elles soudainement cessé de fonctionner après une longue période d'inactivité ?",
+        "subtitle": "Résolution des incompatibilités de versions de protocole après une longue inactivité.",
+        "content": "<p>Pour maintenir un cryptage de sécurité de niveau militaire, notre infrastructure backend met périodiquement à niveau ses protocoles de transmission sous-jacents. Si la version de votre client est très obsolète, elle ne parviendra pas à établir une liaison avec les nœuds mis à niveau.<\/p><p><strong>Solution :<\/strong> Veuillez visiter notre <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Page de téléchargement<\/a> pour récupérer et installer la dernière version stable de l'utilitaire OVOSEC pour votre appareil. Après la mise à jour du logiciel, resynchronisez votre URL de configuration d'accès pour restaurer une connectivité instantanée à faible latence.<\/p>",
+        "languageId": 1,
+        "languageName": "Général"
+    },
+    {
+        "id": 49,
+        "title": "Pourquoi ne puis-je pas ouvrir la page de connexion\/authentification Wi-Fi dans les hôtels, les aéroports ou les universités ?",
+        "subtitle": "Contournement de l'interception du portail captif non crypté.",
+        "content": "<p>Les réseaux publics utilisent une technique d'interception appelée « portails captifs » pour forcer les utilisateurs à accéder à un écran de connexion. Étant donné que le noyau de sécurité actif d'OVOSEC bloque le suivi local non autorisé et les redirections réseau non fiables, il peut empêcher l'ouverture de cette page de connexion non cryptée.<\/p><p><strong>Solution :<\/strong> Désactivez temporairement la connexion OVOSEC ou désactivez la fonction de lancement de démarrage. Ouvrez votre navigateur Web, complétez d'abord l'authentification du réseau de l'hôtel\/du campus, vérifiez que vous disposez d'un accès Internet de base, puis réactivez OVOSEC pour sécuriser votre session.<\/p>",
+        "languageId": 1,
+        "languageName": "Général"
+    }
+]

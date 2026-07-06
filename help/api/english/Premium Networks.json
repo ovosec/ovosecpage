@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id":  17,
+        "title":  "What is the difference between Standard and Premium Dedicated Relays?",
+        "subtitle":  "Comparing relay performance, latency, and features.",
+        "content":  "\u003cul\u003e\u003cli\u003e\u003cstrong\u003eStandard Nodes:\u003c/strong\u003e Shared high-speed relays suitable for routine automated backup, remote database queries, and lightweight cross-border collaboration.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePremium Dedicated Relays:\u003c/strong\u003e Deployed over multi-ingress BGP premium transit backbones (optimized for regions like Hong Kong, Singapore, and Japan). These nodes feature dedicated bandwidth allocations, zero packet loss under peak-hour congestion, and ultra-low jitter, tailor-made for high-throughput enterprise operations and low-latency virtual workspaces.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    },
+    {
+        "id":  18,
+        "title":  "What are the concurrent device limitations for a single account?",
+        "subtitle":  "Limits on simultaneous device connections.",
+        "content":  "\u003cp\u003eTo prevent commercial line abuse and maintain consistent bandwidth availability for all premium consumers, a standard individual premium license permits up to 3 concurrent active device connections simultaneously. Sharing configuration strings publicly will trigger automated security rate-limiting on our billing gateway.\u003c/p\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    },
+    {
+        "id":  27,
+        "title":  "What are the pricing tiers for premium membership plans?",
+        "subtitle":  "Discover the ideal premium secure subscription package for your needs.",
+        "content":  "\u003cp\u003eOVOSEC Premium plans are structured on monthly, semi-annual, and annual terms. Longer subscription commitments feature discounted rates. You can view all pricing details and active seasonal specials on our official \u003ca href=\"../index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eHome Page\u003c/a\u003e plan grid.\u003c/p\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    },
+    {
+        "id":  28,
+        "title":  "How do I upgrade my account status to premium?",
+        "subtitle":  "Unlocking all high-speed nodes and enjoying unlimited priority bandwidth.",
+        "content":  "\u003cp\u003eTo upgrade, access your account through our \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eLogin Page\u003c/a\u003e, navigate to the billing section, select your preferred membership tier, and complete payment using a credit card or local banking gateway.\u003c/p\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    },
+    {
+        "id":  34,
+        "title":  "Why do my Secure Relay Endpoints show \"Timeout\" or \"-1ms\" during the connection test?",
+        "subtitle":  "Understanding ping timeout indicators.",
+        "content":  "\u003cp\u003eA \"Timeout\" status often indicates that your local network provider or corporate firewall is blocking ICMP/Ping requests (the test packets), but it does not mean the data path is broken.\u003c/p\u003e\u003cp\u003ePlease try connecting to the node regardless. If data flows normally after clicking \"Connect\", you can safely ignore the timeout indicator.\u003c/p\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    },
+    {
+        "id":  35,
+        "title":  "How can I optimize the connection for low-latency online gaming and voice chat?",
+        "subtitle":  "Optimizing settings for multiplayer gaming and VoIP apps.",
+        "content":  "\u003cp\u003eFor multiplayer gaming or real-time VoIP apps, UDP packet transmission is vital. To optimize your experience, please follow these steps:\u003c/p\u003e\u003cul\u003e\u003cli\u003eEnsure you are connected to our Premium Dedicated Relays (marked with BGP or Optimized tags).\u003c/li\u003e\u003cli\u003eIn the app settings, navigate to Protocol Settings / Core Settings and ensure \"UDP Forwarding\" or \"Enable UDP\" is toggled ON. This dramatically reduces packet loss and multi-player jitter.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  4,
+        "languageName":  "Premium Networks"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "Apakah \"Mod TUN\" dan \"Proksi Sistem\", dan yang manakah patut saya gunakan?",
+        "subtitle": "Memahami perbezaan antara mod penghalaan proksi.",
+        "content": "<ul><li><strong>Proksi Sistem (Lalai):<\/strong> Halakan trafik penyemak imbas web standard melalui geganti disulitkan kependaman rendah kami, optimum untuk produktiviti pejabat am dan pecutan perkhidmatan awan.<\/li><li><strong>Mod TUN (Disyorkan untuk Aliran Kerja Lanjutan):<\/strong> Mencipta kad antara muka rangkaian maya pada peringkat sistem pengendalian, merakam semua latar belakang rangkaian dan mengamankan semua peringkat aplikasi Dayakan Mod TUN jika perisian desktop atau program perusahaan dalaman tertentu gagal memanfaatkan tetapan proksi penyemak imbas lalai.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 16,
+        "title": "Penyelesaian masalah: Mengapakah Titik Akhir Geganti Selamat saya mengalami masa tamat?",
+        "subtitle": "Menyelesaikan isu ketersambungan dan kependaman.",
+        "content": "<p>Jika antara muka memaparkan kegagalan sambungan atau kependaman yang berlebihan, sila laksanakan rutin pengesahan berikut:<\/p><ul><li><strong>Segerakkan Profil:<\/strong> Klik ikon muat semula di sebelah tab profil anda untuk mengambil jadual pemetaan dan penghalaan pelayan terkini.<\/li><li><strong>Tukar Protokol Gerbang:<\/strong> Pergi ke Konfigurasi Apl -> Protokol alternatif antara perusahaan dan Konfigurasi (cth., bertukar daripada TLS standard kepada lapisan Realiti\/Shadowsocks) untuk memintas blok pemeriksaan paket dalam (DPI) ISP korporat tempatan.<\/li><li><strong>DNS Flush:<\/strong> Kosongkan cache DNS sistem pengendalian tempatan anda untuk menghapuskan konflik penghalaan.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 25,
+        "title": "Bagaimanakah cara saya menyelesaikan masalah jabat tangan sambungan rangkaian yang gagal?",
+        "subtitle": "Menyelesaikan pemutusan rangkaian secara tiba-tiba dan lonjakan kependaman.",
+        "content": "<p>Jika anda menghadapi masalah sambungan, cuba tukar protokol dalam tetapan atau tukar kepada nod pelayan selamat yang lain. Melumpuhkan tembok api pihak ketiga tempatan yang aktif untuk sementara waktu juga boleh menyelesaikan konflik konfigurasi. Untuk pertanyaan sambungan berterusan, hubungi kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 26,
+        "title": "Bagaimanakah cara saya memilih nod pelayan kependaman terendah?",
+        "subtitle": "Mengoptimumkan kelajuan tindak balas pelayan dan prestasi lebar jalur.",
+        "content": "<p>Untuk mencapai kependaman terendah, pilih nod pelayan yang paling hampir secara geografi dengan lokasi fizikal sebenar anda. Aplikasi ini menyediakan penunjuk kependaman masa nyata dan bendera kapasiti lebar jalur untuk membantu anda memilih nod yang optimum.<\/p>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 32,
+        "title": "Mengapakah apl tempatan saya lambat atau gagal dimuatkan semasa OVOSEC aktif?",
+        "subtitle": "Mengkonfigurasi mod laluan untuk memintas lalu lintas tempatan.",
+        "content": "<p>Secara lalai, utiliti boleh mengarahkan semua trafik melalui rangkaian selamat. Untuk mengoptimumkan ini, sila tukar Mod Laluan anda daripada \"Global\" kepada \"Pintas Setempat\/LAN\" atau \"Mod Peraturan\" dalam menu apl.<\/p><p>Ini memastikan apl setempat anda bersambung terus melalui ISP tempatan anda pada kelajuan maksimum, manakala hanya aliran kerja produktiviti merentas sempadan menggunakan geganti dipercepat kami.<\/p>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 33,
+        "title": "Mengapakah utiliti OVOSEC menunjukkan ralat \"Permulaan Teras Gagal\" pada iOS\/macOS?",
+        "subtitle": "Menyelesaikan konflik pangkalan data pada platform Apple.",
+        "content": "<p>Ini biasanya berlaku jika terdapat konflik dalam pangkalan data penghalaan setempat. Untuk membetulkan perkara ini:<\/p><ol><li>Pergi ke Tetapan Apl -> Lanjutan -> Tetapkan Semula Pangkalan Data.<\/li><li>Salin semula URL Konfigurasi Akses anda daripada <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Papan Pemuka OVOSEC<\/a> dan import semula \"jika anda telah mengimportnya.\"<\/li> <Slitric>En.<\/li> sedang menjalankan tembok api tempatan yang lain.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 37,
+        "title": "Bolehkah saya mengecualikan apl tertentu atau hanya membenarkan pelayar web tertentu menggunakan geganti selamat OVOSEC?",
+        "subtitle": "Membahagi dan menghala trafik bagi setiap aplikasi.",
+        "content": "<p>Ya, enjin teras menyokong pemisahan trafik lanjutan:<\/p><ul><li><strong>Pada Desktop (Windows\/macOS):<\/strong> Tukar mod anda daripada \"Mod TUN\" kepada \"Proksi Sistem\". Dalam mod ini, hanya aplikasi yang menghormati tetapan rangkaian sistem (seperti Chrome, Edge atau Firefox) akan dipercepatkan.<\/li><li><strong>Pada Android:<\/strong> Pergi ke Tetapan Apl -> Proksi Per-Apl (atau Penapis Aplikasi). Dayakannya dan anda boleh menyemak secara manual aplikasi tepat yang anda ingin halakan melalui OVOSEC, meninggalkan yang lain pada rangkaian tempatan standard anda.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 38,
+        "title": "Bagaimanakah cara saya memaksa alatan baris arahan atau aplikasi terminal menggunakan OVOSEC pada desktop?",
+        "subtitle": "Mengkonfigurasi pembolehubah persekitaran setempat untuk alat pembangun.",
+        "content": "<p>Proksi Sistem dan Mod TUN mungkin tidak secara automatik menangkap terminal mentah atau trafik persekitaran pembangun pada Windows\/macOS. Untuk menyelesaikan masalah ini:<\/p><ol><li>Dalam utiliti OVOSEC, cari Port Masuk setempat semasa anda (biasanya HTTP 2334 atau port campuran di bawah tetapan Konfig).<\/li><li>Buka terminal anda dan eksport pembolehubah persekitaran rangkaian secara manual:<\/li><\/ol><pre><code>eksport http_proxy=http:\/\/127.0.0.1:233\neksport https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Ini memaksa skrip pembangunan dan alatan konsol untuk dihalakan melalui saluran selamat kami.<\/p>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 41,
+        "title": "Saya mempunyai rangkaian yang berfungsi, tetapi mengapakah semua titik akhir tiba-tiba tamat masa dengan ralat jabat tangan?",
+        "subtitle": "Membetulkan drift jam peranti untuk memenuhi protokol keselamatan.",
+        "content": "<p>Lapisan penyulitan gred perusahaan kami menggunakan token kriptografi terhad masa yang selamat. Jika masa sistem peranti anda berbeza daripada masa global standard lebih daripada 60 saat, teras keselamatan akan menolak jabat tangan.<\/p><p><strong>Betulkan:<\/strong> Pergi ke Tetapan Sistem peranti anda -> Tarikh & Masa dan pastikan \"Tetapkan Masa Secara Automatik\" (masa yang disediakan Rangkaian) dihidupkan. Selepas membetulkan jam peranti anda, mulakan semula utiliti OVOSEC untuk memulihkan sambungan segera.<\/p>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    },
+    {
+        "id": 48,
+        "title": "Mengapakah saya tidak dapat mengakses mana-mana tapak web walaupun selepas menutup sepenuhnya utiliti OVOSEC?",
+        "subtitle": "Memulihkan parameter DNS sistem pengendalian terkunci.",
+        "content": "<p>Ini jarang berlaku tetapi disebabkan oleh penamatan sistem secara tiba-tiba (cth., ranap PC secara tiba-tiba, gangguan kuasa atau OS mematikan tugas latar belakang secara paksa) semasa Mod TUN aktif. Dalam keadaan ini, tetapan DNS sistem pengendalian anda mungkin kekal terkunci dalam mod penghalaan selamat.<\/p><p><strong>Pembetulan Segera:<\/strong><\/p><ol><li>Cuma lancarkan semula utiliti OVOSEC dan klik butang \"Sambung\" pusat.<\/li><li>Tunggu 5 saat, kemudian klik \"Putuskan sambungan\" seperti biasa. Ini mencetuskan enjin teras untuk membersihkan dan memulihkan susunan rangkaian sistem pengendalian lalai anda dan parameter DNS kembali kepada standard ISP anda.<\/li><li>Sebagai alternatif, mulakan semula penyesuai rangkaian peranti anda atau siram DNS sistem anda (<code>ipconfig \/flushdns<\/code> pada Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Sambungan & Protokol"
+    }
+]

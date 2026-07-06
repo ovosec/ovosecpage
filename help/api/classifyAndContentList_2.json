@@ -1,0 +1,47 @@
+﻿[
+    {
+        "id":  2,
+        "status":  "0",
+        "languageId":  2,
+        "time":  "2026-06-29T15:30:00.000+00:00",
+        "title":  "Account \u0026 Subscriptions",
+        "contentNameList":  [
+                                {
+                                    "id":  13,
+                                    "title":  "How do I manage or cancel my active recurring subscription?"
+                                },
+                                {
+                                    "id":  14,
+                                    "title":  "What is your refund policy regarding premium packages?"
+                                },
+                                {
+                                    "id":  23,
+                                    "title":  "How do I register and log in to my account?"
+                                },
+                                {
+                                    "id":  24,
+                                    "title":  "How do I perform a secure password reset?"
+                                },
+                                {
+                                    "id":  36,
+                                    "title":  "How do I check my remaining data quota and subscription expiration date?"
+                                },
+                                {
+                                    "id":  42,
+                                    "title":  "I changed or upgraded my device. How do I restore my active premium subscription?"
+                                },
+                                {
+                                    "id":  43,
+                                    "title":  "I completed my payment via Curlec/Stripe, but my client still shows \"Free/Standard\" status. What should I do?"
+                                },
+                                {
+                                    "id":  46,
+                                    "title":  "When does my data quota reset, and what if I run out of data before the billing cycle ends?"
+                                },
+                                {
+                                    "id":  50,
+                                    "title":  "How will the OVOSEC subscription charge appear on my credit card or bank statement?"
+                                }
+                            ]
+    }
+]

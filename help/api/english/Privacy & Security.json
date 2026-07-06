@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id":  19,
+        "title":  "Does OVOSEC implement a Zero-Logs Policy?",
+        "subtitle":  "Our strict privacy standard and local compliance.",
+        "content":  "\u003cp\u003eYes, absolutely. OVOSEC is incorporated as a legal entity in Kuala Lumpur, Malaysia, and strictly adheres to local PDPA guidelines alongside global zero-knowledge compliance frameworks. Our open-source backend core operates strictly in volatile RAM memory. We do not collect, monitor, track, or archive your network destinations, query history, payload contents, or real-world source IP allocation logs. Your digital presence is completely anonymous.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    },
+    {
+        "id":  20,
+        "title":  "What level of encryption does the OVOSEC infrastructure enforce?",
+        "subtitle":  "Advanced cryptographic protocols and security standards.",
+        "content":  "\u003cp\u003eEvery packet transmitted via our secure relay network is encapsulated using industry-standard AES-256-GCM or ChaCha20-Poly1305 cryptographic primitives, layered with modern TLS handshakes. This cryptographic architecture guarantees absolute end-to-end secrecy, nullifying any potential middleman tampering or packet eavesdropping even when accessing corporate resources via unsecured public Wi-Fi access points.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    },
+    {
+        "id":  29,
+        "title":  "What is OVOSEC zero-knowledge log policy?",
+        "subtitle":  "Understanding our commitment to security and zero user tracking.",
+        "content":  "\u003cp\u003eWe adhere to a strict Zero-Logs Policy. We do not monitor, capture, store, or sell any information regarding your browsing history, traffic destination, data payload contents, or DNS requests. For comprehensive legal terms, please read our full \u003ca href=\"../privacy.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003ePrivacy Policy\u003c/a\u003e.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    },
+    {
+        "id":  30,
+        "title":  "How does OVOSEC secure public Wi-Fi transmissions?",
+        "subtitle":  "Military-grade encryption and protocol suites on public gateways.",
+        "content":  "\u003cp\u003eAll network traffic routed through OVOSEC secure nodes is encrypted via state-of-the-art AES-256-GCM and ChaCha20-Poly1305 primitives. This guarantees that your data packet streams remain protected from eavesdropping or Man-in-the-Middle (MitM) attacks even on untrusted public Wi-Fi hotspots.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    },
+    {
+        "id":  44,
+        "title":  "Does OVOSEC protect my credentials and personal data when connecting via unsecured public Wi-Fi?",
+        "subtitle":  "Preventing data theft and MitM attacks on public hot-spots.",
+        "content":  "\u003cp\u003eYes, completely. When OVOSEC is active (especially with TUN Mode enabled), the underlying core architecture encapsulates all local outbound traffic into a strictly encrypted cryptographic tunnel (utilizing AEAD primitives).\u003c/p\u003e\u003cp\u003eEven if the public Wi-Fi hotspot is compromised or running a \"Man-in-the-Middle\" packet sniffer, attackers can only see scrambled, unbreakable metadata. Your plaintext passwords, financial transactions, and communication payloads remain completely bulletproof.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    },
+    {
+        "id":  47,
+        "title":  "Why does my local antivirus or Windows Defender flag OVOSEC when enabling TUN Mode?",
+        "subtitle":  "Handling antivirus false positives for system network changes.",
+        "content":  "\u003cp\u003eThis is a standard false positive. Because TUN Mode creates an advanced enterprise-grade virtual network adapter at the operating system level to encrypt all outbound background data, strict local security firewalls may flag this deep-network modification as suspicious.\u003c/p\u003e\u003cp\u003eOVOSEC is completely open-source, heavily audited, and malware-free. You can safely add the OVOSEC application directory to your antivirus Exclusion / Trust List to ensure uninterrupted network optimization.\u003c/p\u003e",
+        "languageId":  5,
+        "languageName":  "Privacy \u0026 Security"
+    }
+]

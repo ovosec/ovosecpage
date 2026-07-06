@@ -1,0 +1,50 @@
+[
+    {
+        "id": 19,
+        "title": "Apakah OVOSEC menerapkan Kebijakan Tanpa Log?",
+        "subtitle": "Standar privasi kami yang ketat dan kepatuhan lokal.",
+        "content": "<p>Ya, tentu saja. OVOSEC didirikan sebagai badan hukum di Kuala Lumpur, Malaysia, dan secara ketat mematuhi pedoman PDPA lokal serta kerangka kepatuhan global tanpa pengetahuan. Inti backend sumber terbuka kami beroperasi secara ketat pada memori RAM yang mudah menguap. Kami tidak mengumpulkan, memantau, melacak, atau mengarsipkan tujuan jaringan Anda, riwayat kueri, konten payload, atau log alokasi IP sumber dunia nyata. Kehadiran digital Anda sepenuhnya anonim.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    },
+    {
+        "id": 20,
+        "title": "Tingkat enkripsi apa yang diberlakukan oleh infrastruktur OVOSEC?",
+        "subtitle": "Protokol kriptografi tingkat lanjut dan standar keamanan.",
+        "content": "<p>Setiap paket yang dikirimkan melalui jaringan relai aman kami dienkapsulasi menggunakan primitif kriptografi AES-256-GCM atau ChaCha20-Poly1305 standar industri, yang dilapisi dengan jabat tangan TLS modern. Arsitektur kriptografi ini menjamin kerahasiaan menyeluruh yang mutlak, meniadakan potensi gangguan perantara atau penyadapan paket bahkan ketika mengakses sumber daya perusahaan melalui titik akses Wi-Fi publik yang tidak aman.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    },
+    {
+        "id": 29,
+        "title": "Apa kebijakan log tanpa pengetahuan OVOSEC?",
+        "subtitle": "Memahami komitmen kami terhadap keamanan dan tidak adanya pelacakan pengguna.",
+        "content": "<p>Kami mematuhi Kebijakan Tanpa Pencatatan yang ketat. Kami tidak memantau, menangkap, menyimpan, atau menjual informasi apa pun mengenai riwayat penjelajahan Anda, tujuan lalu lintas, konten muatan data, atau permintaan DNS. Untuk persyaratan hukum yang komprehensif, harap baca <a href=\"..\/privacy.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Kebijakan Privasi<\/a> kami secara lengkap.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    },
+    {
+        "id": 30,
+        "title": "Bagaimana OVOSEC mengamankan transmisi Wi-Fi publik?",
+        "subtitle": "Enkripsi dan rangkaian protokol tingkat militer di gateway publik.",
+        "content": "<p>Semua lalu lintas jaringan yang dirutekan melalui node aman OVOSEC dienkripsi melalui primitif AES-256-GCM dan ChaCha20-Poly1305 yang canggih. Hal ini menjamin aliran paket data Anda tetap terlindungi dari penyadapan atau serangan Man-in-the-Middle (MitM) bahkan di hotspot Wi-Fi publik yang tidak tepercaya.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    },
+    {
+        "id": 44,
+        "title": "Apakah OVOSEC melindungi kredensial dan data pribadi saya saat terhubung melalui Wi-Fi publik yang tidak aman?",
+        "subtitle": "Mencegah pencurian data dan serangan MitM di hot-spot publik.",
+        "content": "<p>Ya, sepenuhnya. Saat OVOSEC aktif (terutama dengan Mode TUN yang diaktifkan), arsitektur inti yang mendasarinya merangkum semua lalu lintas keluar lokal ke dalam terowongan kriptografi yang dienkripsi secara ketat (memanfaatkan primitif AEAD).<\/p><p>Bahkan jika hotspot Wi-Fi publik disusupi atau menjalankan packet sniffer \"Man-in-the-Middle\", penyerang hanya dapat melihat metadata yang diacak dan tidak dapat dipecahkan. Sandi teks biasa, transaksi keuangan, dan muatan komunikasi Anda tetap sepenuhnya antipeluru.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    },
+    {
+        "id": 47,
+        "title": "Mengapa antivirus lokal saya atau Windows Defender menandai OVOSEC saat mengaktifkan Mode TUN?",
+        "subtitle": "Menangani positif palsu antivirus untuk perubahan jaringan sistem.",
+        "content": "<p>Ini adalah positif palsu standar. Karena Mode TUN menciptakan adaptor jaringan virtual tingkat perusahaan yang canggih di tingkat sistem operasi untuk mengenkripsi semua data latar belakang keluar, firewall keamanan lokal yang ketat mungkin menandai modifikasi jaringan dalam ini sebagai mencurigakan.<\/p><p>OVOSEC sepenuhnya bersifat open-source, diaudit secara ketat, dan bebas malware. Anda dapat dengan aman menambahkan direktori aplikasi OVOSEC ke Daftar Pengecualian\/Kepercayaan antivirus Anda untuk memastikan pengoptimalan jaringan tanpa gangguan.<\/p>",
+        "languageId": 5,
+        "languageName": "Privasi & Keamanan"
+    }
+]

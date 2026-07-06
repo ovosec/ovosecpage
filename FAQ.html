@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>OVOSEC</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span>☰</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">HOME</a>
+        </li>
+        <li class="nav-item @@accelerator">
+          <a class="nav-link" href="accelerator.html">NETWORK</a>
+        </li>
+        <li class="nav-item dropdown @@pages">
+          <a class="nav-link" href="dropdown.html">DOWNLOAD
+          </a>
+        </li>
+        <li class="nav-item dropdown @@Programs">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">REWARDS ▾
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="friend.html">Refer a Friend</a></li>
+            <li><a class="dropdown-item" href="partner.html">Become a Partner</a></li>
+            <li><a class="dropdown-item" href="influence.html">Influencers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item @@help">
+          <a class="nav-link" href="help/help.html" id="nav_helpWebSize">HELP</a>
+        </li>
+        <li class="nav-item @@Contact">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item apply-button">
+          <a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal"
+            data-target="#allModalCenter" href="#"><i class="ti-world"></i> English</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="#" id="nav_loginWebSize"><i
+              class="ti-user"></i> LOGIN / REGISTER</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Choose language</h4>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="language-ul">
+          <li data-value="english" style="cursor: pointer;">English</li>
+          <li data-value="malay" style="cursor: pointer;">Melayu</li>
+          <li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+          <li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+          <li data-value="korean" style="cursor: pointer;">한국어</li>
+          <li data-value="japanese" style="cursor: pointer;">日本語</li>
+          <li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+          <li data-value="arabic" style="cursor: pointer;">العربية</li>
+          <li data-value="spanish" style="cursor: pointer;">Español</li>
+          <li data-value="french" style="cursor: pointer;">Français</li>
+          <li data-value="german" style="cursor: pointer;">Deutsch</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--================================
+=            Page Title            =
+=================================-->
+<section class="section page-title faq-0 bg-2 ">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10 m-auto">
+				<!-- Page Title -->
+				<h1>Hi, how can we help you?</h1>
+				<!-- Page Description -->
+<!--				<p>Thank you very much for using, you can find the solutions to common questions here.</p>-->
+				<form class="form-inline flex-nowrap form-domainSearch">
+					<div class="form-group input-group input-group-lg">
+						<label for="staticDomainSearch" class="ti-search"></label>
+						<input type="text" class="form-control" id="staticDomainSearch" placeholder="Search for articles...">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Page Title  ====-->
+
+
+<!--=================================
+=            FAQ Section            =
+==================================-->
+
+<section class="faq faq-0 section pt-0">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-10 m-auto">
+				<div class="block shadow" id="faqAccordionContainer">
+					<!-- Dynamic FAQ loaded here via JSON -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--====  End of FAQ Section  ====-->
+
+<!--============================
+=            Footer            =
+=============================-->
+<footer>
+	<div class="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+					<div class="block">
+						<a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+						<!-- Social Site Icons -->
+						<ul class="social-icon list-inline">
+							<li class="list-inline-item">
+								<a href="#"><i class="ti-facebook"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="ti-twitter"></i></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><i class="ti-instagram"></i></a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+					<div class="block-2">
+						<!-- heading -->
+						<h6>Support & Help</h6>
+						<!-- links -->
+						<ul>
+							<li><a href="#" id="footer_helpWebSize">FAQs</a></li>
+							<li><a href="support.html">Contact Support</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+					<div class="block-2">
+						<!-- heading -->
+						<h6>Download Utility</h6>
+						<!-- links -->
+						<ul>
+							<li><a href="dropdown.html" id="footer_ios">iPhone Utility (iOS)</a></li>
+							<li><a href="dropdown.html" id="footer_android">Android Utility</a></li>
+							<li><a href="dropdown.html" id="footer_window">Windows Utility</a></li>
+							<li><a href="dropdown.html" id="footer_mac">Mac Utility</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+					<div class="block-2">
+						<!-- heading -->
+						<h6>Partners</h6>
+						<!-- links -->
+						<ul>
+							<li><a href="friend.html">Refer a Friend</a></li>
+							<li><a href="partner.html">Become a Partner</a></li>
+							<li><a href="influence.html">Influencers</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+					<div class="block-2">
+						<!-- heading -->
+						<h6>Company</h6>
+						<!-- links -->
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="career.html">Careers</a></li>
+							<li><a href="privacy.html">Privacy Policy</a></li>
+							<li><a href="terms.html">Terms and Conditions</a></li>
+							<li><a href="refund.html">Refund Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="text-center bg-dark py-4">
+		<p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+	</div>
+
+	<div class="text-center bg-dark py-1">
+		<small> </small>
+	</div>
+</footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+
+  <script src="js/translate.js"></script>
+  <script src="js/script.js"></script>
+  
+  <script>
+    if (typeof translate !== 'undefined' && translate.ignore && translate.ignore.id) {
+      translate.ignore.id.push('faqAccordionContainer');
+    }
+
+    async function loadFAQByLanguage() {
+      const container = document.getElementById("faqAccordionContainer");
+      if (!container) return;
+      try {
+        const response = await fetch('help/api/faq.json');
+        const allFaq = await response.json();
+        
+        let lang = localStorage.getItem("language") || "english";
+        if (!allFaq[lang]) {
+          lang = "english";
+        }
+        
+        const faqData = allFaq[lang];
+        let innerHTML = '';
+        
+        faqData.forEach(cat => {
+          const itemsHtml = cat.items.map(item => `
+            <div class="item">
+              <div class="item-link">
+                <a href="${item.url}">
+                  ${item.title}
+                </a>
+              </div>
+            </div>
+          `).join('');
+          
+          innerHTML += `
+            <div class="faq-item">
+              <div class="faq-item-title">
+                <h2>${cat.category}</h2>
+              </div>
+              <div id="${cat.accordionId}" data-children=".item" class="index-faq-item">
+                ${itemsHtml}
+              </div>
+            </div>
+          `;
+        });
+        
+        container.innerHTML = innerHTML;
+      } catch (err) {
+        console.error("Failed to load FAQ JSON content:", err);
+      }
+    }
+
+    // Load FAQ on page load
+    document.addEventListener("DOMContentLoaded", loadFAQByLanguage);
+
+    // Listen for language selections in the modal
+    var faqLiElements = document.querySelectorAll('.language-ul li');
+    for (var i = 0; i < faqLiElements.length; i++) {
+      faqLiElements[i].addEventListener('click', function () {
+        setTimeout(loadFAQByLanguage, 100);
+      });
+    }
+  </script>
+</body>
+
+</html>
+
+
+

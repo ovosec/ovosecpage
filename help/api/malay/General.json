@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "Apakah OVOSEC dan bagaimana ia melindungi sambungan saya?",
+        "subtitle": "Gambaran keseluruhan utiliti selamat OVOSEC dan transit yang disulitkan.",
+        "content": "<p>OVOSEC ialah utiliti geganti disulitkan generasi seterusnya yang direka untuk mengoptimumkan kependaman rangkaian global dan melindungi integriti data. Menggunakan seni bina teras berprestasi tinggi sumber terbuka, OVOSEC menyalurkan strim data anda melalui nod transit yang disulitkan gred perusahaan, menutup jejak penghantaran anda dan mempercepatkan aliran kerja produktiviti merentas sempadan dengan lancar.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 12,
+        "title": "Bagaimanakah cara saya menyediakan utiliti OVOSEC pada peranti saya?",
+        "subtitle": "Arahan langkah demi langkah untuk pemasangan dan persediaan.",
+        "content": "<p>Untuk menyediakan utiliti OVOSEC pada peranti anda, ikuti langkah berikut:<\/p><ol><li>Lengkapkan pemilihan pelan anda di tapak web rasmi kami (<a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>).<\/li><li>Navigasi ke <a href=\"..\/dropdown.html\" class-text-primary style=\"text-primary style\" underline;\">Muat turun halaman<\/a> dan dapatkan pakej aplikasi selamat yang disesuaikan untuk sistem pengendalian anda (Windows, macOS, Android, atau iOS).<\/li><li>Lancarkan aplikasi, salin URL Konfigurasi Akses unik anda daripada <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Papan Pemuka Pelanggan dan klik dalam antara muka \"Istimes\" anda ke dalam \"Istime;\">Papan Pemuka dan klik. segerakkan titik akhir geganti yang dibenarkan anda.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 21,
+        "title": "Apakah seni bina teras OVOSEC?",
+        "subtitle": "Gambaran keseluruhan utiliti keselamatan OVOSEC dan transit yang disulitkan.",
+        "content": "<p>OVOSEC ialah utiliti geganti disulitkan generasi seterusnya yang direka untuk mengoptimumkan kependaman rangkaian global dan melindungi integriti data. Dengan menyalurkan strim data anda melalui nod transit yang disulitkan gred perusahaan, OVOSEC menutup jejak penghantaran anda dan mempercepatkan aliran kerja produktiviti merentas sempadan dengan lancar.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 22,
+        "title": "Sistem operasi manakah yang serasi dengan OVOSEC?",
+        "subtitle": "Menyemak keserasian peranti dan keperluan sistem pengendalian.",
+        "content": "<p>OVOSEC serasi sepenuhnya dengan platform Windows, macOS, iOS, Android dan Linux. Anda boleh memperoleh pakej aplikasi selamat yang disesuaikan untuk sistem pengendalian anda pada <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" rasmi kami style=\"text-decoration: underline;\">Muat turun halaman<\/a>.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 31,
+        "title": "Mengapakah sambungan yang dipercepatkan terputus secara automatik apabila telefon saya masuk ke mod tidur?",
+        "subtitle": "Menghalang sistem pengendalian mudah alih daripada tidur OVOSEC.",
+        "content": "<p>Penjimat bateri sistem pengendalian mudah alih yang agresif selalunya menamatkan daemon latar belakang berprestasi tinggi. Untuk mengelakkan perkara ini, sila gunakan pelarasan berikut:<\/p><ul><li><strong>Android:<\/strong> Pergi ke Tetapan telefon anda -> Apl -> OVOSEC -> Bateri -> Tetapkan kepada \"Tidak Terhad\" atau \"Tiada Pengoptimuman\".<\/li><li><strong>iOS:<\/strong> Pastikan \"Muat Semula Apl Latar Belakang\" didayakan untuk OVOSEC di bawah Tetapan iOS ->li OVOSEC.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 39,
+        "title": "Tiada satu pun langkah di atas menyelesaikan isu saya. Bagaimanakah cara saya menghubungi sokongan kejuruteraan rasmi?",
+        "subtitle": "Menyerahkan tiket diagnostik kepada pasukan teknikal kami.",
+        "content": "<p>Kami komited terhadap ketersambungan anda yang lancar. Jika anda menghadapi konflik penghalaan yang tidak dapat diselesaikan, sila serahkan tiket diagnostik ke baris gilir teknikal kami di <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p><p>Untuk membantu kami menyelesaikannya dalam masa 24 jam, sila sertakan:<\/p><ul><li>E-mel akaun berdaftar anda.<\/li><li>E-mel akaun berdaftar anda.<\/li><li>Sistem pengendalian semasa anda, Windows1. 17).<\/li><li>Penerangan ringkas atau tangkapan skrin bagi status log\/ralat aplikasi.<\/li><\/ul>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 40,
+        "title": "Mengapakah senarai profil saya kosong, atau mengapakah ia menyatakan \"Tiada Profil Ditemui\" selepas mengimport URL saya?",
+        "subtitle": "Mencetuskan penyegerakan awal dengan pelayan pengebilan.",
+        "content": "<p>Ini boleh berlaku jika aplikasi gagal melakukan jabat tangan awalnya dengan pelayan pengebilan kami disebabkan kegelisahan rangkaian tempatan. Untuk memaksa penyegerakan, sila ikuti langkah berikut:<\/p><ol><li>Dalam apl, pergi ke tab Profil dan ketik tiga titik (menu) di sebelah pautan OVOSEC anda yang diimport.<\/li><li>Klik \"Paksa Kemas Kini\" atau \"Muat Semula Profil\".<\/li><li>Kembali ke skrin utama dan klik butang \"Sambung\" pusat. Ini akan segera mengambil dan mengisi semua laluan geganti selamat kependaman rendah yang dibenarkan.<\/li><\/ol>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 45,
+        "title": "Mengapakah semua laluan geganti selamat saya tiba-tiba berhenti berfungsi selepas tempoh tidak aktif yang lama?",
+        "subtitle": "Menyelesaikan ketidakpadanan versi protokol selepas lama tidak aktif.",
+        "content": "<p>Untuk mengekalkan penyulitan keselamatan gred tentera, infrastruktur bahagian belakang kami secara berkala meningkatkan protokol penghantaran asasnya. Jika versi pelanggan anda sangat lapuk, ia akan gagal untuk berjabat tangan dengan nod yang dinaik taraf.<\/p><p><strong>Penyelesaian:<\/strong> Sila lawati <a href=\"..\/dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Muat turun halaman<\/a> rasmi kami untuk mendapatkan dan memasang versi utiliti OVEC yang terkini untuk peranti anda. Selepas mengemas kini perisian, segerakkan semula URL Konfigurasi Akses anda untuk memulihkan sambungan kependaman rendah serta-merta.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    },
+    {
+        "id": 49,
+        "title": "Mengapakah saya tidak boleh membuka halaman log masuk\/pengesahan Wi-Fi di hotel, lapangan terbang atau universiti?",
+        "subtitle": "Memintas pemintasan portal tawanan yang tidak disulitkan.",
+        "content": "<p>Rangkaian awam menggunakan teknik pemintasan yang dipanggil \"Portal Tawanan\" untuk memaksa pengguna ke skrin log masuk. Oleh kerana teras keselamatan aktif OVOSEC menyekat penjejakan tempatan yang tidak dibenarkan dan ubah hala rangkaian yang tidak dipercayai, ia mungkin menghalang halaman log masuk yang tidak disulitkan ini daripada dibuka.<\/p><p><strong>Penyelesaian:<\/strong> MATI sambungan OVOSEC buat sementara waktu atau lumpuhkan ciri pelancaran but. Buka penyemak imbas web anda, lengkapkan pengesahan rangkaian hotel\/kampus dahulu, sahkan bahawa anda mempunyai akses internet asas, dan kemudian togol OVOSEC kembali HIDUP untuk menjamin sesi anda.<\/p>",
+        "languageId": 1,
+        "languageName": "Umum"
+    }
+]

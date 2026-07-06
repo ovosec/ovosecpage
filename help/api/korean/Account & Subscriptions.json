@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "활성 중인 정기 구독을 관리하거나 취소하려면 어떻게 해야 하나요?",
+        "subtitle": "자동 청구 주기 및 취소를 관리합니다.",
+        "content": "<p>OVOSEC는 소비자 선택과 투명성을 최우선으로 생각합니다. 자동 청구 주기를 관리하거나 취소하려면(Curlec \/ Stripe Payments Malaysia를 통해 안전하게 처리됨):<\/p><ol><li>당사 웹 포털에서 개인 계정에 로그인하세요.<\/li><li>프로필 설정에서 청구 및 구독으로 이동하세요.<\/li><li>\"자동 갱신 취소\" 버튼을 클릭하세요. 귀하의 프리미엄 액세스는 현재 유료 청구 기간이 끝날 때까지 모든 기능을 유지하며 추가 요금이 부과되지 않습니다.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 14,
+        "title": "프리미엄 패키지에 대한 환불 정책은 어떻게 되나요?",
+        "subtitle": "환불 조건 및 7일 환불 보장.",
+        "content": "<p>디지털 대중교통 서비스의 특성상 우리는 엄격하면서도 공정한 7일 환불 보장을 제공합니다. 다음과 같은 경우 전액 환불을 받을 수 있습니다.<\/p><ul><li>환불 요청이 최초 구매 타임스탬프로부터 7일 이내에 제출되었습니다.<\/li><li>모든 릴레이 경로에서 누적 데이터 소비가 2.0GB를 초과하지 않습니다.<\/li><\/ul><p>요청을 시작하려면 등록된 계정 이메일을 사용하여 지원 팀(<a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>)에 문의하세요.<\/p>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 23,
+        "title": "계정을 등록하고 로그인하려면 어떻게 해야 하나요?",
+        "subtitle": "계정 생성 및 인증에 대한 단계별 지침입니다.",
+        "content": "<p>계정을 등록하려면 당사 공식 웹사이트로 이동하여 <a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-꾸밈: 밑줄;\">로그인 \/ 등록<\/a> 옵션을 선택하세요. 유효한 이메일 주소를 제공하고 강력한 비밀번호를 구성하여 사용자 ID를 생성하세요.<\/p>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 24,
+        "title": "안전한 비밀번호 재설정을 수행하려면 어떻게 해야 하나요?",
+        "subtitle": "계정 액세스 권한 및 비밀번호 자격 증명을 복구합니다.",
+        "content": "<p>비밀번호를 잊어버린 경우 <a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-꾸밈: 밑줄;\">로그인 페이지<\/a>로 이동하여 '비밀번호 찾기'를 선택하세요. 등록된 이메일 주소를 입력하시면 계정 액세스를 복원할 수 있는 비밀번호 재설정 확인 링크를 보내드립니다.<\/p>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 36,
+        "title": "남은 데이터 사용량과 구독 만료일은 어떻게 확인하나요?",
+        "subtitle": "계정 사용량 및 활성 결제 주기를 모니터링합니다.",
+        "content": "<p>OVOSEC는 투명성을 최우선으로 생각합니다. 다음 두 가지 방법으로 구독 상태를 확인할 수 있습니다.<\/p><ul><li><strong>웹 포털을 통해:<\/strong> <a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>의 <a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-꾸밈: underline;\">개인 대시보드<\/a>에 로그인하여 활성 결제 주기와 실시간 데이터를 확인하세요. 할당량.<\/li><li><strong>클라이언트 앱을 통해:<\/strong> OVOSEC 유틸리티의 기본 인터페이스에서 하단 섹션이나 프로필 탭을 확인합니다. Hiddify 엔진은 누적 데이터 소비량과 남은 일수를 자동으로 표시합니다(예: \"X일 후에 만료\"). 청구 서버의 최신 사용량을 동기화하려면 새로 고침 아이콘을 클릭하세요.<\/li><\/ul>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 42,
+        "title": "기기를 변경하거나 업그레이드했습니다. 활성 중인 프리미엄 구독을 어떻게 복원하나요?",
+        "subtitle": "새 기기에서 활성 프리미엄 구독을 복원합니다.",
+        "content": "<p>구독은 특정 기기 하드웨어 ID가 아닌 계정 프로필에 연결되어 있습니다. 새 장치에서 OVOSEC를 활성화하려면:<\/p><ol><li><a href=\"https:\/\/ovosec.com\" target=\"_blank\">ovosec.com<\/a>에서 <a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-decoration: underline;\">개인 대시보드<\/a>에 로그인하세요.<\/li><li>고유한 액세스 구성 URL을 복사하세요.<\/li><li>OVOSEC 유틸리티를 설치하세요. 새 장치에서 \"구성 가져오기\"를 클릭하고 URL을 붙여넣습니다. 남은 프리미엄 기간과 데이터 할당량은 즉시 동기화됩니다.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 43,
+        "title": "Curlec\/Stripe를 통해 결제를 완료했지만 여전히 \"Free\/Standard\" 상태로 표시됩니다. 어떻게 해야 하나요?",
+        "subtitle": "뱅킹 게이트웨이 거래 지연을 해결합니다.",
+        "content": "<p>뱅킹 게이트웨이에서는 때때로 일시적인 동기화 지연(보통 1~5분)이 발생합니다. 상태가 업데이트된 경우:<\/p><ol><li>클라이언트 애플리케이션의 프로필 탭으로 이동합니다.<\/li><li>OVOSEC 프로필 옆에 있는 메뉴 아이콘을 누르고 \"프로필 업데이트\"를 클릭하여 청구 서버와 강제로 동기화합니다.<\/li><li>10분 후에도 여전히 반영되지 않으면 거래 영수증을 <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>으로 이메일로 보내주십시오. 결제팀에서 귀하의 계정에 수동으로 크레딧을 지급해 드립니다.<\/li><\/ol>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 46,
+        "title": "데이터 할당량은 언제 초기화되며, 결제 주기가 끝나기 전에 데이터를 다 쓰면 어떻게 되나요?",
+        "subtitle": "대역폭 재설정 일정 및 충전 이해",
+        "content": "<p>프리미엄 고속 데이터 할당량은 정확한 월별 청구 갱신일에 자동으로 재설정됩니다(<a href=\"https:\/\/www.google.com\" class=\"text-primaryfont-weight-bold\" style=\"text-꾸밈: 밑줄;\">웹 대시보드<\/a>에서 확인 가능). 데이터는 다음 달로 이월되지 않습니다.<\/p><p>과다한 다운로드로 인해 고속 대역폭이 조기에 소진되면 연결 속도가 제한됩니다. 당사의 보안 웹 포털을 통해 데이터 충전을 구매하거나 요금제 등급을 업그레이드하여 할당량을 즉시 재설정할 수 있습니다.<\/p>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    },
+    {
+        "id": 50,
+        "title": "OVOSEC 구독 요금은 신용카드 또는 은행 명세서에 어떻게 표시되나요?",
+        "subtitle": "재무제표의 청구서 설명 표현을 이해합니다.",
+        "content": "<p>귀하의 재정적 개인정보를 보호하고 명확한 기록을 유지하기 위해 모든 거래는 당사의 라이선스 기업 ID에 따라 안전하게 처리됩니다.<\/p><p>신용카드, 직불카드 또는 은행 명세서에 이 구매에 대한 동적 설명은 <strong>OVOSEC*KUALA LUMPUR<\/strong> 또는 <strong>OVO CYBERTECH SDN BHD<\/strong>로 명확하게 표시됩니다.<\/p><p>청구서에 불일치가 있는 경우 다음의 지원 대기열에 문의하세요. 은행 문의를 시작하기 전에 <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a><\/p>",
+        "languageId": 2,
+        "languageName": "계정 및 구독"
+    }
+]

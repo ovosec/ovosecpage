@@ -1,0 +1,50 @@
+[
+    {
+        "id": 17,
+        "title": "¿Cuál es la diferencia entre los relés dedicados estándar y los premium?",
+        "subtitle": "Comparación del rendimiento, la latencia y las características del relé.",
+        "content": "<ul><li><strong>Nodos estándar:<\/strong> Retransmisiones compartidas de alta velocidad adecuadas para copias de seguridad automatizadas de rutina, consultas remotas de bases de datos y colaboración transfronteriza ligera.<\/li><li><strong>Retransmisiones dedicadas premium:<\/strong> Implementadas a través de redes troncales de tránsito premium BGP de múltiples entradas (optimizadas para regiones como Hong Kong, Singapur y Japón). Estos nodos cuentan con asignaciones de ancho de banda dedicadas, cero pérdida de paquetes en condiciones de congestión en horas pico y una fluctuación ultrabaja, hechos a medida para operaciones empresariales de alto rendimiento y espacios de trabajo virtuales de baja latencia.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    },
+    {
+        "id": 18,
+        "title": "¿Cuáles son los límites de dispositivos simultáneos para una sola cuenta?",
+        "subtitle": "Límites en las conexiones simultáneas de dispositivos.",
+        "content": "<p>Para evitar el abuso de líneas comerciales y mantener una disponibilidad constante de ancho de banda para todos los consumidores premium, una licencia premium individual estándar permite hasta 3 conexiones simultáneas de dispositivos activos simultáneamente. Compartir cadenas de configuración públicamente activará una limitación automática de la tasa de seguridad en nuestro portal de facturación.<\/p>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    },
+    {
+        "id": 27,
+        "title": "¿Cuáles son los niveles de precios de los planes de membresía premium?",
+        "subtitle": "Descubra el paquete de suscripción segura premium ideal para sus necesidades.",
+        "content": "<p>Los planes OVOSEC Premium están estructurados en términos mensuales, semestrales y anuales. Los compromisos de suscripción más largos incluyen tarifas con descuento. Puede ver todos los detalles de precios y las ofertas especiales de temporada activas en nuestra <a href=\"..\/index.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">página de inicio<\/a> cuadrícula de planes.<\/p>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    },
+    {
+        "id": 28,
+        "title": "¿Cómo actualizo el estado de mi cuenta a premium?",
+        "subtitle": "Unlocking all high-speed nodes and enjoying unlimited priority bandwidth.",
+        "content": "<p>Para actualizar, acceda a su cuenta a través de nuestra <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">página de inicio de sesión<\/a>, navegue hasta la sección de facturación, seleccione su nivel de membresía preferido y complete el pago utilizando una tarjeta de crédito o una pasarela bancaria local.<\/p>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    },
+    {
+        "id": 34,
+        "title": "¿Por qué mis puntos finales de relé seguro muestran \"Tiempo de espera agotado\" o \"-1ms\" durante la prueba de conexión?",
+        "subtitle": "Comprender los indicadores de tiempo de espera de ping.",
+        "content": "<p>Un estado de \"Tiempo de espera\" a menudo indica que su proveedor de red local o firewall corporativo está bloqueando las solicitudes ICMP\/Ping (los paquetes de prueba), pero no significa que la ruta de datos esté interrumpida.<\/p><p>Intente conectarse al nodo de todos modos. Si los datos fluyen normalmente después de hacer clic en \"Conectar\", puedes ignorar con seguridad el indicador de tiempo de espera.<\/p>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    },
+    {
+        "id": 35,
+        "title": "¿Cómo puedo optimizar la conexión para juegos en línea de baja latencia y chat de voz?",
+        "subtitle": "Optimización de la configuración para juegos multijugador y aplicaciones VoIP.",
+        "content": "<p>Para juegos multijugador o aplicaciones VoIP en tiempo real, la transmisión de paquetes UDP es vital. Para optimizar su experiencia, siga estos pasos:<\/p><ul><li>Asegúrese de estar conectado a nuestros repetidores dedicados premium (marcados con etiquetas BGP u optimizadas).<\/li><li>En la configuración de la aplicación, navegue hasta Configuración de protocolo\/Configuración principal y asegúrese de que \"Reenvío UDP\" o \"Habilitar UDP\" esté activado. Esto reduce drásticamente la pérdida de paquetes y la inestabilidad del modo multijugador.<\/li><\/ul>",
+        "languageId": 4,
+        "languageName": "Redes Premium"
+    }
+]

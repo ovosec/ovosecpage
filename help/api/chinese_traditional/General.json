@@ -1,0 +1,74 @@
+[
+    {
+        "id": 11,
+        "title": "什麼是 OVOSEC，它如何保護我的連線安全？",
+        "subtitle": "OVOSEC 安全工具與加密傳輸概述。",
+        "content": "<p>OVOSEC 是下一代加密中繼工具，旨在優化全球網路延遲並保護數據完整性。OVOSEC 利用開源的高性能核心架構，將您的數據流引導至企業級加密傳輸節點，掩蓋您的傳輸痕跡，並無縫加速跨國生產力工作流。</p>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 12,
+        "title": "如何在我的裝置上設定 OVOSEC 工具？",
+        "subtitle": "安裝與設定的逐步指南。",
+        "content": "<p>若要在您的裝置上設定 OVOSEC 工具，請按照以下步驟操作：</p><ol><li>在我們的官方網站 (<a href=\"https://ovosec.com\" target=\"_blank\">ovosec.com</a>) 上完成您的方案選擇。</li><li>導航至 <a href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">下載頁面</a>，獲取適用於您作業系統（Windows、macOS、Android 或 iOS）的安全應用程式安裝包。</li><li>啟動應用程式，從您的 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">用戶控制面板</a> 複製您唯一的存取設定 URL，然後在應用程式介面中點擊「匯入設定」，以立使您的授權中繼端點同步。</li></ol>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 21,
+        "title": "OVOSEC 的核心架構是什麼？",
+        "subtitle": "OVOSEC 安全工具與加密傳輸概述。",
+        "content": "<p>OVOSEC 是下一代加密中繼工具，旨在優化全球網路延遲並保護數據完整性。藉由將您的數據流引導至企業級加密傳輸節點，OVOSEC 掩蓋了您的傳輸痕跡，並無縫加速跨國生產力工作流。</p>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 22,
+        "title": "哪些作業系統與 OVOSEC 相容？",
+        "subtitle": "檢查裝置相容性與作業系統要求。",
+        "content": "<p>OVOSEC 完全相容於 Windows、macOS、iOS、Android 和 Linux 平台。您可以在我們的官方 <a href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">下載頁面</a> 獲取適用於您作業系統的安全應用程式安裝包。</p>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 31,
+        "title": "為什麼當我的手機進入睡眠狀態時，加速連線會自動中斷？",
+        "subtitle": "防止行動作業系統使 OVOSEC 進入睡眠狀態。",
+        "content": "<p>積極的行動作業系統電池省電功能經常會終止高性能的背景守護程序。若要防止這種情況，請套用以下調整：</p><ul><li><strong>Android：</strong>前往您手機的「設定」->「應用程式」->「OVOSEC」->「電池」-> 設定為「不受限制」或「不進行最佳化」。</li><li><strong>iOS：</strong>確保在 iOS「設定」->「OVOSEC」下為 OVOSEC 啟用了「背景 App 重新整理」。</li></ul>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 39,
+        "title": "以上步驟都無法解決我的問題。我該如何聯絡官方技術支援？",
+        "subtitle": "向我們的技術團隊提交診斷工單。",
+        "content": "<p>我們致力於為您提供無縫的連線。如果您遇到未解決的路由衝突，請向我們的技術佇列提交診斷工單，電子信箱為 <a href=\"mailto:support@ovosec.com\">support@ovosec.com</a>。</p><p>為了協助我們在 24 小時內解決問題，請在信中包含：</p><ul><li>您的註冊帳戶電子郵件。</li><li>您目前的作業系統版本（例如 Windows 11 或 iOS 17）。</li><li>應用程式日誌/錯誤狀態的簡短描述或螢幕截圖。</li></ul>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 40,
+        "title": "為什麼匯入我的 URL 後，設定檔清單是空的，或者顯示「找不到設定檔」？",
+        "subtitle": "觸發與計費伺服器的初始同步。",
+        "content": "<p>這可能是因為應用程式由於本機網路抖動而無法與我們的計費伺服器進行初始握手。若要強制同步，請按照以下步驟操作：</p><ol><li>在應用程式中，前往「設定檔」分頁，點擊您匯入的 OVOSEC 連結旁的「三個點」（選單）。</li><li>點擊「強制更新」或「重新載入設定檔」。</li><li>返回主畫面並點擊中央的「連線」按鈕。這將立即獲取並填入所有授權的低延遲安全中繼路徑。</li></ol>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 45,
+        "title": "為什麼在長時間不活動後，我所有的安全中繼路徑突然停止運作？",
+        "subtitle": "解決長時間不活動後通訊協定版本不匹配的問題。",
+        "content": "<p>為了維持軍用級安全加密，我們的後端基礎架構會定期升級其底層傳輸協定。如果您的用戶端版本過於陳旧，它將無法與升級後的節點進行握手。</p><p><strong>解決方案：</strong>請造訪我們的官方 <a href=\"../dropdown.html\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">下載頁面</a>，下載並安裝適用於您裝置的最新穩定版本 OVOSEC 工具。更新軟體後，重新同步您的存取設定 URL 以恢復即時的低延遲連線。</p>",
+        "languageId": 1,
+        "languageName": "通用"
+    },
+    {
+        "id": 49,
+        "title": "為什麼我無法在飯店、機場或大學打開 Wi-Fi 登入/驗證頁面？",
+        "subtitle": "繞過未加密的強制入口網頁攔截。",
+        "content": "<p>公共網路利用一種稱為「強制入口網頁」（Captive Portals）的攔截技術來強制用戶進入登入畫面。因為 OVOSEC 的主動安全核心會封鎖未經授權的本機追蹤和不信任的網路重導向，這可能會阻止此未加密的登入頁面開啟。</p><p><strong>解決方案：</strong>暫時關閉 OVOSEC 連線或停用開機啟動功能。打開您的網頁瀏覽器，先完成飯店/校園網路的驗證，確認您已擁有基本的網際網路存取權限，然後重新開啟 OVOSEC 以保護您的工作階段。</p>",
+        "languageId": 1,
+        "languageName": "通用"
+    }
+]

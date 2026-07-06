@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id":  13,
+        "title":  "How do I manage or cancel my active recurring subscription?",
+        "subtitle":  "Managing your automated billing cycles and cancellation.",
+        "content":  "\u003cp\u003eOVOSEC prioritizes consumer choice and transparency. To manage or cancel your automated billing cycles (processed securely via Curlec / Stripe Payments Malaysia):\u003c/p\u003e\u003col\u003e\u003cli\u003eLog in to your personal account on our web portal.\u003c/li\u003e\u003cli\u003eNavigate to Billing \u0026 Subscriptions under your Profile settings.\u003c/li\u003e\u003cli\u003eClick the \"Cancel Auto-Renewal\" button. Your premium access will remain fully functional until the end of your current paid billing period, and no further charges will be applied.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  14,
+        "title":  "What is your refund policy regarding premium packages?",
+        "subtitle":  "Refund conditions and the 7-day money-back guarantee.",
+        "content":  "\u003cp\u003eDue to the nature of digital transit services, we provide a strict yet fair 7-day money-back guarantee. You are eligible for a full refund if:\u003c/p\u003e\u003cul\u003e\u003cli\u003eYour refund request is submitted within 7 calendar days of your initial purchase timestamp.\u003c/li\u003e\u003cli\u003eYour cumulative data consumption across all relay paths does not exceed 2.0 GB.\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo initiate a request, please contact our support team at \u003ca href=\"mailto:support@ovosec.com\"\u003esupport@ovosec.com\u003c/a\u003e using your registered account email.\u003c/p\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  23,
+        "title":  "How do I register and log in to my account?",
+        "subtitle":  "Step-by-step guidance for account creation and authentication.",
+        "content":  "\u003cp\u003eTo register an account, navigate to our official website and select the \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eLOGIN / REGISTER\u003c/a\u003e option. Provide a valid email address and configure a strong password to generate your user identity.\u003c/p\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  24,
+        "title":  "How do I perform a secure password reset?",
+        "subtitle":  "Recovering account access rights and password credentials.",
+        "content":  "\u003cp\u003eIf you forget your password, navigate to the \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eLogin Page\u003c/a\u003e and select \u0027Forgot Password\u0027. Input your registered email address, and we will send a password reset verification link to restore your account access.\u003c/p\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  36,
+        "title":  "How do I check my remaining data quota and subscription expiration date?",
+        "subtitle":  "Monitoring your account usage and active billing cycle.",
+        "content":  "\u003cp\u003eOVOSEC prioritizes transparency. You can check your subscription status in two ways:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eVia Web Portal:\u003c/strong\u003e Log in to your \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003epersonal dashboard\u003c/a\u003e on \u003ca href=\"https://ovosec.com\" target=\"_blank\"\u003eovosec.com\u003c/a\u003e to view your active billing cycle and real-time data quota.\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eVia Client App:\u003c/strong\u003e On the main interface of your OVOSEC utility, look at the bottom section or profile tab. The Hiddify engine automatically displays your cumulative data consumption and remaining days left (e.g., \"Expires in X days\"). Click the Refresh Icon to sync the latest usage from the billing server.\u003c/li\u003e\u003c/ul\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  42,
+        "title":  "I changed or upgraded my device. How do I restore my active premium subscription?",
+        "subtitle":  "Restoring your active premium subscription on a new device.",
+        "content":  "\u003cp\u003eYour subscription is linked to your account profile, not a specific device hardware ID. To activate OVOSEC on your new device:\u003c/p\u003e\u003col\u003e\u003cli\u003eLog in to your \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003epersonal Dashboard\u003c/a\u003e on \u003ca href=\"https://ovosec.com\" target=\"_blank\"\u003eovosec.com\u003c/a\u003e.\u003c/li\u003e\u003cli\u003eCopy your unique Access Configuration URL.\u003c/li\u003e\u003cli\u003eInstall the OVOSEC utility on your new device, click \"Import Configuration\", and paste the URL. Your remaining premium days and data quota will instantly synchronize.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  43,
+        "title":  "I completed my payment via Curlec/Stripe, but my client still shows \"Free/Standard\" status. What should I do?",
+        "subtitle":  "Resolving banking gateway transaction delays.",
+        "content":  "\u003cp\u003eBanking gateways occasionally experience temporary sync delays (usually between 1 to 5 minutes). If your status hasn鈥檛 updated:\u003c/p\u003e\u003col\u003e\u003cli\u003eGo to the Profiles tab in your client application.\u003c/li\u003e\u003cli\u003eTap the menu icon next to your OVOSEC profile and click \"Update Profile\" to force a manual synchronization with our billing server.\u003c/li\u003e\u003cli\u003eIf it still doesn\u0027t reflect after 10 minutes, please email your transaction receipt to \u003ca href=\"mailto:support@ovosec.com\"\u003esupport@ovosec.com\u003c/a\u003e, and our billing team will credit your account manually.\u003c/li\u003e\u003c/ol\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  46,
+        "title":  "When does my data quota reset, and what if I run out of data before the billing cycle ends?",
+        "subtitle":  "Understanding bandwidth reset schedules and top-ups.",
+        "content":  "\u003cp\u003eYour premium high-speed data quota resets automatically on your precise monthly billing anniversary date (viewable under your \u003ca href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\"\u003eWeb Dashboard\u003c/a\u003e). Data does not roll over to the next month.\u003c/p\u003e\u003cp\u003eIf you exhaust your high-speed bandwidth prematurely due to heavy downloads, your connection will be rate-limited. You can instantly reset your quota by purchasing a data top-up or upgrading your plan tier through our secure web portal.\u003c/p\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    },
+    {
+        "id":  50,
+        "title":  "How will the OVOSEC subscription charge appear on my credit card or bank statement?",
+        "subtitle":  "Understanding billing descriptor representations on financial statements.",
+        "content":  "\u003cp\u003eTo protect your financial privacy and maintain clear records, all transactions are securely processed under our licensed corporate identity.\u003c/p\u003e\u003cp\u003eOn your credit card, debit card, or bank statement, the dynamic descriptor for this purchase will be clearly labeled as \u003cstrong\u003eOVOSEC*KUALA LUMPUR\u003c/strong\u003e or \u003cstrong\u003eOVO CYBERTECH SDN BHD\u003c/strong\u003e.\u003c/p\u003e\u003cp\u003eIf you notice any billing discrepancies, please contact our support queue at \u003ca href=\"mailto:support@ovosec.com\"\u003esupport@ovosec.com\u003c/a\u003e before initiating a bank inquiry.\u003c/p\u003e",
+        "languageId":  2,
+        "languageName":  "Account \u0026 Subscriptions"
+    }
+]

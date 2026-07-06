@@ -1,0 +1,51 @@
+﻿[
+    {
+        "id":  3,
+        "status":  "0",
+        "languageId":  3,
+        "time":  "2026-06-29T15:30:00.000+00:00",
+        "title":  "Connection \u0026 Protocol",
+        "contentNameList":  [
+                                {
+                                    "id":  15,
+                                    "title":  "What are \"TUN Mode\" and \"System Proxy\", and which should I use?"
+                                },
+                                {
+                                    "id":  16,
+                                    "title":  "Troubleshooting: Why are my Secure Relay Endpoints timeout out?"
+                                },
+                                {
+                                    "id":  25,
+                                    "title":  "How do I troubleshoot failed network connection handshakes?"
+                                },
+                                {
+                                    "id":  26,
+                                    "title":  "How do I select the lowest-latency server node?"
+                                },
+                                {
+                                    "id":  32,
+                                    "title":  "Why are my local apps slow or failing to load while OVOSEC is active?"
+                                },
+                                {
+                                    "id":  33,
+                                    "title":  "Why does the OVOSEC utility show a \"Core Initialization Failed\" error on iOS/macOS?"
+                                },
+                                {
+                                    "id":  37,
+                                    "title":  "Can I exclude specific apps or only allow certain web browsers to use the OVOSEC secure relay?"
+                                },
+                                {
+                                    "id":  38,
+                                    "title":  "How do I force command-line tools or terminal applications to use OVOSEC on desktop?"
+                                },
+                                {
+                                    "id":  41,
+                                    "title":  "I have a working network, but why do all endpoints suddenly time out with handshake errors?"
+                                },
+                                {
+                                    "id":  48,
+                                    "title":  "Why am I unable to access any websites even after completely closing the OVOSEC utility?"
+                                }
+                            ]
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 15,
+        "title": "Qu'est-ce que le \"Mode TUN\" et le \"Proxy Système\", et lequel dois-je utiliser ?",
+        "subtitle": "Comprendre les différences entre les modes de routage proxy.",
+        "content": "<ul><li><strong>Proxy système (par défaut) :<\/strong> Acheminez le trafic standard du navigateur Web via nos relais cryptés à faible latence, ce qui est optimal pour la productivité générale du bureau et l'accélération des services cloud.<\/li><li><strong>Mode TUN (recommandé pour les flux de travail avancés) :<\/strong> Crée une carte d'interface réseau virtuelle au niveau du système d'exploitation, capturant et sécurisant tous les paquets réseau dans toutes les applications en arrière-plan. Activez le mode TUN si certains logiciels de bureau ou programmes internes d'entreprise ne parviennent pas à exploiter les paramètres de proxy du navigateur par défaut.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 16,
+        "title": "Dépannage : Pourquoi mes points de terminaison de relais sécurisé expirent-ils ?",
+        "subtitle": "Résolution des problèmes de connectivité et de latence.",
+        "content": "<p>Si l'interface affiche un échec de connexion ou une latence excessive, veuillez exécuter la routine de vérification suivante :<\/p><ul><li><strong>Synchroniser le profil :<\/strong> Cliquez sur l'icône d'actualisation à côté de l'onglet de votre profil pour récupérer les dernières tables de mappage et de routage du serveur.<\/li><li><strong>Changer de protocole de passerelle :<\/strong> Accédez à Paramètres de l'application -> Configuration du protocole et essayez de basculer entre les modes de transmission d'entreprise alternatifs (par exemple, passer du TLS standard aux couches Reality\/Shadowsocks) pour contourner les blocages DPI (deep-packet inspection) des FAI d'entreprise locaux.<\/li><li><strong>DNS Flush :<\/strong> Effacez le cache DNS de votre système d'exploitation local pour éliminer les conflits de routage.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 25,
+        "title": "Comment résoudre les échecs de handshake de connexion réseau ?",
+        "subtitle": "Résoudre les déconnexions soudaines du réseau et les pics de latence.",
+        "content": "<p>Si vous rencontrez des problèmes de connexion, essayez de changer de protocole dans les paramètres ou passez à un autre nœud de serveur sécurisé. La désactivation temporaire des pare-feu tiers locaux actifs peut également résoudre les conflits de configuration. Pour les requêtes de connexion persistantes, contactez-nous à <a href=\"mailto:support@ovosec.com\">support@ovosec.com<\/a>.<\/p>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 26,
+        "title": "Comment sélectionner le nœud de serveur avec la latence la plus faible ?",
+        "subtitle": "Optimisation de la vitesse de réponse du serveur et des performances de la bande passante.",
+        "content": "<p>Pour obtenir la latence la plus faible, sélectionnez un nœud de serveur géographiquement le plus proche de votre emplacement physique réel. L'application fournit des indicateurs de latence en temps réel et des indicateurs de capacité de bande passante pour vous aider à choisir le nœud optimal.<\/p>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 32,
+        "title": "Pourquoi mes applications locales sont-elles lentes ou ne se chargent-elles pas lorsque OVOSEC est actif ?",
+        "subtitle": "Configuration des modes d'itinéraire pour contourner le trafic local.",
+        "content": "<p>Par défaut, l'utilitaire peut acheminer tout le trafic via le réseau sécurisé. Pour optimiser cela, veuillez modifier votre mode de routage de « Global » à « Contourner le local\/LAN » ou « Mode de règle » dans le menu de l'application.<\/p><p>Cela garantit que vos applications locales se connectent directement via votre FAI local à la vitesse maximale, tandis que seuls les flux de productivité transfrontaliers utilisent nos relais accélérés.<\/p>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 33,
+        "title": "Pourquoi l'utilitaire OVOSEC affiche-t-il une erreur \"Échec de l'initialisation du noyau\" sur iOS\/macOS ?",
+        "subtitle": "Résolution des conflits de bases de données sur les plateformes Apple.",
+        "content": "<p>Cela se produit généralement en cas de conflit dans la base de données de routage locale. Pour résoudre ce problème :<\/p><ol><li>Accédez à Paramètres de l'application -> Avancé -> Réinitialiser la base de données.<\/li><li>Recopiez votre URL de configuration d'accès à partir du <a href=\"https:\/\/www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">Tableau de bord OVOSEC<\/a> et réimportez-la.<\/li><li>Assurez-vous que \"Route stricte\" est désactivée si vous utilisez un autre local. pare-feu.<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 37,
+        "title": "Puis-je exclure des applications spécifiques ou autoriser uniquement certains navigateurs Web à utiliser le relais sécurisé OVOSEC ?",
+        "subtitle": "Répartition et routage du trafic par application.",
+        "content": "<p>Oui, le moteur principal prend en charge la répartition avancée du trafic :<\/p><ul><li><strong>Sur ordinateur (Windows\/macOS) :<\/strong> Basculez votre mode du « Mode TUN » au « Proxy système ». Dans ce mode, seules les applications qui respectent les paramètres réseau du système (comme Chrome, Edge ou Firefox) seront accélérées.<\/li><li><strong>Sur Android :<\/strong> Accédez à Paramètres de l'application -> Proxy par application (ou Filtre d'application). Activez-le et vous pourrez vérifier manuellement les applications exactes que vous souhaitez acheminer via OVOSEC, laissant le reste sur votre réseau local standard.<\/li><\/ul>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 38,
+        "title": "Comment forcer les outils en ligne de commande ou les applications de terminal à utiliser OVOSEC sur ordinateur ?",
+        "subtitle": "Configuration des variables d'environnement local pour les outils de développement.",
+        "content": "<p>Le proxy système et le mode TUN peuvent ne pas capturer automatiquement le trafic brut du terminal ou de l'environnement de développement sous Windows\/macOS. Pour résoudre ce problème :<\/p><ol><li>Dans l'utilitaire OVOSEC, localisez votre port entrant localisé actuel (généralement HTTP 2334 ou port mixte sous les paramètres de configuration).<\/li><li>Ouvrez votre terminal et exportez manuellement les variables d'environnement réseau :<\/li><\/ol><pre><code>export http_proxy=http:\/\/127.0.0.1:2334\nexport https_proxy=http:\/\/127.0.0.1:2334<\/code><\/pre><p>Cela force les scripts de développement et les outils de console à passer par nos canaux sécurisés.<\/p>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 41,
+        "title": "J'ai un réseau qui fonctionne, mais pourquoi tous les points de terminaison expirent-ils soudainement avec des erreurs de handshake ?",
+        "subtitle": "Correction de la dérive de l'horloge de l'appareil pour satisfaire aux protocoles de sécurité.",
+        "content": "<p>Nos couches de chiffrement de niveau entreprise utilisent des jetons cryptographiques sécurisés à durée limitée. Si l'heure système de votre appareil diffère de l'heure globale standard de plus de 60 secondes, le centre de sécurité rejettera la prise de contact.<\/p><p><strong>Correction :<\/strong> Accédez aux paramètres système de votre appareil -> Date et heure et assurez-vous que « Régler l'heure automatiquement » (heure fournie par le réseau) est activé. Après avoir corrigé l'horloge de votre appareil, redémarrez l'utilitaire OVOSEC pour restaurer la connectivité instantanée.<\/p>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    },
+    {
+        "id": 48,
+        "title": "Pourquoi ne puis-je accéder à aucun site Web même après avoir complètement fermé l'utilitaire OVOSEC ?",
+        "subtitle": "Restauration des paramètres DNS verrouillés du système d'exploitation.",
+        "content": "<p>Cela se produit rarement, mais est dû à une interruption brutale du système (par exemple, un crash soudain du PC, une panne de courant ou le système d'exploitation interrompant de force la tâche en arrière-plan) alors que le mode TUN était actif. Dans ces cas, les paramètres DNS de votre système d'exploitation peuvent rester verrouillés en mode de routage sécurisé.<\/p><p><strong>Correction immédiate :<\/strong><\/p><ol><li>Relancez simplement l'utilitaire OVOSEC et cliquez sur le bouton central « Connecter ».<\/li><li>Attendez 5 secondes, puis cliquez normalement sur « Déconnecter ». Cela déclenche le moteur principal pour effacer proprement et restaurer la pile réseau de votre système d'exploitation par défaut et les paramètres DNS aux normes de votre FAI.<\/li><li>Vous pouvez également redémarrer la carte réseau de votre appareil ou vider le DNS de votre système (<code>ipconfig \/flushdns<\/code> sous Windows).<\/li><\/ol>",
+        "languageId": 3,
+        "languageName": "Connexion & Protocole"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 13,
+        "title": "如何管理或取消我目前有效的定期訂閱？",
+        "subtitle": "管理您的自動計費週期和取消設定。",
+        "content": "<p>OVOSEC 優先考慮消費者的選擇與透明度。若要管理或取消您的自動計費週期（透過 Curlec / Stripe Payments Malaysia 安全處理）：</p><ol><li>登入我們網頁入口網站上的個人帳戶。</li><li>前往您的個人設定下的「計費與訂閱」。</li><li>點擊「取消自動續訂」按鈕。您的付費會員資格將保持完全有效，直到目前已付費的計費週期結束，且此後不會再產生任何費用。</li></ol>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 14,
+        "title": "關於高級方案，你們的退款政策是什麼？",
+        "subtitle": "退款條件與 7 天退款保證。",
+        "content": "<p>由於數位中繼服務的性質，我們提供嚴格但公平的 7 天退款保證。如果您符合以下條件，將有資格獲得全額退款：</p><ul><li>您的退款申請是在您首次購買時間戳記的 7 個日曆天內提交的。</li><li>您在所有中繼路徑上的累計數據消耗不超過 2.0 GB。</li></ul><p>若要發起申請，請使用您註冊的帳戶電子郵件與我們的支援團隊聯絡：<a href=\"mailto:support@ovosec.com\">support@ovosec.com</a>。</p>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 23,
+        "title": "如何註冊並登入我的帳戶？",
+        "subtitle": "帳戶建立與驗證的逐步指南。",
+        "content": "<p>若要註冊帳戶，請造訪我們的官方網站並選擇 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">登入 / 註冊</a> 選項。提供有效的電子郵件地址並設定強密碼以建立您的用戶身份。</p>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 24,
+        "title": "如何進行安全的密碼重設？",
+        "subtitle": "找回帳戶存取權限與密碼憑證。",
+        "content": "<p>如果您忘記密碼，請導航至 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">登入頁面</a> 並選擇「忘記密碼」。輸入您註冊的電子郵件地址，我們將發送密碼重設驗證連結以恢復您的帳戶存取權限。</p>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 36,
+        "title": "如何查詢我剩餘的數據額度以及訂閱過期日期？",
+        "subtitle": "監控您的帳戶使用情況和有效計費週期。",
+        "content": "<p>OVOSEC 優先考慮透明度。您可以透過以下兩種方式查詢您的訂閱狀態：</p><ul><li><strong>透過網頁入口網站：</strong>登入您在 <a href=\"https://ovosec.com\" target=\"_blank\">ovosec.com</a> 上的 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">個人主控面板</a>，以查看您目前的計費週期和即時數據額度。</li><li><strong>透過用戶端應用程式：</strong>在 OVOSEC 工具的主介面上，查看底部區域或設定檔分頁。Hiddify 核心會自動顯示您的累計數據消耗量和剩餘天數（例如「X 天後過期」）。點擊「重新整理」圖示可與計費伺服器同步最新的使用情況。</li></ul>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 42,
+        "title": "我更換或升級了我的裝置。如何恢復我目前有效的高級訂閱？",
+        "subtitle": "在新裝置上恢復您有效的高級訂閱。",
+        "content": "<p>您的訂閱是與您的帳戶設定檔連結，而非特定的裝置硬體 ID。要在新裝置上啟用 OVOSEC：</p><ol><li>登入您在 <a href=\"https://ovosec.com\" target=\"_blank\">ovosec.com</a> 上的 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">個人主控面板</a>。</li><li>複製您唯一的存取設定 URL。</li><li>在新裝置上安裝 OVOSEC 工具，點擊「匯入設定」，然後貼上該 URL。您剩餘的付費天數和數據額度將立即同步。</li></ol>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 43,
+        "title": "我已透過 Curlec/Stripe 完成付款，但我的用戶端仍顯示「免費/標準」狀態。我該怎麼辦？",
+        "subtitle": "解決銀行金流交易延遲問題。",
+        "content": "<p>金流閘道偶爾會遇到暫時的同步延遲（通常在 1 到 5 分鐘之間）。如果您的狀態尚未更新：</p><ol><li>前往您用戶端應用程式中的「設定檔」分頁。</li><li>點擊您 OVOSEC 設定檔旁的選單圖示，然後點擊「更新設定檔」以強制與我們的計費伺服器進行手動同步。</li><li>如果 10 分鐘後仍未反映，請將您的交易收據發送至 <a href=\"mailto:support@ovosec.com\">support@ovosec.com</a>，我們的計費團隊將手動為您的帳戶入帳。</li></ol>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 46,
+        "title": "我的數據額度何時重設？如果我在計費週期結束前用完數據該怎麼辦？",
+        "subtitle": "了解頻寬重設時間表與加購方案。",
+        "content": "<p>您的高級高速數據額度將在您每月的具體帳單週年日自動重設（可在您的 <a href=\"https://www.google.com\" class=\"text-primary font-weight-bold\" style=\"text-decoration: underline;\">網頁主控面板</a> 下查看）。數據不會累計至下個月。</p><p>如果您因大量下載而提早消耗完高速頻寬，您的連線速度將受到限制。您可以透過我們的安全網頁入口網站購買數據充值包或升級方案級別，以立即重設您的額度。</p>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    },
+    {
+        "id": 50,
+        "title": "OVOSEC 訂閱費用將如何顯示在我的信用卡或銀行對帳單上？",
+        "subtitle": "了解財務報表上的帳單描述名稱。",
+        "content": "<p>為了保護您的財務隱私並保持清晰的記錄，所有交易均在我們獲得許可的法人身份下安全處理。</p><p>在您的信用卡、金融卡或銀行對帳單上，此筆購買的動態描述名稱將被清楚地標記為 <strong>OVOSEC*KUALA LUMPUR</strong> 或 <strong>OVO CYBERTECH SDN BHD</strong>。</p><p>如果您發現任何帳單差異，請在發起銀行查詢之前，聯繫我們的支援隊列 <a href=\"mailto:support@ovosec.com\">support@ovosec.com</a>。</p>",
+        "languageId": 2,
+        "languageName": "帳戶與訂閱"
+    }
+]
