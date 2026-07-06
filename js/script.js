@@ -1,14 +1,10 @@
-/*
- * @轮子的作者: 轮子哥
- * @Date: 2024-05-24 15:33:45
- * @LastEditTime: 2024-06-14 15:12:03
- */
+
 
 const baseUrl = "https://ovosec.com/api"
 
 
 function remoteInit() {
-  //3分钟之内不重复请求
+  
   // if (parseInt(localStorage.getItem("settingTime")) && (Date.now() - parseInt(localStorage.getItem("settingTime"))) < 1000 * 60 * 3) {
   //   requestIntit(JSON.parse(localStorage.getItem("settingAll")))
   //   return
@@ -99,7 +95,7 @@ function loadSocialLinks() {
     bindDownloadLink(['friend_loginWbSize', 'nav_loginWebSize', 'influence_loginWbSize'], data.loginWebSize);
   };
 
-  // 1. 异步拉取 social.json
+  
   fetch('social.json')
     .then(response => {
       if (!response.ok) {
@@ -184,7 +180,7 @@ function contactSubmit(event) {
       Swal.fire({ title: 'Success!', text: 'Submitted successfully', icon: 'success', confirmButtonText: 'confirm' });
       form.reset();
     } else {
-      // 抛出 FormSubmit 返回的真实错误原因
+      
       Swal.fire({ title: 'Notice', text: res.message || 'Submission failed (Please check FormSubmit configuration)', icon: 'warning', confirmButtonText: 'confirm' });
     }
   })
@@ -219,7 +215,7 @@ function careerSubmit(event) {
     if (res.success === "true" || res.success === true) {
       Swal.fire({ title: 'Success!', text: 'Application submitted successfully', icon: 'success', confirmButtonText: 'confirm' });
       form.reset();
-      // 关闭模态框 (如果使用了 Bootstrap modal)
+      
       $('#android-developer').modal('hide');
     } else {
       Swal.fire({ title: 'Notice', text: res.message || 'Submission failed (Please check FormSubmit configuration)', icon: 'warning', confirmButtonText: 'confirm' });
@@ -323,7 +319,7 @@ if (localStorage.getItem("language")) {
   translate.service.use('client.edge');
   translate.changeLanguage(storedLang === 'german' ? 'deutsch' : storedLang);
   
-  // 页面加载时根据本地存储语言更新按钮文字
+  
   var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
   if (activeLi) {
     var langText = activeLi.textContent.trim();
@@ -334,13 +330,13 @@ if (localStorage.getItem("language")) {
   }
 }
 var liElements = document.querySelectorAll('.language-ul li');
-// 为每个<li>元素添加点击事件
+
 for (var i = 0; i < liElements.length; i++) {
   liElements[i].addEventListener('click', function () {
     var dataValue = this.getAttribute('data-value');
     var langText = this.textContent.trim();
     
-    // 点击选择语言时，实时同步更新按钮文字
+    
     var multiLangBtn = document.querySelector('.multi-language');
     if (multiLangBtn) {
       multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;

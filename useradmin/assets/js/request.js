@@ -1,8 +1,4 @@
-/*
- * @轮子的作者: 轮子哥
- * @Date: 2024-06-12 16:04:04
- * @LastEditTime: 2024-06-14 15:23:43
- */
+
 const baseUrl = 'https://api.ovosec.com'
 
 
@@ -120,12 +116,12 @@ function setLayoutData(data) {
         `<div style="text-align: center;height: 300px;line-height: 300px;color: var(--bs-heading-color);">
             Your device list is empty, log in to OVOSEC and give it a try!
         </div>`: deviceHtml)
-    // 选择所有具有class的元素
+    
     const elements = document.querySelectorAll('.bi-info');
-    // 为每个元素添加点击事件
+    
     elements.forEach(function (element) {
         element.addEventListener('click', function () {
-            // 在这里编写点击后想执行的操作
+            
             Swal.fire({
                 title: "Are you sure?",
                 text: "You won't be able to revert this!",
@@ -167,7 +163,7 @@ function setLayoutData(data) {
         </div>` : ordertHtml)
 
     translate.language.setLocal('deutsch'); 
-    //设置语音
+    
     if (localStorage.getItem("language")) {
 
         translate.ignore.id.push('topbarUserDropdown');
@@ -278,7 +274,7 @@ function login() {
                     failDialog('Login failed');
                     return;
                 }
-                // 登录成功处理
+                
                 localStorage.setItem('token', data.data.auth_data);
                 localStorage.removeItem('goUserAdminLogin');
                 window.location.href = 'layout-renew.html';
