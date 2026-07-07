@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Observer Test</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .info-box h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .value {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .spacer {
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            background: rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin: 100px 0;
+        }
+
+        .animation-box {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 50px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            /* Default state (no animation yet) */
+        }
+
+        /* Fade animations */
+        [data-aos="fade-up"] {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.9s ease-out;
+        }
+
+        [data-aos="fade-up"].aos-animate {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        [data-aos="fade-left"] {
+            opacity: 0;
+            transform: translateX(40px);
+            transition: all 0.9s ease-out;
+        }
+
+        [data-aos="fade-left"].aos-animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        [data-aos="fade-right"] {
+            opacity: 0;
+            transform: translateX(-40px);
+            transition: all 0.9s ease-out;
+        }
+
+        [data-aos="fade-right"].aos-animate {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        [data-aos="zoom-in"] {
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.9s ease-out;
+        }
+
+        [data-aos="zoom-in"].aos-animate {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .test-section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 50px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .test-section h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .test-section p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 动画观察者测试</h1>
+
+        <div class="info-box">
+            <h2>📊 诊断信息</h2>
+            <div class="info-item">
+                <span class="label">IntersectionObserver 支持:</span>
+                <span class="value" id="io-support">检查中...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">动画元素数量:</span>
+                <span class="value" id="element-count">检查中...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">已动画元素:</span>
+                <span class="value" id="animated-count">0</span>
+            </div>
+            <div class="info-item">
+                <span class="label">当前滚动位置:</span>
+                <span class="value" id="scroll-pos">0px</span>
+            </div>
+        </div>
+
+        <div class="spacer">↓ 向下滚动查看动画 ↓</div>
+
+        <div class="animation-box" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+            📦 Fade Up - 向上淡入
+        </div>
+
+        <div class="test-section">
+            <h3>测试 1: 向上淡入</h3>
+            <p>这个框应该在滚动到它时从下往上淡入显示。这个动画使用 IntersectionObserver API 实现，比原来的 AOS 库更可靠。</p>
+        </div>
+
+        <div class="spacer">↓ 继续向下滚动 ↓</div>
+
+        <div class="animation-box" data-aos="fade-left" data-aos-duration="900" data-aos-once="true">
+            📦 Fade Left - 从右往左淡入
+        </div>
+
+        <div class="test-section">
+            <h3>测试 2: 从右往左淡入</h3>
+            <p>这个框应该从右边滑入视图。注意动画的流畅性和时间间隔。</p>
+        </div>
+
+        <div class="spacer">↓ 更多内容在下面 ↓</div>
+
+        <div class="animation-box" data-aos="fade-right" data-aos-duration="900" data-aos-once="true">
+            📦 Fade Right - 从左往右淡入
+        </div>
+
+        <div class="test-section">
+            <h3>测试 3: 从左往右淡入</h3>
+            <p>这个框应该从左边滑入视图。</p>
+        </div>
+
+        <div class="spacer">↓ 最后的动画 ↓</div>
+
+        <div class="animation-box" data-aos="zoom-in" data-aos-duration="900" data-aos-once="true">
+            📦 Zoom In - 缩放进入
+        </div>
+
+        <div class="test-section">
+            <h3>测试 4: 缩放进入</h3>
+            <p>这个框应该逐渐放大并淡入。所有这些动画都使用自定义的 IntersectionObserver 实现，完全避免了 AOS 库的各种问题。</p>
+        </div>
+
+        <div class="spacer">✅ 到达底部!</div>
+    </div>
+
+    <script src="js/animation-observer.js"></script>
+    <script>
+        // Update diagnostics
+        function updateDiagnostics() {
+            document.getElementById('io-support').textContent = 
+                window.IntersectionObserver ? '✓ 支持' : '✗ 不支持';
+            
+            const elementCount = document.querySelectorAll('[data-aos]').length;
+            const animatedCount = document.querySelectorAll('[data-aos].aos-animate').length;
+            const scrollPos = Math.round(window.scrollY);
+
+            document.getElementById('element-count').textContent = elementCount;
+            document.getElementById('animated-count').textContent = animatedCount;
+            document.getElementById('scroll-pos').textContent = scrollPos + 'px';
+        }
+
+        // Initial check
+        updateDiagnostics();
+
+        // Update on scroll
+        window.addEventListener('scroll', updateDiagnostics, { passive: true });
+        window.addEventListener('resize', updateDiagnostics);
+
+        // Log animation events
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('✓ Page loaded, animations should be active now');
+            console.log('📍 Data-aos elements:', document.querySelectorAll('[data-aos]').length);
+        });
+    </script>
+</body>
+</html>

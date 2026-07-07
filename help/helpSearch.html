@@ -71,8 +71,8 @@
     <!-- Hero Search Section -->
     <section class="section gradient-banner pb-5">
         <div class="container text-center pt-5 pb-4">
-            <h1 class="font-weight-bold text-white mb-3" data-aos="fade-down" data-aos-duration="1000">OVOSEC Help Center</h1>
-            <p class="text-white mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Advice and answers from the OVOSEC Team</p>
+            <h1 id="helpCenterTitle" class="font-weight-bold text-white mb-3" data-aos="fade-down" data-aos-duration="1000">OVOSEC Help Center</h1>
+            <p id="helpCenterSubtitle" class="text-white mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Advice and answers from the OVOSEC Team</p>
             <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="col-md-8 col-lg-8">
                     <div class="search-box position-relative">
@@ -281,9 +281,53 @@
         }
 
         // Multi-language selection setup
+        function updateHelpCenterTranslations(lang) {
+            const titleTranslations = {
+                "english": "OVOSEC Help Center",
+                "malay": "OVOSEC Pusat Bantuan",
+                "indonesian": "OVOSEC Pusat Bantuan",
+                "chinese_traditional": "OVOSEC 幫助中心",
+                "korean": "OVOSEC 고객센터",
+                "japanese": "OVOSEC ヘルプセンター",
+                "vietnamese": "OVOSEC Trung tâm Hỗ trợ",
+                "arabic": "OVOSEC مركز المساعدة",
+                "spanish": "OVOSEC Centro de Ayuda",
+                "french": "OVOSEC Centre d'aide",
+                "german": "OVOSEC Hilfe-Center"
+            };
+            const subtitleTranslations = {
+                "english": "Advice and answers from the OVOSEC Team",
+                "malay": "Nasihat dan jawapan daripada Pasukan OVOSEC",
+                "indonesian": "Saran dan jawaban dari Tim OVOSEC",
+                "chinese_traditional": "來自 OVOSEC 團隊的建議和解答",
+                "korean": "OVOSEC 팀의 조언 및 답변",
+                "japanese": "OVOSEC チームによるアドバイスと回答",
+                "vietnamese": "Lời khuyên và câu trả lời từ Đội ngũ OVOSEC",
+                "arabic": "نصائح وإجابات من فريق OVOSEC",
+                "spanish": "Consejos y respuestas del equipo de OVOSEC",
+                "french": "Conseils et réponses de l'équipe OVOSEC",
+                "german": "Ratschläge und Antworten vom OVOSEC Team"
+            };
+            
+            const title = titleTranslations[lang] || "OVOSEC Help Center";
+            const subtitle = subtitleTranslations[lang] || "Advice and answers from the OVOSEC Team";
+            
+            const titleElement = document.getElementById("helpCenterTitle");
+            if (titleElement) {
+                titleElement.textContent = title;
+            }
+            
+            const subtitleElement = document.getElementById("helpCenterSubtitle");
+            if (subtitleElement) {
+                subtitleElement.textContent = subtitle;
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", function () {
+            var initialLang = "english";
             if (localStorage.getItem("language")) {
                 var storedLang = localStorage.getItem("language");
+                initialLang = storedLang;
                 
                 var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
                 if (activeLi) {
@@ -294,6 +338,8 @@
                     }
                 }
             }
+            updateHelpCenterTranslations(initialLang);
+
             var liElements = document.querySelectorAll('.language-ul li');
             for (var i = 0; i < liElements.length; i++) {
                 liElements[i].addEventListener('click', function () {
@@ -306,6 +352,7 @@
                     }
 
                     localStorage.setItem('language', dataValue);
+                    updateHelpCenterTranslations(dataValue);
                     
                     // Reload the search results with chosen language
                     loadSearchResults();

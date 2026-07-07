@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS Animation Test</title>
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .debug-panel {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            background: white;
+            border: 2px solid #ff6b6b;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 12px;
+            line-height: 1.4;
+            max-height: 400px;
+            overflow-y: auto;
+            z-index: 9999;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .debug-title {
+            font-weight: bold;
+            color: #ff6b6b;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+        
+        .debug-item {
+            margin: 5px 0;
+            padding: 5px;
+            background: #f9f9f9;
+            border-left: 3px solid #ff6b6b;
+            padding-left: 8px;
+        }
+        
+        .debug-label {
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .debug-value {
+            color: #666;
+            margin-left: 5px;
+        }
+        
+        .debug-success { color: #28a745; }
+        .debug-error { color: #dc3545; }
+        .debug-warning { color: #ffc107; }
+        
+        .test-section {
+            margin: 200px 0;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .test-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background: linear-gradient(45deg, #007bff, #0056b3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .test-box[data-aos^="fade"] {
+            opacity: 0;
+            transition-property: opacity, transform;
+        }
+        
+        .test-box[data-aos^="fade"].aos-animate {
+            opacity: 1;
+            transform: translateZ(0);
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-panel">
+        <div class="debug-title">🔍 AOS 诊断面板</div>
+        <div id="debug-content">加载中...</div>
+    </div>
+
+    <h1>AOS 动画测试 - 请向下滚动</h1>
+    <p>向下滚动查看淡入动画效果。每个方框应该在进入视口时淡入显示。</p>
+    
+    <div class="test-section">
+        <h2>测试 1: 从右侧淡入</h2>
+        <div class="test-box" data-aos="fade-right" data-aos-duration="900" data-aos-offset="150" data-aos-once="true">
+            Box 1: Fade Right
+        </div>
+        <p>这个方框应该在滚动进入视口时从右往左淡入。</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 2: 从左侧淡入</h2>
+        <div class="test-box" data-aos="fade-left" data-aos-duration="900" data-aos-offset="150" data-aos-once="true">
+            Box 2: Fade Left
+        </div>
+        <p>这个方框应该在滚动进入视口时从左往右淡入。</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 3: 向上淡入</h2>
+        <div class="test-box" data-aos="fade-up" data-aos-duration="900" data-aos-offset="150" data-aos-once="true">
+            Box 3: Fade Up
+        </div>
+        <p>这个方框应该在滚动进入视口时从下往上淡入。</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 4: 缩放进入</h2>
+        <div class="test-box" data-aos="zoom-in" data-aos-duration="900" data-aos-offset="150" data-aos-once="true">
+            Box 4: Zoom In
+        </div>
+        <p>这个方框应该在滚动进入视口时缩放进入。</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>更多空间</h2>
+        <p>向下滚动以获得更多测试元素...</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试 5</h2>
+        <div class="test-box" data-aos="fade-up" data-aos-duration="900" data-aos-offset="150" data-aos-once="true">
+            Box 5: Fade Up
+        </div>
+    </div>
+
+    <script src="plugins/aos/aos.js"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script>
+        // 诊断函数
+        function updateDebugInfo() {
+            const debugContent = document.getElementById('debug-content');
+            
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const isMobile = width <= 991;
+            const dataAosElements = document.querySelectorAll('[data-aos]');
+            const animatedElements = document.querySelectorAll('[data-aos].aos-animate');
+            const scrollTop = window.scrollY;
+            const elementStates = [];
+            
+            dataAosElements.forEach((el, idx) => {
+                const hasClass = el.classList.contains('aos-animate');
+                const rect = el.getBoundingClientRect();
+                const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+                const opacity = window.getComputedStyle(el).opacity;
+                elementStates.push({
+                    idx,
+                    hasClass,
+                    isInViewport,
+                    opacity,
+                    aos: el.getAttribute('data-aos')
+                });
+            });
+            
+            let html = '';
+            
+            // 基本信息
+            html += `<div class="debug-item">
+                <span class="debug-label">AOS 加载:</span>
+                <span class="debug-value ${typeof AOS !== 'undefined' ? 'debug-success' : 'debug-error'}">
+                    ${typeof AOS !== 'undefined' ? '✓ 已加载' : '✗ 未加载'}
+                </span>
+            </div>`;
+            
+            html += `<div class="debug-item">
+                <span class="debug-label">视口大小:</span>
+                <span class="debug-value">${width} x ${height}</span>
+            </div>`;
+            
+            html += `<div class="debug-item">
+                <span class="debug-label">移动设备:</span>
+                <span class="debug-value">${isMobile ? '是' : '否'}</span>
+            </div>`;
+            
+            html += `<div class="debug-item">
+                <span class="debug-label">scroll 位置:</span>
+                <span class="debug-value">${Math.round(scrollTop)}px</span>
+            </div>`;
+            
+            html += `<div class="debug-item">
+                <span class="debug-label">数据-aos 元素:</span>
+                <span class="debug-value">${dataAosElements.length}</span>
+            </div>`;
+            
+            html += `<div class="debug-item">
+                <span class="debug-label">已动画元素:</span>
+                <span class="debug-value debug-success">${animatedElements.length}</span>
+            </div>`;
+            
+            // 元素状态
+            html += `<div class="debug-item" style="margin-top: 10px; border-top: 1px solid #ddd; padding-top: 8px;">
+                <strong style="color: #ff6b6b;">元素状态:</strong>
+            </div>`;
+            
+            elementStates.forEach(state => {
+                const statusClass = state.hasClass ? 'debug-success' : 'debug-warning';
+                html += `<div class="debug-item" style="font-size: 11px;">
+                    <div>#${state.idx} ${state.aos}</div>
+                    <div>${state.hasClass ? '✓' : '✗'} <span class="${statusClass}">animate=${state.hasClass}</span></div>
+                    <div>视图: ${state.isInViewport ? '✓ 是' : '✗ 否'} | opacity=${state.opacity}</div>
+                </div>`;
+            });
+            
+            debugContent.innerHTML = html;
+        }
+        
+        // 初始化 AOS
+        console.log('=== AOS 诊断开始 ===');
+        console.log('AOS 对象:', typeof AOS);
+        console.log('Data-aos 元素数量:', document.querySelectorAll('[data-aos]').length);
+        
+        AOS.init({
+            once: true,
+            disable: false
+        });
+        
+        console.log('AOS 初始化完成');
+        console.log('=== AOS 诊断结束 ===');
+        
+        // 更新调试信息
+        updateDebugInfo();
+        window.addEventListener('scroll', updateDebugInfo);
+        window.addEventListener('resize', updateDebugInfo);
+        
+        // 监听 AOS 事件
+        document.addEventListener('aos:in', function(e) {
+            console.log('AOS in event:', e.detail);
+            updateDebugInfo();
+        });
+        
+        document.addEventListener('aos:out', function(e) {
+            console.log('AOS out event:', e.detail);
+            updateDebugInfo();
+        });
+    </script>
+</body>
+</html>

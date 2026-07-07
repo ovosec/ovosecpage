@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS Minimal Test</title>
+    <style>
+        body { margin: 0; padding: 20px; font-family: sans-serif; background: #eee; }
+        .box { width: 100px; height: 100px; background: #007bff; margin: 300px auto; color: white; display: flex; align-items: center; justify-content: center; }
+        .info { position: fixed; top: 20px; left: 20px; background: white; padding: 15px; border-radius: 5px; width: 300px; font-size: 12px; line-height: 1.6; }
+        .info div { margin: 5px 0; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <div class="info">
+        <strong>AOS 诊断:</strong>
+        <div id="aosLoaded">检查 AOS...</div>
+        <div id="elemCount">检查元素...</div>
+        <div id="scrollPos">Scroll: 0</div>
+        <div id="animCount">已动画: 0</div>
+    </div>
+
+    <div class="box" data-aos="fade-up">Box 1: Fade Up</div>
+    <div class="box" data-aos="fade-up">Box 2: Fade Up</div>
+    <div class="box" data-aos="fade-left">Box 3: Fade Left</div>
+    <div class="box" data-aos="fade-right">Box 4: Fade Right</div>
+    <div class="box" data-aos="zoom-in">Box 5: Zoom In</div>
+
+    <script src="plugins/aos/aos.js"></script>
+    <script>
+        // 检查 AOS 是否加载
+        document.getElementById('aosLoaded').innerHTML = 
+            (typeof AOS !== 'undefined') 
+            ? '<span class="success">✓ AOS 已加载</span>'
+            : '<span class="error">✗ AOS 未加载</span>';
+
+        // 初始化 AOS
+        if (typeof AOS !== 'undefined') {
+            console.log('Before init:', document.querySelectorAll('[data-aos]').length, 'elements');
+            
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true,
+                disable: false
+            });
+            
+            console.log('After init:', document.querySelectorAll('[data-aos].aos-init').length, 'initialized');
+        }
+
+        // 更新诊断信息
+        function updateInfo() {
+            const elemCount = document.querySelectorAll('[data-aos]').length;
+            const animCount = document.querySelectorAll('[data-aos].aos-animate').length;
+            const scrollPos = window.scrollY;
+
+            document.getElementById('elemCount').innerHTML = '元素: ' + elemCount;
+            document.getElementById('scrollPos').innerHTML = 'Scroll: ' + scrollPos;
+            document.getElementById('animCount').innerHTML = '已动画: <span class="success">' + animCount + '</span>';
+        }
+
+        updateInfo();
+        window.addEventListener('scroll', updateInfo);
+
+        // 监听 AOS 事件
+        document.addEventListener('aos:in', (e) => {
+            console.log('AOS in:', e.detail);
+            updateInfo();
+        });
+    </script>
+</body>
+</html>

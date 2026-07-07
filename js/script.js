@@ -355,11 +355,14 @@ for (var i = 0; i < liElements.length; i++) {
 (function ($) {
   'use strict';
   // ----------------------------
-  // AOS
+  // AOS (备用初始化 - 主要使用 animation-observer.js)
   // ----------------------------
-  AOS.init({
-    once: true
-  });
+  if (typeof AOS !== 'undefined') {
+    AOS.init({
+      once: true,
+      disable: false
+    });
+  }
 
 
   $(window).on('scroll', function () {
