@@ -22,12 +22,12 @@
             transition: all 0.3s ease;
         }
         .pay-list .check.active, .pay-list .check:hover {
-            border-color: #2e7eed;
-            background-color: rgba(46, 126, 237, 0.05);
+            border-color: #4f46e5;
+            background-color: rgba(79, 70, 229, 0.12);
         }
         .pay-list .form-check-input:checked {
-            background-color: #2e7eed;
-            border-color: #2e7eed;
+            background-color: #4f46e5;
+            border-color: #4f46e5;
         }
     </style>
 </head>
@@ -297,7 +297,7 @@
                         inputLabel: 'Enter your license redeem code',
                         inputPlaceholder: 'OVOSEC-XXXX-XXXX-XXXX',
                         showCancelButton: true,
-                        confirmButtonColor: "#2e7eed",
+                        confirmButtonColor: "#4f46e5",
                         confirmButtonText: 'Redeem',
                         inputValidator: (value) => {
                             if (!value) {
@@ -310,7 +310,7 @@
                                 title: 'Success!',
                                 text: 'Redeem code activated successfully.',
                                 icon: 'success',
-                                confirmButtonColor: "#2e7eed"
+                                confirmButtonColor: "#4f46e5"
                             }).then(() => {
                                 window.location.href = 'layout-device.html';
                             });
@@ -335,7 +335,7 @@
                             title: 'Compliance Gateway Simulation',
                             text: 'Redirecting back to dashboard upon validation.',
                             icon: 'success',
-                            confirmButtonColor: "#2e7eed"
+                            confirmButtonColor: "#4f46e5"
                         }).then(() => {
                             window.location.href = 'layout-device.html';
                         });

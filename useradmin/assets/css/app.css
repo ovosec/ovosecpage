@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -320,7 +320,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.3;
     color: var(--bs-heading-color)
 }
 
@@ -1327,7 +1327,7 @@ progress {
 
     .col-md-3 {
         flex: 0 0 auto;
-        width: 33%
+        width: 25%
     }
 
     .col-md-4 {
@@ -21999,6 +21999,13 @@ body .bi:before, [class^=bi-]:before, [class*=" bi-"]:before {
     margin-bottom: 3rem
 }
 
+.pricing .price {
+    background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #4f46e5;
+}
+
 .pricing .card-header .card-title {
     font-size: 2rem !important;
     margin-bottom: 0
@@ -22931,7 +22938,7 @@ body .bi:before, [class^=bi-]:before, [class*=" bi-"]:before {
 
 .layout-horizontal .header-top {
     background-color: #fff;
-    padding: 1.1rem .4rem
+    padding: 0.8rem .4rem
 }
 
 .layout-horizontal .header-top .container {
@@ -22947,7 +22954,7 @@ body .bi:before, [class^=bi-]:before, [class*=" bi-"]:before {
 }
 
 .layout-horizontal .header-top .logo img {
-    height: 20px
+    height: 2rem
 }
 
 .layout-horizontal .header-top-right {
@@ -23708,7 +23715,7 @@ a {
 }
 .device-list .top{ display: flex}
 .device-list .top .card .card-body{padding:1rem }
-.device-list .middle .device-info span{ display: inline-block;border-radius: 50%; background: #e9f2ff; width: 6rem;height: 6rem;line-height: 6rem; margin: 2rem 0}
+.device-list .middle .device-info span{ display: inline-block;border-radius: 50%; background: rgba(79, 70, 229, 0.12); width: 6rem;height: 6rem;line-height: 6rem; margin: 2rem 0}
 .device-list .middle .device-info .bi{font-size: 3rem; color: #2e7eed}
 @media (min-width: 1024px){
     .device-list .col-md-2{width:25%}
@@ -23757,6 +23764,63 @@ a {
 .user-info .col-md-9 .col-12 span{
  color: #2e7eed;
     margin-left: .5rem;
+}
+.sidebar-wrapper .menu .sidebar-link:hover {
+    background-color: rgba(79, 70, 229, 0.12);
+    color: #4f46e5;
+}
+
+.sidebar-wrapper .menu .sidebar-link:hover svg,
+.sidebar-wrapper .menu .sidebar-link:hover i {
+    color: #4f46e5;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link {
+    background-color: #4f46e5;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link:hover {
+    background-color: #3730a3;
+}
+
+.sidebar-wrapper .menu .submenu .submenu-item.active > a,
+.sidebar-wrapper .menu .submenu .submenu-item a:hover {
+    color: #4f46e5;
+}
+
+.page-heading h3,
+.page-heading .h3,
+#email2 {
+    background: linear-gradient(135deg, #4f46e5 0%, #0ea5e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #4f46e5;
+}
+
+#email {
+    color: #4f46e5;
+}
+
+.page-heading .text-subtitle,
+#classType,
+#classType2,
+#classExpire,
+#classExpire2 {
+    color: #475569 !important;
+}
+
+.sidebar-wrapper .menu .sidebar-link svg,
+.sidebar-wrapper .menu .sidebar-link i,
+.pay-list .device-icon,
+.pay-list .device-icon svg,
+.device-list .middle .device-info .bi,
+.user-info .col-md-3 span .bi {
+    color: #4f46e5;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link svg,
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link i {
+    color: #ffffff;
 }
 /*@media screen and (max-width: 1199px) {*/
 /*    .main-navbar {*/

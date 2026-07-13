@@ -1,5 +1,9 @@
-
-const baseUrl = 'https://api.ovosec.com'
+/*
+ * @轮子的作者: 轮子哥
+ * @Date: 2024-06-12 16:04:04
+ * @LastEditTime: 2024-06-14 15:23:43
+ */
+const baseUrl = 'https://jiujiufast.xyz'
 
 
 function remoteRequest() {
@@ -52,44 +56,25 @@ function setLayoutData(data) {
 
     const productContain = document.getElementById('productContain')
     let productHtml = ''
-    if (data.plan_list) {
-        data.plan_list.forEach(item => {
-            let cleanName = item.name;
-            if (cleanName.toLowerCase().indexOf('month') !== -1 || cleanName.indexOf('月') !== -1 || cleanName.indexOf('月') !== -1) {
-                cleanName = 'OVOSEC Personal Utility License (Monthly Subscription)';
-            } else if (cleanName.toLowerCase().indexOf('year') !== -1 || cleanName.indexOf('年') !== -1 || cleanName.indexOf('年') !== -1) {
-                cleanName = 'OVOSEC Enterprise Relay License (Annual Plan)';
-            } else {
-                cleanName = cleanName.replace(/vpn/gi, 'Relay License')
-                                      .replace(/proxy/gi, 'Relay')
-                                      .replace(/vip/gi, 'Enterprise')
-                                      .replace(/v2ray/gi, 'Encrypted Relay')
-                                      .replace(/shadowsocks/gi, 'Encrypted Relay');
-                if (cleanName.toLowerCase().indexOf('license') === -1 && cleanName.toLowerCase().indexOf('relay') === -1) {
-                    cleanName = cleanName + ' Relay License';
-                }
-            }
-            item.cleanName = cleanName;
-
-            productHtml = productHtml + `
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h4 class="card-title" style="font-size: 1.1rem; line-height: 1.4;">${cleanName}</h4>
-                    </div>
-                    <h1 class="price">$${item.month_price/100}</h1>
-                    <ul>
-                        <li>${item.content}</li>
-                    </ul>
-                    <div class="card-footer">
-                        <button onclick='selectPlanAndPay(${JSON.stringify(item).replace(/'/g, "\\'")})'
-                            class="btn btn-primary btn-block">Order Now</button>
-                    </div>
+    data.plan_list.forEach(item => {
+        productHtml = productHtml + `
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4 class="card-title">${item.name}</h4>
+                </div>
+                <h1 class="price">$${item.month_price/100}</h1>
+                <ul>
+                    <li>${item.content}</li>
+                </ul>
+                <div class="card-footer">
+                    <button onclick="window.location.href ='??layout-device-pay.html'"
+                        class="btn btn-primary btn-block">Order Now</button>
                 </div>
             </div>
-        `
-        })
-    }
+        </div>
+    `
+    })
     productContain && (productContain.innerHTML = productHtml)
 
     const deviceContain = document.getElementById('deviceContain')
@@ -114,14 +99,14 @@ function setLayoutData(data) {
     })
     deviceContain && (deviceContain.innerHTML = deviceHtml.length == 0 ?
         `<div style="text-align: center;height: 300px;line-height: 300px;color: var(--bs-heading-color);">
-            Your device list is empty, log in to OVOSEC and give it a try!
+            Your device list is empty, log in to OvoCyberTech and give it a try!
         </div>`: deviceHtml)
-    
+    // 选择所有具有class的元素
     const elements = document.querySelectorAll('.bi-info');
-    
+    // 为每个元素添加点击事件
     elements.forEach(function (element) {
         element.addEventListener('click', function () {
-            
+            // 在这里编写点击后想执行的操作
             Swal.fire({
                 title: "Are you sure?",
                 text: "You won't be able to revert this!",
@@ -163,7 +148,7 @@ function setLayoutData(data) {
         </div>` : ordertHtml)
 
     translate.language.setLocal('deutsch'); 
-    
+    //设置语音
     if (localStorage.getItem("language")) {
 
         translate.ignore.id.push('topbarUserDropdown');
@@ -274,7 +259,7 @@ function login() {
                     failDialog('Login failed');
                     return;
                 }
-                
+                // 登录成功处理
                 localStorage.setItem('token', data.data.auth_data);
                 localStorage.removeItem('goUserAdminLogin');
                 window.location.href = 'layout-renew.html';
@@ -359,9 +344,4 @@ function failDialog(text = "Possible network error or server abnormality.") {
         confirmButtonColor: "#2e7eed",
         icon: "error"
     });
-}
-
-function selectPlanAndPay(plan) {
-    localStorage.setItem('selected_plan', JSON.stringify(plan));
-    window.location.href = 'layout-device-pay.html';
 }

@@ -1,4 +1,4 @@
-﻿
+
 const THEME_KEY = "theme"
 
 function toggleDarkTheme() {
