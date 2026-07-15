@@ -418,13 +418,13 @@
           <div class="form-title mt-5 mb-4">
             <h3 class="font-weight-bolder text-dark" style="font-size: 1.25rem;">Apply Now</h3>
           </div>
-          <form id="career_form" action="https://formsubmit.co/ajax/support@ovosec.com" method="POST"
+          <form id="career_form" action="https://api.web3forms.com/submit" method="POST"
             onsubmit="careerSubmit(event); return false;" class="contact-form">
 
-            <!-- FormSubmit Configuration -->
-            <input type="hidden" name="_subject" value="New Career Application from OVOSEC">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="false">
+            <!-- Web3Forms Configuration -->
+            <input type="hidden" name="access_key" value="5c69d61a-df45-41a7-bc92-cdaa6e993683">
+            <input type="hidden" name="subject" value="New Career Application from OVOSEC">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
             <div class="row">
               <div class="col-lg-6 col-md-12 mb-3">

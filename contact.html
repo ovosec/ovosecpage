@@ -192,14 +192,14 @@
                     <h2 class="font-weight-bolder text-dark display-6" style="letter-spacing: -1px;">Drop us a mail</h2>
                 </div>
                 <div class="col-lg-12 mx-auto" data-aos="fade-up" data-aos-delay="100">
-                    <form id="contact_form" action="https://formsubmit.co/ajax/support@ovosec.com" method="POST"
+                    <form id="contact_form" action="https://api.web3forms.com/submit" method="POST"
                         onsubmit="contactSubmit(event); return false;"
                         style="background: #ffffff; padding: 50px; border: 1px solid rgba(15, 23, 42, 0.05); box-shadow: 0 20px 45px rgba(15, 23, 42, 0.02); border-radius: 0;">
 
-                        <!-- FormSubmit Configuration -->
-                        <input type="hidden" name="_subject" value="New Contact Form Submission from OVOSEC">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Web3Forms Configuration -->
+                        <input type="hidden" name="access_key" value="5c69d61a-df45-41a7-bc92-cdaa6e993683">
+                        <input type="hidden" name="subject" value="New Contact Form Submission from OVOSEC">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                         <div class="row">
                             <div class="col-md-6 mb-3">

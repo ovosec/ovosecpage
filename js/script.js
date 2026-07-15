@@ -274,25 +274,29 @@ function createCareer() {
                     <div class="form-title">
                       <h3>Apply Now<span style="display:none" id="career_id">${element.id}</span></h3>
                     </div>
-                    <form action="#" id="career_form" onsubmit="careerSubmit(event)">
+                    <form action="https://api.web3forms.com/submit" id="career_form" onsubmit="careerSubmit(event)">
+                      <!-- Web3Forms Configuration -->
+                      <input type="hidden" name="access_key" value="5c69d61a-df45-41a7-bc92-cdaa6e993683">
+                      <input type="hidden" name="subject" value="New Career Application from OVOSEC">
+                      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                       <div class="row">
                         <div class="col-lg-6 col-md-12">
-                          <input class="form-control main" type="text" placeholder="Name" required id="career_name">
+                          <input class="form-control main" type="text" name="name" placeholder="Name" required id="career_name">
                         </div>
                         <div class="col-lg-6 col-md-12">
-                          <input class="form-control main" type="email" placeholder="Email Address" required id="career_email">
+                          <input class="form-control main" type="email" name="email" placeholder="Email Address" required id="career_email">
                         </div>
                         <div class="col-lg-6 col-md-12">
-                          <input class="form-control main" type="text" placeholder="Portfolio Website Link" required id="career_websiteLink">
+                          <input class="form-control main" type="text" name="portfolio" placeholder="Portfolio Website Link" required id="career_websiteLink">
                         </div>
                         <div class="col-lg-6 col-md-12">
-                          <input class="form-control main" type="text" placeholder="Github/Stackoverflow Link" required id="career_githubLink">
+                          <input class="form-control main" type="text" name="github" placeholder="Github/Stackoverflow Link" required id="career_githubLink">
                         </div>
                         <div class="col-md-12">
                           <textarea class="form-control main" name="about" rows="10" placeholder="Write Something About You" id="career_aboutYou"></textarea>
                         </div>
                         <div class="col-12 text-right">
-                          <button class="btn btn-main-md" id="submitButton">Apply Now</button>
+                          <button class="btn btn-main-md" id="careerSubmitButton">Apply Now</button>
                         </div>
                       </div>
                     </form>
