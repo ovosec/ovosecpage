@@ -3,8 +3,8 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://www.google.com",
-  "windowDownload": "https://www.google.com",
-  "macDownload": "https://www.google.com",
+  "androidDownload": "/ovosec.apk",
+  "windowDownload": "/ovosec.exe",
+  "macDownload": "/ovosec.dmg",
   "loginWebSize": "https://www.google.com"
 }
