@@ -3,8 +3,18 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec.apk",
-  "windowDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec.exe",
-  "macDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec.dmg",
+  "androidDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-1.0.10-universal.apk",
+  "androidDownloads": [
+    { "label": "Universal (recommended)", "detail": "All Android devices · 87.16 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-1.0.10-universal.apk" },
+    { "label": "ARM64", "detail": "Most modern phones · 33.81 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-1.0.10-arm64-v8a.apk" },
+    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.57 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-1.0.10-armeabi-v7a.apk" },
+    { "label": "x86_64", "detail": "Emulators and x86 devices · 35.29 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-1.0.10-x86_64.apk" }
+  ],
+  "windowDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-Windows-Portable-x64.zip",
+  "macDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-arm64.dmg",
+  "macDownloads": [
+    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 50.28 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-arm64.dmg" },
+    { "label": "Intel", "detail": "Intel-based Mac · 55.27 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-x86_64.dmg" }
+  ],
   "loginWebSize": "https://www.google.com"
 }

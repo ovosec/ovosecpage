@@ -79,17 +79,52 @@ function loadSocialLinks() {
       });
     };
 
+    const bindDownloadMenu = (ids, title, downloads) => {
+      if (!Array.isArray(downloads) || !downloads.length) return;
+      ids.forEach(id => {
+        const trigger = document.getElementById(id);
+        if (!trigger || trigger.closest('.download-picker')) return;
+
+        const picker = document.createElement('span');
+        picker.className = 'download-picker';
+        trigger.parentNode.insertBefore(picker, trigger);
+        picker.appendChild(trigger);
+        trigger.setAttribute('aria-haspopup', 'menu');
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.addEventListener('click', event => {
+          event.preventDefault();
+          const open = picker.classList.toggle('is-open');
+          trigger.setAttribute('aria-expanded', String(open));
+        });
+
+        const menu = document.createElement('span');
+        menu.className = 'download-picker-menu';
+        menu.setAttribute('role', 'menu');
+        menu.innerHTML = '<strong>' + title + '</strong><small>Select the version for your device</small>';
+        downloads.forEach(download => {
+          const link = document.createElement('a');
+          link.href = download.url;
+          link.setAttribute('role', 'menuitem');
+          link.innerHTML = '<span>' + download.label + '</span><small>' + (download.detail || '') + '</small>';
+          menu.appendChild(link);
+        });
+        picker.appendChild(menu);
+      });
+    };
+
     // Update iOS links
     bindDownloadLink(['nav_ios', 'index_ios', 'index_ios_btn'], data.iosDownload);
 
     // Update Android links
     bindDownloadLink(['nav_android', 'index_android', 'index_android_btn'], data.androidDownload);
+    bindDownloadMenu(['index_android', 'index_android_btn'], 'Download for Android', data.androidDownloads);
 
     // Update Windows links
     bindDownloadLink(['nav_window', 'index_window', 'index_window_btn'], data.windowDownload);
 
     // Update Mac links
     bindDownloadLink(['nav_mac', 'index_mac', 'index_mac_btn'], data.macDownload);
+    bindDownloadMenu(['index_mac', 'index_mac_btn'], 'Download for Mac', data.macDownloads);
 
     // Update Friend login link & Nav login links
     bindDownloadLink(['friend_loginWbSize', 'nav_loginWebSize', 'influence_loginWbSize'], data.loginWebSize);

@@ -5098,3 +5098,25 @@ body[data-aos-delay="600"] [data-aos].aos-animate {
     padding-left: 10px !important;
   }
 }
+/* Platform download chooser */
+.download-picker { display: inline-block; position: relative; }
+.download-picker-menu {
+  background: #fff; border: 1px solid #dfe3e8; border-radius: 8px;
+  bottom: calc(100% + 10px); box-shadow: 0 12px 32px rgba(20, 28, 45, .18);
+  display: none; left: 50%; min-width: 290px; padding: 10px; position: absolute;
+  text-align: left; transform: translateX(-50%); z-index: 1000;
+}
+.download-picker-menu > strong, .download-picker-menu > small { display: block; padding: 2px 8px; }
+.download-picker-menu > strong { color: #1f2937; font-size: 14px; }
+.download-picker-menu > small { color: #6b7280; font-size: 11px; margin-bottom: 6px; }
+.download-picker-menu a { border-radius: 6px; display: block; padding: 8px; text-decoration: none; }
+.download-picker-menu a:hover, .download-picker-menu a:focus { background: #f2f6ff; outline: none; }
+.download-picker-menu a span, .download-picker-menu a small { display: block; }
+.download-picker-menu a span { color: #1f2937; font-size: 13px; font-weight: 600; }
+.download-picker-menu a small { color: #6b7280; font-size: 11px; margin-top: 2px; }
+.download-picker:hover .download-picker-menu,
+.download-picker:focus-within .download-picker-menu,
+.download-picker.is-open .download-picker-menu { display: block; }
+@media (max-width: 575px) {
+  .download-picker-menu { left: 0; max-width: calc(100vw - 32px); min-width: 270px; transform: none; }
+}
