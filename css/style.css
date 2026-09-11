@@ -5102,9 +5102,12 @@ body[data-aos-delay="600"] [data-aos].aos-animate {
 .download-picker { display: inline-block; position: relative; }
 .download-picker-menu {
   background: #fff; border: 1px solid #dfe3e8; border-radius: 8px;
-  bottom: calc(100% + 10px); box-shadow: 0 12px 32px rgba(20, 28, 45, .18);
+  bottom: 100%; box-shadow: 0 12px 32px rgba(20, 28, 45, .18);
   display: none; left: 50%; min-width: 290px; padding: 10px; position: absolute;
   text-align: left; transform: translateX(-50%); z-index: 1000;
+}
+.download-picker-menu::after {
+  content: ""; height: 12px; left: 0; position: absolute; top: 100%; width: 100%;
 }
 .download-picker-menu > strong, .download-picker-menu > small { display: block; padding: 2px 8px; }
 .download-picker-menu > strong { color: #1f2937; font-size: 14px; }
