@@ -3,18 +3,18 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/app-release.apk",
+  "androidDownload": "https://dl.ovofree.dpdns.org/app-release.apk",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 87.7 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/app-release.apk" },
-    { "label": "ARM64", "detail": "Most modern phones · 34.1 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/app-arm64-v8a-release.apk" },
-    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.9 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/app-armeabi-v7a-release.apk" },
-    { "label": "x86_64", "detail": "Emulators and x86 devices · 35.6 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/app-x86_64-release.apk" }
+    { "label": "Universal (recommended)", "detail": "All Android devices · 87.7 MB", "url": "https://dl.ovofree.dpdns.org/app-release.apk" },
+    { "label": "ARM64", "detail": "Most modern phones · 34.1 MB", "url": "https://dl.ovofree.dpdns.org/app-arm64-v8a-release.apk" },
+    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.9 MB", "url": "https://dl.ovofree.dpdns.org/app-armeabi-v7a-release.apk" },
+    { "label": "x86_64", "detail": "Emulators and x86 devices · 35.6 MB", "url": "https://dl.ovofree.dpdns.org/app-x86_64-release.apk" }
   ],
-  "windowDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/OvoSec-Windows-Portable-x64.zip",
-  "macDownload": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-arm64.dmg",
+  "windowDownload": "https://dl.ovofree.dpdns.org/OvoSec-Windows-Portable-x64.zip",
+  "macDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64.dmg",
   "macDownloads": [
-    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 50.3 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-arm64.dmg" },
-    { "label": "Intel", "detail": "Intel-based Mac · 55.3 MB", "url": "https://github.com/ovosec/ovosecpage/releases/download/v1.0.0/ovosec-1.0.10-x86_64.dmg" }
+    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 50.3 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64.dmg" },
+    { "label": "Intel", "detail": "Intel-based Mac · 55.3 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64.dmg" }
   ],
   "loginWebSize": "https://shop.ovobese.com/#/register"
 }
