@@ -121,6 +121,7 @@ function loadSocialLinks() {
 
     // Update Windows links
     bindDownloadLink(['nav_window', 'index_window', 'index_window_btn'], data.windowDownload);
+    bindDownloadMenu(['index_window', 'index_window_btn'], 'Download for Windows', data.windowDownloads);
 
     // Update Mac links
     bindDownloadLink(['nav_mac', 'index_mac', 'index_mac_btn'], data.macDownload);
