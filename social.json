@@ -3,23 +3,23 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://dl.ovofree.dpdns.org/app-release.apk?v=5b70833",
+  "androidDownload": "https://dl.ovofree.dpdns.org/app-release.apk?v=7cdf0d6",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovofree.dpdns.org/app-release.apk?v=5b70833" },
-    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovofree.dpdns.org/app-arm64-v8a-release.apk?v=5b70833" },
-    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovofree.dpdns.org/app-armeabi-v7a-release.apk?v=5b70833" },
-    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovofree.dpdns.org/app-x86_64-release.apk?v=5b70833" }
+    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovofree.dpdns.org/app-release.apk?v=7cdf0d6" },
+    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovofree.dpdns.org/app-arm64-v8a-release.apk?v=7cdf0d6" },
+    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovofree.dpdns.org/app-armeabi-v7a-release.apk?v=7cdf0d6" },
+    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovofree.dpdns.org/app-x86_64-release.apk?v=7cdf0d6" }
   ],
-  "windowDownload": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=5b70833",
+  "windowDownload": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=7cdf0d6",
   "windowDownloads": [
-    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 28.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=5b70833" },
-    { "label": "Portable EXE", "detail": "Run without installing · 27.7 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.exe?v=5b70833" },
-    { "label": "Portable ZIP", "detail": "Unzip and run · 39.2 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.zip?v=5b70833" }
+    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 26.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=7cdf0d6" },
+    { "label": "Portable EXE", "detail": "Run without installing · 25.3 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.exe?v=7cdf0d6" },
+    { "label": "Portable ZIP", "detail": "Unzip and run · 35.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.zip?v=7cdf0d6" }
   ],
-  "macDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-5b70833.dmg?v=5b70833",
+  "macDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-7cdf0d6.dmg?v=7cdf0d6",
   "macDownloads": [
-    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 44.0 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-5b70833.dmg?v=5b70833" },
-    { "label": "Intel", "detail": "Intel-based Mac · 48.2 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64-5b70833.dmg?v=5b70833" }
+    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-7cdf0d6.dmg?v=7cdf0d6" },
+    { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64-7cdf0d6.dmg?v=7cdf0d6" }
   ],
   "loginWebSize": "https://shop.ovobese.com/#/register"
 }
