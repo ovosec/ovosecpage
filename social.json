@@ -3,29 +3,29 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://dl.ovofree.dpdns.org/app-release.apk?v=7cdf0d6",
+  "androidDownload": "https://dl.ovofree.dpdns.org/app-release.apk?v=91c388f",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovofree.dpdns.org/app-release.apk?v=7cdf0d6" },
-    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovofree.dpdns.org/app-arm64-v8a-release.apk?v=7cdf0d6" },
-    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovofree.dpdns.org/app-armeabi-v7a-release.apk?v=7cdf0d6" },
-    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovofree.dpdns.org/app-x86_64-release.apk?v=7cdf0d6" }
+    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovofree.dpdns.org/app-release.apk?v=91c388f" },
+    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovofree.dpdns.org/app-arm64-v8a-release.apk?v=91c388f" },
+    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovofree.dpdns.org/app-armeabi-v7a-release.apk?v=91c388f" },
+    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovofree.dpdns.org/app-x86_64-release.apk?v=91c388f" }
   ],
-  "windowDownload": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=7cdf0d6",
+  "windowDownload": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=91c388f",
   "windowDownloads": [
-    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 26.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=7cdf0d6" },
-    { "label": "Portable EXE", "detail": "Run without installing · 25.3 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.exe?v=7cdf0d6" },
-    { "label": "Portable ZIP", "detail": "Unzip and run · 35.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.zip?v=7cdf0d6" }
+    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 26.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-setup-x64.exe?v=91c388f" },
+    { "label": "Portable EXE", "detail": "Run without installing · 25.3 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.exe?v=91c388f" },
+    { "label": "Portable ZIP", "detail": "Unzip and run · 35.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-windows-portable-x64.zip?v=91c388f" }
   ],
-  "macDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-7cdf0d6.dmg?v=7cdf0d6",
+  "macDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-91c388f.dmg?v=91c388f",
   "macDownloads": [
-    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-7cdf0d6.dmg?v=7cdf0d6" },
-    { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64-7cdf0d6.dmg?v=7cdf0d6" }
+    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-91c388f.dmg?v=91c388f" },
+    { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64-91c388f.dmg?v=91c388f" }
   ],
-  "linuxDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=7cdf0d6",
+  "linuxDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=91c388f",
   "linuxDownloads": [
-    { "label": "AppImage (recommended)", "detail": "Runs on most distributions · 42.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=7cdf0d6" },
-    { "label": "DEB", "detail": "Debian, Ubuntu, Mint · 32.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.deb?v=7cdf0d6" },
-    { "label": "RPM", "detail": "Fedora, RHEL, openSUSE · 33.2 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.rpm?v=7cdf0d6" }
+    { "label": "AppImage (recommended)", "detail": "Runs on most distributions · 42.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=91c388f" },
+    { "label": "DEB", "detail": "Debian, Ubuntu, Mint · 32.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.deb?v=91c388f" },
+    { "label": "RPM", "detail": "Fedora, RHEL, openSUSE · 33.2 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.rpm?v=91c388f" }
   ],
   "loginWebSize": "https://shop.ovobese.com/#/register"
 }
