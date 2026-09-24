@@ -21,5 +21,11 @@
     { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-arm64-7cdf0d6.dmg?v=7cdf0d6" },
     { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-x86_64-7cdf0d6.dmg?v=7cdf0d6" }
   ],
+  "linuxDownload": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=7cdf0d6",
+  "linuxDownloads": [
+    { "label": "AppImage (recommended)", "detail": "Runs on most distributions · 42.6 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.AppImage?v=7cdf0d6" },
+    { "label": "DEB", "detail": "Debian, Ubuntu, Mint · 32.1 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.deb?v=7cdf0d6" },
+    { "label": "RPM", "detail": "Fedora, RHEL, openSUSE · 33.2 MB", "url": "https://dl.ovofree.dpdns.org/ovosec-1.0.10-linux-x86_64.rpm?v=7cdf0d6" }
+  ],
   "loginWebSize": "https://shop.ovobese.com/#/register"
 }

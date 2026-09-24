@@ -127,6 +127,10 @@ function loadSocialLinks() {
     bindDownloadLink(['nav_mac', 'index_mac', 'index_mac_btn'], data.macDownload);
     bindDownloadMenu(['index_mac', 'index_mac_btn'], 'Download for Mac', data.macDownloads);
 
+    // Update Linux links
+    bindDownloadLink(['nav_linux', 'index_linux', 'index_linux_btn'], data.linuxDownload);
+    bindDownloadMenu(['index_linux', 'index_linux_btn'], 'Download for Linux', data.linuxDownloads);
+
     // Update Friend login link & Nav login links
     bindDownloadLink(['friend_loginWbSize', 'nav_loginWebSize', 'influence_loginWbSize'], data.loginWebSize);
   };
