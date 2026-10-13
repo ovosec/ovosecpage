@@ -3,29 +3,29 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://dl.ovosec.com/app-release.apk?v=91c388f",
+  "androidDownload": "https://dl.ovosec.com/app-release.apk?v=c6bfadc",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovosec.com/app-release.apk?v=91c388f" },
-    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovosec.com/app-arm64-v8a-release.apk?v=91c388f" },
-    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovosec.com/app-armeabi-v7a-release.apk?v=91c388f" },
-    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovosec.com/app-x86_64-release.apk?v=91c388f" }
+    { "label": "Universal (recommended)", "detail": "All Android devices · 87.8 MB", "url": "https://dl.ovosec.com/app-release.apk?v=c6bfadc" },
+    { "label": "ARM64", "detail": "Most modern phones · 33.3 MB", "url": "https://dl.ovosec.com/app-arm64-v8a-release.apk?v=c6bfadc" },
+    { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovosec.com/app-armeabi-v7a-release.apk?v=c6bfadc" },
+    { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovosec.com/app-x86_64-release.apk?v=c6bfadc" }
   ],
-  "windowDownload": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=91c388f",
+  "windowDownload": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=c6bfadc",
   "windowDownloads": [
-    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 26.1 MB", "url": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=91c388f" },
-    { "label": "Portable EXE", "detail": "Run without installing · 25.3 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.exe?v=91c388f" },
-    { "label": "Portable ZIP", "detail": "Unzip and run · 35.6 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.zip?v=91c388f" }
+    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 36.1 MB", "url": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=c6bfadc" },
+    { "label": "Portable EXE", "detail": "Run without installing · 35.7 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.exe?v=c6bfadc" },
+    { "label": "Portable ZIP", "detail": "Unzip and run · 50.9 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.zip?v=c6bfadc" }
   ],
-  "macDownload": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=91c388f",
+  "macDownload": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=c6bfadc",
   "macDownloads": [
-    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=91c388f" },
-    { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-x86_64-91c388f.dmg?v=91c388f" }
+    { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=c6bfadc" },
+    { "label": "Intel", "detail": "Intel-based Mac · 63.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-x86_64-91c388f.dmg?v=c6bfadc" }
   ],
-  "linuxDownload": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=91c388f",
+  "linuxDownload": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=c6bfadc",
   "linuxDownloads": [
-    { "label": "AppImage (recommended)", "detail": "Runs on most distributions · 42.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=91c388f" },
-    { "label": "DEB", "detail": "Debian, Ubuntu, Mint · 32.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.deb?v=91c388f" },
-    { "label": "RPM", "detail": "Fedora, RHEL, openSUSE · 33.2 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.rpm?v=91c388f" }
+    { "label": "AppImage (recommended)", "detail": "Runs on most distributions · 42.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=c6bfadc" },
+    { "label": "DEB", "detail": "Debian, Ubuntu, Mint · 32.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.deb?v=c6bfadc" },
+    { "label": "RPM", "detail": "Fedora, RHEL, openSUSE · 33.2 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.rpm?v=c6bfadc" }
   ],
   "loginWebSize": "https://shop.ovobese.com/#/register"
 }
