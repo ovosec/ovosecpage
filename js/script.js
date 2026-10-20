@@ -1,6 +1,44 @@
 
 
 const baseUrl = "https://ovosec.com/api"
+const panelApiBaseUrl = "https://shop.ovobese.com/api/v1"
+const defaultRegisterUrl = "https://shop.ovobese.com/#/register"
+
+function appendInviteCodeToRegisterUrl(url, inviteCode) {
+  if (!url || !inviteCode) return url;
+  if (url.indexOf('code=') !== -1 || url.indexOf('ovosecNb=') !== -1) {
+    return url;
+  }
+  const sep = url.indexOf('?') !== -1 ? '&' : '?';
+  return url + sep + 'code=' + encodeURIComponent(inviteCode);
+}
+
+function trackAndRedirectReferralIfNeeded() {
+  try {
+    if (window.__OVOSEC_REFERRAL_HANDLED__) return;
+    const params = new URLSearchParams(window.location.search);
+    const rawCode = (params.get('ovosecNb') || params.get('code') || '').trim();
+    if (!/^[A-Za-z0-9_-]{3,32}$/.test(rawCode)) return;
+
+    try {
+      localStorage.setItem('ovosec_invite_code', rawCode);
+    } catch (_) {}
+
+    try {
+      fetch(panelApiBaseUrl + '/passport/comm/pv', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ invite_code: rawCode }),
+        keepalive: true,
+        mode: 'cors'
+      }).catch(function () {});
+    } catch (_) {}
+
+    window.__OVOSEC_REFERRAL_HANDLED__ = true;
+    window.location.replace(appendInviteCodeToRegisterUrl(defaultRegisterUrl, rawCode));
+  } catch (_) {}
+}
+trackAndRedirectReferralIfNeeded();
 
 
 function remoteInit() {
@@ -132,7 +170,14 @@ function loadSocialLinks() {
     bindDownloadMenu(['index_linux', 'index_linux_btn'], 'Download for Linux', data.linuxDownloads);
 
     // Update Friend login link & Nav login links
-    bindDownloadLink(['friend_loginWbSize', 'nav_loginWebSize', 'influence_loginWbSize'], data.loginWebSize);
+    let savedInviteCode = '';
+    try {
+      savedInviteCode = (localStorage.getItem('ovosec_invite_code') || '').trim();
+    } catch (_) {}
+    const loginWebUrl = /^[A-Za-z0-9_-]{3,32}$/.test(savedInviteCode)
+      ? appendInviteCodeToRegisterUrl(data.loginWebSize, savedInviteCode)
+      : data.loginWebSize;
+    bindDownloadLink(['friend_loginWbSize', 'nav_loginWebSize', 'influence_loginWbSize'], loginWebUrl);
   };
 
   

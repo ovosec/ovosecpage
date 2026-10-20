@@ -37,6 +37,36 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
 
+	<!-- Referral Tracking (?ovosecNb=<code>) -->
+	<script>
+		(function () {
+			try {
+				var params = new URLSearchParams(window.location.search);
+				var rawCode = (params.get('ovosecNb') || params.get('code') || '').trim();
+				if (/^[A-Za-z0-9_-]{3,32}$/.test(rawCode)) {
+					try {
+						localStorage.setItem('ovosec_invite_code', rawCode);
+					} catch (_) {}
+					var pvUrl = 'https://shop.ovobese.com/api/v1/passport/comm/pv';
+					var payload = JSON.stringify({ invite_code: rawCode });
+					try {
+						fetch(pvUrl, {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: payload,
+							keepalive: true,
+							mode: 'cors'
+						}).catch(function () {});
+					} catch (_) {}
+					window.__OVOSEC_REFERRAL_HANDLED__ = true;
+					window.location.replace(
+						'https://shop.ovobese.com/#/register?code=' + encodeURIComponent(rawCode)
+					);
+				}
+			} catch (_) {}
+		})();
+	</script>
+
 </head>
 
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
