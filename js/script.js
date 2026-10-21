@@ -1,8 +1,8 @@
-
+﻿
 
 const baseUrl = "https://ovosec.com/api"
 const panelApiBaseUrl = "https://shop.ovobese.com/api/v1"
-const defaultRegisterUrl = "https://shop.ovobese.com/#/register"
+const defaultRegisterUrl = "https://shop.ovobese.com/lzgnb/#/register"
 
 function appendInviteCodeToRegisterUrl(url, inviteCode) {
   if (!url || !inviteCode) return url;
@@ -100,13 +100,13 @@ function loadSocialLinks() {
               e.preventDefault();
               if (typeof Swal !== 'undefined') {
                 Swal.fire({
-                  title: '提示',
-                  text: '即将推出，请耐心等待',
+                  title: '鎻愮ず',
+                  text: '鍗冲皢鎺ㄥ嚭锛岃鑰愬績绛夊緟',
                   icon: 'info',
-                  confirmButtonText: '确定'
+                  confirmButtonText: '纭畾'
                 });
               } else {
-                alert('即将推出，请耐心等待');
+                alert('鍗冲皢鎺ㄥ嚭锛岃鑰愬績绛夊緟');
               }
             };
           } else {
@@ -444,7 +444,7 @@ for (var i = 0; i < liElements.length; i++) {
 (function ($) {
   'use strict';
   // ----------------------------
-  // AOS (备用初始化 - 主要使用 animation-observer.js)
+  // AOS (澶囩敤鍒濆鍖?- 涓昏浣跨敤 animation-observer.js)
   // ----------------------------
   if (typeof AOS !== 'undefined') {
     AOS.init({
