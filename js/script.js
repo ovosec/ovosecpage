@@ -400,42 +400,72 @@ function createCareer() {
 }
 createCareer();
 
-translate.language.setLocal('english'); 
-if (localStorage.getItem("language")) {
-  var storedLang = localStorage.getItem("language");
-  translate.ignore.id.push('allModalCenter');
-  translate.ignore.class.push('multi-language');
+if (typeof translate !== 'undefined') {
+  translate.language.setLocal('english');
+  translate.selectLanguageTag.show = false;
+  if (translate.ignore.id.indexOf('allModalCenter') === -1) {
+    translate.ignore.id.push('allModalCenter');
+  }
+  if (translate.ignore.class.indexOf('multi-language') === -1) {
+    translate.ignore.class.push('multi-language');
+  }
   translate.service.use('client.edge');
-  translate.changeLanguage(storedLang === 'german' ? 'deutsch' : storedLang);
-  
-  
-  var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
-  if (activeLi) {
-    var langText = activeLi.textContent.trim();
-    var multiLangBtn = document.querySelector('.multi-language');
-    if (multiLangBtn) {
-      multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+
+  var storedLang = localStorage.getItem('language');
+  if (storedLang) {
+    var activeLi = document.querySelector('.language-ul li[data-value="' + storedLang + '"]');
+    if (activeLi) {
+      var langText = activeLi.textContent.trim();
+      var multiLangBtn = document.querySelector('.multi-language');
+      if (multiLangBtn) {
+        multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
+      }
+    }
+    var targetLang = storedLang === 'german' ? 'deutsch' : storedLang;
+    if (targetLang === 'english') {
+      translate.language.clearCacheLanguage();
+    } else {
+      translate.changeLanguage(targetLang);
     }
   }
 }
+
 var liElements = document.querySelectorAll('.language-ul li');
 
 for (var i = 0; i < liElements.length; i++) {
   liElements[i].addEventListener('click', function () {
     var dataValue = this.getAttribute('data-value');
     var langText = this.textContent.trim();
-    
-    
+
     var multiLangBtn = document.querySelector('.multi-language');
     if (multiLangBtn) {
       multiLangBtn.innerHTML = '<i class="ti-world"></i> ' + langText;
     }
 
-    translate.ignore.id.push('allModalCenter');
-    translate.ignore.class.push('multi-language');
+    if (typeof window.jQuery !== 'undefined') {
+      window.jQuery('#allModalCenter').modal('hide');
+    }
+
     localStorage.setItem('language', dataValue);
-    translate.service.use('client.edge');
-    translate.changeLanguage(dataValue === 'german' ? 'deutsch' : dataValue);
+    if (typeof translate !== 'undefined') {
+      if (translate.ignore.id.indexOf('allModalCenter') === -1) {
+        translate.ignore.id.push('allModalCenter');
+      }
+      if (translate.ignore.class.indexOf('multi-language') === -1) {
+        translate.ignore.class.push('multi-language');
+      }
+      translate.service.use('client.edge');
+      var targetLang = dataValue === 'german' ? 'deutsch' : dataValue;
+      var currentLang = translate.to || translate.storage.get('to') || 'english';
+      if (targetLang === 'english') {
+        translate.language.clearCacheLanguage();
+        if (currentLang && currentLang !== 'english') {
+          location.reload();
+        }
+      } else {
+        translate.changeLanguage(targetLang);
+      }
+    }
   });
 }
 

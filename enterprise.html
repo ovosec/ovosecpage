@@ -40,41 +40,78 @@
 	<style>
 		.enterprise-hero {
 			background: radial-gradient(circle at 80% 20%, rgba(79, 70, 229, 0.25) 0%, rgba(15, 23, 42, 0) 45%),
-				linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%);
-			color: #ffffff;
+				linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%) !important;
+			color: #ffffff !important;
 			padding: 100px 0 85px;
 		}
 
-		.enterprise-hero h1 {
-			color: #ffffff;
-			font-family: 'Outfit', sans-serif;
-			font-weight: 800;
+		.enterprise-hero h1,
+		.enterprise-hero h2,
+		.enterprise-hero h3,
+		.enterprise-hero h4,
+		.enterprise-hero h5,
+		.enterprise-hero h6,
+		.enterprise-hero h1 font,
+		.enterprise-hero h2 font,
+		.enterprise-hero h3 font,
+		.enterprise-hero .display-4 {
+			color: #ffffff !important;
+			font-family: 'Outfit', sans-serif !important;
+			font-weight: 800 !important;
 			letter-spacing: -1.2px;
 		}
 
-		.enterprise-hero p.lead {
-			color: #cbd5e1;
+		.enterprise-hero p,
+		.enterprise-hero p.lead,
+		.enterprise-hero p font,
+		.enterprise-hero p.lead font {
+			color: #e2e8f0 !important;
 			line-height: 1.8;
 		}
 
+		.enterprise-hero .badge-premium,
+		.enterprise-hero .badge-premium font {
+			background: rgba(99, 102, 241, 0.26) !important;
+			color: #e0e7ff !important;
+			border: 1px solid rgba(165, 180, 252, 0.35) !important;
+		}
+
+		.btn-ent-outline {
+			background: rgba(255, 255, 255, 0.08) !important;
+			color: #ffffff !important;
+			border: 1px solid rgba(255, 255, 255, 0.45) !important;
+			font-weight: 600 !important;
+			border-radius: 0 !important;
+			transition: all 0.2s ease;
+		}
+
+		.btn-ent-outline:hover,
+		.btn-ent-outline:focus {
+			background: #ffffff !important;
+			color: #0f172a !important;
+			border-color: #ffffff !important;
+		}
+
 		.ent-stat-box {
-			background: rgba(255, 255, 255, 0.06);
-			border: 1px solid rgba(255, 255, 255, 0.12);
+			background: rgba(255, 255, 255, 0.07) !important;
+			border: 1px solid rgba(255, 255, 255, 0.16) !important;
 			padding: 22px 20px;
 			text-align: center;
 		}
 
-		.ent-stat-num {
-			font-family: 'Outfit', sans-serif;
+		.ent-stat-num,
+		.ent-stat-num font {
+			font-family: 'Outfit', sans-serif !important;
 			font-size: 2rem;
-			font-weight: 800;
-			color: #ffffff;
+			font-weight: 800 !important;
+			color: #ffffff !important;
 			line-height: 1.1;
 		}
 
-		.ent-stat-label {
+		.ent-stat-label,
+		.ent-stat-label font {
 			font-size: 0.85rem;
-			color: #94a3b8;
+			color: #cbd5e1 !important;
 			margin-top: 6px;
 		}
 
@@ -258,8 +295,7 @@
 							style="font-weight: 600; border-radius: 0;">
 							Request a Custom Quote
 						</a>
-						<a href="https://shop.ovobese.com/lzgnb/#/login" class="btn btn-outline-light btn-lg px-5 py-3"
-							style="font-weight: 600; border-radius: 0;">
+						<a href="https://shop.ovobese.com/lzgnb/#/login" class="btn btn-ent-outline btn-lg px-5 py-3">
 							Enterprise Admin Console
 						</a>
 					</div>

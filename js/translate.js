@@ -1344,7 +1344,7 @@ var translate = {
 
                     // v3.0.3 added to avoid the problem of text duplication after translation when JavaScript is incorrectly translated as "JavaScript" and then Javascript appears in multiple sentences.
                     // Here is to verify whether the translated text will completely contain the previous text. If it does, then the translated text will be forced to be assigned to the original text before translation (that is, it will not be translated)
-                    if (text.toLowerCase().indexOf(translateTextArray[data.from][i].toLowerCase()) > -1) {
+                    if (translate.whole.tag.length === 0 && text.toLowerCase().indexOf(translateTextArray[data.from][i].toLowerCase()) > -1) {
                         //Found it, then force it to turn over the previous content
                         text = translateTextArray[data.from][i];
                     }
@@ -1719,6 +1719,9 @@ var translate = {
         } else {
             //Directly translate the content within the entire element without classifying the language. First delete English, and then use the language with the most occurrences as the original language.
             var lang = textRecognition.languageName;
+            if (lang == '' || lang == translate.to) {
+                return;
+            }
             translate.addNodeQueueItem(uuid, node, text, attribute, lang, '', '');
         }
 
@@ -2713,12 +2716,12 @@ var translate = {
         //The client-side edge provides machine translation services
         edge: {
             api: { //edge browser translation function
-                auth: 'https://edge.microsoft.com/translate/auth', //auth Authorized Pull
-                translate: 'https://api-edge.cognitive.microsofttranslator.com/translate?from={from}&to={to}&api-version=3.0&includeSentenceLength=true' //Translation interface
+                auth: 'https://edge.microsoft.com/translate/auth', //auth Authorized Pull (deprecated)
+                translate: 'https://edge.microsoft.com/translate/translatetext?from={from}&to={to}&isEnterpriseClient=false' //Direct Edge translation interface
             },
 
             language: {
-                json: [{ "id": "ukrainian", "name": "УкраїнськаName", "serviceId": "uk" }, { "id": "norwegian", "name": "Norge", "serviceId": "no" }, { "id": "welsh", "name": "color name", "serviceId": "cy" }, { "id": "dutch", "name": "nederlands", "serviceId": "nl" }, { "id": "japanese", "name": "しろうと", "serviceId": "ja" }, { "id": "filipino", "name": "Pilipino", "serviceId": "fil" }, { "id": "english", "name": "English", "serviceId": "en" }, { "id": "lao", "name": "ກະຣຸນາ", "serviceId": "lo" }, { "id": "telugu", "name": "తెలుగుQFontDatabase", "serviceId": "te" }, { "id": "romanian", "name": "Română", "serviceId": "ro" }, { "id": "nepali", "name": "नेपालीName", "serviceId": "ne" }, { "id": "french", "name": "Français", "serviceId": "fr" }, { "id": "haitian_creole", "name": "Kreyòl ayisyen", "serviceId": "ht" }, { "id": "czech", "name": "český", "serviceId": "cs" }, { "id": "swedish", "name": "Svenska", "serviceId": "sv" }, { "id": "russian", "name": "Русский язык", "serviceId": "ru" }, { "id": "malagasy", "name": "Malagasy", "serviceId": "mg" }, { "id": "burmese", "name": "ဗာရမ်", "serviceId": "my" }, { "id": "pashto", "name": "پښتوName", "serviceId": "ps" }, { "id": "thai", "name": "คนไทย", "serviceId": "th" }, { "id": "armenian", "name": "Արմենյան", "serviceId": "hy" }, { "id": "chinese_simplified", "name": "简体中文", "serviceId": "zh-CHS" }, { "id": "persian", "name": "Persian", "serviceId": "fa" }, { "id": "chinese_traditional", "name": "繁體中文", "serviceId": "zh-CHT" }, { "id": "kurdish", "name": "Kurdî", "serviceId": "ku" }, { "id": "turkish", "name": "Türkçe", "serviceId": "tr" }, { "id": "hindi", "name": "हिन्दी", "serviceId": "hi" }, { "id": "bulgarian", "name": "български", "serviceId": "bg" }, { "id": "malay", "name": "Malay", "serviceId": "ms" }, { "id": "swahili", "name": "Kiswahili", "serviceId": "sw" }, { "id": "oriya", "name": "ଓଡିଆ", "serviceId": "or" }, { "id": "icelandic", "name": "ÍslandName", "serviceId": "is" }, { "id": "irish", "name": "Íris", "serviceId": "ga" }, { "id": "khmer", "name": "ខ្មែរKCharselect unicode block name", "serviceId": "km" }, { "id": "gujarati", "name": "ગુજરાતી", "serviceId": "gu" }, { "id": "slovak", "name": "Slovenská", "serviceId": "sk" }, { "id": "kannada", "name": "ಕನ್ನಡ್Name", "serviceId": "kn" }, { "id": "hebrew", "name": "היברית", "serviceId": "he" }, { "id": "hungarian", "name": "magyar", "serviceId": "hu" }, { "id": "marathi", "name": "मराठीName", "serviceId": "mr" }, { "id": "tamil", "name": "தாமில்", "serviceId": "ta" }, { "id": "estonian", "name": "eesti keel", "serviceId": "et" }, { "id": "malayalam", "name": "മലമാലം", "serviceId": "ml" }, { "id": "inuktitut", "name": "ᐃᓄᒃᑎᑐᑦ", "serviceId": "iu" }, { "id": "arabic", "name": "بالعربية", "serviceId": "ar" }, { "id": "deutsch", "name": "Deutsch", "serviceId": "de" }, { "id": "slovene", "name": "slovenščina", "serviceId": "sl" }, { "id": "bengali", "name": "বেঙ্গালী", "serviceId": "bn" }, { "id": "urdu", "name": "اوردو", "serviceId": "ur" }, { "id": "azerbaijani", "name": "azerbaijani", "serviceId": "az" }, { "id": "portuguese", "name": "português", "serviceId": "pt" }, { "id": "samoan", "name": "lifiava", "serviceId": "sm" }, { "id": "afrikaans", "name": "afrikaans", "serviceId": "af" }, { "id": "tongan", "name": "汤加语", "serviceId": "to" }, { "id": "greek", "name": "ελληνικά", "serviceId": "el" }, { "id": "indonesian", "name": "IndonesiaName", "serviceId": "id" }, { "id": "spanish", "name": "Español", "serviceId": "es" }, { "id": "danish", "name": "dansk", "serviceId": "da" }, { "id": "amharic", "name": "amharic", "serviceId": "am" }, { "id": "punjabi", "name": "ਪੰਜਾਬੀName", "serviceId": "pa" }, { "id": "albanian", "name": "albanian", "serviceId": "sq" }, { "id": "lithuanian", "name": "Lietuva", "serviceId": "lt" }, { "id": "italian", "name": "italiano", "serviceId": "it" }, { "id": "vietnamese", "name": "Tiếng Việt", "serviceId": "vi" }, { "id": "korean", "name": "한국어", "serviceId": "ko" }, { "id": "maltese", "name": "Malti", "serviceId": "mt" }, { "id": "finnish", "name": "suomi", "serviceId": "fi" }, { "id": "catalan", "name": "català", "serviceId": "ca" }, { "id": "croatian", "name": "hrvatski", "serviceId": "hr" }, { "id": "bosnian", "name": "bosnian", "serviceId": "bs-Latn" }, { "id": "polish", "name": "Polski", "serviceId": "pl" }, { "id": "latvian", "name": "latviešu", "serviceId": "lv" }, { "id": "maori", "name": "Maori", "serviceId": "mi" }],
+                json: [{ "id": "ukrainian", "name": "УкраїнськаName", "serviceId": "uk" }, { "id": "norwegian", "name": "Norge", "serviceId": "no" }, { "id": "welsh", "name": "color name", "serviceId": "cy" }, { "id": "dutch", "name": "nederlands", "serviceId": "nl" }, { "id": "japanese", "name": "しろうと", "serviceId": "ja" }, { "id": "filipino", "name": "Pilipino", "serviceId": "fil" }, { "id": "english", "name": "English", "serviceId": "en" }, { "id": "lao", "name": "ກະຣຸນາ", "serviceId": "lo" }, { "id": "telugu", "name": "తెలుగుQFontDatabase", "serviceId": "te" }, { "id": "romanian", "name": "Română", "serviceId": "ro" }, { "id": "nepali", "name": "नेपालीName", "serviceId": "ne" }, { "id": "french", "name": "Français", "serviceId": "fr" }, { "id": "haitian_creole", "name": "Kreyòl ayisyen", "serviceId": "ht" }, { "id": "czech", "name": "český", "serviceId": "cs" }, { "id": "swedish", "name": "Svenska", "serviceId": "sv" }, { "id": "russian", "name": "Русский язык", "serviceId": "ru" }, { "id": "malagasy", "name": "Malagasy", "serviceId": "mg" }, { "id": "burmese", "name": "ဗာရမ်", "serviceId": "my" }, { "id": "pashto", "name": "پښتوName", "serviceId": "ps" }, { "id": "thai", "name": "คนไทย", "serviceId": "th" }, { "id": "armenian", "name": "Արմենյան", "serviceId": "hy" }, { "id": "chinese_simplified", "name": "简体中文", "serviceId": "zh-CHS" }, { "id": "persian", "name": "Persian", "serviceId": "fa" }, { "id": "chinese_traditional", "name": "繁體中文", "serviceId": "zh-CHT" }, { "id": "kurdish", "name": "Kurdî", "serviceId": "ku" }, { "id": "turkish", "name": "Türkçe", "serviceId": "tr" }, { "id": "hindi", "name": "हिन्दी", "serviceId": "hi" }, { "id": "bulgarian", "name": "български", "serviceId": "bg" }, { "id": "malay", "name": "Malay", "serviceId": "ms" }, { "id": "swahili", "name": "Kiswahili", "serviceId": "sw" }, { "id": "oriya", "name": "ଓଡିଆ", "serviceId": "or" }, { "id": "icelandic", "name": "ÍslandName", "serviceId": "is" }, { "id": "irish", "name": "Íris", "serviceId": "ga" }, { "id": "khmer", "name": "ខ្មែរKCharselect unicode block name", "serviceId": "km" }, { "id": "gujarati", "name": "ગુજરાતી", "serviceId": "gu" }, { "id": "slovak", "name": "Slovenská", "serviceId": "sk" }, { "id": "kannada", "name": "ಕನ್ನಡ್Name", "serviceId": "kn" }, { "id": "hebrew", "name": "היברית", "serviceId": "he" }, { "id": "hungarian", "name": "magyar", "serviceId": "hu" }, { "id": "marathi", "name": "मराठीName", "serviceId": "mr" }, { "id": "tamil", "name": "தாமில்", "serviceId": "ta" }, { "id": "estonian", "name": "eesti keel", "serviceId": "et" }, { "id": "malayalam", "name": "മലമാലം", "serviceId": "ml" }, { "id": "inuktitut", "name": "ᐃᓄᒃᑎᑐᑦ", "serviceId": "iu" }, { "id": "arabic", "name": "بالعربية", "serviceId": "ar" }, { "id": "deutsch", "name": "Deutsch", "serviceId": "de" }, { "id": "german", "name": "Deutsch", "serviceId": "de" }, { "id": "slovene", "name": "slovenščina", "serviceId": "sl" }, { "id": "bengali", "name": "বেঙ্গালী", "serviceId": "bn" }, { "id": "urdu", "name": "اوردو", "serviceId": "ur" }, { "id": "azerbaijani", "name": "azerbaijani", "serviceId": "az" }, { "id": "portuguese", "name": "português", "serviceId": "pt" }, { "id": "samoan", "name": "lifiava", "serviceId": "sm" }, { "id": "afrikaans", "name": "afrikaans", "serviceId": "af" }, { "id": "tongan", "name": "汤加语", "serviceId": "to" }, { "id": "greek", "name": "ελληνικά", "serviceId": "el" }, { "id": "indonesian", "name": "IndonesiaName", "serviceId": "id" }, { "id": "spanish", "name": "Español", "serviceId": "es" }, { "id": "danish", "name": "dansk", "serviceId": "da" }, { "id": "amharic", "name": "amharic", "serviceId": "am" }, { "id": "punjabi", "name": "ਪੰਜਾਬੀName", "serviceId": "pa" }, { "id": "albanian", "name": "albanian", "serviceId": "sq" }, { "id": "lithuanian", "name": "Lietuva", "serviceId": "lt" }, { "id": "italian", "name": "italiano", "serviceId": "it" }, { "id": "vietnamese", "name": "Tiếng Việt", "serviceId": "vi" }, { "id": "korean", "name": "한국어", "serviceId": "ko" }, { "id": "maltese", "name": "Malti", "serviceId": "mt" }, { "id": "finnish", "name": "suomi", "serviceId": "fi" }, { "id": "catalan", "name": "català", "serviceId": "ca" }, { "id": "croatian", "name": "hrvatski", "serviceId": "hr" }, { "id": "bosnian", "name": "bosnian", "serviceId": "bs-Latn" }, { "id": "polish", "name": "Polski", "serviceId": "pl" }, { "id": "latvian", "name": "latviešu", "serviceId": "lv" }, { "id": "maori", "name": "Maori", "serviceId": "mi" }],
                 /*
                     Get the language list in map form 
                     The key is the name of translate.service  
@@ -2740,20 +2743,14 @@ var translate = {
             translate: function (path, data, func) {
                 var textArray = JSON.parse(decodeURIComponent(data.text));
                 let translateTextArray = translate.util.split(textArray, 48000);
-                //console.log(translateTextArray);
+                var from = translate.service.edge.language.getMap()[data.from] || 'en';
+                var to = translate.service.edge.language.getMap()[data.to] || 'en';
+                var transUrl = translate.service.edge.api.translate.replace('{from}', from).replace('{to}', to);
 
-
-                translate.request.send(translate.service.edge.api.auth, {}, function (auth) {
-                    var from = translate.service.edge.language.getMap()[data.from];
-                    var to = translate.service.edge.language.getMap()[data.to];
-                    var transUrl = translate.service.edge.api.translate.replace('{from}', from).replace('{to}', to);
-
-                    //If the translation volume is large, it must be split into multiple translation requests
-                    for (var tai = 0; tai < translateTextArray.length; tai++) {
-                        var json = [];
-                        for (var i = 0; i < translateTextArray[tai].length; i++) {
-                            json.push({ "Text": translateTextArray[tai][i] });
-                        }
+                //If the translation volume is large, it must be split into multiple translation requests
+                for (var tai = 0; tai < translateTextArray.length; tai++) {
+                    (function (batchIndex) {
+                        var json = translateTextArray[batchIndex];
 
                         translate.request.send(transUrl, JSON.stringify(json), function (result) {
                             var d = {};
@@ -2766,29 +2763,12 @@ var translate = {
                                 d.text.push(result[t].translations[0].text);
                             }
 
-
-                            //Determine whether the current translation has been split again. For example, if it exceeds 50,000 characters at a time, it will be split into multiple requests.
+                            //Determine whether the current translation has been split again.
                             if (translateTextArray.length > 1) {
-                                //This time the translation has split multiple requests, so the array needs to be completed so that the number of arrays can be consistent.
-
-
-                                var currentIndex = -1;	//The array index of the split number that the current translation request belongs to, starting from 0
-                                for (var cri = 0; cri < translateTextArray.length; cri++) {
-                                    if (translateTextArray[cri].length - d.text.length == 0) {
-                                        currentIndex = cri;
-                                        break;
-                                    }
-                                }
-
-                                //Complement the array before and after
-                                if (currentIndex < 0) {
-                                    console.log('------ERROR--------');
-                                    console.log('The content to be translated was too large and was split, but an error occurred during the splitting process (currentIndex: -1). Please contact http://translate.zvo.cn/43006.html for assistance.');
-                                }
+                                var currentIndex = batchIndex;
                                 //Fill before inserting empty array
                                 for (var addbeforei = 0; addbeforei < currentIndex; addbeforei++) {
                                     var beforeItemArrayLength = translateTextArray[addbeforei].length;
-                                    //console.log('beforeItemArrayLength:'+beforeItemArrayLength);
                                     for (var bi = 0; bi < beforeItemArrayLength; bi++) {
                                         d.text.unshift(null);
                                     }
@@ -2800,23 +2780,22 @@ var translate = {
                                         d.text.push(null);
                                     }
                                 }
-
                             }
 
                             func(d);
-                        }, 'post', true, { 'Authorization': 'Bearer ' + auth, 'Content-Type': 'application/json' }, function (xhr) {
-                            console.log('---------error--------');
-                            console.log('edge translate service error, http code : ' + xhr.status + ', response text : ' + xhr.responseText);
+                        }, 'post', true, { 'Content-Type': 'application/json' }, function (xhr) {
+                            // Automatic fallback to translate.service (ZVO) if edge endpoint is blocked or fails
+                            var zvoData = {
+                                from: data.from,
+                                to: data.to === 'german' ? 'deutsch' : data.to,
+                                text: data.text
+                            };
+                            translate.request.send(path, zvoData, func, 'post', true, { 'content-type': 'application/x-www-form-urlencoded' }, function (errXhr) {
+                                console.log('edge & fallback translate service error, http code : ' + errXhr.status);
+                            }, true);
                         }, true);
-
-
-                    }
-
-                }, 'get', true, { 'content-type': 'application/x-www-form-urlencoded' }, function (xhr) {
-                    console.log('---------error--------');
-                    console.log('edge translate service error, http code : ' + xhr.status + ', response text : ' + xhr.responseText);
-                }, true);
-
+                    })(tai);
+                }
             }
         }
     },
@@ -3257,7 +3236,7 @@ var translate = {
                                 }
                             }
                             //client.edge judgment
-                            if (url.indexOf(translate.service.edge.api.auth) > -1) {
+                            if (url.indexOf('edge.microsoft.com/translate') > -1) {
                                 ignoreUrl = true;
                             }
                             if (url.indexOf('.microsofttranslator.com/translate') > -1) {

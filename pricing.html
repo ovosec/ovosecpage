@@ -115,21 +115,68 @@
 		}
 
 		.pricing-card.enterprise-card {
-			background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
-			color: #ffffff;
-			border-color: #0f172a;
+			background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%) !important;
+			color: #ffffff !important;
+			border-color: #0f172a !important;
 		}
 
+		.pricing-card.enterprise-card h1,
+		.pricing-card.enterprise-card h2,
 		.pricing-card.enterprise-card h3,
+		.pricing-card.enterprise-card h4,
+		.pricing-card.enterprise-card h5,
+		.pricing-card.enterprise-card h6,
+		.pricing-card.enterprise-card h3 font,
 		.pricing-card.enterprise-card .price-main,
-		.pricing-card.enterprise-card .tier-subtitle {
+		.pricing-card.enterprise-card .price-main font,
+		.pricing-card.enterprise-card .tier-subtitle,
+		.pricing-card.enterprise-card .tier-subtitle font,
+		.pricing-card.enterprise-card strong,
+		.pricing-card.enterprise-card strong font {
 			color: #ffffff !important;
 		}
 
-		.pricing-card.enterprise-card p,
-		.pricing-card.enterprise-card li,
-		.pricing-card.enterprise-card .price-sub {
+		.pricing-card.enterprise-card .price-main small,
+		.pricing-card.enterprise-card .price-main small font {
 			color: #cbd5e1 !important;
+		}
+
+		.pricing-card.enterprise-card p,
+		.pricing-card.enterprise-card p font,
+		.pricing-card.enterprise-card li,
+		.pricing-card.enterprise-card li span,
+		.pricing-card.enterprise-card li font,
+		.pricing-card.enterprise-card .price-sub,
+		.pricing-card.enterprise-card .price-sub font {
+			color: #e2e8f0 !important;
+		}
+
+		.enterprise-callout-banner {
+			background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%) !important;
+			color: #ffffff !important;
+			border: 1px solid rgba(255, 255, 255, 0.14) !important;
+		}
+
+		.enterprise-callout-banner h1,
+		.enterprise-callout-banner h2,
+		.enterprise-callout-banner h3,
+		.enterprise-callout-banner h4,
+		.enterprise-callout-banner h5,
+		.enterprise-callout-banner h6,
+		.enterprise-callout-banner h3 font {
+			color: #ffffff !important;
+		}
+
+		.enterprise-callout-banner p,
+		.enterprise-callout-banner p font {
+			color: #e2e8f0 !important;
+		}
+
+		.enterprise-callout-banner .badge-premium,
+		.enterprise-callout-banner .badge-premium font {
+			background: rgba(99, 102, 241, 0.28) !important;
+			color: #e0e7ff !important;
+			border: 1px solid rgba(165, 180, 252, 0.35) !important;
 		}
 
 		.popular-ribbon {
@@ -360,16 +407,16 @@
 							Monthly
 						</button>
 						<button type="button" class="cycle-tab-btn" data-cycle="quarter_price">
-							Quarterly <span class="cycle-save-pill">-14%</span>
+							Quarterly <span class="cycle-save-pill ignore">-14%</span>
 						</button>
 						<button type="button" class="cycle-tab-btn" data-cycle="half_year_price">
-							6 Months <span class="cycle-save-pill">-24%</span>
+							6 Months <span class="cycle-save-pill ignore">-24%</span>
 						</button>
 						<button type="button" class="cycle-tab-btn active" data-cycle="year_price">
-							Annual <span class="cycle-save-pill">Save 35%</span>
+							Annual <span class="cycle-save-pill">Save <span class="ignore">35%</span></span>
 						</button>
 						<button type="button" class="cycle-tab-btn" data-cycle="two_year_price">
-							2 Years <span class="cycle-save-pill">Save 46%</span>
+							2 Years <span class="cycle-save-pill">Save <span class="ignore">46%</span></span>
 						</button>
 					</div>
 				</div>
@@ -413,25 +460,40 @@
 				<!-- 2. VIP Tier (id=3) -->
 				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
 					<div class="pricing-card" id="plan-card-vip">
-						<span class="tier-code-badge">VIP</span>
+						<span class="tier-code-badge ignore">VIP</span>
 						<h3 class="font-weight-bold text-dark mb-1" style="font-size: 1.4rem;" id="vip-plan-title">VIP
-							畅享会员</h3>
-						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">High-capacity streaming &
+							Membership</h3>
+						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">High-capacity streaming &amp;
 							effortless smart routing</p>
 
 						<div class="price-block">
-							<div class="price-main" id="vip-price-main">$3.25<small> / mo</small></div>
-							<div class="price-sub" id="vip-price-sub">Billed $39.00 annually · Save 35%</div>
+							<div class="price-main" id="vip-price-main"><span class="ignore"
+									id="vip-price-amount">$3.25</span><small> / mo</small></div>
+							<div class="price-sub" id="vip-price-sub">
+								<span class="ignore" id="vip-sub-total">$39.00</span> ·
+								<span class="js-vip-cycle-label" data-cycle-label="month_price"
+									style="display: none;">Billed monthly · Flexible cancel</span>
+								<span class="js-vip-cycle-label" data-cycle-label="quarter_price"
+									style="display: none;">Billed every 3 months</span>
+								<span class="js-vip-cycle-label" data-cycle-label="half_year_price"
+									style="display: none;">Billed every 6 months</span>
+								<span class="js-vip-cycle-label" data-cycle-label="year_price">Billed annually</span>
+								<span class="js-vip-cycle-label" data-cycle-label="two_year_price"
+									style="display: none;">Billed every 2 years</span>
+								<span id="vip-sub-save-wrap"> · <span>Save</span> <span class="ignore"
+										id="vip-sub-save">35%</span></span>
+							</div>
 						</div>
 
 						<ul class="feature-list">
-							<li><i class="ti-check"></i><span>Unlimited experience (<strong id="vip-quota-text">2000
-										GB/mo</strong> high-speed assurance)</span></li>
+							<li><i class="ti-check"></i><span>Unlimited experience (<strong><span class="ignore"
+											id="vip-quota-num">2000</span> GB/mo</strong> high-speed assurance)</span></li>
 							<li><i class="ti-check"></i><span><strong>Auto Smart Connect</strong> (intelligent lowest-load
 									routing)</span></li>
 							<li><i class="ti-check"></i><span>Native IP unlock for Netflix, Disney+, YouTube 4K, TikTok
 									&amp; ChatGPT</span></li>
-							<li><i class="ti-check"></i><span>Up to <strong id="vip-device-text">3 devices</strong>
+							<li><i class="ti-check"></i><span>Up to <strong><span class="ignore"
+											id="vip-device-num">3</span> devices</strong>
 									online simultaneously</span></li>
 							<li><i class="ti-check"></i><span>Windows, macOS, Android, iOS &amp; Linux support</span></li>
 						</ul>
@@ -448,25 +510,41 @@
 				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="150">
 					<div class="pricing-card featured-pro" id="plan-card-pro">
 						<span class="popular-ribbon">Most Popular</span>
-						<span class="tier-code-badge">PRO</span>
+						<span class="tier-code-badge ignore">PRO</span>
 						<h3 class="font-weight-bold text-dark mb-1" style="font-size: 1.4rem;" id="pro-plan-title">PRO
-							极速会员</h3>
+							Membership</h3>
 						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">Full-speed flagship lines &amp;
 							manual global node selection</p>
 
 						<div class="price-block">
-							<div class="price-main" id="pro-price-main">$6.58<small> / mo</small></div>
-							<div class="price-sub" id="pro-price-sub">Billed $79.00 annually · Save 34%</div>
+							<div class="price-main" id="pro-price-main"><span class="ignore"
+									id="pro-price-amount">$6.58</span><small> / mo</small></div>
+							<div class="price-sub" id="pro-price-sub">
+								<span class="ignore" id="pro-sub-total">$79.00</span> ·
+								<span class="js-pro-cycle-label" data-cycle-label="month_price"
+									style="display: none;">Billed monthly · Flexible cancel</span>
+								<span class="js-pro-cycle-label" data-cycle-label="quarter_price"
+									style="display: none;">Billed every 3 months</span>
+								<span class="js-pro-cycle-label" data-cycle-label="half_year_price"
+									style="display: none;">Billed every 6 months</span>
+								<span class="js-pro-cycle-label" data-cycle-label="year_price">Billed annually</span>
+								<span class="js-pro-cycle-label" data-cycle-label="two_year_price"
+									style="display: none;">Billed every 2 years</span>
+								<span id="pro-sub-save-wrap"> · <span>Save</span> <span class="ignore"
+										id="pro-sub-save">34%</span></span>
+							</div>
 						</div>
 
 						<ul class="feature-list">
-							<li><i class="ti-check"></i><span><strong id="pro-quota-text">500 GB/mo</strong> flagship
+							<li><i class="ti-check"></i><span><strong><span class="ignore"
+											id="pro-quota-num">500</span> GB/mo</strong> flagship
 									dedicated high-speed traffic</span></li>
 							<li><i class="ti-check"></i><span><strong>Auto Connect + Manual Selection</strong> of all
 									global VIP &amp; PRO nodes (HK, Tokyo, SG, LA, etc.)</span></li>
 							<li><i class="ti-check"></i><span>Native IP unlock for 4K/8K streaming, full AI productivity
 									suite &amp; low-latency gaming</span></li>
-							<li><i class="ti-check"></i><span>Up to <strong id="pro-device-text">5 devices</strong>
+							<li><i class="ti-check"></i><span>Up to <strong><span class="ignore"
+											id="pro-device-num">5</span> devices</strong>
 									online simultaneously (ideal for multi-device pros)</span></li>
 							<li><i class="ti-check"></i><span>Priority routing during peak hours</span></li>
 						</ul>
@@ -598,16 +676,13 @@
 	<!-- Enterprise Callout Banner -->
 	<section class="section py-6 bg-white">
 		<div class="container">
-			<div class="p-5"
-				style="background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); color: #fff; border: 1px solid rgba(255,255,255,0.1);"
-				data-aos="fade-up">
+			<div class="p-5 enterprise-callout-banner" data-aos="fade-up">
 				<div class="row align-items-center">
 					<div class="col-lg-8 mb-4 mb-lg-0">
-						<span class="badge-premium mb-2"
-							style="background: rgba(99,102,241,0.25); color: #c7d2fe;">OVOSEC for Business</span>
+						<span class="badge-premium mb-2">OVOSEC for Business</span>
 						<h3 class="font-weight-bold text-white mb-2" style="font-size: 1.85rem;">Need Dedicated
 							Singapore / US / Tokyo Nodes for Your Organization?</h3>
-						<p class="mb-0" style="color: #cbd5e1; font-size: 1.02rem;">
+						<p class="mb-0" style="color: #e2e8f0; font-size: 1.02rem;">
 							Deploy isolated enterprise node groups with a shared 50+ device pool, per-employee quota
 							allocation, and a distraction-free enterprise client.
 						</p>
@@ -718,7 +793,7 @@
 			var fallbackPlans = {
 				VIP: {
 					id: 3,
-					name: 'VIP 畅享会员',
+					name: 'VIP Membership',
 					tier_code: 'VIP',
 					transfer_enable: 2000,
 					device_limit: 3,
@@ -730,7 +805,7 @@
 				},
 				PRO: {
 					id: 5,
-					name: 'PRO 极速会员',
+					name: 'PRO Membership',
 					tier_code: 'PRO',
 					transfer_enable: 500,
 					device_limit: 5,
@@ -743,11 +818,11 @@
 			};
 
 			var cycleMeta = {
-				month_price: { months: 1, label: 'Billed monthly' },
-				quarter_price: { months: 3, label: 'every 3 months' },
-				half_year_price: { months: 6, label: 'every 6 months' },
-				year_price: { months: 12, label: 'annually' },
-				two_year_price: { months: 24, label: 'every 2 years' }
+				month_price: { months: 1, key: 'month_price' },
+				quarter_price: { months: 3, key: 'quarter_price' },
+				half_year_price: { months: 6, key: 'half_year_price' },
+				year_price: { months: 12, key: 'year_price' },
+				two_year_price: { months: 24, key: 'two_year_price' }
 			};
 
 			var activeCycle = 'year_price';
@@ -765,21 +840,49 @@
 				}
 				var perMonth = (Number(rawCents) / 100 / meta.months).toFixed(2);
 				var totalUsd = formatUsd(rawCents);
-				var subText = meta.months === 1
-					? 'Billed $' + totalUsd + ' monthly · Flexible cancel'
-					: 'Billed $' + totalUsd + ' ' + meta.label;
+				var savePct = 0;
 
 				if (meta.months > 1 && plan.month_price > 0) {
 					var fullCents = plan.month_price * meta.months;
 					if (fullCents > rawCents) {
-						var savePct = Math.round((1 - rawCents / fullCents) * 100);
-						subText += ' · Save ' + savePct + '%';
+						savePct = Math.round((1 - rawCents / fullCents) * 100);
 					}
 				}
 				return {
+					effectiveKey: meta.key,
 					perMonth: perMonth,
-					subText: subText
+					totalUsd: totalUsd,
+					savePct: savePct
 				};
+			}
+
+			function updateCardDom(prefix, plan, display) {
+				var amountEl = document.getElementById(prefix + '-price-amount');
+				var totalEl = document.getElementById(prefix + '-sub-total');
+				var saveWrapEl = document.getElementById(prefix + '-sub-save-wrap');
+				var saveEl = document.getElementById(prefix + '-sub-save');
+				var quotaEl = document.getElementById(prefix + '-quota-num');
+				var deviceEl = document.getElementById(prefix + '-device-num');
+
+				if (amountEl) amountEl.textContent = '$' + display.perMonth;
+				if (totalEl) totalEl.textContent = '$' + display.totalUsd;
+
+				var labels = document.querySelectorAll('.js-' + prefix + '-cycle-label');
+				labels.forEach(function (lbl) {
+					lbl.style.display = (lbl.getAttribute('data-cycle-label') === display.effectiveKey) ? '' : 'none';
+				});
+
+				if (saveWrapEl && saveEl) {
+					if (display.savePct > 0) {
+						saveEl.textContent = display.savePct + '%';
+						saveWrapEl.style.display = '';
+					} else {
+						saveWrapEl.style.display = 'none';
+					}
+				}
+
+				if (quotaEl && plan.transfer_enable) quotaEl.textContent = String(plan.transfer_enable);
+				if (deviceEl && plan.device_limit) deviceEl.textContent = String(plan.device_limit);
 			}
 
 			function renderPlans(cycleKey) {
@@ -790,25 +893,8 @@
 				var vipDisplay = computeCycleDisplay(vip, activeCycle);
 				var proDisplay = computeCycleDisplay(pro, activeCycle);
 
-				var vipPriceEl = document.getElementById('vip-price-main');
-				var vipSubEl = document.getElementById('vip-price-sub');
-				var vipQuotaEl = document.getElementById('vip-quota-text');
-				var vipDeviceEl = document.getElementById('vip-device-text');
-
-				if (vipPriceEl) vipPriceEl.innerHTML = '$' + vipDisplay.perMonth + '<small> / mo</small>';
-				if (vipSubEl) vipSubEl.textContent = vipDisplay.subText;
-				if (vipQuotaEl && vip.transfer_enable) vipQuotaEl.textContent = vip.transfer_enable + ' GB/mo';
-				if (vipDeviceEl && vip.device_limit) vipDeviceEl.textContent = vip.device_limit + ' devices';
-
-				var proPriceEl = document.getElementById('pro-price-main');
-				var proSubEl = document.getElementById('pro-price-sub');
-				var proQuotaEl = document.getElementById('pro-quota-text');
-				var proDeviceEl = document.getElementById('pro-device-text');
-
-				if (proPriceEl) proPriceEl.innerHTML = '$' + proDisplay.perMonth + '<small> / mo</small>';
-				if (proSubEl) proSubEl.textContent = proDisplay.subText;
-				if (proQuotaEl && pro.transfer_enable) proQuotaEl.textContent = pro.transfer_enable + ' GB/mo';
-				if (proDeviceEl && pro.device_limit) proDeviceEl.textContent = pro.device_limit + ' devices';
+				updateCardDom('vip', vip, vipDisplay);
+				updateCardDom('pro', pro, proDisplay);
 
 				// Preserve referral code on all plan CTAs
 				var savedInviteCode = '';
