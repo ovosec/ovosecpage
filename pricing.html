@@ -415,9 +415,6 @@
 						<button type="button" class="cycle-tab-btn active" data-cycle="year_price">
 							Annual <span class="cycle-save-pill ignore">-35%</span>
 						</button>
-						<button type="button" class="cycle-tab-btn" data-cycle="two_year_price">
-							2 Years <span class="cycle-save-pill ignore">-46%</span>
-						</button>
 					</div>
 				</div>
 			</div>
@@ -475,8 +472,6 @@
 								<span class="js-vip-cycle-label" data-cycle-label="half_year_price"
 									style="display: none;">Billed every 6 months</span>
 								<span class="js-vip-cycle-label" data-cycle-label="year_price">Billed annually</span>
-								<span class="js-vip-cycle-label" data-cycle-label="two_year_price"
-									style="display: none;">Billed every 2 years</span>
 								<span id="vip-sub-save-wrap" class="ignore"> · -<span id="vip-sub-save">35%</span></span>
 							</div>
 						</div>
@@ -484,7 +479,7 @@
 						<ul class="feature-list">
 							<li><i class="ti-check"></i><span><strong><span class="ignore" id="vip-quota-num">1,000</span> <span class="ignore">GB/mo</span></strong> high-speed encrypted traffic</span></li>
 							<li><i class="ti-check"></i><span><strong>Auto Smart Connect</strong> (intelligent lowest-load routing)</span></li>
-							<li><i class="ti-check"></i><span>Native IP unlock for Netflix, Disney+, YouTube 4K, TikTok &amp; ChatGPT</span></li>
+							<li><i class="ti-check"></i><span>Optimized global routing &amp; dedicated low-latency IPs for 4K/8K ultra-HD media delivery, remote SaaS, and AI productivity tools</span></li>
 							<li><i class="ti-check"></i><span>Up to <strong><span class="ignore" id="vip-device-num">3</span> devices</strong> online simultaneously</span></li>
 							<li><i class="ti-check"></i><span>Windows, macOS, Android, iOS &amp; Linux support</span></li>
 						</ul>
@@ -517,8 +512,6 @@
 								<span class="js-pro-cycle-label" data-cycle-label="half_year_price"
 									style="display: none;">Billed every 6 months</span>
 								<span class="js-pro-cycle-label" data-cycle-label="year_price">Billed annually</span>
-								<span class="js-pro-cycle-label" data-cycle-label="two_year_price"
-									style="display: none;">Billed every 2 years</span>
 								<span id="pro-sub-save-wrap" class="ignore"> · -<span id="pro-sub-save">34%</span></span>
 							</div>
 						</div>
@@ -526,7 +519,7 @@
 						<ul class="feature-list">
 							<li><i class="ti-check"></i><span><strong><span class="ignore" id="pro-quota-num">3,000</span> <span class="ignore">GB/mo</span></strong> flagship dedicated high-speed traffic</span></li>
 							<li><i class="ti-check"></i><span><strong>Auto Connect + Manual Selection</strong> of all global VIP &amp; PRO nodes (HK, Tokyo, SG, LA, etc.)</span></li>
-							<li><i class="ti-check"></i><span>Native IP unlock for 4K/8K streaming, full AI productivity suite &amp; low-latency gaming</span></li>
+							<li><i class="ti-check"></i><span>Optimized global routing &amp; dedicated low-latency IPs for 4K/8K ultra-HD media delivery, remote SaaS, and AI productivity tools</span></li>
 							<li><i class="ti-check"></i><span>Up to <strong><span class="ignore" id="pro-device-num">5</span> devices</strong> online simultaneously (ideal for multi-device pros)</span></li>
 							<li><i class="ti-check"></i><span>Priority routing during peak hours</span></li>
 						</ul>
@@ -565,6 +558,12 @@
 					</div>
 				</div>
 
+			</div>
+
+			<!-- Refund & Auto-Renewal Cancellation Notice -->
+			<div class="text-center text-muted small mt-4 mb-2">
+				<p class="mb-1"><i class="ti-shield text-primary mr-1"></i> <strong>7-Day Money-Back Guarantee:</strong> Try risk-free under our fair refund policy thresholds.</p>
+				<p class="mb-0">Subscriptions renew automatically unless cancelled before the renewal date. You can cancel anytime directly via your account dashboard.</p>
 			</div>
 		</div>
 	</section>
@@ -625,7 +624,7 @@
 											Nodes</span></td>
 								</tr>
 								<tr>
-									<td class="font-weight-bold text-dark">4K/8K Streaming &amp; AI Tools Unlock</td>
+									<td class="font-weight-bold text-dark">Ultra-HD 4K/8K Media &amp; AI Productivity Optimization</td>
 									<td class="text-center"><span class="compare-dash">Basic</span></td>
 									<td class="text-center"><span class="compare-check">✓ Native IP</span></td>
 									<td class="text-center"><span class="compare-check">✓ Priority Dedicated IP</span>
@@ -743,7 +742,8 @@
 			</div>
 		</div>
 		<div class="text-center bg-dark py-4">
-			<p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+			<p class="text-sm text-gray-500 mb-1">&copy; 2026 OVOSEC. All rights reserved.</p>
+			<p class="text-xs text-gray-500 mb-0" style="font-size: 0.78rem; opacity: 0.8;">Operated by OVO Cybertech Sdn. Bhd. (Registration No: 202501033275), Suite 33-01, 33rd Floor, Menara Keck Seng, 203 Jalan Bukit Bintang, 55100 Kuala Lumpur, Malaysia.</p>
 		</div>
 	</footer>
 
@@ -776,8 +776,7 @@
 					month_price: 500,
 					quarter_price: 1290,
 					half_year_price: 2280,
-					year_price: 3900,
-					two_year_price: 6600
+					year_price: 3900
 				},
 				PRO: {
 					id: 5,
@@ -788,8 +787,7 @@
 					month_price: 990,
 					quarter_price: 2580,
 					half_year_price: 4680,
-					year_price: 7900,
-					two_year_price: 12900
+					year_price: 7900
 				}
 			};
 
@@ -797,8 +795,7 @@
 				month_price: { months: 1, key: 'month_price' },
 				quarter_price: { months: 3, key: 'quarter_price' },
 				half_year_price: { months: 6, key: 'half_year_price' },
-				year_price: { months: 12, key: 'year_price' },
-				two_year_price: { months: 24, key: 'two_year_price' }
+				year_price: { months: 12, key: 'year_price' }
 			};
 
 			var activeCycle = 'year_price';
