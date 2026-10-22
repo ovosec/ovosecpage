@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Basic Page Needs  ================================================== -->
+	<meta charset="utf-8">
+	<title>OVOSEC Enterprise | Dedicated Relay Nodes &amp; Team Seat Console</title>
+
+	<!-- Mobile Specific Metas  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description"
+		content="OVOSEC Enterprise Solutions: Dedicated private node groups, clean native static IPs, flexible seat & device pools, and centralized team management.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="OVO Cybertech Sdn. Bhd.">
+	<meta name="generator" content="OVOSEC Platform">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+		rel="stylesheet">
+
+	<!-- PLUGINS CSS STYLE -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+
+	<style>
+		.enterprise-hero {
+			background: radial-gradient(circle at 80% 20%, rgba(79, 70, 229, 0.25) 0%, rgba(15, 23, 42, 0) 45%),
+				linear-gradient(160deg, #0f172a 0%, #1e1b4b 100%);
+			color: #ffffff;
+			padding: 100px 0 85px;
+		}
+
+		.enterprise-hero h1 {
+			color: #ffffff;
+			font-family: 'Outfit', sans-serif;
+			font-weight: 800;
+			letter-spacing: -1.2px;
+		}
+
+		.enterprise-hero p.lead {
+			color: #cbd5e1;
+			line-height: 1.8;
+		}
+
+		.ent-stat-box {
+			background: rgba(255, 255, 255, 0.06);
+			border: 1px solid rgba(255, 255, 255, 0.12);
+			padding: 22px 20px;
+			text-align: center;
+		}
+
+		.ent-stat-num {
+			font-family: 'Outfit', sans-serif;
+			font-size: 2rem;
+			font-weight: 800;
+			color: #ffffff;
+			line-height: 1.1;
+		}
+
+		.ent-stat-label {
+			font-size: 0.85rem;
+			color: #94a3b8;
+			margin-top: 6px;
+		}
+
+		.pillar-card {
+			background: #ffffff;
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			padding: 36px 32px;
+			height: 100%;
+			box-shadow: 0 14px 32px rgba(15, 23, 42, 0.03);
+			transition: transform 0.25s ease, box-shadow 0.25s ease;
+		}
+
+		.pillar-card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+		}
+
+		.pillar-icon {
+			width: 54px;
+			height: 54px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			background: rgba(79, 70, 229, 0.1);
+			color: #4f46e5;
+			font-size: 1.5rem;
+			margin-bottom: 20px;
+		}
+
+		.spec-tier-card {
+			background: #ffffff;
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			padding: 34px 28px;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.spec-tier-card.highlighted {
+			border: 2px solid #4f46e5;
+			box-shadow: 0 20px 44px rgba(79, 70, 229, 0.12);
+		}
+
+		.spec-list {
+			list-style: none;
+			padding: 0;
+			margin: 18px 0 26px;
+			flex: 1;
+		}
+
+		.spec-list li {
+			display: flex;
+			align-items: flex-start;
+			gap: 10px;
+			margin-bottom: 12px;
+			color: #334155;
+			font-size: 0.94rem;
+		}
+
+		.spec-list li i {
+			color: #4f46e5;
+			font-weight: 700;
+			margin-top: 4px;
+		}
+
+		.inquiry-card {
+			background: #ffffff;
+			padding: 48px;
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			box-shadow: 0 24px 54px rgba(15, 23, 42, 0.05);
+		}
+
+		@media (max-width: 575px) {
+			.inquiry-card {
+				padding: 28px 20px;
+			}
+		}
+	</style>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span>☰</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item @@accelerator">
+						<a class="nav-link" href="accelerator.html">NETWORK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pricing.html">PRICING</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="enterprise.html">ENTERPRISE</a>
+					</li>
+					<li class="nav-item dropdown @@pages">
+						<a class="nav-link" href="dropdown.html">DOWNLOAD</a>
+					</li>
+					<li class="nav-item dropdown @@Programs">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">REWARDS ▾</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="friend.html">Refer a Friend</a></li>
+							<li><a class="dropdown-item" href="partner.html">Become a Partner</a></li>
+							<li><a class="dropdown-item" href="influence.html">Influencers</a></li>
+						</ul>
+					</li>
+					<li class="nav-item @@help">
+						<a class="nav-link" href="help/help.html" id="nav_helpWebSize">HELP</a>
+					</li>
+					<li class="nav-item @@Contact">
+						<a class="nav-link" href="contact.html">CONTACT</a>
+					</li>
+					<li class="nav-item apply-button">
+						<a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal"
+							data-target="#allModalCenter" href="#"><i class="ti-world"></i> English</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="#" id="nav_loginWebSize"><i
+								class="ti-user"></i> LOGIN / REGISTER</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Language Modal -->
+	<div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Choose language</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<ul class="language-ul">
+						<li data-value="english" style="cursor: pointer;">English</li>
+						<li data-value="malay" style="cursor: pointer;">Melayu</li>
+						<li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+						<li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+						<li data-value="korean" style="cursor: pointer;">한국어</li>
+						<li data-value="japanese" style="cursor: pointer;">日本語</li>
+						<li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+						<li data-value="arabic" style="cursor: pointer;">العربية</li>
+						<li data-value="spanish" style="cursor: pointer;">Español</li>
+						<li data-value="french" style="cursor: pointer;">Français</li>
+						<li data-value="german" style="cursor: pointer;">Deutsch</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Enterprise Hero -->
+	<section class="enterprise-hero">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
+					<span class="badge-premium mb-3"
+						style="background: rgba(99, 102, 241, 0.22); color: #c7d2fe;">OVOSEC ENTERPRISE EDITION</span>
+					<h1 class="display-4 mb-4">
+						Dedicated Encrypted Infrastructure &amp; Seat Management for Global Teams
+					</h1>
+					<p class="lead mb-5">
+						Empower distributed engineering teams, cross-border operations, and AI research organizations
+						with isolated dedicated node groups, flexible seat &amp; device pools, and a centralized web
+						administration console.
+					</p>
+					<div class="d-flex flex-wrap justify-content-center" style="gap: 14px;">
+						<a href="#enterprise-inquiry" class="btn btn-primary btn-lg px-5 py-3"
+							style="font-weight: 600; border-radius: 0;">
+							Request a Custom Quote
+						</a>
+						<a href="https://shop.ovobese.com/lzgnb/#/login" class="btn btn-outline-light btn-lg px-5 py-3"
+							style="font-weight: 600; border-radius: 0;">
+							Enterprise Admin Console
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5 pt-4" data-aos="fade-up" data-aos-delay="100">
+				<div class="col-md-3 col-6 mb-3">
+					<div class="ent-stat-box">
+						<div class="ent-stat-num">99.95%</div>
+						<div class="ent-stat-label">Dedicated Relay SLA</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6 mb-3">
+					<div class="ent-stat-box">
+						<div class="ent-stat-num">50 – 500+</div>
+						<div class="ent-stat-label">Allocatable Device Pool</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6 mb-3">
+					<div class="ent-stat-box">
+						<div class="ent-stat-num">100%</div>
+						<div class="ent-stat-label">Isolated Private Node Groups</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-6 mb-3">
+					<div class="ent-stat-box">
+						<div class="ent-stat-num">Zero-Log</div>
+						<div class="ent-stat-label">REALITY / XTLS End-to-End</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Four Core Enterprise Pillars -->
+	<section class="section py-7 bg-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+					<span class="badge-premium mb-3">Enterprise Architecture</span>
+					<h2 class="font-weight-bolder text-dark" style="letter-spacing: -1px;">Built for Organization-Wide
+						Control &amp; Security</h2>
+					<p class="text-muted">Designed from the ground up to separate corporate network operations from
+						consumer traffic.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="50">
+					<div class="pillar-card">
+						<div class="pillar-icon"><i class="ti-layout-grid2"></i></div>
+						<h3 class="font-weight-bold text-dark mb-3">1. Flexible Seat &amp; Resource Pool Allocation</h3>
+						<p class="text-muted mb-0" style="line-height: 1.75;">
+							Instead of rigid single-account subscriptions, your organization receives a unified
+							<strong>Maximum Seat Pool, Total Device Pool, and Multi-TB Traffic Pool</strong>. Enterprise
+							administrators can dynamically slice and assign custom device limits (e.g., 2 devices for
+							staff, 10 devices for QA engineers) and bandwidth quotas per employee.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="pillar-card">
+						<div class="pillar-icon"><i class="ti-server"></i></div>
+						<h3 class="font-weight-bold text-dark mb-3">2. Dedicated Node Groups &amp; Clean Static IPs</h3>
+						<p class="text-muted mb-0" style="line-height: 1.75;">
+							Deploy private, access-controlled server groups (such as dedicated <strong>Singapore SG,
+								Tokyo, US West, or Frankfurt</strong> clusters) invisible to public subscribers. Ensure
+							consistent, high-reputation static egress IPs for cloud consoles, GitHub/AWS whitelisting,
+							cross-border e-commerce, and enterprise AI APIs.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="150">
+					<div class="pillar-card">
+						<div class="pillar-icon"><i class="ti-panel"></i></div>
+						<h3 class="font-weight-bold text-dark mb-3">3. Centralized Enterprise Seat Console</h3>
+						<p class="text-muted mb-0" style="line-height: 1.75;">
+							Enterprise administrators log directly into the dedicated <strong>Enterprise Seat Management
+								Console</strong> on the web portal. Provision new employee accounts in seconds, monitor
+							real-time traffic &amp; active devices across the team, revoke access immediately upon
+							offboarding, and manage a single unified renewal date.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="pillar-card">
+						<div class="pillar-icon"><i class="ti-shield"></i></div>
+						<h3 class="font-weight-bold text-dark mb-3">4. Pure, Distraction-Free Enterprise Client</h3>
+						<p class="text-muted mb-0" style="line-height: 1.75;">
+							When employees sign in to OVOSEC on Windows, macOS, Android, iOS, or Linux, the client
+							automatically switches to <strong>ENTERPRISE Mode</strong>—hiding all personal VIP/PRO
+							upsells, free-time lotteries, and referral banners, while unlocking both manual dedicated
+							node selection and intelligent auto-connect.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Reference Enterprise Tiers -->
+	<section class="section py-6 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+					<span class="badge-premium mb-3">Deployment Options</span>
+					<h2 class="font-weight-bolder text-dark" style="letter-spacing: -1px;">Tailored Enterprise Packages
+					</h2>
+					<p class="text-muted">Select a reference configuration below or customize seats, devices, and
+						dedicated regions.</p>
+				</div>
+			</div>
+
+			<div class="row align-items-stretch">
+				<div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="50">
+					<div class="spec-tier-card">
+						<span class="text-uppercase font-weight-bold"
+							style="font-size: 0.78rem; color: #4f46e5; letter-spacing: 0.8px;">TEAM EDITION</span>
+						<h3 class="font-weight-bold text-dark mt-2 mb-1">10 – 30 Seats</h3>
+						<p class="text-muted" style="font-size: 0.9rem;">For agile startups &amp; cross-border studios
+						</p>
+						<ul class="spec-list">
+							<li><i class="ti-check"></i><span><strong>50 Simultaneous Devices</strong> shared pool</span>
+							</li>
+							<li><i class="ti-check"></i><span><strong>2 TB – 5 TB / mo</strong> high-speed traffic
+									pool</span></li>
+							<li><i class="ti-check"></i><span>Enterprise Admin Console for seat &amp; quota
+									slicing</span></li>
+							<li><i class="ti-check"></i><span>Full access to global PRO &amp; regional business
+									nodes</span></li>
+							<li><i class="ti-check"></i><span>Distraction-free Enterprise Client on all OS</span></li>
+						</ul>
+						<a href="#enterprise-inquiry" class="btn btn-outline-primary btn-block py-3 js-prefill-tier"
+							data-tier="Team Edition (10-30 Seats / 50 Devices)"
+							style="font-weight: 600; border-radius: 0; border: 1px solid #4f46e5; color: #4f46e5;">
+							Inquire Team Plan
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="spec-tier-card highlighted">
+						<span class="text-uppercase font-weight-bold"
+							style="font-size: 0.78rem; color: #4f46e5; letter-spacing: 0.8px;">BUSINESS DEDICATED ·
+							RECOMMENDED</span>
+						<h3 class="font-weight-bold text-dark mt-2 mb-1">30 – 100 Seats</h3>
+						<p class="text-muted" style="font-size: 0.9rem;">For growing enterprises needing isolated static
+							IPs</p>
+						<ul class="spec-list">
+							<li><i class="ti-check"></i><span><strong>100 – 200 Simultaneous Devices</strong> shared
+									pool</span></li>
+							<li><i class="ti-check"></i><span><strong>Dedicated Private Node Group</strong> (e.g.,
+									Singapore SG, Tokyo, US West)</span></li>
+							<li><i class="ti-check"></i><span>Clean static egress IP whitelisting for corporate
+									SaaS/Cloud</span></li>
+							<li><i class="ti-check"></i><span>Per-employee custom device limit &amp; speed policy</span>
+							</li>
+							<li><i class="ti-check"></i><span>Priority engineering support &amp; unified corporate
+									invoicing</span></li>
+						</ul>
+						<a href="#enterprise-inquiry" class="btn btn-primary btn-block py-3 js-prefill-tier"
+							data-tier="Business Dedicated (30-100 Seats / Dedicated SG-US Nodes)"
+							style="font-weight: 600; border-radius: 0;">
+							Inquire Business Plan
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="150">
+					<div class="spec-tier-card">
+						<span class="text-uppercase font-weight-bold"
+							style="font-size: 0.78rem; color: #4f46e5; letter-spacing: 0.8px;">CUSTOM ENTERPRISE</span>
+						<h3 class="font-weight-bold text-dark mt-2 mb-1">100+ Seats / Custom</h3>
+						<p class="text-muted" style="font-size: 0.9rem;">For multi-regional corporations &amp; custom
+							topologies</p>
+						<ul class="spec-list">
+							<li><i class="ti-check"></i><span><strong>500+ Devices</strong> &amp; custom multi-tenancy
+									pools</span></li>
+							<li><i class="ti-check"></i><span>Multi-hop private backbone &amp; custom regional
+									pop-ups</span></li>
+							<li><i class="ti-check"></i><span>Custom domain routing rules &amp; split-tunneling
+									policies</span></li>
+							<li><i class="ti-check"></i><span>24/7 dedicated solutions architect &amp; custom SLA</span>
+							</li>
+							<li><i class="ti-check"></i><span>Flexible quarterly or annual corporate billing</span></li>
+						</ul>
+						<a href="#enterprise-inquiry" class="btn btn-outline-primary btn-block py-3 js-prefill-tier"
+							data-tier="Custom Enterprise (100+ Seats / Custom Dedicated Infrastructure)"
+							style="font-weight: 600; border-radius: 0; border: 1px solid #4f46e5; color: #4f46e5;">
+							Contact Solutions Architect
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Enterprise Inquiry Form (Delivered via shop.ovobese.com to 345728984@qq.com) -->
+	<section class="section py-7 bg-white" id="enterprise-inquiry">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+					<span class="badge-premium mb-3">Enterprise Consultation</span>
+					<h2 class="font-weight-bolder text-dark display-6" style="letter-spacing: -1px;">Request Your
+						Enterprise Proposal</h2>
+					<p class="text-muted">Tell us about your team size and target regions. Our enterprise engineering
+						team will respond within 1 business day.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-10 mx-auto" data-aos="fade-up" data-aos-delay="100">
+					<form id="enterprise_inquiry_form" class="inquiry-card"
+						onsubmit="submitEnterpriseInquiry(event); return false;">
+						<input type="text" name="botcheck" id="ent_botcheck" style="display: none;" tabindex="-1"
+							autocomplete="off">
+
+						<div class="row">
+							<div class="col-md-6 mb-3">
+								<label class="font-weight-bold text-dark mb-2" for="ent_company">Company / Organization
+									Name *</label>
+								<input class="form-control main" type="text" name="company" id="ent_company"
+									placeholder="e.g. Acme Global Tech Pte. Ltd." required maxlength="120">
+							</div>
+							<div class="col-md-6 mb-3">
+								<label class="font-weight-bold text-dark mb-2" for="ent_name">Contact Name *</label>
+								<input class="form-control main" type="text" name="name" id="ent_name"
+									placeholder="Your Full Name" required maxlength="80">
+							</div>
+							<div class="col-md-6 mb-3">
+								<label class="font-weight-bold text-dark mb-2" for="ent_email">Work Email Address
+									*</label>
+								<input class="form-control main" type="email" name="email" id="ent_email"
+									placeholder="name@company.com" required maxlength="120">
+							</div>
+							<div class="col-md-6 mb-3">
+								<label class="font-weight-bold text-dark mb-2" for="ent_team_size">Estimated Seats /
+									Devices</label>
+								<select class="form-control main" name="team_size" id="ent_team_size"
+									style="height: 50px;">
+									<option value="Team Edition (10-30 Seats / 50 Devices)">Team Edition (10–30 Seats /
+										50 Devices)</option>
+									<option value="Business Dedicated (30-100 Seats / Dedicated SG-US Nodes)" selected>
+										Business Dedicated (30–100 Seats / 200 Devices)</option>
+									<option value="Custom Enterprise (100+ Seats / 500+ Devices)">Custom Enterprise
+										(100+ Seats / 500+ Devices)</option>
+								</select>
+							</div>
+							<div class="col-md-12 mb-3">
+								<label class="font-weight-bold text-dark mb-2" for="ent_regions">Preferred Dedicated
+									Node Regions</label>
+								<input class="form-control main" type="text" name="regions" id="ent_regions"
+									placeholder="e.g. Singapore (SG), Tokyo (JP), Los Angeles (US), Frankfurt (DE)"
+									maxlength="160">
+							</div>
+							<div class="col-md-12 mb-4">
+								<label class="font-weight-bold text-dark mb-2" for="ent_message">Project &amp; Network
+									Requirements *</label>
+								<textarea class="form-control main" name="message" id="ent_message" rows="5"
+									placeholder="Please describe your required seat count, static IP needs, bandwidth expectations, or compliance requirements..."
+									required maxlength="2000"></textarea>
+							</div>
+							<div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+								<span class="text-muted mb-3 mb-md-0" style="font-size: 0.9rem;">
+									<i class="ti-lock mr-1" style="color: #4f46e5;"></i> Encrypted submission · Direct
+									response from OVOSEC Enterprise Team
+								</span>
+								<button type="submit" class="btn btn-primary btn-lg px-5" id="entSubmitBtn"
+									style="padding: 14px 45px; font-weight: 600; border-radius: 0;">
+									Submit Enterprise Inquiry
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+						<div class="block">
+							<a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+							<ul class="social-icon list-inline">
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-facebook"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-twitter"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Support &amp; Help</h6>
+							<ul>
+								<li><a href="help/help.html" id="footer_helpWebSize">FAQs</a></li>
+								<li><a href="support.html">Contact Support</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Download Utility</h6>
+							<ul>
+								<li><a href="dropdown.html" id="footer_ios">iPhone Utility (iOS)</a></li>
+								<li><a href="dropdown.html" id="footer_android">Android Utility</a></li>
+								<li><a href="dropdown.html" id="footer_window">Windows Utility</a></li>
+								<li><a href="dropdown.html" id="footer_mac">Mac Utility</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Solutions</h6>
+							<ul>
+								<li><a href="pricing.html">Pricing Plans</a></li>
+								<li><a href="enterprise.html">Enterprise Service</a></li>
+								<li><a href="friend.html">Refer a Friend</a></li>
+								<li><a href="partner.html">Become a Partner</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Company</h6>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="career.html">Careers</a></li>
+								<li><a href="privacy.html">Privacy Policy</a></li>
+								<li><a href="terms.html">Terms and Conditions</a></li>
+								<li><a href="refund.html">Refund Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center bg-dark py-4">
+			<p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<div class="scroll-top-to">
+		<i class="ti-angle-up"></i>
+	</div>
+
+	<!-- JAVASCRIPTS -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+	<script src="js/translate.js"></script>
+	<script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/animation-observer.js"></script>
+
+	<script>
+		// Prefill tier selection when clicking package buttons
+		document.querySelectorAll('.js-prefill-tier').forEach(function (btn) {
+			btn.addEventListener('click', function () {
+				var tier = btn.getAttribute('data-tier');
+				var sel = document.getElementById('ent_team_size');
+				if (sel && tier) {
+					for (var i = 0; i < sel.options.length; i++) {
+						if (sel.options[i].value === tier) {
+							sel.selectedIndex = i;
+							break;
+						}
+					}
+				}
+			});
+		});
+
+		function submitEnterpriseInquiry(event) {
+			event.preventDefault();
+			var submitBtn = document.getElementById('entSubmitBtn');
+			var form = document.getElementById('enterprise_inquiry_form');
+			if (!form || !submitBtn) return;
+
+			submitBtn.disabled = true;
+			var originalText = submitBtn.textContent;
+			submitBtn.textContent = 'Submitting...';
+
+			var payload = {
+				company: (document.getElementById('ent_company').value || '').trim(),
+				name: (document.getElementById('ent_name').value || '').trim(),
+				email: (document.getElementById('ent_email').value || '').trim(),
+				team_size: (document.getElementById('ent_team_size').value || '').trim(),
+				regions: (document.getElementById('ent_regions').value || '').trim(),
+				message: (document.getElementById('ent_message').value || '').trim(),
+				botcheck: (document.getElementById('ent_botcheck').value || '').trim()
+			};
+
+			fetch('https://shop.ovobese.com/api/v1/guest/comm/enterpriseInquiry', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					'Accept': 'application/json'
+				},
+				body: JSON.stringify(payload),
+				mode: 'cors'
+			})
+				.then(function (response) {
+					return response.json().then(function (body) {
+						return { ok: response.ok, status: response.status, body: body };
+					});
+				})
+				.then(function (result) {
+					if (result.ok && result.body && result.body.data === true) {
+						if (typeof Swal !== 'undefined') {
+							Swal.fire({
+								title: 'Inquiry Received!',
+								text: 'Thank you! Our enterprise engineering team has received your inquiry and will contact you shortly.',
+								icon: 'success',
+								confirmButtonText: 'OK'
+							});
+						} else {
+							alert('Thank you! Your enterprise inquiry has been submitted.');
+						}
+						form.reset();
+					} else {
+						var errMsg = (result.body && result.body.message)
+							? result.body.message
+							: 'Unable to submit inquiry right now. Please try again later.';
+						if (typeof Swal !== 'undefined') {
+							Swal.fire({
+								title: 'Notice',
+								text: errMsg,
+								icon: 'warning',
+								confirmButtonText: 'OK'
+							});
+						} else {
+							alert(errMsg);
+						}
+					}
+				})
+				.catch(function () {
+					if (typeof Swal !== 'undefined') {
+						Swal.fire({
+							title: 'Network Error',
+							text: 'Could not reach the server. Please check your connection and try again.',
+							icon: 'error',
+							confirmButtonText: 'OK'
+						});
+					} else {
+						alert('Network error. Please try again.');
+					}
+				})
+				.finally(function () {
+					submitBtn.disabled = false;
+					submitBtn.textContent = originalText;
+				});
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Basic Page Needs  ================================================== -->
+	<meta charset="utf-8">
+	<title>OVOSEC | Pricing Plans - VIP, PRO & Enterprise</title>
+
+	<!-- Mobile Specific Metas  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description"
+		content="Transparent pricing for OVOSEC Encrypted Relay & Network Accelerator. Choose from Free Trial, VIP, PRO, or tailored Enterprise seat pools.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="OVO Cybertech Sdn. Bhd.">
+	<meta name="generator" content="OVOSEC Platform">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+		rel="stylesheet">
+
+	<!-- PLUGINS CSS STYLE -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+	<link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+
+	<!-- CUSTOM CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+
+	<style>
+		.pricing-hero {
+			background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+			padding: 90px 0 40px;
+			border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+		}
+
+		.cycle-switcher-wrap {
+			display: inline-flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 8px;
+			background: #f1f5f9;
+			padding: 6px;
+			border-radius: 12px;
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			margin-top: 24px;
+		}
+
+		.cycle-tab-btn {
+			border: none;
+			background: transparent;
+			color: #475569;
+			font-weight: 600;
+			font-size: 0.92rem;
+			padding: 10px 18px;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: all 0.2s ease;
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+		}
+
+		.cycle-tab-btn:hover {
+			color: #0f172a;
+		}
+
+		.cycle-tab-btn.active {
+			background: #ffffff;
+			color: #4f46e5;
+			box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+		}
+
+		.cycle-save-pill {
+			background: rgba(79, 70, 229, 0.12);
+			color: #4f46e5;
+			font-size: 0.72rem;
+			font-weight: 700;
+			padding: 2px 8px;
+			border-radius: 999px;
+			text-transform: uppercase;
+			letter-spacing: 0.3px;
+		}
+
+		.pricing-card {
+			background: #ffffff;
+			border: 1px solid rgba(15, 23, 42, 0.08);
+			padding: 36px 28px;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			transition: transform 0.25s ease, box-shadow 0.25s ease;
+			box-shadow: 0 12px 30px rgba(15, 23, 42, 0.03);
+		}
+
+		.pricing-card:hover {
+			transform: translateY(-6px);
+			box-shadow: 0 24px 48px rgba(15, 23, 42, 0.08);
+		}
+
+		.pricing-card.featured-pro {
+			border: 2px solid #4f46e5;
+			box-shadow: 0 24px 54px rgba(79, 70, 229, 0.14);
+		}
+
+		.pricing-card.enterprise-card {
+			background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
+			color: #ffffff;
+			border-color: #0f172a;
+		}
+
+		.pricing-card.enterprise-card h3,
+		.pricing-card.enterprise-card .price-main,
+		.pricing-card.enterprise-card .tier-subtitle {
+			color: #ffffff !important;
+		}
+
+		.pricing-card.enterprise-card p,
+		.pricing-card.enterprise-card li,
+		.pricing-card.enterprise-card .price-sub {
+			color: #cbd5e1 !important;
+		}
+
+		.popular-ribbon {
+			position: absolute;
+			top: -13px;
+			right: 24px;
+			background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+			color: #ffffff;
+			font-size: 0.75rem;
+			font-weight: 700;
+			letter-spacing: 0.8px;
+			text-transform: uppercase;
+			padding: 4px 14px;
+			border-radius: 999px;
+			box-shadow: 0 6px 16px rgba(79, 70, 229, 0.3);
+		}
+
+		.tier-code-badge {
+			display: inline-block;
+			font-size: 0.75rem;
+			font-weight: 700;
+			letter-spacing: 0.8px;
+			text-transform: uppercase;
+			padding: 4px 10px;
+			border-radius: 6px;
+			background: #f1f5f9;
+			color: #334155;
+			margin-bottom: 12px;
+			width: fit-content;
+		}
+
+		.featured-pro .tier-code-badge {
+			background: rgba(79, 70, 229, 0.12);
+			color: #4f46e5;
+		}
+
+		.enterprise-card .tier-code-badge {
+			background: rgba(255, 255, 255, 0.14);
+			color: #e2e8f0;
+		}
+
+		.price-block {
+			margin: 20px 0 18px;
+			padding-bottom: 18px;
+			border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+		}
+
+		.enterprise-card .price-block {
+			border-bottom-color: rgba(255, 255, 255, 0.12);
+		}
+
+		.price-main {
+			font-family: 'Outfit', sans-serif;
+			font-size: 2.65rem;
+			font-weight: 800;
+			color: #0f172a;
+			line-height: 1.1;
+			letter-spacing: -1px;
+		}
+
+		.price-main small {
+			font-size: 1rem;
+			font-weight: 500;
+			color: #64748b;
+			letter-spacing: 0;
+		}
+
+		.price-sub {
+			font-size: 0.86rem;
+			color: #64748b;
+			margin-top: 6px;
+			min-height: 22px;
+		}
+
+		.feature-list {
+			list-style: none;
+			padding: 0;
+			margin: 0 0 28px;
+			flex: 1;
+		}
+
+		.feature-list li {
+			display: flex;
+			align-items: flex-start;
+			gap: 10px;
+			font-size: 0.94rem;
+			color: #334155;
+			margin-bottom: 12px;
+			line-height: 1.5;
+		}
+
+		.feature-list li i {
+			color: #4f46e5;
+			font-weight: 700;
+			margin-top: 3px;
+			flex-shrink: 0;
+		}
+
+		.enterprise-card .feature-list li i {
+			color: #818cf8;
+		}
+
+		.compare-table th,
+		.compare-table td {
+			vertical-align: middle !important;
+			padding: 16px 18px !important;
+			font-size: 0.95rem;
+		}
+
+		.compare-table thead th {
+			border-top: none !important;
+			border-bottom: 2px solid rgba(15, 23, 42, 0.1) !important;
+			font-weight: 700;
+			color: #0f172a;
+		}
+
+		.compare-check {
+			color: #16a34a;
+			font-weight: 700;
+		}
+
+		.compare-dash {
+			color: #94a3b8;
+		}
+	</style>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+	<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span>☰</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item @@accelerator">
+						<a class="nav-link" href="accelerator.html">NETWORK</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="pricing.html">PRICING</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="enterprise.html">ENTERPRISE</a>
+					</li>
+					<li class="nav-item dropdown @@pages">
+						<a class="nav-link" href="dropdown.html">DOWNLOAD</a>
+					</li>
+					<li class="nav-item dropdown @@Programs">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">REWARDS ▾</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="friend.html">Refer a Friend</a></li>
+							<li><a class="dropdown-item" href="partner.html">Become a Partner</a></li>
+							<li><a class="dropdown-item" href="influence.html">Influencers</a></li>
+						</ul>
+					</li>
+					<li class="nav-item @@help">
+						<a class="nav-link" href="help/help.html" id="nav_helpWebSize">HELP</a>
+					</li>
+					<li class="nav-item @@Contact">
+						<a class="nav-link" href="contact.html">CONTACT</a>
+					</li>
+					<li class="nav-item apply-button">
+						<a class="btn btn-secondary btn-sm multi-language mr-2 mt-2 mt-lg-0" data-toggle="modal"
+							data-target="#allModalCenter" href="#"><i class="ti-world"></i> English</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-primary btn-sm user-sign mt-2 mt-lg-0" href="#" id="nav_loginWebSize"><i
+								class="ti-user"></i> LOGIN / REGISTER</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Language Modal -->
+	<div class="modal fade" id="allModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered language-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Choose language</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<ul class="language-ul">
+						<li data-value="english" style="cursor: pointer;">English</li>
+						<li data-value="malay" style="cursor: pointer;">Melayu</li>
+						<li data-value="indonesian" style="cursor: pointer;">Indonesia</li>
+						<li data-value="chinese_traditional" style="cursor: pointer;">繁体</li>
+						<li data-value="korean" style="cursor: pointer;">한국어</li>
+						<li data-value="japanese" style="cursor: pointer;">日本語</li>
+						<li data-value="vietnamese" style="cursor: pointer;">Tiếng Việt</li>
+						<li data-value="arabic" style="cursor: pointer;">العربية</li>
+						<li data-value="spanish" style="cursor: pointer;">Español</li>
+						<li data-value="french" style="cursor: pointer;">Français</li>
+						<li data-value="german" style="cursor: pointer;">Deutsch</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Hero & Cycle Switcher -->
+	<section class="pricing-hero text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 mx-auto" data-aos="fade-up">
+					<span class="badge-premium mb-3">Simple & Transparent Pricing</span>
+					<h1 class="display-4 font-weight-bolder text-dark mb-3" style="letter-spacing: -1.2px;">
+						Choose the Right Protection for Every Device
+					</h1>
+					<p class="lead text-muted mx-auto" style="max-width: 720px; line-height: 1.75;">
+						Zero-log encrypted relay, intelligent load-balanced routing, and dedicated native IPs for
+						individuals, power users, and global enterprises.
+					</p>
+
+					<!-- Billing Cycle Switcher -->
+					<div class="cycle-switcher-wrap" id="billingCycleTabs" role="tablist">
+						<button type="button" class="cycle-tab-btn" data-cycle="month_price">
+							Monthly
+						</button>
+						<button type="button" class="cycle-tab-btn" data-cycle="quarter_price">
+							Quarterly <span class="cycle-save-pill">-14%</span>
+						</button>
+						<button type="button" class="cycle-tab-btn" data-cycle="half_year_price">
+							6 Months <span class="cycle-save-pill">-24%</span>
+						</button>
+						<button type="button" class="cycle-tab-btn active" data-cycle="year_price">
+							Annual <span class="cycle-save-pill">Save 35%</span>
+						</button>
+						<button type="button" class="cycle-tab-btn" data-cycle="two_year_price">
+							2 Years <span class="cycle-save-pill">Save 46%</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pricing Cards Grid -->
+	<section class="section py-6 bg-white">
+		<div class="container">
+			<div class="row align-items-stretch">
+
+				<!-- 1. FREE Tier -->
+				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="50">
+					<div class="pricing-card">
+						<span class="tier-code-badge">FREE</span>
+						<h3 class="font-weight-bold text-dark mb-1" style="font-size: 1.4rem;">Free Starter</h3>
+						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">Essential encrypted access &
+							daily free time rewards</p>
+
+						<div class="price-block">
+							<div class="price-main">$0<small> / forever</small></div>
+							<div class="price-sub">Claim free encrypted hours daily in app</div>
+						</div>
+
+						<ul class="feature-list">
+							<li><i class="ti-check"></i><span>Daily free membership duration claim</span></li>
+							<li><i class="ti-check"></i><span>Auto Smart Connect (optimal load-balanced route)</span></li>
+							<li><i class="ti-check"></i><span>Up to <strong>1 device</strong> simultaneous connection</span></li>
+							<li><i class="ti-check"></i><span>Zero-knowledge AES-256 / REALITY encryption</span></li>
+						</ul>
+
+						<a href="https://shop.ovobese.com/lzgnb/#/register"
+							class="btn btn-outline-primary btn-block py-3 js-plan-cta"
+							style="font-weight: 600; border-radius: 0; border: 1px solid #4f46e5; color: #4f46e5;">
+							Start Free Trial
+						</a>
+					</div>
+				</div>
+
+				<!-- 2. VIP Tier (id=3) -->
+				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="pricing-card" id="plan-card-vip">
+						<span class="tier-code-badge">VIP</span>
+						<h3 class="font-weight-bold text-dark mb-1" style="font-size: 1.4rem;" id="vip-plan-title">VIP
+							畅享会员</h3>
+						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">High-capacity streaming &
+							effortless smart routing</p>
+
+						<div class="price-block">
+							<div class="price-main" id="vip-price-main">$3.25<small> / mo</small></div>
+							<div class="price-sub" id="vip-price-sub">Billed $39.00 annually · Save 35%</div>
+						</div>
+
+						<ul class="feature-list">
+							<li><i class="ti-check"></i><span>Unlimited experience (<strong id="vip-quota-text">2000
+										GB/mo</strong> high-speed assurance)</span></li>
+							<li><i class="ti-check"></i><span><strong>Auto Smart Connect</strong> (intelligent lowest-load
+									routing)</span></li>
+							<li><i class="ti-check"></i><span>Native IP unlock for Netflix, Disney+, YouTube 4K, TikTok
+									&amp; ChatGPT</span></li>
+							<li><i class="ti-check"></i><span>Up to <strong id="vip-device-text">3 devices</strong>
+									online simultaneously</span></li>
+							<li><i class="ti-check"></i><span>Windows, macOS, Android, iOS &amp; Linux support</span></li>
+						</ul>
+
+						<a href="https://shop.ovobese.com/lzgnb/#/register?plan=3"
+							class="btn btn-primary btn-block py-3 js-plan-cta" data-plan-id="3"
+							style="font-weight: 600; border-radius: 0;">
+							Get VIP Plan
+						</a>
+					</div>
+				</div>
+
+				<!-- 3. PRO Tier (id=5, Featured) -->
+				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="150">
+					<div class="pricing-card featured-pro" id="plan-card-pro">
+						<span class="popular-ribbon">Most Popular</span>
+						<span class="tier-code-badge">PRO</span>
+						<h3 class="font-weight-bold text-dark mb-1" style="font-size: 1.4rem;" id="pro-plan-title">PRO
+							极速会员</h3>
+						<p class="tier-subtitle text-muted" style="font-size: 0.9rem;">Full-speed flagship lines &amp;
+							manual global node selection</p>
+
+						<div class="price-block">
+							<div class="price-main" id="pro-price-main">$6.58<small> / mo</small></div>
+							<div class="price-sub" id="pro-price-sub">Billed $79.00 annually · Save 34%</div>
+						</div>
+
+						<ul class="feature-list">
+							<li><i class="ti-check"></i><span><strong id="pro-quota-text">500 GB/mo</strong> flagship
+									dedicated high-speed traffic</span></li>
+							<li><i class="ti-check"></i><span><strong>Auto Connect + Manual Selection</strong> of all
+									global VIP &amp; PRO nodes (HK, Tokyo, SG, LA, etc.)</span></li>
+							<li><i class="ti-check"></i><span>Native IP unlock for 4K/8K streaming, full AI productivity
+									suite &amp; low-latency gaming</span></li>
+							<li><i class="ti-check"></i><span>Up to <strong id="pro-device-text">5 devices</strong>
+									online simultaneously (ideal for multi-device pros)</span></li>
+							<li><i class="ti-check"></i><span>Priority routing during peak hours</span></li>
+						</ul>
+
+						<a href="https://shop.ovobese.com/lzgnb/#/register?plan=5"
+							class="btn btn-primary btn-block py-3 js-plan-cta" data-plan-id="5"
+							style="font-weight: 600; border-radius: 0;">
+							Upgrade to PRO
+						</a>
+					</div>
+				</div>
+
+				<!-- 4. ENTERPRISE Tier -->
+				<div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="pricing-card enterprise-card">
+						<span class="tier-code-badge">ENTERPRISE</span>
+						<h3 class="font-weight-bold mb-1" style="font-size: 1.4rem;">Enterprise Edition</h3>
+						<p class="tier-subtitle" style="font-size: 0.9rem;">Dedicated node groups &amp; centralized
+							team seat console</p>
+
+						<div class="price-block">
+							<div class="price-main">Custom<small> / team</small></div>
+							<div class="price-sub">Flexible seat &amp; device pool (50–500+ devices)</div>
+						</div>
+
+						<ul class="feature-list">
+							<li><i class="ti-check"></i><span><strong>Flexible Seat &amp; Resource Pool</strong>:
+									allocate custom device &amp; traffic quotas per employee</span></li>
+							<li><i class="ti-check"></i><span><strong>Dedicated Node Groups &amp; Clean Static
+										IPs</strong> (Singapore, Tokyo, US, Europe)</span></li>
+							<li><i class="ti-check"></i><span><strong>Enterprise Admin Console</strong>: one-click seat
+									provisioning, usage monitoring &amp; unified billing</span></li>
+							<li><i class="ti-check"></i><span><strong>Pure Enterprise Client</strong>: distraction-free
+									UI with full manual &amp; auto node access</span></li>
+						</ul>
+
+						<a href="enterprise.html" class="btn btn-light btn-block py-3"
+							style="font-weight: 700; border-radius: 0; color: #0f172a;">
+							Explore Enterprise →
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Feature Comparison Matrix -->
+	<section class="section py-6 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center mb-5" data-aos="fade-up">
+					<span class="badge-premium mb-3">Compare Tiers</span>
+					<h2 class="font-weight-bolder text-dark" style="letter-spacing: -1px;">Detailed Plan Comparison</h2>
+					<p class="text-muted">Every plan includes zero-log privacy protection and multi-platform client
+						support.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12" data-aos="fade-up" data-aos-delay="100">
+					<div class="table-responsive bg-white shadow-sm"
+						style="border: 1px solid rgba(15, 23, 42, 0.08);">
+						<table class="table compare-table mb-0">
+							<thead>
+								<tr>
+									<th style="min-width: 220px;">Capability</th>
+									<th class="text-center">FREE</th>
+									<th class="text-center">VIP</th>
+									<th class="text-center" style="color: #4f46e5;">PRO (Recommended)</th>
+									<th class="text-center">ENTERPRISE</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="font-weight-bold text-dark">Monthly High-Speed Quota</td>
+									<td class="text-center">Daily Claim</td>
+									<td class="text-center">2,000 GB / mo</td>
+									<td class="text-center font-weight-bold text-dark">500 GB / mo (Flagship Line)</td>
+									<td class="text-center">Custom TB Pool</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold text-dark">Simultaneous Devices</td>
+									<td class="text-center">1 Device</td>
+									<td class="text-center">3 Devices</td>
+									<td class="text-center font-weight-bold text-dark">5 Devices</td>
+									<td class="text-center">50 – 500+ Pool (Per-Seat Custom)</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold text-dark">Auto Smart Connect (Load Balanced)</td>
+									<td class="text-center"><span class="compare-check">✓</span></td>
+									<td class="text-center"><span class="compare-check">✓</span></td>
+									<td class="text-center"><span class="compare-check">✓</span></td>
+									<td class="text-center"><span class="compare-check">✓</span></td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold text-dark">Manual Global Node Selection</td>
+									<td class="text-center"><span class="compare-dash">—</span></td>
+									<td class="text-center"><span class="compare-dash">Auto Only</span></td>
+									<td class="text-center"><span class="compare-check">✓ All VIP &amp; PRO Nodes</span>
+									</td>
+									<td class="text-center"><span class="compare-check">✓ Dedicated &amp; Global
+											Nodes</span></td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold text-dark">4K/8K Streaming &amp; AI Tools Unlock</td>
+									<td class="text-center"><span class="compare-dash">Basic</span></td>
+									<td class="text-center"><span class="compare-check">✓ Native IP</span></td>
+									<td class="text-center"><span class="compare-check">✓ Priority Dedicated IP</span>
+									</td>
+									<td class="text-center"><span class="compare-check">✓ Isolated Clean Static
+											IP</span></td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold text-dark">Centralized Team Seat Console</td>
+									<td class="text-center"><span class="compare-dash">—</span></td>
+									<td class="text-center"><span class="compare-dash">—</span></td>
+									<td class="text-center"><span class="compare-dash">—</span></td>
+									<td class="text-center"><span class="compare-check">✓ Web Seat &amp; Quota
+											Manager</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Enterprise Callout Banner -->
+	<section class="section py-6 bg-white">
+		<div class="container">
+			<div class="p-5"
+				style="background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); color: #fff; border: 1px solid rgba(255,255,255,0.1);"
+				data-aos="fade-up">
+				<div class="row align-items-center">
+					<div class="col-lg-8 mb-4 mb-lg-0">
+						<span class="badge-premium mb-2"
+							style="background: rgba(99,102,241,0.25); color: #c7d2fe;">OVOSEC for Business</span>
+						<h3 class="font-weight-bold text-white mb-2" style="font-size: 1.85rem;">Need Dedicated
+							Singapore / US / Tokyo Nodes for Your Organization?</h3>
+						<p class="mb-0" style="color: #cbd5e1; font-size: 1.02rem;">
+							Deploy isolated enterprise node groups with a shared 50+ device pool, per-employee quota
+							allocation, and a distraction-free enterprise client.
+						</p>
+					</div>
+					<div class="col-lg-4 text-lg-right">
+						<a href="enterprise.html" class="btn btn-primary btn-lg px-4 py-3"
+							style="font-weight: 600; border-radius: 0;">
+							View Enterprise Solutions
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+						<div class="block">
+							<a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+							<ul class="social-icon list-inline">
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-facebook"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-twitter"></i></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="#"><i class="ti-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Support &amp; Help</h6>
+							<ul>
+								<li><a href="help/help.html" id="footer_helpWebSize">FAQs</a></li>
+								<li><a href="support.html">Contact Support</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Download Utility</h6>
+							<ul>
+								<li><a href="dropdown.html" id="footer_ios">iPhone Utility (iOS)</a></li>
+								<li><a href="dropdown.html" id="footer_android">Android Utility</a></li>
+								<li><a href="dropdown.html" id="footer_window">Windows Utility</a></li>
+								<li><a href="dropdown.html" id="footer_mac">Mac Utility</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Solutions</h6>
+							<ul>
+								<li><a href="pricing.html">Pricing Plans</a></li>
+								<li><a href="enterprise.html">Enterprise Service</a></li>
+								<li><a href="friend.html">Refer a Friend</a></li>
+								<li><a href="partner.html">Become a Partner</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+						<div class="block-2">
+							<h6>Company</h6>
+							<ul>
+								<li><a href="about.html">About Us</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="career.html">Careers</a></li>
+								<li><a href="privacy.html">Privacy Policy</a></li>
+								<li><a href="terms.html">Terms and Conditions</a></li>
+								<li><a href="refund.html">Refund Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center bg-dark py-4">
+			<p class="text-sm text-gray-500 mb-0">&copy; 2026 OVOSEC. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<div class="scroll-top-to">
+		<i class="ti-angle-up"></i>
+	</div>
+
+	<!-- JAVASCRIPTS -->
+	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="plugins/bootstrap/bootstrap.min.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+	<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+	<script src="plugins/aos/aos.js"></script>
+	<script src="js/translate.js"></script>
+	<script src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/animation-observer.js"></script>
+
+	<!-- Scheme B: Static Fallback + Live Panel Plan Sync -->
+	<script>
+		(function () {
+			var fallbackPlans = {
+				VIP: {
+					id: 3,
+					name: 'VIP 畅享会员',
+					tier_code: 'VIP',
+					transfer_enable: 2000,
+					device_limit: 3,
+					month_price: 500,
+					quarter_price: 1290,
+					half_year_price: 2280,
+					year_price: 3900,
+					two_year_price: 6600
+				},
+				PRO: {
+					id: 5,
+					name: 'PRO 极速会员',
+					tier_code: 'PRO',
+					transfer_enable: 500,
+					device_limit: 5,
+					month_price: 990,
+					quarter_price: 2580,
+					half_year_price: 4680,
+					year_price: 7900,
+					two_year_price: 12900
+				}
+			};
+
+			var cycleMeta = {
+				month_price: { months: 1, label: 'Billed monthly' },
+				quarter_price: { months: 3, label: 'every 3 months' },
+				half_year_price: { months: 6, label: 'every 6 months' },
+				year_price: { months: 12, label: 'annually' },
+				two_year_price: { months: 24, label: 'every 2 years' }
+			};
+
+			var activeCycle = 'year_price';
+
+			function formatUsd(cents) {
+				return (Number(cents || 0) / 100).toFixed(2);
+			}
+
+			function computeCycleDisplay(plan, cycleKey) {
+				var meta = cycleMeta[cycleKey] || cycleMeta.month_price;
+				var rawCents = plan[cycleKey];
+				if (rawCents === null || rawCents === undefined || Number(rawCents) <= 0) {
+					rawCents = plan.month_price || 0;
+					meta = cycleMeta.month_price;
+				}
+				var perMonth = (Number(rawCents) / 100 / meta.months).toFixed(2);
+				var totalUsd = formatUsd(rawCents);
+				var subText = meta.months === 1
+					? 'Billed $' + totalUsd + ' monthly · Flexible cancel'
+					: 'Billed $' + totalUsd + ' ' + meta.label;
+
+				if (meta.months > 1 && plan.month_price > 0) {
+					var fullCents = plan.month_price * meta.months;
+					if (fullCents > rawCents) {
+						var savePct = Math.round((1 - rawCents / fullCents) * 100);
+						subText += ' · Save ' + savePct + '%';
+					}
+				}
+				return {
+					perMonth: perMonth,
+					subText: subText
+				};
+			}
+
+			function renderPlans(cycleKey) {
+				activeCycle = cycleKey || activeCycle;
+				var vip = fallbackPlans.VIP;
+				var pro = fallbackPlans.PRO;
+
+				var vipDisplay = computeCycleDisplay(vip, activeCycle);
+				var proDisplay = computeCycleDisplay(pro, activeCycle);
+
+				var vipPriceEl = document.getElementById('vip-price-main');
+				var vipSubEl = document.getElementById('vip-price-sub');
+				var vipQuotaEl = document.getElementById('vip-quota-text');
+				var vipDeviceEl = document.getElementById('vip-device-text');
+
+				if (vipPriceEl) vipPriceEl.innerHTML = '$' + vipDisplay.perMonth + '<small> / mo</small>';
+				if (vipSubEl) vipSubEl.textContent = vipDisplay.subText;
+				if (vipQuotaEl && vip.transfer_enable) vipQuotaEl.textContent = vip.transfer_enable + ' GB/mo';
+				if (vipDeviceEl && vip.device_limit) vipDeviceEl.textContent = vip.device_limit + ' devices';
+
+				var proPriceEl = document.getElementById('pro-price-main');
+				var proSubEl = document.getElementById('pro-price-sub');
+				var proQuotaEl = document.getElementById('pro-quota-text');
+				var proDeviceEl = document.getElementById('pro-device-text');
+
+				if (proPriceEl) proPriceEl.innerHTML = '$' + proDisplay.perMonth + '<small> / mo</small>';
+				if (proSubEl) proSubEl.textContent = proDisplay.subText;
+				if (proQuotaEl && pro.transfer_enable) proQuotaEl.textContent = pro.transfer_enable + ' GB/mo';
+				if (proDeviceEl && pro.device_limit) proDeviceEl.textContent = pro.device_limit + ' devices';
+
+				// Preserve referral code on all plan CTAs
+				var savedInviteCode = '';
+				try {
+					savedInviteCode = (localStorage.getItem('ovosec_invite_code') || '').trim();
+				} catch (_) {}
+
+				var ctas = document.querySelectorAll('.js-plan-cta');
+				ctas.forEach(function (cta) {
+					var planId = cta.getAttribute('data-plan-id');
+					var baseHref = 'https://shop.ovobese.com/lzgnb/#/register';
+					var params = [];
+					if (planId) params.push('plan=' + encodeURIComponent(planId));
+					if (activeCycle) params.push('period=' + encodeURIComponent(activeCycle));
+					if (/^[A-Za-z0-9_-]{3,32}$/.test(savedInviteCode)) {
+						params.push('code=' + encodeURIComponent(savedInviteCode));
+					}
+					cta.href = params.length ? (baseHref + '?' + params.join('&')) : baseHref;
+				});
+			}
+
+			// Bind cycle tabs
+			var tabButtons = document.querySelectorAll('#billingCycleTabs .cycle-tab-btn');
+			tabButtons.forEach(function (btn) {
+				btn.addEventListener('click', function () {
+					tabButtons.forEach(function (b) { b.classList.remove('active'); });
+					btn.classList.add('active');
+					renderPlans(btn.getAttribute('data-cycle'));
+				});
+			});
+
+			// Initial static render
+			renderPlans(activeCycle);
+
+			// Async live fetch from shop.ovobese.com (Scheme B)
+			fetch('https://shop.ovobese.com/api/v1/guest/plan/fetch', {
+				method: 'GET',
+				headers: { 'Accept': 'application/json' },
+				mode: 'cors'
+			})
+				.then(function (res) { return res.ok ? res.json() : null; })
+				.then(function (payload) {
+					if (!payload || !Array.isArray(payload.data)) return;
+					payload.data.forEach(function (item) {
+						if (!item) return;
+						var tier = (item.tier_code || '').toUpperCase();
+						if (tier === 'VIP' || Number(item.id) === 3 || Number(item.group_id) === 3) {
+							fallbackPlans.VIP = Object.assign({}, fallbackPlans.VIP, item);
+						} else if (tier === 'PRO' || Number(item.id) === 5 || Number(item.group_id) === 4) {
+							fallbackPlans.PRO = Object.assign({}, fallbackPlans.PRO, item);
+						}
+					});
+					renderPlans(activeCycle);
+				})
+				.catch(function () {
+					// Static fallback already rendered
+				});
+		})();
+	</script>
+</body>
+
+</html>
