@@ -10,11 +10,11 @@
     { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovosec.com/app-armeabi-v7a-release.apk?v=c6bfadc" },
     { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovosec.com/app-x86_64-release.apk?v=c6bfadc" }
   ],
-  "windowDownload": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=c6bfadc",
+  "windowDownload": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=1.0.21-20261023",
   "windowDownloads": [
-    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 36.1 MB", "url": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=c6bfadc" },
-    { "label": "Portable EXE", "detail": "Run without installing · 35.7 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.exe?v=c6bfadc" },
-    { "label": "Portable ZIP", "detail": "Unzip and run · 50.9 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.zip?v=c6bfadc" }
+    { "label": "Installer (recommended)", "detail": "Standard Windows setup · 43.4 MB", "url": "https://dl.ovosec.com/ovosec-windows-setup-x64.exe?v=1.0.21-20261023" },
+    { "label": "Portable EXE", "detail": "Run without installing · 43.0 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.exe?v=1.0.21-20261023" },
+    { "label": "Portable ZIP", "detail": "Unzip and run · 61.4 MB", "url": "https://dl.ovosec.com/ovosec-windows-portable-x64.zip?v=1.0.21-20261023" }
   ],
   "macDownload": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=c6bfadc",
   "macDownloads": [
