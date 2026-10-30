@@ -3,17 +3,17 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk?v=1.0.45",
+  "androidDownload": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk?v=1.0.45-1030",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 132.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk?v=1.0.45" },
-    { "label": "ARM64", "detail": "Most modern phones · 47.5 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-arm64-v8a.apk?v=1.0.45" },
+    { "label": "Universal (recommended)", "detail": "All Android devices · 132.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk?v=1.0.45-1030" },
+    { "label": "ARM64", "detail": "Most modern phones · 47.5 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-arm64-v8a.apk?v=1.0.45-1030" },
     { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovosec.com/app-armeabi-v7a-release.apk?v=c6bfadc" },
     { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovosec.com/app-x86_64-release.apk?v=c6bfadc" }
   ],
-  "macDownload": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg?v=1.0.45",
+  "macDownload": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg?v=1.0.45-1030",
   "macDownloads": [
     { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=c6bfadc" },
-    { "label": "Intel", "detail": "Intel-based Mac · 72.9 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg?v=1.0.45" }
+    { "label": "Intel", "detail": "Intel-based Mac · 72.9 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg?v=1.0.45-1030" }
   ],
   "linuxDownload": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=c6bfadc",
   "linuxDownloads": [
