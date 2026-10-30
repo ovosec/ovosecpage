@@ -157,10 +157,6 @@ function loadSocialLinks() {
     bindDownloadLink(['nav_android', 'index_android', 'index_android_btn'], data.androidDownload);
     bindDownloadMenu(['index_android', 'index_android_btn'], 'Download for Android', data.androidDownloads);
 
-    // Update Windows links
-    bindDownloadLink(['nav_window', 'index_window', 'index_window_btn'], data.windowDownload);
-    bindDownloadMenu(['index_window', 'index_window_btn'], 'Download for Windows', data.windowDownloads);
-
     // Update Mac links
     bindDownloadLink(['nav_mac', 'index_mac', 'index_mac_btn'], data.macDownload);
     bindDownloadMenu(['index_mac', 'index_mac_btn'], 'Download for Mac', data.macDownloads);
