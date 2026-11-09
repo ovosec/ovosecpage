@@ -3,21 +3,21 @@
   "twitter": "https://x.com/OVOvpn",
   "instagram": "https://www.instagram.com/ovo_cybertech?igsh=bWNqa3c3NHppZjh3&utm_source=qr",
   "iosDownload": "",
-  "androidDownload": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk",
+  "androidDownload": "https://dl.ovosec.com/ovosec-1.0.54-android-universal.apk",
   "androidDownloads": [
-    { "label": "Universal (recommended)", "detail": "All Android devices · 132.1 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-universal.apk" },
-    { "label": "ARM64", "detail": "Most modern phones · 47.5 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-android-arm64-v8a.apk" },
+    { "label": "Universal (recommended)", "detail": "All Android devices · 132.2 MB", "url": "https://dl.ovosec.com/ovosec-1.0.54-android-universal.apk" },
+    { "label": "ARM64", "detail": "Most modern phones · 47.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.54-android-arm64-v8a.apk" },
     { "label": "ARMv7", "detail": "Older 32-bit devices · 33.1 MB", "url": "https://dl.ovosec.com/app-armeabi-v7a-release.apk?v=c6bfadc" },
     { "label": "x86_64", "detail": "Emulators and x86 devices · 34.9 MB", "url": "https://dl.ovosec.com/app-x86_64-release.apk?v=c6bfadc" }
   ],
-  "windowDownload": "https://dl.ovosec.com/ovosec-1.0.45-windows-portable-x64.exe",
+  "windowDownload": "https://dl.ovosec.com/ovosec-1.0.54-windows-portable-x64.exe",
   "windowDownloads": [
-    { "label": "Portable EXE (single file)", "detail": "Run without installing · 31.9 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-windows-portable-x64.exe" }
+    { "label": "Portable EXE (single file)", "detail": "Run without installing · 37.3 MB", "url": "https://dl.ovosec.com/ovosec-1.0.54-windows-portable-x64.exe" }
   ],
-  "macDownload": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg",
+  "macDownload": "https://dl.ovosec.com/ovosec-1.0.54-macos-x86_64.dmg",
   "macDownloads": [
     { "label": "Apple silicon", "detail": "M1, M2, M3, M4 · 60.6 MB", "url": "https://dl.ovosec.com/ovosec-1.0.10-arm64-91c388f.dmg?v=c6bfadc" },
-    { "label": "Intel", "detail": "Intel-based Mac · 72.9 MB", "url": "https://dl.ovosec.com/ovosec-1.0.45-macos-x86_64.dmg" }
+    { "label": "Intel", "detail": "Intel-based Mac · 72.9 MB", "url": "https://dl.ovosec.com/ovosec-1.0.54-macos-x86_64.dmg" }
   ],
   "linuxDownload": "https://dl.ovosec.com/ovosec-1.0.10-linux-x86_64.AppImage?v=c6bfadc",
   "linuxDownloads": [
